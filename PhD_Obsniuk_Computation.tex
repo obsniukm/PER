@@ -117,147 +117,85 @@ However, the broad definitions that make the taxonomy widely applicable also lea
 %
 %	CONTEXT (P3)
 %
-
+%	This chapter should focus on how we have incorporated computational thinking/practices into the course.
 \chapter{Context}
-%	Take P-cubed paper and re-write parts focusing on computation.
-%	How HAVE we incorporated computational thinking and practices into the course design.
-\section{Learning Goals}\label{sec:goals}
 
-${\rm P}^{3}$ uses a number of learning goals to direct pedagogy.  These goals have been generated from two broad categories of focus: the practices we expect students to engage in and the content we hold them responsible for.  Within each of these two broad categories the focus is further broken down into two sub-categories: the fundamental physics principles and the computational implementation of those principles.
+It is important to understand the course from which we have collected our data to better understand the results of our study.  That course -- called Projects and Practices in Physics (${\rm P}^{3}$) -- is based on a social constructivist theory of learning and a flipped/problem-based pedagogy.  In other words, students familiarize themselves with relevant material before coming to class, where they will work in small groups to actively and socially construct knowledge while solving complex analytical and computational physics and engineering problems.  The course has intentionally been designed to encourage computational thinking wherever possible.  Specifically, computational thinking has been incorporated into the pre-class homework and a selection of the in-class problems.
 
-\subsection{Practices}
+\section{Pre-class tasks}
 
-A selection of the scientific practices which we have developed learning goals around are enumerated in no particular order below:  \begin{enumerate}
+Given that the vast majority of students enter ${\rm P}^{3}$ with little to no prior programming experience, we need to ensure that they are prepared to handle computational problems early in the semester.  One way that we can achieve this is by requiring students to engage with the fundamental programming ideas before coming to class through pre-class homework and notes.  These notes and homework questions highlight the fundamental physical and programming ideas that will be used in class.
+
+For example, consider the portion of the course notes shown in Fig.~.  These notes are made available to the students at the beginning of the semester.  The content is meant to provide students with a basic understanding of the utility of VPython and a list of common errors.
+
+\begin{figure}[ht]\centering
+%\includegraphics[scale=1]{images/visual.pdf}
+\caption{Page of on-line notes introducing computional physics.  The picture is just a placeholder.}
+\end{figure} 
+
+Similarly, consider the pre-class homework question shown in Fig.~ that is delivered at the beginning of the third week.  This question is meant to demonstrate that there are multiple correct ways that a unit vector can be constructed in code.  Given the nature of the corresponding week's computational problem (see Sec.~), we expect students to be able to draw on and take advantage of this knowledge when faced with a related albeit more complicated problem.
+
+\begin{figure}[ht]\centering
+%\includegraphics[scale=1]{images/comphw.pdf}
+\caption{Pre-class homework question focusing on the different ways that the magnitude of a vector can be constructed in VPython code.}
+\end{figure} 
+
+\section{In-class tasks}
+
+\begin{figure}[ht]\centering
+%\includegraphics[scale=1]{images/partc.pdf}
+\caption{A schedule for the semester.  The images is just a placeholder.}
+\end{figure}
+
+There are a number of in-class computational problems spread out throughout the semester (see Fig.~).  The first few computational problems focus on different force models and the resulting linear motion of objects.  The last few computational problems focus on extended objects and their rotation.  While solving these problems, groups are expected to engage in a number of computational practices that the problems have been designed around: \begin{enumerate}
 \item[P1.] developing and using models,
 \item[P2.] planning and carrying out investigations,
 \item[P3.] analyzing and interpreting data,
-%\item using mathematics and computational thinking,
-\item[P4.] constructing explanations,
-\item[P5.] and engaging in argument from evidence.
-%\item and obtaining, evaluating, and communicating information.
-\end{enumerate}  These scientific practices were used to inform not only the shared learning goals but also the materials (i.e., projects, exams, homework) we use to achieve those goals.
+\item[P4.] using mathematics and computational thinking,
+\item[P6.] constructing explanations,
+\item[P7.] and engaging in argument from evidence.
+\item[P8.] and obtaining, evaluating, and communicating information.
+\end{enumerate}
 
-One of the scientific practices used heavily on both analytic and computation days is that of (P1) developing and using models.  Whether those models be mathematical or computational, we expect students to not only work together in groups to develop the model, but also to utilize that model in further investigations.  As an example, this scientific practice was used to inform the learning goals of:  {\quote Collect, analyze, and evaluate data to explain the motion of objects and the responsible interactions\endquote} \noindent and {\quote Evaluate the applicability/limitations of models and the validity of predictions for different types of motion.
-\endquote}  \noindent This type of scientific practice (P1) and the associated learning goals were further used to generate the type of in-class project explicated in Sec.~\ref{sec:example}.
+One of the scientific practices used heavily on both analytic and computation days is that of (P1) developing and using models.  Whether those models be mathematical or computational, we expect students to not only work together in groups to develop the model, but also to utilize that model in further investigations.  This type of scientific practice (P1) and the associated learning goals\cite{Irving2017} were further used to generate the type of in-class project that this study focuses on.
 
-\subsection{Content}
+This study focuses on the third and most complicated computational problem delivered to the students, shown in both Figs.~ and ~. In order to focus our analysis on specific challenges students demonstrate while working this problem, we developed a framework for analyzing this problem by performing an expert task analysis on the problem.  A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{catra}.
+%Our expert analysis included input from three instructors with experience in teaching introductory physics with MWPs in a PBL-style classroom, ensuring a robust and thorough analysis.
 
-Within the content of ${\rm P}^{3}$ are many ideas that we expect students to grapple with both individually and within their group.  A selection of the previously mentioned sub-categories that we focus on are enumerated below.  The first focus is on the fundamental physics principles: \begin{enumerate}
-\item[F1.] macroscopic phenomena are the result of atomic interactions,
-\item[F2.] forces external to a system can change the system's momentum,
-\item[F3.] and work done on or by a system and heat exchanged with the system's surroundings can change the system's energy.
-%\item and left to it's own devices, a system will evolve toward the most common macrostate,
-\end{enumerate} The second focus is on the computational implementation of those principles, which takes full advantage of the power of computation: \begin{enumerate}
-\item[C1.] computation can be used to predict the otherwise intractable dynamics of real-world phenomena,
-\item[C2.] and computation can be used to generate dynamic and graphic representations of real-world phenomena.
-\end{enumerate}  Each of these sub-categories of focus were similarly used to inform the shared learning goals and materials used in ${\rm P}^{3}$.
+The task analysis of this problem was initially constructed by a single content expert. After the first iteration it was presented to additional experts. Through this discussion, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks. The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks were sufficiently described to be useful in video analysis. At the same time, targeted pre-class homework problems were developed to help scaffold students overcoming what we perceived to be challenges based on the task analysis.  In doing so, we attempted to place (most) students in the Zone of Proximal Development (ZPD) \cite{vyg}. For example, the pre-class homework problems shown in Fig.~\ref{unit_hw} were developed to facilitate student understanding of the unit vector of a separation vector between two objects prior to working the computational problem.
 
-\subsubsection{Physics}
+\begin{table}[hb]
+\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{tab1}}
+\begin{tabular}{ll}
+\textbf{Step (Sub-Task)} & \textbf{Associated Code} \\\hline
+Construct separation vector & \begin{lstlisting}
+sep = obj2.pos
+\end{lstlisting}\\
+between interacting objects & \begin{lstlisting}
+         - obj1.pos
+\end{lstlisting}\\\hline
+Construct the unit vector & \begin{lstlisting}
+usep = sep/mag(sep)
+\end{lstlisting}\\\hline
+Construct the net force & \begin{lstlisting}
+Fnet = -G*m1*m2*usep
+\end{lstlisting}\\
+vector & \begin{lstlisting}
+         /mag(sep)**2
+\end{lstlisting}\\\hline
+Integrate the net force over & \begin{lstlisting}
+obj.p = obj.p + Fnet*dt
+\end{lstlisting}\\
+time into momentum & \\
+\end{tabular}
+\end{table}
 
-One such learning goal, which focuses on the fact that (F2) forces external to a system can change the system's momentum, is presented to the students as follows: {\quote Apply the momentum principle ($\Delta\vec{p}=\vec{F}_{\rm net}\Delta t;\,d\vec{p}=\vec{F}_{\rm net}dt$) analytically to predict the motion or determine the properties of motion/net force acting on a single-particle system where the net force is a constant vector (e.g., due to the near Earth gravitational force).\endquote} \noindent This goal focuses on the application of a fundamental physics principle (\textit{the Momentum Principle}, $\vec{p}_f = \vec{p}_i + \vec{F}_{\rm net}dt$) in order for students to better understand the dynamics of motion.  This type of reasoning is used extensively in parts A and B of the type of in-class project described in Sec.~\ref{sec:example}.
+With an agreed upon task analysis, we further focused our video analysis on the sub-tasks that were closely related to the construction of the position dependent Newtonian gravitational force (see Table.~\ref{tab1}).  In order to identify when groups were actually engaging in these sub-tasks, we analyzed groups on two levels: their \textit{speech}, including any and all words or utterances, and the associated \textit{visuals}, including any drawings, writings, lines of code, gestures, or simulation visualizations.  Theses two levels were then used to better understand how students overcome the challenges associated with the problem.
 
-\subsubsection{Computation}
-
-The computational implementation of the above learning goal which focuses on how (C1) computation can be used to predict the otherwise intractable dynamics of a real-world system is presented to the students in the following way: {\quote Apply the momentum principle ($\Delta\vec{p}=\vec{F}_{\rm net}\Delta t;\,d\vec{p}=\vec{F}_{\rm net}dt$) iteratively/computationally to predict the motion or determine the properties of motion/net force acting on a single-particle system where the net force is not constant (e.g., due to spring-like restoring forces or dissipative drag forces).\endquote} \noindent This goal also focuses on the application of the Momentum Principle, yet takes full advantage of the computational power afforded to the students.  This affordance shows up in the incorporation of a velocity dependent force as described in part C of the in-class project described in Sec.~\ref{sec:example}.
-
-%
-%	EXAMPLE PROBLEM
-%
-
-\section{Example Project}\label{sec:example}
-
-In order to best illustrate the scientific practices students engage with in ${\rm P}^{3}$, we present a typical problem requiring both analytical and computational techniques over the course of a week (two in-class meetings).  During the second week of class, students are learning how to predict the motion of point particle systems using Newton's Second Law (\textit{the Momentum Principle}, $\vec{p}_f = \vec{p}_i + \vec{F}_{\rm net}dt$) in a project called Escape from Ice Station McMurdo.
-
-\begin{figure}
-\centering
-\includegraphics[scale=1]{./images/parta.pdf}
-\caption{The first part of a project where students are asked to model the motion of an object given position vs time data.}\label{fig:p2pa}
+\begin{figure}[ht]\centering
+%\includegraphics[scale=1]{images/partc.pdf}
+\caption{In-class problem focusing on a non-constant net force model.  The picture is just a placeholder at this point.}
 \end{figure}
-
-In the first part of this three-part problem (Fig.~\ref{fig:p2pa}), students work with position vs time data to model analytically the motion of two hovercrafts as they race across an ice field -- determining the net force from this data and using appropriate models (constant velocity vs constant force) to predict when the hovercrafts will be at the same location.  In the second part of Escape from McMurdo (Fig.~\ref{fig:p2pb}), students find that the controls of both hovercrafts are frozen and they are heading towards a cliff.  They must determine which hovercraft to board in order to survive the fall (there's a salty unfrozen pool at a specific distance from the bottom of the cliff).  The generality and ubiquity of the Momentum Principle is highlighted in the third part of Escape from McMurdo (Fig.~\ref{fig:p2pc}) where the students computationally model the motion of the hovercrafts including air drag.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{./images/partb.pdf}
-\caption{The second part of a project where students are asked to model the motion of an object under free-fall conditions.}\label{fig:p2pb}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{./images/partc.pdf}
-\caption{The third part of a project where students are asked to model the motion of an object computationally.}\label{fig:p2pc}
-\end{figure}
-
-As written above, the Momentum Principle can be used iteratively (through Euler-Cromer integration) to predict the motion of most systems accurately.\cite{Cromer:1981vm}  It turns out both hovercrafts will land safely when modeled without air drag, but students are told that one hovercraft crashes (it lands short). They must file an accident report, which includes a simulation of the accident, to explain how the accident occurred.
-
-Given the complexity of the problems in ${\rm P}^{3}$, a number of different learning scaffolds have been put into place.  These scaffolds are meant to support the students in not only the physics concepts they must use, but also in the scientific practices that they must engage in.  Below, we expound on four such learning scaffolds.
-
-%
-%	LEARNING SCAFFOLDS
-%
-
-\section{Learning Scaffolds}\label{sec:scaffolds}
-
-\subsection{Modeling Scaffolds}
-
-\subsubsection{The Four Quadrants}
-
-To scaffold the modeling process (Fig.~\ref{fig:modelingprocess}), we have introduced a conceptual tool -- the Four Quadrants.  The Four Quadrants provide a designated location for students to record, reference, and update collectively agreed upon information during the modeling process.  In a sense, the Four Quadrants form the basis of the model, and we provide a designated white board to each group for just this purpose.  Using the Four Quadrants,
-\begin{itemize}[noitemsep,nolistsep]
-\item students identify the {\bf Facts}, which are presented in the problem statement;
-\item they determine what is {\bf Lacking} from the information they have or can obtain easily;
-\item they discuss and negotiate the {\bf Assumptions \& Approximations} they are making; and
-\item they provide {\bf Representations} of the problem, which may include diagrams, graphs, or equations.
-\end{itemize}
-
-The Four Quadrants are displayed so that not only each member of a group can easily see and modify the agreed upon information, but also so that a group's tutor can easily ``ping'' the group to see where they are in the solution process.  That is, without needing to disrupt the solution process, a tutor can get a well-rounded idea of what the group is thinking and where the group is heading.  This is particularly useful as many tutors are working with multiple groups at any given time.
-
-\subsubsection{Minimal Working Programs}
-
-Many problems in ${\rm P}^{3}$ require the computational modeling of motion and the generation of dynamic plots.  To keep up with the increasing complexity of the problems, students must learn to write VPython code.  However, less than \SI{10}{\percent} of students taking ${\rm P}^{3}$ have any significant computational experience.  We have extended the work of Weatherford\cite{weatherford2011student} and Lunk,\cite{lunk2012framework} who introduced the concept of ``Minimal Working Programs'' (MWPs) to scaffold student sense-making about computing, and to develop a unique, group-oriented, inquiry-based instructional model for computation.  This use of MWPs not only encourages sense-making, but also helps to assuage the anxiety many students have about engaging in computation for the first time.  In this way, we further scaffold the (computational) modeling process.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{./images/code.pdf}\vspace{0.1in}
-\includegraphics[width=1\linewidth]{./images/visual.pdf}
-\caption{Minimally working program that students are provided with for the hovercraft project (top), and a snapshot of the visualization for a completed version of the code (bottom).}\label{fig:code}
-\end{figure}
-
-In ${\rm P}^{3}$, students are given no explicit instruction on VPython.  Rather, on computational days, students are provided with a MWP that already predicts the motion of some aspect of the problem (e.g., the motion of a hovercraft up to a certain point on a cliff, as seen in Fig.~\ref{fig:code}).  This experience is similar to receiving ``user-developed'' code from a colleague and extending it to a new situation -- a common practice in science and engineering labs.  By engaging in discussion and negotiation -- two essential science and engineering experiences -- students develop an understanding of what the program is doing and how it is doing it.  They then use that understanding to modify/write additional program statements to model the situation in question.  As a result of this instruction, students having no prior experience with computational modeling are able to write essential elements of the VPython code needed to model novel situations.
-
-We further scaffold this process by providing students with comments -- the gray ``hash-tagged'' (\#) statements in Fig.~\ref{fig:code} that are used consistently and repeatedly in each computational modeling problem.  This common thread throughout MWPs helps to orient the student across many instances of computational motion problems.  Typically, the number of additional program statements students will write is less than 10; they are focused on the core aspects needed to model the system (i.e., motion prediction and visualization).
-
-For example, in the code appearing in Fig.~\ref{fig:code}, students would write several additional lines of code to model the falling hovercraft.  This includes writing a second {\tt while}~loop that stops once the vertical position of the hovercraft coincides with the water, representing force calculations for the air drag and gravitational force in VPython code, and implementing the motion prediction algorithm that performs the appropriate Euler step.
-
-\subsection{Content Scaffolds}
-
-\subsubsection{Conceptual Homework}
-
-Much of the student experience in ${\rm P}^{3}$ is working through complex problems that require discussion and negotiation among group members to develop a complete solution.  To support student success when solving these problems in class, we ``prime the pump'' with pre-class readings/video lectures and homework.  Each week, students read online lecture notes, watch short video lectures, and solve conceptual and reasoning-focused homework on-line, which are meant to scaffold students' conceptual understanding that they will bring to bear in class that week.
-
-Often, solutions to computational problems can take many syntactical forms, while the underlying computational algorithm is identical.  That is, VPython has a number of functions to simplify the typing/reasoning that any group of students must undertake.  For example, as shown in Fig.~\ref{fig:compHW}, when taking the magnitude of a vector \texttt{object.pos}, two possible methods accomplish the same goal:  the ``manual'' way of explicitly squaring, summing, and square rooting the vector componentits \texttt{sqrt(object.pos.x**2+obj.pos.y**2+obj.pos.z**2)} and the VPython short-cut way of \texttt{mag(obj.pos)}.  Given the diverse computational background of students in ${\rm P}^{3}$, we highlight these differences/similarities in the pre-homework to scaffold the discussion and solution process.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{./images/comphw.pdf}
-\caption{Computational pre-homework problem focusing on the different ways to construct a unit vector in VPython.}\label{fig:compHW}
-\end{figure}
-
-After each pair of weekly class meetings, students complete additional conceptual and reasoning-focused homework as well as more typical back-of-the-book style problems.  These are designed to provide a wrap-up of the week's material and to encourage the students to take full advantage of the opportunity to engage in group discussion and sense making in class.
-
-\subsubsection{Tutor Questions}
-
-With such open ended projects as shown in Sec.~\ref{sec:example}, there are many possible solution paths that lead to the same answer, and the course staff works to encourage any solution path that utilizes the concepts and ideas being focused on for that week.  In order to ensure a group's understanding of the content being focused on, we have introduced a compilation of questions which are meant to confront common misconceptions and to test for basic understanding, as exemplified in Fig.~\ref{fig:tutorq}.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{./images/tutorq.pdf}
-\caption{A selection of the tutor questions that are asked during the hovercraft problem.}\label{fig:tutorq}
-\end{figure}
-
-The generation of these tutor questions is a continuous and iterative process.  Initially, questions are generated by consulting with the literature and by ``testing'' the project.  As the projects are delivered to students in-class, new solution paths inevitably arise with unique lines of reasoning.  These new lines of reasoning generate new tutor questions, which are added to the compilation.  We aim to compile a robust set of tutor questions spanning many different solution paths.
-
-The nature of the pre-class homework mentioned previously is largely conceptual, and often requires an answer of the free-response type.  Given that these homeworks are delivered using an electronic web-based system, answers may be easily collected and analyzed by course staff to highlight any particularly difficult topics.  These topics may then be used by the tutors as ``just-in-time'' style talking points during class.  In this way, the tutor is not only informed of which topics to check for understanding on, but also which students may need a little extra attention.
 
 %
 %	MOTIVATION
@@ -394,218 +332,11 @@ Both of these strategies identified here, self-consistency and play, hold implic
 
 This case study has described two strategies (one more and one less strategic) employed by a group of students in a physics course where students develop computational models using VPython while negotiating meaning of fundamental physics principles. These strategies arose through the group's process of debugging a fundamentally correct program that modeled a geosynchronous orbit. The additional data we have collected around students' use of computation is rich, and further research is needed to advance the depth and breadth of our understanding of the myriad of ways in which students might debug computational models in physics courses.
 
-\section{Phenomenography}
+%\section{Phenomenography}
 
-\section{Task Analysis}
-
-\subsection{Introduction}\label{intro}
-
-Given the ever increasing complexity of modern scientific problems, computation is essential practice that physics and engineering majors must learn \cite{chonacky,AAPT}.  However, integrating computation into physics courses does not come without its challenges for both instructors and students \cite{chabay}.  Currently, researchers understand little about the challenges that students face when connecting computational practices with physical concepts.  Thus, it is important that we not only identify these challenges, but also investigate the way in which students overcome them.
-
-The study presented in this paper takes place in a practice focused group learning environment at Michigan State University called P-cubed \cite{pcubed}.  In this environment students solve analytical and computational mechanics problems (using VPython) in small groups. For computational problems, we make use of minimally working programs -- incomplete but functional programs that encourage students to focus on the fundamental physics of the phenomena, rather than getting bogged down in code syntax and program structure \cite{weather}.
-
-As part of a larger project investigating the challenges that students experience with computation in introductory physics classrooms, we conducted a task analysis on a computational problem that we have observed students struggling to complete over the last several semesters.  This gravitational orbit problem is delivered in the third week of class and requires groups to construct a position dependent Newtonian gravitational force that is fully generalizable (i.e., capable of handling elliptical orbits).  We used task analysis to identify specific sub-tasks that students must complete in order to solve the problem. We then identified clips from in-class video where students are engaging in those tasks in order to describe the different lines of reasoning that students are using while solving the problem. Due to the limit of space, our analysis presented here is restricted to the construction of the direction of the gravitational force.
-
-\subsection{Methods}\label{methods}
-
-Our primary source of data comes from in-class video of students developing a VPython program to model a gravitational orbit. In order to focus our analysis on specific challenges students demonstrate while working this problem, we developed a framework for analyzing this problem by performing an expert task analysis on the problem.  A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{catra}.
-%Our expert analysis included input from three instructors with experience in teaching introductory physics with MWPs in a PBL-style classroom, ensuring a robust and thorough analysis.
-
-The task analysis of this problem was initially constructed by a single content expert. After the first iteration it was presented to additional experts. Through this discussion, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks. The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks were sufficiently described to be useful in video analysis. At the same time, targeted pre-class homework problems were developed to help scaffold students overcoming what we perceived to be challenges based on the task analysis.  In doing so, we attempted to place (most) students in the Zone of Proximal Development (ZPD) \cite{vyg}. For example, the pre-class homework problems shown in Fig.~\ref{unit_hw} were developed to facilitate student understanding of the unit vector of a separation vector between two objects prior to working the computational problem.
-
-\begin{table}[hb]
-\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{tab1}}
-\begin{tabular}{ll}
-\textbf{Step (Sub-Task)} & \textbf{Associated Code} \\\hline
-Construct separation vector & \begin{lstlisting}
-sep = obj2.pos
-\end{lstlisting}\\
-between interacting objects & \begin{lstlisting}
-         - obj1.pos
-\end{lstlisting}\\\hline
-Construct the unit vector & \begin{lstlisting}
-usep = sep/mag(sep)
-\end{lstlisting}\\\hline
-Construct the net force & \begin{lstlisting}
-Fnet = -G*m1*m2*usep
-\end{lstlisting}\\
-vector & \begin{lstlisting}
-         /mag(sep)**2
-\end{lstlisting}\\\hline
-Integrate the net force over & \begin{lstlisting}
-obj.p = obj.p + Fnet*dt
-\end{lstlisting}\\
-time into momentum & \\
-\end{tabular}
-\end{table}
-
-With an agreed upon task analysis, we further focused our video analysis on the sub-tasks that were closely related to the construction of the position dependent Newtonian gravitational force (see Table.~\ref{tab1}).  In order to identify when groups were actually engaging in these sub-tasks, we analyzed groups on two levels: their \textit{speech}, including any and all words or utterances, and the associated \textit{visuals}, including any drawings, writings, lines of code, gestures, or simulation visualizations.  Theses two levels were then used to better understand how students overcome the challenges associated with the problem.
-
-\subsection{Analysis}
-
-There were a number of challenging tasks undertaken by students that were identified in the video.  For the sake of clarity within the allotted space, we will focus on one sub-task: the construction of the \textit{direction} of the Newtonian gravitational force in code.  This was one of more challenging sub-tasks with which groups struggled.  It requires the group, depending on how they break the problem down, to:
-\begin{enumerate}[nolistsep,noitemsep]
-  \item
-  define the separation vector between the satellite and the Earth,
-  \item construct its unit vector, and
-  \item use that unit vector to give a direction to the force.
-\end{enumerate}
-It is important that all of these definitions be placed in the calculation loop of the MWP given that they must change over (simulated) time.
-
-\begin{figure}[ht]
-\includegraphics[width=0.8\linewidth]{./images/hw.pdf}
-\caption{Pre-class homework problems delivered in the second week of class that are specifically designed to strengthen the connection between a separation vector, its unit vector, and the direction of a force.\label{unit_hw}}
-\end{figure}
-
-Below, we present three episodes of three different groups engaging with the problem described in Sec.~\ref{intro}. We have paid particular attention to the lines of reasoning that the students are taking while articulating their solutions.
-
-%
-%	Group A
-%
-
-\subsubsection{Episode: Group A}
-
-Group A is comprised of Cody, Chuck, Shelley, and Joe.  Group A has an equal gender distribution and Chuck has the most programming experience (and does most of the coding).  This episode begins at around half way into the class after a tutor interaction where the group is dissuaded from using a centripetal form (i.e., $mv^{2}/R$) of the net force.  Rather, they decide to use a Newtonian form (i.e., $F_{\rm G}=Gm_{1}m_{2}/R^{2}$) so that it will be able to handle elliptical orbits.
-
-
-\vspace*{4pt}
-\noindent\textbf{Shelley}: {\it But ummm wait, hold on, remember this?  The uniform circular is equal to the gravity is equal to the net?  So we could just do what you did, except instead of using the uniform circular motion equation we use that gravity equation [points to equation].}\\
-\textbf{Joe}: {\it Yeah...}\\
-\textbf{Chuck}: {\it Okay, yeah, that sounds good.}
-\vspace*{4pt}
-
-However, after coding the magnitude of the Newtonian gravitational force (i.e., \texttt{Fnet = G*mEarth*msat/R**2}) the group is still unsure of how to add in the direction.
-
-\vspace*{4pt}
-\noindent\textbf{Chuck}: {\it How do we, okay, how do we define a direction?}\\
-\textbf{Cody}: {\it I don't know...}\\
-\textbf{Chuck}: {\it Isn't the direction like, okay, so here I'm gonna give like four points on a circle [drawing on whiteboard] so this is the center, and this is a b c and d.  Isn't it always just the position vector of a, so ummm what is it, like satellite dot position minus position dot Earth, and then you can divide that by magnitude?}
-\vspace*{4pt}
-
-At this point, the group has worked out a plan to construct a unit vector that can be used to add onto the magnitude of the Newtonian gravitational force to give it the proper direction.  They successfully follow through with this plan after comparing the unit vector at multiple points along a unit circle.
-
-\vspace*{4pt}
-\noindent\textbf{Chuck}: {\it Okay, so we're going e minus a, so it's just negative, it's always negative e, right?  What if we pretend it was here, what is it doing, now would it be like, x is point five... I think, okay so, arbitrary like it's not on the circle, so it would be like point five in the x direction, point five in the y direction, and zero in the z direction.  So you're still taking that minus that and the direction would be negative points five negative point five, so I think that would still apply, if we are taking c minus a, and then divide by magnitude, would that make sense?}
-\\\textbf{Cody}: {\it So how does that apply to this? How can we apply that concept?}
-\vspace*{4pt}
-
-They then construct this in the code taking advantage of the built in \texttt{mag()} function to calculate a magnitude of a vector.\begin{lstlisting}
-R = 123
-[calculation loop]
-    dir = sat.pos/mag(sat.pos)
-    Fnet = -G*m1*m2*dir/R**2
-\end{lstlisting}
-
-Although the magnitude of the net force is not generalizable enough to handle elliptical orbits at this point (the distance \texttt{R} is defined outside of the calculation loop), they have successfully added in the direction of the Newtonian gravitational force.  It is important to note that Chuck uses a procedure that is very similar to what is required on one of the pre-class homework problems shown in Fig.~\ref{unit_hw}.  In both cases, comparing multiple points along a unit circle can help to develop a sense for the direction of a separation vector and its use in giving a direction to a force.
-
-%
-%	Group B
-%
-
-\subsubsection{Episode: Group B}
-
-Group B is comprised of Kayla, Jon, Angela, and Alan.  Group B has an equal gender distribution and Alan has the most programming experience.  This episode begins at about a quarter of the way into the class with the group agreeing to use a centripetal form of the gravitational force that they just so happen to have a vector equation for (i.e., $\vec{F}_{\rm net}=mv^{2}\langle\sin\theta,\cos\theta-1\rangle/R\theta$).
-
-\vspace*{4pt}
-\noindent\textbf{Kayla}:  {\it So, I have the uniform circular motion up... [scanning notebook] Ummm, magnitude of net force... uniform... Ummm...}\\
-\textbf{Alan}:  {\it We should calculate the force, the ``centripetal force'', and then use that number?}\\
-\textbf{Kayla}:  {\it Yeah...}\\
-\textbf{Alan}:  {\it Sounds good.  What are the equations for that?}\\
-\textbf{Kayla}:  {\it Oh wait, hey, look at that, okay, these ones have, they are vector components ummm [writing on whiteboard].}
-\vspace*{4pt}
-
-The group is unsure of the validity of the equation that used the satellite's polar angle ($\theta$), and Alan begins to consider how the velocity will have a different direction at various points along a unit circle.
-
-\vspace*{4pt}
-\noindent\textbf{Alan}:  {\it So like right here... like we would have a total velocity like going in the x direction or from here in the x direction and then right here going down so now it's all in the y direction there's no x direction, it's like oscillated between the maximums so we could get a rotation... but how do we represent that as a force means it's obvious that they want us to do that so do we...}
-\vspace*{4pt}
-
-Immediately, Kayla proposes the equation from her notebook again.  The group is convinced that this equation will lead to the expected oscillation of the direction of the velocity.
-
-\vspace*{4pt}
-\noindent\textbf{Kayla}:  {\it Sine and cosine?}\\
-\textbf{Alan}: {\it Sine and cosine?}\\
-\textbf{Kayla}: {\it If we do sine and cosine, if we do both of them one in the x, one in the y, like this is saying [points to equation], then even if one goes to zero like you were saying then the other one is gonna be close to one and so...}\\
-\textbf{Alan}: {\it Do we have our angles to use?}\\
-\textbf{Angela}: {\it Ohhh...}\\
-\textbf{Alan}: {\it And we have access to angles... because we have access to the time of day.}\\
-\textbf{Angela}: {\it That would make sense cause then if you're at some weird angle because like...}\\
-\textbf{Kayla}: {\it Yeah...}\\
-\textbf{Angela}: {\it Right here one of them is gonna go to one, the other one is gonna go to zero like...}\\
-\textbf{Bruce}: {\it Oh my god that's so great, that's perfect, you're totally right.}
-\vspace*{4pt}
-
-Indeed, they have all the necessary components needed to quickly construct this calculation in their code (i.e., the angle that the Earth is making).
-
-Although this group is making progress toward a net force that changes with position, they still have several steps to complete this angular calculation.  However, before they can construct any significant piece of code, the group is dissuaded by a learning assistant from using the polar angle of the satellite and are encouraged to use a unit vector in terms of a separation vector vector and its magnitude.  It is important to note that, like Group A,  Group B was also comparing multiple points along a unit circle in order to develop a sense for the way in which a physical quantity (i.e., the velocity of the satellite) needs to change direction.
-
-%
-%	GROUP C
-%
-
-\subsubsection{Episode: Group C}
-
-Group C is comprised of Tori, Natalia, Connor, and Alex.  Group C has an equal gender distribution, with one ESL student, and Connor has the most programming experience.  The episode begins at around three-quarters of the way into the problem.  We can see Connor comparing the ``radius'' of the satellite's orbit at two different locations, one point on the perimeter of a unit circle and one point beyond it.
-
-\vspace*{4pt}
-\noindent\textbf{Connor}: {\it Well, if we start like that [drawing on whiteboard], but then we move over say here where it isn't equal radius, then our y value changes right?}\\
-\textbf{Tori}: {\it Yes.}
-\vspace*{4pt}
-
-This immediately turns into Tori reasoning out the way to calculate a separation vector between two objects.
-
-\vspace*{4pt}
-\noindent\textbf{Tori}: {\it So ummm, I thought, so the Earth is at zero zero zero, so in all of our homeworks, what we did was, the Earth is zero zero zero and then we have a position of the satellite at ummm...}\\
-\textbf{Connor}: {\it 4210...}\\
-\textbf{Tori}: {\it Yeah, like that zero, zero.  So when you subtract this, it is like, you know what I mean?  We need one going from here to there, which would mean that we need to take this one minus this one so this one, minus that, which is just that, because you're just taking this minus zero.}
-\vspace*{4pt}
-
-Again, we see Connor comparing a physical quantity at two different locations, and Tori explicitly references the pre-class homework.
-
-\vspace*{4pt}
-\noindent\textbf{Connor:} {\it But then say we are up here [points to whiteboard]...}\\
-\textbf{Tori:} {\it Yeah, and I think because in all the homeworks we have done this one was for like, oh, this is from okay a planet to a star, but they never talked about that moving in circular orbit}...
-\vspace*{4pt}
-
-This discussion eventually leads to the construction of the net force in code that uses the separation vector between the Earth and the satellite.  \begin{lstlisting}
-R = 123
-[calculation loop]
-    Fnet = -const_G*m1*m2/R**2 * sat.pos
-\end{lstlisting}
-
-Although the magnitude of the gravitational force is still incorrect at this point, they have successfully incorporated one of the important components for the direction of the net force in code (i.e., the separation vector \texttt{-sat.pos}).  It is important to note that Tori explicitly reference the pre-class homework problem shown in Fig.~\ref{unit_hw} when reasoning out the direction of the gravitational force.  Also, Connor can be seen running through a very similar process to that of Groups A and B (i.e., comparing physical quantities at different locations).
-
-\subsection{Discussion \& Conclusions}
-
-We have shown the lines of reasoning that three different groups have taken while working to overcome the challenges associated with constructing a position dependent Newtonian gravitational force in VPython code.  Due to the brevity of this paper, we focused on the sub-task of constructing the \textit{direction} of the Newtonian gravitational force.  In our analysis, we saw three separate cases of groups comparing the change in a physical quantity (e.g., the gravitational force or the velocity) at multiple points along and near the perimeter of a unit circle.  In each case, while groups made these comparisons, we also saw them beginning to construct the direction of the Newtonian gravitational force: Groups A and C added in a direction based on a separation vector, and Group B started to add a direction based on a polar angle.
-
-These episodes suggest that the pre-class homeworks shown in Fig.~\ref{unit_hw} are providing appropriate scaffolding for students \cite{vyg}.  Group A explicitly compares the direction of the net force at four different points on the unit circle.  Group B compares the direction of the satellite's momentum at two different points on the unit circle.  Group C compares the distance of the satellite from the origin at two different points on and near the unit circle.  It appears that asking students to solve related yet sufficiently different problems can familiarize students with the important concepts so that they can be extended into novel in-class problems.%  Similar pre-class questions have been used on other computational problems in P-cubed.
-
-%The question of whether and how computation can help to teach physics concepts is still an open one.  Although we have begun to make progress towards a deeper understanding, there is still more to learn about what makes a good pre-class homework question.  Effectively complementing introductory physics with computation is a difficult process, and we believe that the research we have presented here can be used, in part, to ease that process.
-
-In an effort to broaden this investigation, we have begun conducting one-on-one post-class interviews to investigate the qualitatively different ways in which students experience introductory physics with computation.  These interviews show promising descriptions of the reasoning taking place around computational physics tasks.  For example,
-
-\vspace*{4pt}
-\noindent\textbf{Ski}: {\it This [gravitational] problem especially showed me why it's important to update the force, the direction of the force. Going into this, I never thought of force, I didn't even know force was a vector. I thought it was a magnitude with a direction... which is a vector. I don't know, I guess that in my head force was positive or negative in direction. This problem definitely helped me to learn that we needed to use the r hat vector... For me, this entire problem was about velocity and the force pointing downwards, but downward changes.}
-\vspace*{4pt}
-
-In the future, we aim to synthesize this and other data to form a deeper and broader understanding of how computation can be used in physics courses to help students develop a deeper understanding of physics content and practice.
-
-%
-%	IDENTIFYING PRACTICES
-%
-
-\chapter{Identifying computational practices}
-
-Our analysis of the in-class group computational problem solving in ${\rm P}^{3}$ can be broken down into a number of different resolutions/scales.  One resolution/scale that we can focus on is the individual group and the different practices that they are engaging in.  Each practice identified within a particular group, as broadly defined in the Weintrop Framework {\bf (NEEDS CITATION)}, manifests in multiple possible variations.  The amount of variation observed usually depends not only on the practice (i.e., some practices are generally more diverse/varied than others) but also on the particular group (i.e., some groups engage in more diverse/varied practices).
+\chapter{Analysis}
 
 \section{Specific methods}
-
-\subsection{Transcription}
-
-We transcribe the entire problem solving process that has been captured on video, paying specific attention not only to what the group is saying, but also to what the group is doing (e.g., typing lines of code, gesturing, etc.).  Any lines of code that are typed can be verified by checking against the screencast of the group's laptop.  Any written equations or scratch work can be checked against the overhead camera.  These different sets of data are then used in conjunction while searching for practices.
-
-It is very rare that we see groups explicitly defining their actions in terms of the language of the framework.  Accordingly, we need to infer what the groups are thinking from the data.
 
 \section{Findings}
 
