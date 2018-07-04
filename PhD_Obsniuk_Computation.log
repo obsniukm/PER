@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  26 JUN 2018 09:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  4 JUL 2018 00:02
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -853,42 +853,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-
-LaTeX Warning: Reference `' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Reference `' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Reference `' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Reference `' on page 1 undefined on input line 46.
-
 [1
 
 
-] [2] [3] [4]
-
-LaTeX Warning: Citation `MORE' on page 5 undefined on input line 80.
-
-[5]
-
-LaTeX Warning: Reference `ch:background' on page 6 undefined on input line 94.
-
-
-LaTeX Warning: Reference `ch:context' on page 6 undefined on input line 94.
-
-
-LaTeX Warning: Reference `ch:motivation' on page 6 undefined on input line 94.
-
-
-LaTeX Warning: Reference `ch:analysis' on page 6 undefined on input line 94.
-
-
-LaTeX Warning: Reference `ch:conclusion' on page 6 undefined on input line 94.
-
-[6] [7]
+] [2] [3] [4] [5] [6] [7]
 Chapter 2.
 [8
 
@@ -897,120 +865,128 @@ Chapter 3.
 [9
 
 ]
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 136.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 145.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 145.
-
-[10]
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 159.
-
-
-Overfull \hbox (4.54839pt too wide) in paragraph at lines 159--160
-[]\OT1/cmr/m/n/12 There are a num-ber of in-class com-pu-ta-tional prob-lems sp
-read out through-out the semester
- []
-
-[11]
-
-LaTeX Warning: Reference `' on page 12 undefined on input line 175.
-
-
-LaTeX Warning: Reference `' on page 12 undefined on input line 175.
-
-
-LaTeX Warning: Citation `catra' on page 12 undefined on input line 175.
-
-
-LaTeX Warning: Citation `vyg' on page 12 undefined on input line 177.
+<images/CH3VPythonNotes.pdf, id=52, 452.4102pt x 207.4149pt>
+File: images/CH3VPythonNotes.pdf Graphic file (type pdf)
+<use images/CH3VPythonNotes.pdf>
+Package pdftex.def Info: images/CH3VPythonNotes.pdf  used on input line 135.
+(pdftex.def)             Requested size: 452.40909pt x 207.41438pt.
+ [10]
+<images/CH3PreClassQuestion.pdf, id=56, 341.47577pt x 367.94966pt>
+File: images/CH3PreClassQuestion.pdf Graphic file (type pdf)
+<use images/CH3PreClassQuestion.pdf>
+Package pdftex.def Info: images/CH3PreClassQuestion.pdf  used on input line 144
+.
+(pdftex.def)             Requested size: 341.47493pt x 367.94876pt.
+<images/CH3Schedule.pdf, id=57, 501.67543pt x 231.66534pt>
+File: images/CH3Schedule.pdf Graphic file (type pdf)
+<use images/CH3Schedule.pdf>
+Package pdftex.def Info: images/CH3Schedule.pdf  used on input line 153.
+(pdftex.def)             Requested size: 376.25565pt x 173.74857pt.
+ [11 <./images/CH3VPythonNotes.pdf>] [12 <./images/CH3PreClassQuestion.pdf>] [1
+3 <./images/CH3Schedule.pdf>]
+<images/CH3SatelliteProblem.pdf, id=91, 421.3341pt x 101.9007pt>
+File: images/CH3SatelliteProblem.pdf Graphic file (type pdf)
+<use images/CH3SatelliteProblem.pdf>
+Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 178
+.
+(pdftex.def)             Requested size: 421.33307pt x 101.90044pt.
+ [14 <./images/CH3SatelliteProblem.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 197.
 
 
-LaTeX Warning: Reference `unit_hw' on page 12 undefined on input line 177.
-
-[12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 192.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 192.
- [13] [14]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 197.
+ [15]
+<images/CH3InitialCode.pdf, id=106, 305.7021pt x 209.3421pt>
+File: images/CH3InitialCode.pdf Graphic file (type pdf)
+<use images/CH3InitialCode.pdf>
+Package pdftex.def Info: images/CH3InitialCode.pdf  used on input line 220.
+(pdftex.def)             Requested size: 305.70134pt x 209.34158pt.
+<images/CH3InitialVisual.pdf, id=107, 497.86pt x 312.16624pt>
+File: images/CH3InitialVisual.pdf Graphic file (type pdf)
+<use images/CH3InitialVisual.pdf>
+Package pdftex.def Info: images/CH3InitialVisual.pdf  used on input line 225.
+(pdftex.def)             Requested size: 497.85878pt x 312.16548pt.
+
+Overfull \hbox (28.10376pt too wide) in paragraph at lines 225--226
+ [][] 
+ []
+
+[16 <./images/CH3InitialCode.pdf>]
+
+LaTeX Warning: Reference `' on page 17 undefined on input line 235.
+
+[17 <./images/CH3InitialVisual.pdf>] [18] [19]
 Chapter 4.
-[15
+[20
 
-]
-
-LaTeX Warning: Citation `Murphy2008' on page 16 undefined on input line 237.
-
-
-LaTeX Warning: Citation `Flyvbjerg2006' on page 16 undefined on input line 241.
-
-
-[16]
-
-LaTeX Warning: Reference `phases' on page 17 undefined on input line 247.
-
-<./images/phases.pdf, id=77, 181.21887pt x 73.31786pt>
+] [21]
+<./images/phases.pdf, id=144, 181.21887pt x 73.31786pt>
 File: ./images/phases.pdf Graphic file (type pdf)
 <use ./images/phases.pdf>
-Package pdftex.def Info: ./images/phases.pdf  used on input line 250.
+Package pdftex.def Info: ./images/phases.pdf  used on input line 304.
 (pdftex.def)             Requested size: 181.21841pt x 73.31767pt.
-[17] [18 <./images/phases.pdf>]
+ [22] [23 <./images/phases.pdf>]
 Chapter 5.
-<./images/matrix.pdf, id=92, 231.11977pt x 231.11977pt>
+[24
+
+]
+File: images/CH3SatelliteProblem.pdf Graphic file (type pdf)
+<use images/CH3SatelliteProblem.pdf>
+Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 341
+.
+(pdftex.def)             Requested size: 421.33307pt x 101.90044pt.
+ [25]
+<./images/matrix.pdf, id=166, 231.11977pt x 231.11977pt>
 File: ./images/matrix.pdf Graphic file (type pdf)
 <use ./images/matrix.pdf>
-Package pdftex.def Info: ./images/matrix.pdf  used on input line 285.
+Package pdftex.def Info: ./images/matrix.pdf  used on input line 354.
 (pdftex.def)             Requested size: 231.11919pt x 231.11919pt.
-[19
-
-] [20 <./images/matrix.pdf>] [21] [22]
+ [26 <./images/matrix.pdf>] [27] [28]
 Chapter 6.
-[23
+[29
 
 ]
 Chapter 7.
-[24
+[30
 
-] [25
+] [31
 
 ]
 Appendix A.
-(PhD_Obsniuk_Computation.bbl [26
+(PhD_Obsniuk_Computation.bbl [32
 
 
-] [27
+] [33
 
-] [28
+] [34
 
-]) [29] (PhD_Obsniuk_Computation.aux)
+]) [35] (PhD_Obsniuk_Computation.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17630 strings out of 492976
- 335186 string characters out of 3135985
- 367339 words of memory out of 3000000
- 21356 multiletter control sequences out of 15000+200000
+ 17682 strings out of 492976
+ 336610 string characters out of 3135985
+ 366587 words of memory out of 3000000
+ 21401 multiletter control sequences out of 15000+200000
  538019 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,16n,63p,1098b,1477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,16n,63p,1086b,1470s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmti12.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (35 pages, 151507 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmti12.pfb>
+Output written on PhD_Obsniuk_Computation.pdf (41 pages, 565591 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 225 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,43 +6,44 @@
 \contentsline {section}{\numberline {1.3}Computational thinking}{3}
 \contentsline {section}{\numberline {1.4}Computational physics practices}{5}
 \contentsline {chapter}{\numberline {Chapter 2}Background}{8}
-\contentsline {section}{\numberline {2.1}Historical and Recent comp. research}{8}
+\contentsline {section}{\numberline {2.1}Historical and recent comp. research}{8}
 \contentsline {section}{\numberline {2.2}Methods for my research}{8}
 \contentsline {section}{\numberline {2.3}Framework}{8}
 \contentsline {chapter}{\numberline {Chapter 3}Context}{9}
 \contentsline {section}{\numberline {3.1}Course design}{9}
-\contentsline {section}{\numberline {3.2}Introduction to VPython}{10}
+\contentsline {section}{\numberline {3.2}VPython}{10}
 \contentsline {section}{\numberline {3.3}Pre-class work}{10}
-\contentsline {section}{\numberline {3.4}In-class tasks}{11}
-\contentsline {subsection}{\numberline {3.4.1}Analytic problem}{12}
-\contentsline {subsection}{\numberline {3.4.2}Computational problem}{12}
-\contentsline {subsubsection}{\numberline {3.4.2.1}MWPs}{14}
-\contentsline {subsubsection}{\numberline {3.4.2.2}TQs}{14}
-\contentsline {subsection}{\numberline {3.4.3}Feedback/Assessment}{14}
-\contentsline {subsection}{\numberline {3.4.4}Post-class work}{14}
-\contentsline {chapter}{\numberline {Chapter 4}Motivation}{15}
-\contentsline {section}{\numberline {4.1}Debugging}{15}
-\contentsline {subsection}{\numberline {4.1.1}Analysis}{16}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Recognition}{18}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Resolution}{18}
-\contentsline {section}{\numberline {4.2}Phenomenography}{18}
-\contentsline {subsection}{\numberline {4.2.1}Protocol}{18}
-\contentsline {subsection}{\numberline {4.2.2}Analysis}{18}
-\contentsline {chapter}{\numberline {Chapter 5}Analysis}{19}
-\contentsline {section}{\numberline {5.1}Specific methods}{19}
-\contentsline {section}{\numberline {5.2}Findings}{19}
-\contentsline {subsection}{\numberline {5.2.1}Assessing computational models}{20}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Models}{21}
-\contentsline {paragraph}{\numberline {5.2.1.1.1}Group A (gold star)}{21}
-\contentsline {paragraph}{\numberline {5.2.1.1.2}Group B (near miss)}{21}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Phenomena}{21}
-\contentsline {paragraph}{\numberline {5.2.1.2.1}Group C}{21}
-\contentsline {paragraph}{\numberline {5.2.1.2.2}Group D}{21}
-\contentsline {subsubsection}{\numberline {5.2.1.3}Comparisons}{22}
-\contentsline {paragraph}{\numberline {5.2.1.3.1}Group E}{22}
-\contentsline {paragraph}{\numberline {5.2.1.3.2}Group F}{22}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{23}
-\contentsline {chapter}{\numberline {Chapter 7}Concluding Remarks}{24}
-\contentsline {chapter}{APPENDICES}{25}
-\contentsline {section}{{Appendix A }Additional excerpts}{26}
-\contentsline {chapter}{BIBLIOGRAPHY}{27}
+\contentsline {section}{\numberline {3.4}In-class work}{12}
+\contentsline {subsection}{\numberline {3.4.1}Analytic problem}{14}
+\contentsline {subsection}{\numberline {3.4.2}Computational problem}{14}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Minimally working programs}{16}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Tutor questions}{17}
+\contentsline {subsection}{\numberline {3.4.3}Feedback/Assessment}{18}
+\contentsline {section}{\numberline {3.5}Post-class work}{19}
+\contentsline {chapter}{\numberline {Chapter 4}Motivation}{20}
+\contentsline {section}{\numberline {4.1}Debugging}{20}
+\contentsline {subsection}{\numberline {4.1.1}Analysis}{21}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Recognition}{23}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Resolution}{23}
+\contentsline {section}{\numberline {4.2}Phenomenography}{23}
+\contentsline {subsection}{\numberline {4.2.1}Protocol}{23}
+\contentsline {subsection}{\numberline {4.2.2}Analysis}{23}
+\contentsline {chapter}{\numberline {Chapter 5}Analysis}{24}
+\contentsline {section}{\numberline {5.1}Specific methods}{24}
+\contentsline {section}{\numberline {5.2}Findings}{25}
+\contentsline {subsection}{\numberline {5.2.1}Assessing computational models}{26}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Computational model}{27}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Phenomenon}{27}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Comparison between}{28}
+\contentsline {subsection}{\numberline {5.2.2}Creating data}{28}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Data set}{28}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Algorithmic procedure}{28}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Advance understanding}{28}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{29}
+\contentsline {section}{\numberline {6.1}Primary practices}{29}
+\contentsline {section}{\numberline {6.2}Secondary practices}{29}
+\contentsline {section}{\numberline {6.3}Absent practices}{29}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{30}
+\contentsline {chapter}{APPENDICES}{31}
+\contentsline {section}{{Appendix A }Additional excerpts}{32}
+\contentsline {chapter}{BIBLIOGRAPHY}{33}
