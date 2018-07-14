@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  4 JUL 2018 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  14 JUL 2018 08:37
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -615,21 +615,35 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+\transcriptlen=\skip104
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setspeaker with sig. ' mo ' on line 32.
+.................................................
+
 (PhD_Obsniuk_Computation.aux)
 \openout1 = `PhD_Obsniuk_Computation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
@@ -814,12 +828,12 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \c@lstlisting=\count301
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -851,7 +865,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-]
+] [7]
 Chapter 1.
 [1
 
@@ -860,133 +874,144 @@ Chapter 1.
 Chapter 2.
 [8
 
-]
+] [9] [10]
 Chapter 3.
-[9
+[11
 
 ]
-<images/CH3VPythonNotes.pdf, id=52, 452.4102pt x 207.4149pt>
+<images/CH3VPythonNotes.pdf, id=67, 452.4102pt x 207.4149pt>
 File: images/CH3VPythonNotes.pdf Graphic file (type pdf)
 <use images/CH3VPythonNotes.pdf>
-Package pdftex.def Info: images/CH3VPythonNotes.pdf  used on input line 135.
+Package pdftex.def Info: images/CH3VPythonNotes.pdf  used on input line 206.
 (pdftex.def)             Requested size: 452.40909pt x 207.41438pt.
- [10]
-<images/CH3PreClassQuestion.pdf, id=56, 341.47577pt x 367.94966pt>
+ [12] [13 <./images/CH3VPythonNotes.pdf>]
+<images/CH3PreClassQuestion.pdf, id=82, 341.47577pt x 367.94966pt>
 File: images/CH3PreClassQuestion.pdf Graphic file (type pdf)
 <use images/CH3PreClassQuestion.pdf>
-Package pdftex.def Info: images/CH3PreClassQuestion.pdf  used on input line 144
+Package pdftex.def Info: images/CH3PreClassQuestion.pdf  used on input line 217
 .
-(pdftex.def)             Requested size: 341.47493pt x 367.94876pt.
-<images/CH3Schedule.pdf, id=57, 501.67543pt x 231.66534pt>
+(pdftex.def)             Requested size: 256.10619pt x 275.96156pt.
+ [14 <./images/CH3PreClassQuestion.pdf>]
+<images/CH3Schedule.pdf, id=100, 658.84283pt x 368.57236pt>
 File: images/CH3Schedule.pdf Graphic file (type pdf)
 <use images/CH3Schedule.pdf>
-Package pdftex.def Info: images/CH3Schedule.pdf  used on input line 153.
-(pdftex.def)             Requested size: 376.25565pt x 173.74857pt.
- [11 <./images/CH3VPythonNotes.pdf>] [12 <./images/CH3PreClassQuestion.pdf>] [1
-3 <./images/CH3Schedule.pdf>]
-<images/CH3SatelliteProblem.pdf, id=91, 421.3341pt x 101.9007pt>
+Package pdftex.def Info: images/CH3Schedule.pdf  used on input line 238.
+(pdftex.def)             Requested size: 395.30875pt x 221.14511pt.
+ [15] [16 <./images/CH3Schedule.pdf>]
+<images/CH3SatelliteProblem.pdf, id=445, 421.3341pt x 101.9007pt>
 File: images/CH3SatelliteProblem.pdf Graphic file (type pdf)
 <use images/CH3SatelliteProblem.pdf>
-Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 178
+Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 254
 .
 (pdftex.def)             Requested size: 421.33307pt x 101.90044pt.
- [14 <./images/CH3SatelliteProblem.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 197.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 273.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 197.
- [15]
-<images/CH3InitialCode.pdf, id=106, 305.7021pt x 209.3421pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
+ [17 <./images/CH3SatelliteProblem.pdf>] [18]
+<images/CH3InitialCode.pdf, id=461, 547.65118pt x 499.73878pt>
 File: images/CH3InitialCode.pdf Graphic file (type pdf)
 <use images/CH3InitialCode.pdf>
-Package pdftex.def Info: images/CH3InitialCode.pdf  used on input line 220.
-(pdftex.def)             Requested size: 305.70134pt x 209.34158pt.
-<images/CH3InitialVisual.pdf, id=107, 497.86pt x 312.16624pt>
+Package pdftex.def Info: images/CH3InitialCode.pdf  used on input line 296.
+(pdftex.def)             Requested size: 219.05658pt x 199.89197pt.
+<images/CH3InitialVisual.pdf, id=462, 547.65118pt x 499.73882pt>
 File: images/CH3InitialVisual.pdf Graphic file (type pdf)
 <use images/CH3InitialVisual.pdf>
-Package pdftex.def Info: images/CH3InitialVisual.pdf  used on input line 225.
-(pdftex.def)             Requested size: 497.85878pt x 312.16548pt.
+Package pdftex.def Info: images/CH3InitialVisual.pdf  used on input line 296.
+(pdftex.def)             Requested size: 219.05658pt x 199.89197pt.
+ [19 <./images/CH3InitialCode.pdf> <./images/CH3InitialVisual.pdf
 
-Overfull \hbox (28.10376pt too wide) in paragraph at lines 225--226
- [][] 
- []
+pdfTeX warning: pdflatex (file ./images/CH3InitialVisual.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+<images/CH3TutorQuestion.pdf, id=474, 696.32056pt x 642.90193pt>
+File: images/CH3TutorQuestion.pdf Graphic file (type pdf)
+<use images/CH3TutorQuestion.pdf>
+Package pdftex.def Info: images/CH3TutorQuestion.pdf  used on input line 307.
+(pdftex.def)             Requested size: 348.15942pt x 321.45018pt.
+ [20 <./images/CH3TutorQuestion.pdf>] [21]
+<images/CH3WrittenFeedback.pdf, id=485, 343.47316pt x 137.56339pt>
+File: images/CH3WrittenFeedback.pdf Graphic file (type pdf)
+<use images/CH3WrittenFeedback.pdf>
+Package pdftex.def Info: images/CH3WrittenFeedback.pdf  used on input line 326.
 
-[16 <./images/CH3InitialCode.pdf>]
-
-LaTeX Warning: Reference `' on page 17 undefined on input line 235.
-
-[17 <./images/CH3InitialVisual.pdf>] [18] [19]
+(pdftex.def)             Requested size: 429.3404pt x 171.95378pt.
+ [22 <./images/CH3WrittenFeedback.pdf>]
+<images/CH3PostClassHomework.pdf, id=639, 696.32056pt x 642.90193pt>
+File: images/CH3PostClassHomework.pdf Graphic file (type pdf)
+<use images/CH3PostClassHomework.pdf>
+Package pdftex.def Info: images/CH3PostClassHomework.pdf  used on input line 33
+7.
+(pdftex.def)             Requested size: 348.15942pt x 321.45018pt.
+ [23 <./images/CH3PostClassHomework.pdf>]
 Chapter 4.
-[20
-
-] [21]
-<./images/phases.pdf, id=144, 181.21887pt x 73.31786pt>
-File: ./images/phases.pdf Graphic file (type pdf)
-<use ./images/phases.pdf>
-Package pdftex.def Info: ./images/phases.pdf  used on input line 304.
-(pdftex.def)             Requested size: 181.21841pt x 73.31767pt.
- [22] [23 <./images/phases.pdf>]
-Chapter 5.
 [24
 
-]
-File: images/CH3SatelliteProblem.pdf Graphic file (type pdf)
-<use images/CH3SatelliteProblem.pdf>
-Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 341
-.
-(pdftex.def)             Requested size: 421.33307pt x 101.90044pt.
- [25]
-<./images/matrix.pdf, id=166, 231.11977pt x 231.11977pt>
+] [25]
+<./images/phases.pdf, id=656, 181.21887pt x 73.31786pt>
+File: ./images/phases.pdf Graphic file (type pdf)
+<use ./images/phases.pdf>
+Package pdftex.def Info: ./images/phases.pdf  used on input line 374.
+(pdftex.def)             Requested size: 181.21841pt x 73.31767pt.
+ [26] [27 <./images/phases.pdf>]
+Chapter 5.
+[28
+
+] [29]
+<./images/matrix.pdf, id=677, 231.11977pt x 231.11977pt>
 File: ./images/matrix.pdf Graphic file (type pdf)
 <use ./images/matrix.pdf>
-Package pdftex.def Info: ./images/matrix.pdf  used on input line 354.
+Package pdftex.def Info: ./images/matrix.pdf  used on input line 424.
 (pdftex.def)             Requested size: 231.11919pt x 231.11919pt.
- [26 <./images/matrix.pdf>] [27] [28]
+ [30 <./images/matrix.pdf>] [31] [32]
 Chapter 6.
-[29
+[33
 
 ]
 Chapter 7.
-[30
+[34
 
-] [31
+] [35
 
 ]
 Appendix A.
-(PhD_Obsniuk_Computation.bbl [32
+(PhD_Obsniuk_Computation.bbl [36
 
 
-] [33
+] [37
 
-] [34
+] [38
 
-]) [35] (PhD_Obsniuk_Computation.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+]) [39] (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
- 17682 strings out of 492976
- 336610 string characters out of 3135985
- 366587 words of memory out of 3000000
- 21401 multiletter control sequences out of 15000+200000
- 538019 words of font info for 45 fonts, out of 3000000 for 9000
+ 17926 strings out of 492976
+ 338918 string characters out of 3135985
+ 368072 words of memory out of 3000000
+ 21629 multiletter control sequences out of 15000+200000
+ 543476 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,16n,63p,1086b,1470s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (41 pages, 565591 bytes).
+ 51i,16n,63p,1135b,1479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Michael\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Michael\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Micha
+el\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:
+\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
+1440.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecbx1200.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on PhD_Obsniuk_Computation.pdf (46 pages, 1108445 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
+ 1078 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

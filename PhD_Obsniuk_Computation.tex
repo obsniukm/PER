@@ -9,6 +9,35 @@
 \usepackage{siunitx}\sisetup{per-mode=symbol}
 %\usepackage{tabularx}
 \usepackage{listings}
+%	QUOTE ENVIRONMENT
+\usepackage[T1]{fontenc}
+\usepackage{xparse}
+\usepackage{enumitem}
+\setlist[description]{
+  font={\bfseries},
+  labelsep=0pt,
+  labelwidth=\transcriptlen,
+  leftmargin=\transcriptlen,
+}
+
+\newlength{\transcriptlen}
+
+\NewDocumentCommand {\setspeaker} { mo } {%
+  \IfNoValueTF{#2}
+  {\expandafter\newcommand\csname#1\endcsname{\item[#1:]}}%
+  {\expandafter\newcommand\csname#1\endcsname{\item[#2:]}}%
+  \IfNoValueTF{#2}
+  {\settowidth{\transcriptlen}{#1}}%
+  {\settowidth{\transcriptlen}{#2}}%
+}
+
+\setspeaker{SA}
+\setspeaker{SB}
+\setspeaker{SC}
+\setspeaker{SD}
+\setspeaker{TA}
+
+\addtolength{\transcriptlen}{1em}
 
 %
 %	FRONT
@@ -39,17 +68,19 @@
 
 \chapter{Introduction}\label{CH1:Introduction}
 
-Starting in the 1960's and continuing to present day, computers continue to revolutionize the way that we do and teach science.  They play an increasingly integral role in everyday life.  From their ability to analyze large sets of data to their ability to model chaotic physical systems, modern computers are powerful and useful tools.  Given the implications this tool has on modern scientific research (e.g., modeling biological or social systems), it has become of national level importance \cite{AAPT2016}.
+Starting in the 1960's and continuing to present day, computers continue to revolutionize the way that we do and teach science.  Similarly, they play an increasingly integral role in everyday life.  From their ability to analyze large sets of data to their ability to model chaotic physical systems, modern computers are powerful and useful tools.  Given the implications this tool has on modern scientific research (e.g., modeling biological or social systems), understanding them has recently become of national level importance \cite{AAPT2016}.
 
 Computation is important not only in terms of modern research in professional domains, but also as a pedagogical tool in educational domains.  In order for an individual to develop professional computational skills, he must practice them -- and there is no better place to practice than in an introductory physics course.  Obviously, the particular skills an individual will need to be proficient in will depend on the particular job.  However, focusing on the general practices that students should engage in while solving complex engineering and science problems is a reasonable place to start.
 
-Accordingly, Secs.~\ref{Sec:Research} and \ref{Sec:Pedagogy} will focus on computation's utility in both research and pedagogy, respectively.  We will then introduce computational thinking in Sec.~\ref{Sec:Thinking} and the computational practices that accompany it in Sec.~\ref{Sec:Practices}.  With these introductory ideas,  we can begin to buttress our study.
+Accordingly, Secs.~\ref{Sec:Research} and \ref{Sec:Pedagogy} will focus on computation's utility in both research and pedagogy, respectively.  We will then introduce computational thinking in Sec.~\ref{Sec:Thinking} and the computational practices that accompany it in Sec.~\ref{Sec:Practices}.  With a brief introdution to these ideas,  we can begin to develop a deeper understanding of what it means to think computationally and to engage in scientific computational practices, specifically within the field of physics.
 
 \section{As a research tool}\label{Sec:Research}
 
-Computation is increasingly being referred to as the third leg of modern physics, along with experiment and theory.  Its utility in solving complicated problems (e.g., predicting chaotic or non-linear motion) that cannot currently be solved analytically makes it indispensable in many field, from physics to chemistry to biology to engineering.
+Computation is increasingly being referred to as the third leg of modern physics, along with experiment and theory.  Its utility in solving complicated problems (e.g., predicting chaotic or non-linear motion) that cannot currently be solved analytically makes it indispensable in many STEM fields.
 
-% A description of predictive motion and Euler-Cromer update.  Could also mention Runge-Kutte and MANY OTHER styles that all have the same basic form: numerically solving complicated differential equations. 
+For example, researchers can precisely predict the trajectory of rockets and satellites using a relatively simple computational algorithm.  This algorithm, called a semi-implicit Euler-Cromer step-wise integration, works to predict the position and momentum of an object over time given initial conditions and an appropriate net force.  This net force can include many realistic factors like wind resistance.
+
+Given, among other things, the number of rockets and satellites circling the Earth, it is important that we effectively prepare modern engineering and physics students to construct and utilize these powerful computational tools.
 
 \section{As a pedagogical tool}\label{Sec:Pedagogy}
 
@@ -60,6 +91,8 @@ Sherwood developed and maintained VPython until it turned in Glowscript.  VPytho
 Chabay et al. have studied computation involving VPython in introductory physics classrooms from a number of different lenses.  These lenses range from investigating difficulties that students run into while computationally modeling, to investigating how to be incorporate computation into the classroom, to investigating how students are thinking computationally.
 
 Although much work has been done around computation at the introductory level, there are still many unanswered or only partially answered questions.  Answering these questions requires a deep understanding of the types of thinking and practices that students are engaging in while computing.  Accordingly, we must introduce computational thinking and the accompanying computational practices.
+
+Computation and its use as a pedagogical tool will be expanded on in Ch.~\ref{CH2:Background}.
 
 \section{Computational thinking}\label{Sec:Thinking}
 
@@ -99,17 +132,57 @@ In Ch.~\ref{CH2:Background} we explicate the prior research on computation and i
 
 \chapter{Background}\label{CH2:Background} %	VERY DETAILED
 
-\section{Historical and recent comp. research}
+\section{Computation}
 
-DiSessa, Chabay, Sherwood, Caballero, Kohlmyer, Weatherford, and Lunk.
+As a pedagogical tool.
+
+\subsection{Beginnings}
+
+Papert.
+
+DiSessa.
+
+\subsection{VPython}
+
+Sherwood.
+
+Chabay.
+
+Weatherford.
+
+Kohlmyer.
+
+Caballero.
+
+Lunk.
 
 \section{Methods for my research}
 
-Qualitative analysis in PER and thematic analysis.
+\subsection{Task analysis}
+
+Task analysis.
+
+\subsection{Qualitative analysis}
+
+Thematic analysis.
+
+\subsection{Reliability}
+
+Confidence and I.R.R.
 
 \section{Framework}
 
-AAPT and Weintrop.
+The framework that we are most heavily relying on, shown in Fig.~\ref{CH2:Framework}, was developed by Weintrop et. al to describe the fundamental computational practices that students engage in while solving computational problems.  Their study analyzed $N$ different computational problem statements from $M$ different classroom.  These problem statements manifested four different categories of between five to seven practices.  Each practice has anywhere from two to seven characteristics.
+
+\begin{figure}
+\caption{The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms.}\label{CH2:Framework}
+\end{figure}
+
+The four different categories are labeled data, modeling and simulation, computational problem solving, and systems thinking practices.  The data practices focus mostly on the creation and analysis of data.  The modeling and simulation practices focus mostly on the assessment and the construction of a computational model.  The problem solving practices focus mostly on programming and debugging.  The systems thinking practices are a little more abstract and focus mostly on the structure of the program itself.
+
+As an example, the computational practice of creating data has three characteristics: the creation of a set of data, an articulation of the underlying algorithm, and a use of the data to advance their understanding of a concept.  The more of the characteristics that we observe in a particular exerpt, the more confident we are that that excerpt can be classified as that practice.
+
+Although each practice is defined, according to Wientrop et. al, in terms of the sufficient charcteristics, the characteristics themselves are rather vague.  For example, the computational practice of assessing computational models requires the identification of a phenomenon, a computational model, and a comparison made between the two.  Although it is clear what a comparison would look like in any situation, the phenomenon and model must be more clearly defined for the framework to become valuable to introductory physics teachers.
 
 %
 %	CONTEXT (P3)
@@ -121,65 +194,68 @@ It is important to understand the course from which we have collected our data t
 
 \section{Course design}
 
-Each week in ${\rm P}^{3}$, students are expected to do a number of things. They must read and complete the pre-class homework based on information gathered from the pre-class notes.  They must work in small groups on two related analytical problems or a mixture of one related analytical and one related computational problem during the two two-hour weekly meetings.  For the computational problem, that means designing and constructing a correct computational force model in a small group and answering follow-up questions.  There are also post-class homework questions based on information gathered from the pre-class notes and the in-class problems.  This all occurs while students simultaneously prepare for the following week.
-
-%For example, in the third week of the semester, the pre-class notes and homework focus on this and that.  The analytic problem is this, and the computational problem is that.  The computational practices students must engage with are this, and the tutor questions look like this.  The feedback that students receive often encourages computational practices like this.  The post-class homework focuses on this.
+Each week in ${\rm P}^{3}$, students are expected to do a number of things. They must complete the pre-class homework which is based on information that they should gather from the pre-class notes.  They must work in small groups (usually between three and four members) on two related analytical problems or a mixture of one related analytical and one related computational.  These problems are delivered during the two two-hour weekly meetings (See Fig.~\ref{CH3:Schedule}).  For the computational problem, that means reading and interpreting pre-written code (i.e., a minimally working program) while they design, assess, and construct a computational force model.  The small group is facilitated by either a course instructor, graduate teaching assistant, or undergraduate learning assistant who will ask relevant and pertinent follow-up questions.  There are also post-class homework questions based on information gathered from the pre-class notes and the in-class problems.  This all occurs while students simultaneously prepare for the following week.
 
 \section{VPython}
 
-Given that the vast majority of students enter ${\rm P}^{3}$ with little to no prior programming experience, we need to ensure that they are prepared to handle computational problems early in the semester.  One way that we can achieve this is by requiring students to engage with the fundamental programming ideas before coming to class through pre-class homework and notes.  These notes and homework questions highlight the fundamental physical and programming ideas specific to VPython and the computational problems that will be delivered in class.
+Given that the vast majority of students enter ${\rm P}^{3}$ with little to no prior programming experience, we need to ensure that they are prepared to handle computational problems early in the semester.  One way that we can ensure this is by requiring students to engage with the fundamental programming ideas (e.g., iteration through a while loop control structure or pre-defined mathematical functions) before coming to class through pre-class homework and notes.  These notes and homework questions highlight the fundamental physical and programming ideas specific to VPython and the computational problems that will be delivered in class.
 
-For example, consider the portion of the course notes shown in Fig.~\ref{CH3:VPythonNotes}.  These notes are made available to the students at the beginning of the semester.  The content is meant to provide students with a basic understanding of the utility of VPython and a list of common errors.  These common errors are meant to provide students with a reference when debugging in-class code.  Troubleshooting and debugging are two of the problem solving practices indicative of computational thinking that we focused our analysis on.
+For example, consider the portion of the course notes shown in Fig.~\ref{CH3:VPythonNotes}.  These notes are made available to the students at the beginning of the semester and are meant to provide students with a basic understanding of the utility of VPython along with a list of common errors that novice programmers must frequently deal with.  These notes provide not only a description of the error, but also a procedure for removing it while students are troubleshooting and debugging in-class code.  Troubleshooting and debugging are two of the problem solving practices indicative of computational thinking that we focused our analysis on.
 
 \begin{figure}[ht]\centering
 \includegraphics[scale=1]{images/CH3VPythonNotes.pdf}
-\caption{Page of on-line notes introducing computional physics and the syntax of VPython.}\label{CH3:VPythonNotes}
+\caption{Portion of on-line notes that is made available to the students during the first week of the course.  These notes introduce the fundamenatal programming ideas and a list of common errors with tips and tricks.}\label{CH3:VPythonNotes}
 \end{figure} 
 
 \section{Pre-class work}
 
-Similarly, consider the pre-class homework questions shown in Fig.~\ref{CH3:PreClassQuestion} that are made available at the beginning of the third week of the course.  This question is meant to demonstrate that there are multiple correct ways that a unit vector can be constructed in code.  Given the nature of the corresponding week's computational problem (see Sec.~\ref{CH3:SatelliteProblem}), we expect students to be able to draw on and take advantage of this knowledge when faced with a related albeit more complicated problem.  That is, we expect students to be choosing between competing solutions while working on in-class computational problems.  Choosing between competing solutions is a problem solving practice indicative of computational thinking that we focused our analysis on.
+There are other weekly notes, made available to the students at the beginning of every week, focusing more on the fundamental physical ideas that will be used during class.  For example, during the third week the notes focus on uniform circular motion (most heavily used during the week's analytical problem) and the Newtonian gravitational force (most heavily used during the week's computational problem).
+
+Aside from notes, material is also delivered to the students through weekly pre-class homework questions.  Consider the pre-class homework questions shown in Fig.~\ref{CH3:PreClassQuestion} that are made available at the beginning of the third week of the course.  This question is meant to demonstrate that there are multiple correct ways that a unit vector can be constructed in code.  Given the nature of the corresponding week's computational problem (see Sec.~\ref{CH3:SatelliteProblem}), we expect students to be able to draw on and take advantage of this knowledge when faced with a related albeit more complicated problem.  That is, we expect students to be choosing between competing solutions.  Choosing between competing solutions is a problem solving practice indicative of computational thinking that we focused our analysis on.
 
 \begin{figure}[ht]\centering
-\includegraphics[scale=1]{images/CH3PreClassQuestion.pdf}
+\includegraphics[scale=0.75]{images/CH3PreClassQuestion.pdf}
 \caption{Pre-class homework question focusing on the different ways that the magnitude of a vector can be constructed in VPython code: explicitly coding the square root of the sum of the squares of the components and using the pre-defined Python ``magnitude'' function.}\label{CH3:PreClassQuestion}
 \end{figure} 
 
-Targeted pre-class homework problems were also developed to help scaffold students overcoming what we perceived to be challenges based on the task analysis.  In doing so, we attempted to place (most) students in the Zone of Proximal Development (ZPD)\cite{Vygotsky1980}. For example, the pre-class homework problems shown in Fig.~\ref{CH3:PreClassQuestion} were developed to facilitate student understanding of the unit vector of a separation vector between two objects prior to working the computational problem.
+Targeted pre-class homework questions were also developed to help students overcome challenges based on the task analysis.  For example, the pre-class homework questions shown in Fig.~\ref{CH3:PreClassQuestion} were developed to facilitate student understanding of the unit vector of a separation vector between two objects prior to working on the related computational problem.  Given that students must grapple with using a separation vector to construct a unit vector in code during the week, these questions help to place them in the Zone of Proximal Development (ZPD)\cite{Vygotsky1980}.  Constructing computational models is (unsurprisingly) a computational modeling practice indicative of computational thinking that permeates our data.
 
 \section{In-class work}
 
-\begin{figure}[ht]\centering
-\includegraphics[scale=0.75]{images/CH3Schedule.pdf}
-\caption{A schedule for the semester focusing on topics covered, homework/reading deadlines, and in-class problems.}\label{CH3:Schedule}
-\end{figure}
-
-There are a number of in-class computational problems spread out throughout the semester (see Fig.~\ref{CH3:Schedule}).  The first few computational problems focus on different force models and the resulting linear motion of objects.  The last few computational problems focus on extended objects and their rotation.  While solving these problems, groups are expected to engage in a number of computational practices that the problems have been designed around: \begin{enumerate}
+There are a number of in-class computational problems spread out throughout the semester (see Fig.~\ref{CH3:Schedule}).  The first few computational problems focus on different force models (i.e., no force, a constant force, a non-constant force) and the resulting linear motion of objects.  The last few computational problems focus on extended objects and their rotation.  While solving these problems, groups are expected to engage in a number of computational practices that the problems have been designed around: \begin{enumerate}
 \item[P1.] developing and using models,
 \item[P2.] planning and carrying out investigations,
 \item[P3.] analyzing and interpreting data,
 \item[P4.] using mathematics and computational thinking,
 \item[P6.] constructing explanations,
-\item[P7.] and engaging in argument from evidence.
+\item[P7.] engaging in argument from evidence.
 \item[P8.] and obtaining, evaluating, and communicating information.
 \end{enumerate}
 
-One of the scientific practices used heavily on both analytic and computation days is that of (P1) developing and using models.  Whether those models be mathematical or computational, we expect students to not only work together in groups to develop the model, but also to utilize that model in further investigations.  This type of scientific practice (P1) and the associated learning goals\cite{Irving2017} were further used to generate the type of in-class project that this study focuses on.
+%\begin{landscape}
+%\thispagestyle{empty}
+\begin{figure}[ht]\centering
+\includegraphics[scale=0.60]{images/CH3Schedule.pdf}
+\caption{A schedule for the semester focusing on topics covered, homework/reading deadlines, and in-class problems.  \textbf{Should this figure be on a landscape page?}}\label{CH3:Schedule}
+\end{figure}
+%\end{landscape}
+
+One of the scientific practices used heavily on both analytic and computation days is that of (P1) developing and using models.  Whether those models be mathematical or computational, we expect students to not only work together in groups to develop the model, but also to utilize that model in further investigations.  This type of scientific practice (P1) and the associated learning goals\cite{Irving2017} were further used to generate the in-class project that this study focuses on.
 
 \subsection{Analytic problem}
 
-In the third week of the course, students are asked to analyze the motion of a satellite orbiting Earth both analytically and computationally.  For the analytic day, the groups were asked to solve for the magnitude of the velocity and radius needed by a satellite to be held in a geostationary orbit.  This involves identifying two relevant equations in two unknowns and combining them to solve for the desired radius and magnitude of velocity.  The information gathered during this problem can be used in the following computational problem.
+In the third week of the course, students are asked to analyze the motion of a satellite orbiting Earth both analytically and computationally.  For the analytic day, the groups were asked to solve for the magnitude of the velocity and radius needed by a satellite to be held in a geostationary orbit.  This involves identifying two relevant equations in two unknowns and combining them to solve for the desired radius and magnitude of velocity.  The information gathered during this problem can be used in the following computational problem, and the group facilitators are often observed referencing this information.
 
 \subsection{Computational problem}
 
-This study focuses on the third and most complicated computational problem delivered to the students, shown in both Figs.~\ref{CH3:Schedule} and ~\ref{CH3:SatelliteProblem}. In order to focus our analysis on specific challenges students demonstrate while working this problem, we developed a framework for analyzing this problem by performing an expert task analysis on the problem.  A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{Catrambone1998}.
+This study focuses on the third and most complicated computational problem delivered to the students, shown in both Figs.~\ref{CH3:Schedule} and \ref{CH3:SatelliteProblem}. In order to focus our analysis on specific challenges students demonstrate while working this problem, we developed a framework for analyzing this problem by performing an expert task analysis (see Sec.~\ref{CH2:Background}).  A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{Catrambone1998}.
 
 \begin{figure}[ht]\centering
 \includegraphics[scale=1]{images/CH3SatelliteProblem.pdf}
 \caption{The Newtonian gravitational force problem statement delivered to the students in the third week of class.}\label{CH3:SatelliteProblem}
 \end{figure}
 
-The task analysis of this problem was initially constructed by a single content expert. After the first iteration it was presented to additional experts. Through this discussion, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks. The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks were sufficiently described to be useful in video analysis.
+The task analysis of this problem was initially constructed by a single content expert. After the first iteration it was presented to additional experts. Through this discussion, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks. The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks shown in Tab.~\ref{CH3:TaskAnalysis} were sufficiently described to be useful in video analysis.
 
 \begin{table}[hb]\centering
 \begin{tabular}{ll}
@@ -205,53 +281,49 @@ obj.p = obj.p + Fnet*dt
 time into momentum & \\
 \end{tabular}\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{CH3:TaskAnalysis}}
 \end{table}
-
+ 
 On top of this expert generated solution, there are many other (both expected and unexpected) student generated solutions that we observe in the data.  However, the expert generated solution is an ideal path to follow and so the instructors try to keep groups moving in this direction.  For example, a sufficient force model be constructed in terms of the polar and azimuthal angle of the satellite, although it requires a substantial amount of work to code.  Both the expert and student generated solutions are a good place to look for evidence of computational thinking and its accompanying practices. 
 
-Once the correct force has been correctly coded, the group must also grapple with adding in a visualization of a vector representing the force that they have just added.  This type of motion diagram is meant to show that the gravitational force vector resulting in the orbit always points radially inward (toward the Earth).  This task requires students to program as well as allows them to more easily check their conceptual understanding.  These computational practice are indicative of computation thinking.
+Once the correct force has been correctly coded, the group must also grapple with adding in a visualization of a vector representing the force that they have just added.  This type of motion diagram is meant to show that the gravitational force vector resulting in the orbit always points radially inward (toward the Earth).  This task requires students to program as well as allows them to more easily check their conceptual understanding.  Using computational models to understand a concept is a computational modeling and simulation practice that is indicative of computation thinking.
 
-Additionally, in order to check that their model can produce a geostationary orbit, groups are asked to generate a graph showing the magnitude of the separation between the satellite and the center of the Earth vs. time.  This allows them to check for a constant distance which implied a circular orbit.  This task is meant, among other things, to encourage students to visualize data, a computational practice indicative of computational thinking.
+Additionally, in order to check that their model can produce a geostationary orbit, groups are asked to generate a graph showing the magnitude of the separation between the satellite and the center of the Earth vs. time.  This allows them to check for a constant distance which implied a circular orbit.  This task is meant, among other things, to encourage students to visualize data, another computational practice indicative of computational thinking.
 
 \subsubsection{Minimally working programs}
 
-While beginning the problem, the group will observe a Minimally Working Program (MWP) similar to those seen in the two previous computational problems.  This MWP has all of the structure of the code correct (the calculation loop and the Euler-Cromer iteration) but is missing the computational force acting on the satellite.  The initial MWP is shown in Fig.~\ref{CH3:InitialCode} with its initial visualization in Fig.~\ref{CH3:InitialVisual}.
+While beginning the problem, the group will observe a Minimally Working Program (MWP) similar to those seen in the two previous computational problems.  This MWP has all of the structure of the code correct (the calculation loop and the Euler-Cromer iteration) but is missing the computational force acting on the satellite.  The initial MWP code with its initial visualization are shown in Fig.~\ref{CH3:InitialCodeVisual}.
 
 \begin{figure}[ht]\centering
-\includegraphics[scale=1]{images/CH3InitialCode.pdf}
-\caption{The initial code of the MWP that is given to the students in the third week of the course.}\label{CH3:InitialCode}
-\end{figure}
-
-\begin{figure}[ht]\centering
-\includegraphics[scale=1]{images/CH3InitialVisual.pdf}
-\caption{The initial visualization of the MWP that is given to the students in the third week of the course.}\label{CH3:InitialVisual}
+\includegraphics[scale=0.40]{images/CH3InitialCode.pdf}\includegraphics[scale=0.40]{images/CH3InitialVisual.pdf}
+\caption{The initial code and visualization of the MWP that is given to the students in the third week of the course.}\label{CH3:InitialCodeVisual}
 \end{figure}
 
 Thus, the main task of the group is to construct the net force model in code.  Ideally, this force model will be of a Newtonian gravitational form (i.e., $F_{G}\sim1/r^{2}$) with a direction coded in terms of a separation vector (i.e., $\hat{F}_{G}\sim\vec{r}/r$).  However, we do frequently observe groups working with other models.
 
 \subsubsection{Tutor questions}
 
-There are a number of pre-written tutor questions as well as many on-the-fly questions generated by the tutors while in class.  These questions are meant to check the students for conceptual understanding as well as to direct students toward the correct solution.
+There are a number of pre-written tutor questions as well as many on-the-fly questions generated by the tutors while in class.  These questions are meant to check the students for conceptual understanding as well as to direct students toward the correct solution.  For example, the tutor questions shown in Fig.~\ref{CH3:TutorQuestion} are meant to ensure that the model the group has constructed is actually general enough to generate all types of elliptical orbits given various initial conditions.
 
-For example, the tutor question shown in Fig.~\ref{} is meant to .
+\begin{figure}[ht]\centering
+\includegraphics[scale=0.5]{images/CH3TutorQuestion.pdf}
+\caption{A seclection of tutor questions that focus on the computational model each group has constructed.}\label{CH3:TutorQuestion}
+\end{figure}
 
-On the other hand, a tutor interaction like the one shown below might encourage students to use a position dependent rather than an angle dependent net force:  \begin{quotation}
-Group:  We tried doing it this way
-
-TA:  Yeah but is that going to be able to handle all orbits?
-
-Group:  Okay, we will do it the other way.
-
-TA:  Right, you need to do it that way.
-\end{quotation}  The question of being able to handle all types of orbits is enough to hint that the group needs to switch their model up.  In this way, the tutor is able to make sure the groups stay on the correct path without directly telling them exactly what to do.
+On the other hand, a tutor interaction like the one shown below that happens on-the-fly might encourage students to use a more general force rather than a more restricted one:  \begin{description}\TA  you guys wanna talk about what your trategy is at hte moment
+\SB  i dont think we know	
+\SA we just, we need to figure out how to get hte velocity of the spacecraft correct as well as the force net correct and then it should be fine				
+\TA yeah, my request, can i point in your program thats what you have for F net now [constant components] my request is to use a completely different strategy where that formula [points to Gmm/r2 on the board] is in for Fnet
+\SC yeah we tried to make that yeah		
+\SA can we just put the number in?				
+\TA umm in principle you could, but id really rather you not have you do it i would like the program to be able to respond if the satellite is father away the force would be less, if the satellite is closer the force would be more so i would like it to be a dynamic program and not one that always have a fixed force\end{description}  In this on-the-fly interaction, the question of weather or not their computational model will be able to handle all types of orbits is enough to indicate that the group needs to switch their model up.  In this way, the tutor is able to make sure the groups stay on the desired path without directly telling them exactly what to do.
 
 \subsection{Feedback/Assessment}
 
-The groups are assessed on many levels in ${\rm P}^{3}$.  One of the most important forms of assessment is given weekly, in the form of written feedback and a numerical score.  The written feedback is based on the observed in-class performance and is designed to point out deficiencies and suggests ways to improve.  The numerical scoring is based on performance in three categories: group performance, individual performance, and I can't remember the rest.
+The groups are assessed on many levels in ${\rm P}^{3}$.  One of the most important forms of assessment is given weekly, in the form of written feedback and a numerical score.  The written feedback is based on the observed in-class performance and is designed to point out deficiencies and suggests ways to improve.  The numerical scoring is based on performance in three categories: group understanding, group focus, and individual understanding.
 
 Often the written feedback pertains to group activity with the computer.  For example, the portion of written feedback shown in Fig.~\ref{CH3:WrittenFeedback} is encouraging a student to allow other group members to do some of the typing.   This could be requested for any number of reasons -- most likely, though, because the students with less prior programming experience are not being given a chance to participate.
 
 \begin{figure}[ht]\centering
-%\includegraphics[scale=0.75]{images/CH3InitialVisual.pdf}
+\includegraphics[scale=1.25]{images/CH3WrittenFeedback.pdf}
 \caption{A snippet of written feedback given to a student after the third week.}\label{CH3:WrittenFeedback}
 \end{figure}
 
@@ -259,14 +331,12 @@ In this way, instructors can encourage their groups to share the programming loa
 
 \section{Post-class work}
 
-There are a number of post-class homework questions that are meant to reinforce the physics and computational concepts seen in class.  During the third week of the course, these questions focus mostly on the Newtonian gravitational force.
+There are a number of post-class homework questions that are meant to reinforce the physics and computational concepts seen in class.  During the third week of the course, these questions focus mostly on the Newtonian gravitational force.  However, the post-class homework question shown in Fig.~\ref{CH3:PostClassHomework} that is delivered in the third week focuses on the previous week's computational problem (i.e., it involves a local gravitational force as opposed to a Newtonian gravitational force).  Nevertheless, this post-class question involves the same Euler-Cromer style of numerical integration as seen in all computational problems.  The students are expected to use the error message in order to identify an error in the code.
 
 \begin{figure}[ht]\centering
-%\includegraphics[scale=0.75]{images/CH3InitialVisual.pdf}
+\includegraphics[scale=0.50]{images/CH3PostClassHomework.pdf}
 \caption{A portion of a post-class homework question delivered in the third week of the course.  This question requires students to troubleshoot and debug the code.}\label{CH3:PostClassHomework}
 \end{figure}
-
-However, the post-class homework question shown in Fig.~\ref{CH3:PostClassHomework} that is delivered in the third week focuses on the previous week's computational problem (i.e., it involves a local gravitational force as opposed to a Newtonian gravitational force).  Nevertheless, this post-class question involves the same Euler-Cromer style of numerical integration as seen in all computational problems.  The students are expected to use the error message in order to identify an error in the code.
 
 This type of problem helps to encourage students to identify, isolate, reproduce, and correct unexpected problems that arise while constructing computational models.  Ideally, it requires students to interpret the names given to the variables being used and verify that they are defined in a correct form.  Correct form means following one of the basic rules of algebra -- you cannot add a scalar and a vector.
 
@@ -331,18 +401,18 @@ Since there are no real results, we can just describe how we analyzed the interv
 
 Following the suggestion of thematic analysis, we begin with a full transcription of the in-class video.  This transcription is verbatim to the best of our abilities.  Any inaudible sections are indicated, with long pauses being indicated by ellipses ($\ldots$).  To distingish between unspoken actions (e.g., pointing to an equation) and infereces made by the researcher (e.g., refering to a previous equation), we follow the convention of square brackets ($[\,]$) and curly brackets ($\{\,\}$), respectively.
 
-This full transcript is then read through multiple times, noting any point of interest in terms of the Weintrop framework.  We then divide the transcript into multiple excerpts of shorter length centered around the initial points of interest.  Although we lose some of the coherence of the problem as a whole by focusing on shorter exerpts, these relatively shorter exerpts help to facilitate a deeper analysis.
+This full transcript is then read through multiple times, noting any points of interest in terms of the Weintrop framework.  We then divide the transcript into multiple excerpts of shorter length centered around the initial points of interest.  Although we lose some of the coherence of the problem as a whole by focusing on shorter exerpts, these relatively shorter exerpts help to facilitate a deeper analysis.  Each transcript contains $\approx\SI{1500}{lines}$ comprising $\approx\SI{50}{excerpts}$.
 
 Each excerpt is analyzed in terms of the practices the group is engaging in.  This means we need to look for the characteristics of each practice. With these characteristics identified, we are justified in classifying the particular excerpt as that practice.  Each excerpt generally has between one and four identified computational practices. 
 
 Each characteristic that is identified is supported with rationale on three levels: the rationale according to the framework, the rationale within the excerpt, and the rationale beyond the excerpt.  The confidence in this rationale (specifically, the rationale within the excerpt) manifests itself in a high, medium, and low confidence rating for the identification of this practice.  In that way, we know not only how frequently the practices are identified, but also how confident we are in that assessment.
 
-\begin{figure}[ht]\c  entering
-\includegraphics[scale=1]{images/CH3SatelliteProblem.pdf}
+\begin{figure}[ht]\centering
+%\includegraphics[scale=1]{images/CH3SatelliteProblem.pdf}
 \caption{Visual representation of the different levels of rationale pertaining to an excerpt.  Green, yellow, and red cells represent high, medium, and low confidence, respectively.}\label{CH3:VariableAnalysis}
 \end{figure}
 
-So that we safeguard against the researcher influencing the results too much, inter-rater reliability is checked at multiple points throughout the analysis.  This check consists of an independent researcher (the inter-rater) identifying practices with confidence in a reduced set of the data and comparing with the primary researcher.  Any practices that don't make the cut in terms of confidence are discounted from being identified.
+So that we safeguard against the researcher influencing the results too much, inter-rater reliability is checked at multiple points throughout the analysis.  This check consists of an independent researcher (the inter-rater) identifying practices with confidence in a reduced set of the data and comparing with the primary researcher.  Any practices in which confidence is questioned and lost are discounted from being identified.
 
 \section{Findings}
 
@@ -395,6 +465,7 @@ The comparisons that we have observed in the data are quite varied.  Given that 
 
 \chapter{Discussion}\label{CH6:Discussion}
 
+
 \section{Primary practices}
 
 Analyzing data, assessing computational models, programming, and thinking in levels are the most common practices that we observed.
@@ -412,6 +483,8 @@ Some of the practices that were not observed in the data were collecting data an
 %
 
 \chapter{Conclusion}\label{CH7:Conclusion}
+
+The most important things that you should be paying attention to are the creation and analysis of data, the assessment and construction of models, programming and troubleshooting, and thinking in levels and communicating
 
 %
 %	APPENDICES
