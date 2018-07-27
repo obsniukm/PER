@@ -1,4 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Aho2012}
+Alfred Aho.
+\newblock Computation and computational thinking.
+\newblock {\em The Computer Journal}, 2012.
+
+\bibitem{Bundy2007}
+Alan Bundy.
+\newblock Computational thinking is pervasive.
+\newblock {\em Journal of Scientific and Practical Computing}, 2007.
 
 \bibitem{Catrambone1998}
 Richard Catrambone.
@@ -18,6 +28,11 @@ Bent Flyvbjerg.
 \newblock Five misunderstandings about case-study research.
 \newblock {\em Qualitative Inquiry}, 2006.
 
+\bibitem{Grover2013}
+Shuchi Grover and Roy Pea.
+\newblock Computational thinking in k-12: A review of the state of the field.
+\newblock {\em Educational Resarcher}, 2013.
+
 \bibitem{Irving2017}
 Paul Irving, Michael Obsniuk, and Marcos Caballero.
 \newblock P$^{3}$: A practice focused learning environment.
@@ -30,10 +45,43 @@ Renee McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon,
   perspective.
 \newblock {\em Computer Science Education}, 2008.
 
+\bibitem{NGSS2012}
+Committee on~a Conceptual Framework~for New K-12 Science Education~Standards.
+\newblock {\em A Framework for K-12 Science Education: Practices, Crosscutting
+  Concepts, and Core Ideas}.
+\newblock The National Academies Press, 2012.
+
+\bibitem{Papert1981}
+Seymour Papert.
+\newblock {\em Mindstorms: Children, computers, and powerful ideas}.
+\newblock Basic Books, 1981.
+
+\bibitem{Papert1996}
+Seymour Papert.
+\newblock An exploration in the space of mathematics educations.
+\newblock {\em Technology, Knowledge, and Learning}, 1996.
+
 \bibitem{Vygotsky1980}
 L.S. Vygotsky.
 \newblock {\em Mind in Society: The Development of Higher Psychological
   Processes}.
 \newblock 1980.
+
+\bibitem{Weintrop2015}
+David Weintrop, Elham Behesthi, Michael Horn, Kai Orton, Kemi Jona, Laura
+  Trouille, and Uri Wilensky.
+\newblock Defining computational thinking for mathematics and science
+  classrooms.
+\newblock {\em Journal of Science Education Technology}, 2015.
+
+\bibitem{Wing2008}
+Jeanette Wing.
+\newblock Computational thinking and thinking about computing.
+\newblock {\em The Royal Society}, 2008.
+
+\bibitem{Wing2006}
+Jeannette Wing.
+\newblock Computational thinking.
+\newblock {\em Communications of the ACM}, 2006.
 
 \end{thebibliography}
