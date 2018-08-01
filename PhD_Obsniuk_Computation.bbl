@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{AAPT2016}
+Undergraduate Curriculum Task~Force AAPT.
+\newblock Recommendations for computational physics in the undergraduate
+  physics curriculum.
+\newblock Technical report, AAPT, 2016.
+
 \bibitem{Aho2012}
 Alfred Aho.
 \newblock Computation and computational thinking.
@@ -15,6 +21,17 @@ Richard Catrambone.
 \newblock The subgoal learning model: Creating better eexample so that students
   can solve novel pproblem.
 \newblock {\em Journal of Experimental Psychology}, 1998.
+
+\bibitem{Chabay2008}
+Ruth Chabay and Bruce Sherwood.
+\newblock Computational physics in the introductory calculus-based course.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Chonacky2008}
+Norman Chonacky and David Winch.
+\newblock Integrating computation into the undergraduate curriculum: A vision
+  and guidelines for future developments.
+\newblock {\em American Journal of Physics}, 2008.
 
 \bibitem{Fitzgerald2008}
 Sue Fitzgerald, Gary Lewandowski, Renee McCauley, Laurie Murphy, Beth Simon,
@@ -38,6 +55,12 @@ Paul Irving, Michael Obsniuk, and Marcos Caballero.
 \newblock P$^{3}$: A practice focused learning environment.
 \newblock {\em European Journal of Physics}, 2017.
 
+\bibitem{Kohlmyer2005}
+Matthew Kohlmyer.
+\newblock {\em Student performance in computer modeling and problem solving in
+  a modern introductory physics course}.
+\newblock PhD thesis, Carnegie Mellon University, 2005.
+
 \bibitem{McCauley2008}
 Renee McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon,
   Lunda Thomas, and Carol Zander.
@@ -60,6 +83,11 @@ Seymour Papert.
 Seymour Papert.
 \newblock An exploration in the space of mathematics educations.
 \newblock {\em Technology, Knowledge, and Learning}, 1996.
+
+\bibitem{Sherer2000}
+David Sherer, Paul Dubois, and Bruce Sherwood.
+\newblock Vpython: 3d interactive scientific graphics for students.
+\newblock {\em Computing in Science \& Engineering}, 2000.
 
 \bibitem{Vygotsky1980}
 L.S. Vygotsky.
