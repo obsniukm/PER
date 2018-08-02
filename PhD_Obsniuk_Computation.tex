@@ -132,7 +132,36 @@ Lunk.
 
 \subsection{Task analysis}
 
-Task analysis.
+A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{Catrambone1998}.
+
+The task analysis of this problem was initially constructed by a single content expert. After the first iteration it was presented to additional experts. Through this discussion, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks. The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks shown in Tab.~\ref{CH3:TaskAnalysis} were sufficiently described to be useful in video analysis.
+
+\begin{table}[hb]\centering
+\begin{tabular}{ll}
+\textbf{Step (Sub-Task)} & \textbf{Associated Code} \\\hline
+Construct separation vector & \begin{lstlisting}
+sep = obj2.pos
+\end{lstlisting}\\
+between interacting objects & \begin{lstlisting}
+         - obj1.pos
+\end{lstlisting}\\\hline
+Construct the unit vector & \begin{lstlisting}
+usep = sep/mag(sep)
+\end{lstlisting}\\\hline
+Construct the net force & \begin{lstlisting}
+Fnet = -G*m1*m2*usep
+\end{lstlisting}\\
+vector & \begin{lstlisting}
+         /mag(sep)**2
+\end{lstlisting}\\\hline
+Integrate the net force over & \begin{lstlisting}
+obj.p = obj.p + Fnet*dt
+\end{lstlisting}\\
+time into momentum & \\
+\end{tabular}\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{CH3:TaskAnalysis}}
+\end{table}
+ 
+On top of this expert generated solution, there are many other (both expected and unexpected) student generated solutions that we observe in the data.  However, the expert generated solution is an ideal path to follow and so the instructors try to keep groups moving in this direction.  For example, a sufficient force model be constructed in terms of the polar and azimuthal angle of the satellite, although it requires a substantial amount of work to code.  Both the expert and student generated solutions are a good place to look for evidence of computational thinking and its accompanying practices. 
 
 \subsection{Qualitative analysis}
 
@@ -166,7 +195,7 @@ It is important to understand the course from which we have collected our data t
 
 \section{Course design}
 
-Each week in ${\rm P}^{3}$, students are expected to do a number of things. They must complete the pre-class homework which is based on information that they should gather from the pre-class notes.  They must work in small groups (usually between three and four members) on two related analytical problems or a mixture of one related analytical and one related computational.  These problems are delivered during the two two-hour weekly meetings (See Fig.~\ref{CH3:Schedule}).  For the computational problem, that means reading and interpreting pre-written code (i.e., a minimally working program) while they design, assess, and construct a computational force model.  The small group is facilitated by either a course instructor, graduate teaching assistant, or undergraduate learning assistant who will ask relevant and pertinent follow-up questions.  There are also post-class homework questions based on information gathered from the pre-class notes and the in-class problems.  This all occurs while students simultaneously prepare for the following week.
+Each week in ${\rm P}^{3}$, students are expected to do a number of things. They must complete the pre-class homework which is based on information that they should gather from the pre-class notes.  They must then work in small groups (usually between three and four members) on two related analytical problems or a mixture of one related analytical and one related computational.  These problems are delivered during the two two-hour weekly meetings (See Fig.~\ref{CH3:Schedule}).  For the computational problem, that means reading and interpreting pre-written code (i.e., a minimally working program) while they design, assess, and construct a computational force model.  The small group is facilitated by either a course instructor, graduate teaching assistant, or undergraduate learning assistant who will ask relevant and pertinent follow-up questions.  There are also post-class homework questions based on information gathered from the pre-class notes and the in-class problems that are due at the end of the week.  This all occurs while students simultaneously prepare for the following week.
 
 \section{VPython}
 
@@ -190,7 +219,7 @@ Aside from notes, material is also delivered to the students through weekly pre-
 \caption{Pre-class homework question focusing on the different ways that the magnitude of a vector can be constructed in VPython code: explicitly coding the square root of the sum of the squares of the components and using the pre-defined Python ``magnitude'' function.}\label{CH3:PreClassQuestion}
 \end{figure} 
 
-Targeted pre-class homework questions were also developed to help students overcome challenges based on the task analysis.  For example, the pre-class homework questions shown in Fig.~\ref{CH3:PreClassQuestion} were developed to facilitate student understanding of the unit vector of a separation vector between two objects prior to working on the related computational problem.  Given that students must grapple with using a separation vector to construct a unit vector in code during the week, these questions help to place them in the Zone of Proximal Development (ZPD)\cite{Vygotsky1980}.  Constructing computational models is (unsurprisingly) a computational modeling practice indicative of computational thinking that permeates our data.
+Targeted pre-class homework questions were also developed to help students overcome challenges based on the task analysis.  For example, the pre-class homework questions shown in Fig.~\ref{CH3:PreClassQuestion} were developed to facilitate student understanding of the unit vector of a separation vector between two objects prior to working on the related computational problem.  Given that students must grapple with using a separation vector to construct a unit vector in code during the week, these questions help to place them in the Zone of Proximal Development (ZPD) \cite{Vygotsky1980}.  Constructing computational models is (unsurprisingly) a computational modeling practice indicative of computational thinking that permeates our data.
 
 \section{In-class work}
 
@@ -212,7 +241,7 @@ There are a number of in-class computational problems spread out throughout the 
 \end{figure}
 %\end{landscape}
 
-One of the scientific practices used heavily on both analytic and computation days is that of (P1) developing and using models.  Whether those models be mathematical or computational, we expect students to not only work together in groups to develop the model, but also to utilize that model in further investigations.  This type of scientific practice (P1) and the associated learning goals\cite{Irving2017} were further used to generate the in-class project that this study focuses on.
+One of the scientific practices used heavily on both analytic and computation days is that of (P1) developing and using models.  Whether those models be mathematical or computational, we expect students to not only work together in groups to develop the model, but also to utilize that model in further investigations.  This type of scientific practice (P1) and its associated learning goals \cite{Irving2017} were further used to generate the in-class project that this thesis focuses on.
 
 \subsection{Analytic problem}
 
@@ -220,41 +249,12 @@ In the third week of the course, students are asked to analyze the motion of a s
 
 \subsection{Computational problem}
 
-This study focuses on the third and most complicated computational problem delivered to the students, shown in both Figs.~\ref{CH3:Schedule} and \ref{CH3:SatelliteProblem}. In order to focus our analysis on specific challenges students demonstrate while working this problem, we developed a framework for analyzing this problem by performing an expert task analysis (see Sec.~\ref{CH2:Background}).  A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{Catrambone1998}.
+This thesis focuses on the third and most complicated computational problem delivered to the students, shown in both Figs.~\ref{CH3:Schedule} and \ref{CH3:SatelliteProblem}. Given its complexity, we developed a framework to help guide and ground our analysis.  This framework was constructed with the help of a task analysis (see Sec.~\ref{CH2:Background}) of the problem.  Ultimately, students must design, construct, and asses a computational model for the Newtonian gravitational force acting on a satellite in geostationary and other more general orbits.
 
 \begin{figure}[ht]\centering
 \includegraphics[scale=1]{images/CH3SatelliteProblem.pdf}
 \caption{The Newtonian gravitational force problem statement delivered to the students in the third week of class.}\label{CH3:SatelliteProblem}
 \end{figure}
-
-The task analysis of this problem was initially constructed by a single content expert. After the first iteration it was presented to additional experts. Through this discussion, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks. The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks shown in Tab.~\ref{CH3:TaskAnalysis} were sufficiently described to be useful in video analysis.
-
-\begin{table}[hb]\centering
-\begin{tabular}{ll}
-\textbf{Step (Sub-Task)} & \textbf{Associated Code} \\\hline
-Construct separation vector & \begin{lstlisting}
-sep = obj2.pos
-\end{lstlisting}\\
-between interacting objects & \begin{lstlisting}
-         - obj1.pos
-\end{lstlisting}\\\hline
-Construct the unit vector & \begin{lstlisting}
-usep = sep/mag(sep)
-\end{lstlisting}\\\hline
-Construct the net force & \begin{lstlisting}
-Fnet = -G*m1*m2*usep
-\end{lstlisting}\\
-vector & \begin{lstlisting}
-         /mag(sep)**2
-\end{lstlisting}\\\hline
-Integrate the net force over & \begin{lstlisting}
-obj.p = obj.p + Fnet*dt
-\end{lstlisting}\\
-time into momentum & \\
-\end{tabular}\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{CH3:TaskAnalysis}}
-\end{table}
- 
-On top of this expert generated solution, there are many other (both expected and unexpected) student generated solutions that we observe in the data.  However, the expert generated solution is an ideal path to follow and so the instructors try to keep groups moving in this direction.  For example, a sufficient force model be constructed in terms of the polar and azimuthal angle of the satellite, although it requires a substantial amount of work to code.  Both the expert and student generated solutions are a good place to look for evidence of computational thinking and its accompanying practices. 
 
 Once the correct force has been correctly coded, the group must also grapple with adding in a visualization of a vector representing the force that they have just added.  This type of motion diagram is meant to show that the gravitational force vector resulting in the orbit always points radially inward (toward the Earth).  This task requires students to program as well as allows them to more easily check their conceptual understanding.  Using computational models to understand a concept is a computational modeling and simulation practice that is indicative of computation thinking.
 
@@ -262,14 +262,14 @@ Additionally, in order to check that their model can produce a geostationary orb
 
 \subsubsection{Minimally working programs}
 
-While beginning the problem, the group will observe a Minimally Working Program (MWP) similar to those seen in the two previous computational problems.  This MWP has all of the structure of the code correct (the calculation loop and the Euler-Cromer iteration) but is missing the computational force acting on the satellite.  The initial MWP code with its initial visualization are shown in Fig.~\ref{CH3:InitialCodeVisual}.
+While beginning the problem, the group will observe a Minimally Working Program (MWP) similar to those seen in the two previous computational problems.  This MWP has all of the structure of the code correct (the while/calculation loop and the Euler-Cromer integration) but is missing the computational force acting on the satellite (along with some inaccurate numerical values).  The initial MWP code with its initial visualization are shown in Fig.~\ref{CH3:InitialCodeVisual}.
 
 \begin{figure}[ht]\centering
 \includegraphics[scale=0.40]{images/CH3InitialCode.pdf}\includegraphics[scale=0.40]{images/CH3InitialVisual.pdf}
 \caption{The initial code and visualization of the MWP that is given to the students in the third week of the course.}\label{CH3:InitialCodeVisual}
 \end{figure}
 
-Thus, the main task of the group is to construct the net force model in code.  Ideally, this force model will be of a Newtonian gravitational form (i.e., $F_{G}\sim1/r^{2}$) with a direction coded in terms of a separation vector (i.e., $\hat{F}_{G}\sim\vec{r}/r$).  However, we do frequently observe groups working with other models.
+Thus, the main task of the group is to construct a physically correct force model in code.  Secondarily, they must modify numerical values to reflect the phenomenon being modeled.  Ideally, this force model will be of a Newtonian gravitational form (i.e., $F_{G}\sim1/r^{2}$) with a direction coded in terms of a separation vector (i.e., $\hat{F}_{G}\sim\vec{r}/r$).  However, there are many other ways to go about this, and we do frequently observe groups working with other models (e.g., a centripetal force).
 
 \subsubsection{Tutor questions}
 
