@@ -11,10 +11,26 @@ Alfred Aho.
 \newblock Computation and computational thinking.
 \newblock {\em The Computer Journal}, 2012.
 
+\bibitem{Braun2008}
+Virginia Braun and Victoria Clarke.
+\newblock Using thematic analysis in psychology.
+\newblock {\em Qualitative Research in Psychology}, 2008.
+
 \bibitem{Bundy2007}
 Alan Bundy.
 \newblock Computational thinking is pervasive.
 \newblock {\em Journal of Scientific and Practical Computing}, 2007.
+
+\bibitem{Caballero2011}
+Marcos Caballero, Matthew Kohlmyer, and Michael Schatz.
+\newblock Fostering computational thinking in introductory mechanics.
+\newblock In {\em PERC Proceedings}, 2011.
+
+\bibitem{Caballero2014}
+Marcos Caballero and Steven Pollock.
+\newblock A model for incorporating computation without changing the course: An
+  example from middle-division classical mechanics.
+\newblock {\em Americal Journal of Physics}, 2014.
 
 \bibitem{Catrambone1998}
 Richard Catrambone.
@@ -94,6 +110,12 @@ L.S. Vygotsky.
 \newblock {\em Mind in Society: The Development of Higher Psychological
   Processes}.
 \newblock 1980.
+
+\bibitem{Weatherford2011}
+Shawn Weatherford.
+\newblock {\em Student use of physics to make sense of Incomplete but
+  functional VPython programs in a lab setting.}
+\newblock PhD thesis, North Carolina State University, 2011.
 
 \bibitem{Weintrop2015}
 David Weintrop, Elham Behesthi, Michael Horn, Kai Orton, Kemi Jona, Laura

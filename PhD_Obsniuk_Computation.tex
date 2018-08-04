@@ -98,13 +98,35 @@ Ultimately, this dissertation is meant to illustrate the process of identifying 
 %	BACKGROUND (VERY DETAILED)
 %
 
-\chapter{Background}\label{CH2:Background} %	VERY DETAILED
+\chapter{Background}\label{CH2:Background}
 
-\section{Computation}
+\section{Research}
 
-As a pedagogical tool.
+Researh tool?  Different numerical approximation techniques?
 
-\subsection{Beginnings}
+\section{Pedagogy}
+
+Using computation as a pedagogical tool has taken many forms over the last few decades, but its implementation has usually focused on two things: its ability to handle tedious calculations and its ability to generate precise visualizations.
+
+For example, one of the earlier forms of computation at the introductory level, called BOXER, used simple programming \cite{BOXER} to generate simple two-dimensional shapes on the screen.  This ``reconstructible medium'' allowed even novice programmers to take advantage of the processing and visualization power of computers.
+
+Alternatively, one of the more recent implementations of computation at the introductory level is Glowscript \cite{Sherer2000}.  Glowscript is a variant of VPython (i.e., the Python programming language with the Visual module), which is designed in part to easily generate three-dimensional visualizations.  This more realistic three-dimensional visualization is thought to form a deeper understanding of the fundamental concepts.
+
+Many aspects of computation at the introductory level have been studied, from conceptual understanding to student performance. 
+
+In the early 2000s, Chabay began to research the integration of computation into the introductory calculus-based physics course \cite{Chabay2008}.  Chabay found that one of the positive aspects of including computation was to stimulate creativity.  
+
+Around that same time, Weatherford began to look at integrating computation into the physics lab curriculum and the sense-making that students engage in \cite{Weatherford2011}.  
+
+Around that same time, Kohlmyer dug a little deeper into student performance \cite{Kohlmyer2005}.
+
+In 2011, Weatherford began to look at integrating computation into the physics lab curriculum and the sense-making that students engage in \cite{Weatherford2011}.  
+
+Caballero later made recommendations for integrating computation into an upper-division mechanics course \cite{Caballero2014}, and suggested that investigating the types of thinking and habits of mind students develop while solving computational problems was a good place to continue study \cite{Caballero2011}.
+
+Although many aspects of computation at the introductory level have been studied, there are still many unanswered questions within physics education.  Particularly, as to the type of thinking involved.
+
+\section{Computational thinking}
 
 Seymour Papert first introduced computational thinking in terms of students actively constructing knowledge (constructionism) through the production of an artifact (i.e., a computer program).  However, Papert does not initially attempt to define computational thinking.  Rather, he comments that attempts to integrate computational thinking into everyday life have failed because of the insufficient definition of computational thinking.  He optimistically claims that more attempts to define computational thinking will be made and eventually the ``pieces will come together \cite{Papert1981}.''  Papert would later go on to say that computational thinking involves ``forging new ideas'' that are both ``accessible and powerful \cite{Papert1996}.''
 
@@ -112,25 +134,7 @@ Building on Papert, Jeanette Wing defines computational thinking in terms of tak
 
 Further elaboration by Alfred Aho points out that the process of finding the right tool for the right job is a clear indicator of computational thinking.  Mathematical abstraction (modeling) is at the heart of computational thinking, and be able to choose between competing abstractions (models) is of critical importance \cite{Aho2012}.  Aho points out that although there are many useful definitions of computational thinking within computer science, new domains of investigation (e.g., introductory physics) require definitions of their own.
 
-DiSessa.
-
-\subsection{VPython}
-
-Sherwood.
-
-Chabay.
-
-Weatherford.
-
-Kohlmyer.
-
-Caballero.
-
-Lunk.
-
-\section{Methods for my research}
-
-\subsection{Task analysis}
+\section{Task analysis}
 
 A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{Catrambone1998}.
 
@@ -161,15 +165,17 @@ time into momentum & \\
 \end{tabular}\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{CH3:TaskAnalysis}}
 \end{table}
  
-On top of this expert generated solution, there are many other (both expected and unexpected) student generated solutions that we observe in the data.  However, the expert generated solution is an ideal path to follow and so the instructors try to keep groups moving in this direction.  For example, a sufficient force model be constructed in terms of the polar and azimuthal angle of the satellite, although it requires a substantial amount of work to code.  Both the expert and student generated solutions are a good place to look for evidence of computational thinking and its accompanying practices. 
+On top of this expert generated solution, there are many other (both expected and unexpected) student generated solutions that we observe in the data.  However, the expert generated solution is an ideal path to follow and so the instructors try to keep groups moving in this direction.  For example, a sufficient force model be constructed in terms of the polar and azimuthal angle of the satellite, although it requires a substantial amount of work to code.  Both the expert and student generated solutions are a good place to look for evidence of computational thinking and its accompanying practices.
 
-\subsection{Qualitative analysis}
+\section{Thematic analysis}
 
-Thematic analysis.
+A description of the coding process, like Clarke \cite{Braun2008}.  First, verbatim transcription, making sure to indicate any gestures or implications, as well as identifying relevant writings/typings.  Second, reading through the transcripts or ``familiarizing'' yourself with the data.  Given the length of many of the transcripts, this step is necessary to break the data down into manageable chuncks.  Each transcript is broken down into roughly 50 excerpts.  Each excerpt contains roughly 1-3 practices that are confidently identified.
 
-\subsection{Reliability}
+We indicated confidence by marking a potentially identified practice as either high (green), medium (yellow), or low (red) confidence.  To determine confidence, however, a process of inter-rater reliability was conducted between three raters.  This process included sharing a representative sample of the excerpts and converging on the actual practices observed.  Rationale for every high- to medium-confidence practice, then, is provided according to the framework, according to the data within the excerpt, and according to any data beyond the excerpt.
 
-Confidence and I.R.R.
+With these practices identified, we then analyzed their frequency.  Many practices showed up frequently, and some showed up almost never.  These simple statistics, like $${\rm frequency\,of\,particular\,practice}=\frac{\rm number\,of\,particular\,practice\,observed}{\rm number\,of\,all\,practices\,observed},$$ give us a concrete way to hone in and focus our analysis on the most important (or at least frequent) practices.
+
+The most important practices were then further analyzed for the variation in the characteristics that make up each practice.
 
 \section{Framework}
 
@@ -318,9 +324,9 @@ This type of problem helps to encourage students to identify, isolate, reproduce
 
 \chapter{Motivation}\label{CH4:Motivation}
 
-Aside from a general interest in introductory computational physics, it is important to understand the underlying motivation(s) for the current study.
+Aside from a general interest in introductory computational physics, it is important to understand the underlying motivation(s) for this thesis.
 
-The process of identifying an interesting computational practice, described in Sec.~\ref{Sec:Debug}, was the earliest motivation for this study.  We found that it was extremely difficult to define and identify the particular practice of what we named ``physics debugging.''  Not only did the practice need to be clearly defined, it also needed to be clearly identified in the data.  This required a lot of in-depth qualitative analysis and inter-rater reliability, motivating our use of the Weintrop framework and the qualitative methods of Clarke in the current study.
+The process of identifying an interesting computational practice, described in Sec.~\ref{Sec:Debug}, was the earliest motivation for this study.  We found that it was extremely difficult to define and identify the particular practice of what we named ``physics debugging.''  Not only did the practice need to be clearly defined, it also needed to be clearly identified in the data.  This required a lot of in-depth qualitative analysis and inter-rater reliability, motivating our use of the Weintrop framework and the qualitative methods of Clarke et. al.
 
 Additionally, as described in Sec.~\ref{Sec:Phenom}, we found that it was very difficult to understand the qualitatively different ways in which students experienced computational introductory physics.  This difficulty motivated a task analysis with a focus on identifying practices that the students were engaging in through in-class observation, as opposed to their experiences through out-of-class interviews.
   
