@@ -100,13 +100,21 @@ Ultimately, this dissertation is meant to illustrate the process of identifying 
 
 \section{Computational thinking}
 
-As mention in the introduction, computational thinking and the associated practices are of primary interest.  In order to be able to effectively and efficiently identify these practices, we need to be able to clearly identify this type of thinking.
+As mentioned in the introduction, computational thinking and the associated practices are of primary interest.  These practices, which are generally thought of as a combination of the accumulation of knowledge and its  application through skills, are the measurable things that we can look for within our data.  Working off previous research \cite{AAPT2016,NGSS2012,Weintrop2015}, we can be sure that the computational practices that we identify for introductory physics will be indicative of computational thinking.
 
-The history of computational thinking and its defintion is long and incomplete.  The term was first introduced by Seymore Papert as it related to students actively constructing knowledge (often refered to as ``constructionism'') through the production of an artifact (usually, but not necessarily, a computer program).  However, Papert did not initially attempt to define computational thinking.  Rather, he commented that attempts to integrate computational thinking into everyday life have failed because of the insufficient definition of computational thinking.  He optimistically claimed that more attempts to define computational thinking would be made, and eventually ``the pieces will come together \cite{Papert1981}.''  Papert would later go on to say that computational thinking involves ``forging new ideas'' that are both ``accessible and powerful \cite{Papert1996}.''
+The history of computational thinking and its defintion is long and incomplete \cite{Papert1981,Papert1996,Wing2006,Wing2008,Aho2012,Grover2013,Bundy2007}.  Early on, the term was introduced by Seymore Papert as it related to students actively constructing knowledge through the production of an artifact (usually, but not necessarily, a computer program).  This idea, often called ``constructionism,'' was built on the Piagetian idea of ``constructivism.''  Constructivism states that, roughly speaking, students learn best when they are actively involved in the construction of their knowledge.  Constructionism believes, in part, that it is the construction of a tangible (or intangible) object that is of critical importance when actively constructing knowledge.  There was one particular object that interested Papert: computer programs.
 
-More recently, building on Papert's preliminary observations, Jeanette Wing defines computational thinking as it relates to taking advantage of the processing power of modern computers with the addition of human creativity.  This echoes the core sentiments expressed by Papert of using human creativity to forge new ideas that are computationally powerful.  Wing is careful to remind readers that computational thinking is a fundamental skill for everyone, not just computer scientists \cite{Wing2008}.
+Papert was very interested in looking at how computers could be used to teach things to students.  Some of his earliest research into LOGO and its use as a learning tool focused very heavily on the construction of two-dimensional shapes on the computer screen.  The computational power to generate these accurate and accessible visualizations while attempting to forge new ideas made LOGO and other similar computational implementations very powerful for learning.
+ 
+However, Papert did not initially attempt to define computational thinking in terms of constructionism.  Rather, he commented that attempts to integrate computational thinking into everyday life had failed because of the insufficient definition of computational thinking.  He optimistically claimed that more attempts to define computational thinking would be made, and eventually ``the pieces will come together \cite{Papert1981}.''  Papert would later go on to say that computational thinking involves ``forging new ideas'' that are both ``accessible and powerful \cite{Papert1996}.''
+
+More recently, building on Papert's preliminary observations, Jeanette Wing defines computational thinking as it relates to taking advantage of the processing power of modern computers with the addition of human creativity.  This echoes the core sentiments expressed by Papert of using human creativity to forge new ideas that are computationally powerful.
+
+Wing is careful to remind readers that computational thinking is a fundamental skill for everyone, not just computer scientists \cite{Wing2008}.  This speaks to the robust nature of computational thinking, but also speaks to the difficulty in clearly defining it.  She believes that computational thinking should be taught at the introductory college level, and should even go so far back as to be introduced to the pre-college level.  Wing makes substantial progress in defining computational thinking, but still falls short -- especially within particular sub-domains.
 
 Further elaboration by Alfred Aho points out that the process of finding the right tool for the right job is a clear indicator of computational thinking.  Mathematical abstraction (sometimes called modeling) is at the heart of computational thinking, and being able to choose between competing abstractions (models) is of critical importance \cite{Aho2012}.  Aho points out that although there are many useful definitions of computational thinking within the field of computer science, new domains of investigation (e.g., introductory physics) require definitions of their own.
+
+Introductory physics is a field whose problems are ideal for a computational analysis.  The various models that are used in introductory physics (e.g., A newtonian gravitational force model, an Euler-Cromer Newtonian integration algorithm, non-linear drag model) can be used to predict the motion of realistic and complex mechanical situations.  This type of realistic problem solving is a desirable skill to train students in, and it represents an authentic expert practice.
 
 Theoretical definitions aside, The Next Generation Science Standards has most recently attempted to operationalize a definition of computational thinking in K-12 science classrooms.  They have included computational thinking as one of their core practices, and identify a handful of expectations for K-12 students that require computational thinking.  According to the NGSS, students should be able to \cite{NGSS2012}: \begin{enumerate}
 \item[E1.] Recognize dimensional quantities and use appropriate units in scientific application of mathematical formulas and graphs.
@@ -120,22 +128,52 @@ Theoretical definitions aside, The Next Generation Science Standards has most re
 \item[E5.] Use grade-level-appropriate understanding of mathematics and staistics in analyzing data.
 \end{enumerate}
 
-For example, the expectation of recognizing dimensions in mathematical formula (E1) might show up in a chemistry classroom focusing on mass conservation before and after a chemical reaction.  Alternatively, the expectation of students understanding that simulations rely on mathematical models (E3) might show up in a biology course involving predator/prey predictions based on an underlying computational algorithm (e.g., the Lotka-Volterra equations). 
+For example, the expectation of being able to recognize dimensions in a mathematical formula (E1) might show up in a chemistry classroom focusing on mass conservation before and after a chemical reaction.  Alternatively, the expectation of students understanding that simulations rely on mathematical models (E3) might show up in a biology course involving predator/prey predictions based on an underlying computational algorithm (e.g., the Lotka-Volterra equations). 
 
-Although these expectations require computational thinking, they are still rather vague and could apply to any number of different science classrooms.  Also, although defining computational thinking within K-12 is an ideal starting point, it must also be extended to the university level.  For these reasons, it is important that we further define expectations around computational thinking within a particular domain of interest (i.e., introductory physics) and at a particular level (i.e., university).
+Although these expectations require computational thinking, they are still rather vague and could apply to any number of different science classrooms.  Precising the defintions of these expectations is an important task, especially within a particular domain of interest.  Without precise and domain-specific definitions, applying them to an actual classroom is rather difficult.  One field whose precise definitions are particularly lacking (though, progress is being made) is that of physics.
+
+Similarly, although defining computational thinking within K-12 is an ideal starting point, it must also be extended to more advanced levels.  There are many concepts requiring computational thinking that are unique to the university level and above, and as students advance throughout their educational career, it is important that we study them.  To wit, the AAPT Recommendations for Computational Physics in the Undergraduate Physics Curriculum has identified the skills (physics-related and technical) and tools that should be included in a modern physics curriculum \cite{AAPT2016}.  These recommendations include roughly ten skills like debugging, testing, and validating code and many tools like Excel or Python.
+
+Still, More research is needed to not only more clearly define the computational practices observed in introductory physics, but also to more clearly understand the habits of mind and types of thinking that students are engaging in.  It is important that we further define expectations around computational thinking within a particular domain of interest (i.e., introductory physics) and at a particular level (i.e., university calculus-based).  In other words, we need to look at how happens in the classroom and how we can better define things.
 
 \section{Physics Education Research}
 
-The focus on computational thinking in physics education research (PER) has been increasing over the past decade.  Historically, computation as a pedagogical tool has taken many forms, but its implementation has usually focused on two things: its ability to handle tedious calculations and its ability to generate precise visualizations.
+Research into computational introductory physics can be broken down, roughly speaking, into three distinct but related subsections: the development of the different implementations of computational physics problems (e.g., BOXER to Glowscript) \cite{DiSessa1986,Redish1992,Chonacky2008,McIntyre2008}, the results from DBER (e.g., student challenges) \cite{Chabay2008,Buffler2008,Belloni2008,Hoover2008,Cook2008,Weiman2008}, and the remaining questions.
 
-For example, one of the earlier forms of computation at the introductory level, called BOXER, used ``simple programming'' to generate two-dimensional shapes on a computer screen.  This ``reconstructible medium'' allowed even novice programmers to take advantage of the processing and visualization power of computers.  For examples, Fig.~\ref{CH2:BOXER}raphical user interface for a program meant to generate a star and a triangle for 2 different objects.  The underlying algorithms are laid out in sequential steps.
+\subsection{Glowscript}
+
+The focus on computational thinking in Physics Education Research (PER) has been increasing over the past decade.  Historically, computation as a pedagogical tool has taken many forms, but its implementation has usually focused on two things: its ability to handle tedious calculations and its ability to generate precise visualizations.
+
+For example, one of the earliest forms of computation at the introductory level, called BOXER, used ``simple programming'' to generate two-dimensional shapes on a computer screen.  This ``reconstructible medium'' allowed even novice programmers to take advantage of the processing and visualization power of computers.  For example, Fig.~\ref{CH2:BOXER} shows the graphical user interface for a program meant to generate a star and a triangle for 2 different objects.  The underlying algorithms are laid out in sequential steps.
 
 \begin{figure}\center
 \includegraphics[scale=0.75]{images/CH2BOXER.pdf}
 \caption{Graphical user interface for BOXER showing the graphics data and the resulting graphic.}\label{CH2:BOXER}
 \end{figure}
 
-Alternatively, one of the more recent implementations of computation at the introductory level is called Glowscript \cite{Sherer2000}.  Glowscript is a variant of VPython (i.e., the Python programming language with the Visual module), which is designed (in part) to easily generate three-dimensional visualizations.  For example, the Glowscript program in Fig.~\ref{CH2:Glowscript} uses an Euler-Cromer integration algorithm to predict the motion of a projectile under the influence of a non-linear drag force.  
+Alternatively, another implementation of computational physics takes the name VPython: the Python programming language with the Visual module.  Historically, the ultimate goal of developing VPython was to make it feasible for novice programmers in a physics course to do computer modeling with 3-dimensional visualizations \cite{Sherer2000}.  The visualizations generated with VPython are precise and stunning.
+
+Although VPython was ideal for novice programmers, it also catered to more advanced users.  Its basic algorithm is an Euler-Cromer style integration to calculate the contstantly updating position and momentum (or velocity) of an object within a while loop that depends on time.  For example, Fig.~\ref{CH2:MWP} shows a very simple but powerful MWP.
+
+\begin{figure}
+\includegraphics[scale=0.75]{images/CH2BOXER.pdf}
+\caption{}\label{CH2:MWP}
+\end{figure}
+
+% Expand on EJS
+
+Along with the development of VPython, a software called Easy Java Simulations (EJS) was increasing in use.  The EJSs were meant to give students a little more control behind the scences like VPython, while still limiting the generalizability like PhET simulations.
+
+% Expand on PhET simultions.
+
+PhET simulations.
+
+\begin{figure}
+\includegraphics[scale=0.75]{images/CH2BOXER.pdf}
+\caption{}\label{CH2:EJS}
+\end{figure}
+
+Finally, one of the more recent implementations of computation at the introductory level is called Glowscript \cite{Chabay2008}.  Glowscript is a variant of VPython which is designed (in part) to easily generate three-dimensional visualizations.  For example, the Glowscript program in Fig.~\ref{CH2:Glowscript} uses an Euler-Cromer integration algorithm to predict the motion of a projectile under the influence of a non-linear drag force.  
 
 \begin{figure}\center
 \includegraphics[scale=0.35]{images/CH2Glowscript.pdf}
@@ -144,11 +182,23 @@ Alternatively, one of the more recent implementations of computation at the intr
 
 This more realistic and descriptive three-dimensional visualization is thought to encourage students to form a deeper understanding of the underlying physics concepts.  This and many other aspects of computation at the introductory level have been studied, from conceptual understanding to student performance. 
 
+\subsection{Results}
+
+% Expand on Chabay
+
 In the early 2000s, Chabay began to research the integration of computation into the introductory calculus-based physics course \cite{Chabay2008}.  This course included a computational curriculum following that of \textit{Matter and Interactions}.  Chabay found that one of the positive aspects of including computation was to stimulate creativity.  This creativity in approaching problem solving is thought to lead students to the construction of more realistic computational models (i.e., taking more assumptions into account).
+
+% Expand on Kohlmyer
 
 Around that same time, Kohlmyer dug a little deeper into student performance \cite{Kohlmyer2005}.  He found that, among other things, computational modeling students struggled to recognize that computers could even be used to solve physics problems.  Furthermore, once they did decide to use a computer, they struggled with the concepts and components of creating a computational model.  Kohlmyer made explicit the wide variety of unanswered questions that could be pursued in further research, hinting that the process of ``making assumptions'' and incorporating them into a computational model would be of particular interest.
 
+More recently, there has been an explosion of the delivery of computational physics problems in the undergraduate curriculum.  The advent of high level programming languags and inexpensive computers has all but caused this.  There are many different implementations (cite 20) -- however, research to improve that delivery has been lacking.  Some of the critical results, though, are described below.
+
+% Expand on Weatherford
+
 In 2011, Weatherford began to look at integrating computation into the physics lab curriculum and the sense-making that students engage in \cite{Weatherford2011}.  He found, among other things, that computational physics students were able to interpret physical quantities according to their variable name.  For example, the mass of a satellite might be defined as \texttt{m.satellite}.  However, the more complicated the definition got (e.g., a function of variables like \texttt{Fnet = -k * (ball.pos-origin.pos) / mag(L)}, the more students struggled.  Weatherford pointed out that their MWP activities had much room for improvement, and that more research was needed on fostering student proficiency in computational physics.
+
+% Expand on Caballero
 
 Caballero later made recommendations for integrating computation into an upper-division mechanics course \cite{Caballero2014}.  He found that their model provided many affordances given its ``flipped'' nature.  Also, focusing on the fundamental concepts allowed even introductory students to not feel overwhelmed.  However, he is clear to point out that their model does not come without its shortcomings.
 
@@ -159,11 +209,46 @@ Caballero also suggested that investigating the types of thinking and habits of 
 \caption{Sample program from Caballero et. al.}\label{CH2:Caballero}
 \end{figure}
 
-Although many aspects of computation and computational thinking at the introductory level have been studied, there are still many unanswered questions within physics education.  Particularly, as to the type of practices that are indicative of computational thinking.
+\subsection{Remaining questions}
 
-%
-% SAVE FOR LATER
-%
+Although many aspects of computation and computational thinking at the introductory level have been studied, there are still many unanswered questions within physics education.  Particularly, as to the type of practices that are indicative of computational thinking.  More research is needed to not only more clearly define the computational practices observed in introductory physics, but also to more clearly understand the habits of mind and types of thinking that students are engaging in.
+
+\section{Framework}
+
+Recently, a framework for identifying the computational practices that are indicative of computational thinking has been proposed by Weintrop et. al.  This framework was developed using computational activities from general science and mathematics classrooms.  Their study analyzed $32$ different computational activitiesthat manifested $45$ distinct practices which were classified into $4$ different categories.  Each practice has roughly $5$ fundamental characteristics, as listed in Fig.~\ref{CH2:Framework}.
+
+\begin{figure}
+\center
+\begin{enumerate}
+\item Data
+\begin{enumerate}
+\item Collecting
+\begin{enumerate}
+\item Propose protocols
+\item Articulate automation
+\end{enumerate}
+\item Creation
+\begin{enumerate}
+\item Define procedures
+\item Run simulations
+\item Create data
+\item Advance understanding
+\end{enumerate}
+\item Analysis
+\item Visualization
+\end{enumerate}
+\item Modeling and Simulation
+\item Problem Solving
+\item Systems Thinking
+\end{enumerate}
+\caption{The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms.  Each category contains between five and seven individual practices, and each practice has between two and seven fundamental characteristics.}\label{CH2:Framework}
+\end{figure}
+
+The four different categories of practices are labeled as data, modeling and simulation, computational problem solving, and systems thinking practices.  The data practices focus mostly on the creation and visualization of data.  The modeling and simulation practices focus mostly on the design, construction, and assessment of a computational model.  The problem solving practices focus mostly on programming and debugging, while the systems thinking practices are a little more abstract and focus mostly on the structure of the program itself.
+
+As a more concrete example, the computational practice of creating data has three fundamental characteristics: the creation of a set of data, an articulation of the underlying algorithm, and a use of the data to advance their understanding of a concept.  The more of the characteristics that we observe in a particular excerpt, the more confident we are that that excerpt can be classified as that practice.
+
+Although each practice is defined like this, according to Weintrop et. al, the characteristics themselves are rather vague (similar to the operational defintions from the NGSS).  For example, the computational practice of assessing computational models requires the identification of a phenomenon, a computational model, and a comparison made between the two.  Although it is clear what a comparison would look like in any situation, the phenomena studied and the models used will depend greatly on the context (See Ch.~\ref{CH3:Context}).  For this reason, much more work must be done to clearly define computational thinking within introductory physics classrooms.  Especially for the framework to become valuable to anyone looking to implement it in their classroom.
 
 \section{Task analysis}
 
@@ -211,43 +296,6 @@ We indicated confidence by marking a potentially identified practice as either h
 With these practices identified, we then analyzed their frequency.  Many practices showed up frequently, and some showed up almost never.  These simple statistics, like $${\rm frequency\,of\,particular\,practice}=\frac{\rm number\,of\,particular\,practice\,observed}{\rm number\,of\,all\,practices\,observed},$$ give us a concrete way to hone in and focus our analysis on the most important (or at least frequent) practices.
 
 The most important practices were then further analyzed for the variation in the characteristics that make up each practice.
-
-\section{Framework}
-
-Recently, a framework for identifying the computational practices that are indicative of computational thinking has been proposed by Weintrop et. al.  This framework was developed using computational activities from general science and mathematics classrooms.  Their study analyzed $32$ different computational activitiesthat manifested $45$ distinct practices which were classified into $4$ different categories.  Each practice has roughly $5$ fundamental characteristics, as listed in Fig.~\ref{CH2:Framework}.
-
-\begin{figure}
-\center
-\begin{enumerate}
-\item Data
-\begin{enumerate}
-\item Collecting
-\begin{enumerate}
-\item Propose protocols
-\item Articulate automation
-\end{enumerate}
-\item Creation
-\begin{enumerate}
-\item Define procedures
-\item Run simulations
-\item Create data
-\item Advance understanding
-\end{enumerate}
-\item Analysis
-\item Visualization
-\end{enumerate}
-\item Modeling and Simulation
-\item Problem Solving
-\item Systems Thinking
-\end{enumerate}
-\caption{The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms.  Each category contains between five and seven individual practices, and each practice has between two and seven fundamental characteristics.}\label{CH2:Framework}
-\end{figure}
-
-The four different categories of practices are labeled as data, modeling and simulation, computational problem solving, and systems thinking practices.  The data practices focus mostly on the creation and visualization of data.  The modeling and simulation practices focus mostly on the design, construction, and assessment of a computational model.  The problem solving practices focus mostly on programming and debugging, while the systems thinking practices are a little more abstract and focus mostly on the structure of the program itself.
-
-As a more concrete example, the computational practice of creating data has three fundamental characteristics: the creation of a set of data, an articulation of the underlying algorithm, and a use of the data to advance their understanding of a concept.  The more of the characteristics that we observe in a particular excerpt, the more confident we are that that excerpt can be classified as that practice.
-
-Although each practice is defined like this, according to Weintrop et. al, the characteristics themselves are rather vague (similar to the operational defintions from the NGSS).  For example, the computational practice of assessing computational models requires the identification of a phenomenon, a computational model, and a comparison made between the two.  Although it is clear what a comparison would look like in any situation, the phenomena studied and the models used will depend greatly on the context (See Ch.~\ref{CH3:Context}).  For this reason, much more work must be done to clearly define computational thinking within introductory physics classrooms.  Especially for the framework to become valuable to anyone looking to implement it in their classroom.
 
 %
 %	CONTEXT (P3)
@@ -382,7 +430,7 @@ This type of problem helps to encourage students to identify, isolate, reproduce
 
 \chapter{Motivation}\label{CH4:Motivation}
 
-Aside from a general interest in introductory computational physics, it is important to understand the underlying motivation(s) for this thesis.
+Aside from a general interest in introductory computational physics, it is important to understand the underlying motivation(s) for this thesis.  The following chapter was published in the proceedings of the 2015 Physics Education Research Conference \cite{AAPT2016}, and is presented here with minor modifications from its appearance in publication. It was published with second and third authors Paul W. Irving and Marcos D. Caballero, respectively.
 
 The process of identifying an interesting computational practice, described in Sec.~\ref{Sec:Debug}, was the earliest motivation for this study.  We found that it was extremely difficult to define and identify the particular practice of what we named ``physics debugging.''  Not only did the practice need to be clearly defined, it also needed to be clearly identified in the data.  This required a lot of in-depth qualitative analysis and inter-rater reliability, motivating our use of the Weintrop framework and the qualitative methods of Clarke et. al.
 

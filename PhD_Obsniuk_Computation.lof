@@ -1,16 +1,18 @@
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Graphical user interface for BOXER showing the graphics data and the resulting graphic.\relax }}{9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Glowscript output demonstrating its ability to generate three-dimensional visualizations of objects, vectors, and graphs.\relax }}{10}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Sample program from Caballero et. al.\relax }}{12}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms. Each category contains between five and seven individual practices, and each practice has between two and seven fundamental characteristics.\relax }}{15}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Portion of on-line notes that is made available to the students during the first week of the course. These notes introduce the fundamenatal programming ideas and a list of common errors with tips and tricks.\relax }}{19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Pre-class homework question focusing on the different ways that the magnitude of a vector can be constructed in VPython code: explicitly coding the square root of the sum of the squares of the components and using the pre-defined Python ``magnitude'' function.\relax }}{20}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A schedule for the semester focusing on topics covered, homework/reading deadlines, and in-class problems. \textbf {Should this figure be on a landscape page?}\relax }}{22}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The Newtonian gravitational force problem statement delivered to the students in the third week of class.\relax }}{23}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The initial code and visualization of the MWP that is given to the students in the third week of the course.\relax }}{24}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces A seclection of tutor questions that focus on the computational model each group has constructed.\relax }}{25}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces A snippet of written feedback given to a student after the third week.\relax }}{27}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces A portion of a post-class homework question delivered in the third week of the course. This question requires students to troubleshoot and debug the code.\relax }}{28}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The debugging process necessarily corresponds to a phase beset on either side by the phases of recognition and resolution. Note the absence of a vertical scale, as the vertical separation merely acts to distinguish phases.\relax }}{33}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Visual representation of the different levels of rationale pertaining to an excerpt. Green, yellow, and red cells represent high, medium, and low confidence, respectively.\relax }}{35}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A ``density plot'' for all computational practices and all groups.\relax }}{36}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces A table showing rough statistics for assessing computational models.\relax }}{37}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Graphical user interface for BOXER showing the graphics data and the resulting graphic.\relax }}{11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \relax }}{12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \relax }}{12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Glowscript output demonstrating its ability to generate three-dimensional visualizations of objects, vectors, and graphs.\relax }}{13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sample program from Caballero et. al.\relax }}{15}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms. Each category contains between five and seven individual practices, and each practice has between two and seven fundamental characteristics.\relax }}{16}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Portion of on-line notes that is made available to the students during the first week of the course. These notes introduce the fundamenatal programming ideas and a list of common errors with tips and tricks.\relax }}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Pre-class homework question focusing on the different ways that the magnitude of a vector can be constructed in VPython code: explicitly coding the square root of the sum of the squares of the components and using the pre-defined Python ``magnitude'' function.\relax }}{23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A schedule for the semester focusing on topics covered, homework/reading deadlines, and in-class problems. \textbf {Should this figure be on a landscape page?}\relax }}{25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The Newtonian gravitational force problem statement delivered to the students in the third week of class.\relax }}{26}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The initial code and visualization of the MWP that is given to the students in the third week of the course.\relax }}{27}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces A seclection of tutor questions that focus on the computational model each group has constructed.\relax }}{28}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces A snippet of written feedback given to a student after the third week.\relax }}{30}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces A portion of a post-class homework question delivered in the third week of the course. This question requires students to troubleshoot and debug the code.\relax }}{31}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The debugging process necessarily corresponds to a phase beset on either side by the phases of recognition and resolution. Note the absence of a vertical scale, as the vertical separation merely acts to distinguish phases.\relax }}{36}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Visual representation of the different levels of rationale pertaining to an excerpt. Green, yellow, and red cells represent high, medium, and low confidence, respectively.\relax }}{38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A ``density plot'' for all computational practices and all groups.\relax }}{39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces A table showing rough statistics for assessing computational models.\relax }}{40}

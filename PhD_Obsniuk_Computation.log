@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  8 AUG 2018 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  10 AUG 2018 20:55
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -874,185 +874,195 @@ Chapter 1.
 Chapter 2.
 [6
 
-] [7] [8]
-<images/CH2BOXER.pdf, id=57, 560.09232pt x 197.9897pt>
+] [7] [8] [9] [10]
+<images/CH2BOXER.pdf, id=63, 560.09232pt x 197.9897pt>
 File: images/CH2BOXER.pdf Graphic file (type pdf)
 <use images/CH2BOXER.pdf>
-Package pdftex.def Info: images/CH2BOXER.pdf  used on input line 134.
+Package pdftex.def Info: images/CH2BOXER.pdf  used on input line 150.
 (pdftex.def)             Requested size: 420.0682pt x 148.4919pt.
-<images/CH2Glowscript.pdf, id=58, 1355.93036pt x 541.27219pt>
+File: images/CH2BOXER.pdf Graphic file (type pdf)
+<use images/CH2BOXER.pdf>
+Package pdftex.def Info: images/CH2BOXER.pdf  used on input line 159.
+(pdftex.def)             Requested size: 420.0682pt x 148.4919pt.
+File: images/CH2BOXER.pdf Graphic file (type pdf)
+<use images/CH2BOXER.pdf>
+Package pdftex.def Info: images/CH2BOXER.pdf  used on input line 172.
+(pdftex.def)             Requested size: 420.0682pt x 148.4919pt.
+ [11 <./images/CH2BOXER.pdf>]
+<images/CH2Glowscript.pdf, id=73, 1355.93036pt x 541.27219pt>
 File: images/CH2Glowscript.pdf Graphic file (type pdf)
 <use images/CH2Glowscript.pdf>
-Package pdftex.def Info: images/CH2Glowscript.pdf  used on input line 141.
+Package pdftex.def Info: images/CH2Glowscript.pdf  used on input line 179.
 (pdftex.def)             Requested size: 474.58273pt x 189.44809pt.
 
-Overfull \hbox (4.82771pt too wide) in paragraph at lines 141--142
+Overfull \hbox (4.82771pt too wide) in paragraph at lines 179--180
  [] 
  []
 
-[9 <./images/CH2BOXER.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 151.
+[12] [13 <./images/CH2Glowscript.pdf>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 199.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [10 <./images/CH2Glowscript.pdf>]
-Overfull \hbox (0.59117pt too wide) in paragraph at lines 153--154
+)
+Overfull \hbox (0.59117pt too wide) in paragraph at lines 203--204
 []\T1/cmr/m/n/12 Caballero later made rec-om-men-da-tions for in-te-grat-ing co
 m-pu-ta-tion into an upper-division
  []
 
-<images/CH2Caballero.pdf, id=78, 478.78873pt x 228.10217pt>
+<images/CH2Caballero.pdf, id=87, 478.78873pt x 228.10217pt>
 File: images/CH2Caballero.pdf Graphic file (type pdf)
 <use images/CH2Caballero.pdf>
-Package pdftex.def Info: images/CH2Caballero.pdf  used on input line 158.
+Package pdftex.def Info: images/CH2Caballero.pdf  used on input line 208.
 (pdftex.def)             Requested size: 383.0315pt x 182.48196pt.
-[11]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 189.
+[14] [15 <./images/CH2Caballero.pdf>] [16] [17]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 274.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 189.
- [12 <./images/CH2Caballero.pdf>]
-Overfull \hbox (0.52177pt too wide) in paragraph at lines 209--210
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 274.
+ [18]
+Overfull \hbox (0.52177pt too wide) in paragraph at lines 294--295
 []\T1/cmr/m/n/12 We in-di-cated con-fi-dence by mark-ing a po-ten-tially iden-t
 i-fied prac-tice as ei-ther high (green),
  []
 
-[13] [14] [15] [16]
+[19]
 Chapter 3.
-[17
+[20
 
 ]
-<images/CH3VPythonNotes.pdf, id=108, 452.4102pt x 207.4149pt>
+<images/CH3VPythonNotes.pdf, id=118, 452.4102pt x 207.4149pt>
 File: images/CH3VPythonNotes.pdf Graphic file (type pdf)
 <use images/CH3VPythonNotes.pdf>
-Package pdftex.def Info: images/CH3VPythonNotes.pdf  used on input line 271.
+Package pdftex.def Info: images/CH3VPythonNotes.pdf  used on input line 319.
 (pdftex.def)             Requested size: 452.40909pt x 207.41438pt.
- [18] [19 <./images/CH3VPythonNotes.pdf>]
-<images/CH3PreClassQuestion.pdf, id=123, 341.47577pt x 367.94966pt>
+ [21] [22 <./images/CH3VPythonNotes.pdf>]
+<images/CH3PreClassQuestion.pdf, id=132, 341.47577pt x 367.94966pt>
 File: images/CH3PreClassQuestion.pdf Graphic file (type pdf)
 <use images/CH3PreClassQuestion.pdf>
-Package pdftex.def Info: images/CH3PreClassQuestion.pdf  used on input line 282
+Package pdftex.def Info: images/CH3PreClassQuestion.pdf  used on input line 330
 .
 (pdftex.def)             Requested size: 256.10619pt x 275.96156pt.
- [20 <./images/CH3PreClassQuestion.pdf>]
-<images/CH3Schedule.pdf, id=141, 658.84283pt x 368.57236pt>
+ [23 <./images/CH3PreClassQuestion.pdf>]
+<images/CH3Schedule.pdf, id=150, 658.84283pt x 368.57236pt>
 File: images/CH3Schedule.pdf Graphic file (type pdf)
 <use images/CH3Schedule.pdf>
-Package pdftex.def Info: images/CH3Schedule.pdf  used on input line 303.
+Package pdftex.def Info: images/CH3Schedule.pdf  used on input line 351.
 (pdftex.def)             Requested size: 395.30875pt x 221.14511pt.
- [21] [22 <./images/CH3Schedule.pdf>]
-<images/CH3SatelliteProblem.pdf, id=486, 421.3341pt x 101.9007pt>
+ [24] [25 <./images/CH3Schedule.pdf>]
+<images/CH3SatelliteProblem.pdf, id=496, 421.3341pt x 101.9007pt>
 File: images/CH3SatelliteProblem.pdf Graphic file (type pdf)
 <use images/CH3SatelliteProblem.pdf>
-Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 319
+Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 367
 .
 (pdftex.def)             Requested size: 421.33307pt x 101.90044pt.
- [23 <./images/CH3SatelliteProblem.pdf>]
-<images/CH3InitialCode.pdf, id=497, 547.65118pt x 499.73878pt>
+ [26 <./images/CH3SatelliteProblem.pdf>]
+<images/CH3InitialCode.pdf, id=507, 547.65118pt x 499.73878pt>
 File: images/CH3InitialCode.pdf Graphic file (type pdf)
 <use images/CH3InitialCode.pdf>
-Package pdftex.def Info: images/CH3InitialCode.pdf  used on input line 332.
+Package pdftex.def Info: images/CH3InitialCode.pdf  used on input line 380.
 (pdftex.def)             Requested size: 219.05658pt x 199.89197pt.
-<images/CH3InitialVisual.pdf, id=498, 547.65118pt x 499.73882pt>
+<images/CH3InitialVisual.pdf, id=508, 547.65118pt x 499.73882pt>
 File: images/CH3InitialVisual.pdf Graphic file (type pdf)
 <use images/CH3InitialVisual.pdf>
-Package pdftex.def Info: images/CH3InitialVisual.pdf  used on input line 332.
+Package pdftex.def Info: images/CH3InitialVisual.pdf  used on input line 380.
 (pdftex.def)             Requested size: 219.05658pt x 199.89197pt.
- [24 <./images/CH3InitialCode.pdf> <./images/CH3InitialVisual.pdf
+ [27 <./images/CH3InitialCode.pdf> <./images/CH3InitialVisual.pdf
 
 pdfTeX warning: pdflatex (file ./images/CH3InitialVisual.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-<images/CH3TutorQuestion.pdf, id=511, 696.32056pt x 642.90193pt>
+<images/CH3TutorQuestion.pdf, id=520, 696.32056pt x 642.90193pt>
 File: images/CH3TutorQuestion.pdf Graphic file (type pdf)
 <use images/CH3TutorQuestion.pdf>
-Package pdftex.def Info: images/CH3TutorQuestion.pdf  used on input line 343.
+Package pdftex.def Info: images/CH3TutorQuestion.pdf  used on input line 391.
 (pdftex.def)             Requested size: 348.15942pt x 321.45018pt.
- [25 <./images/CH3TutorQuestion.pdf>] [26]
-<images/CH3WrittenFeedback.pdf, id=522, 343.47316pt x 137.56339pt>
+ [28 <./images/CH3TutorQuestion.pdf>] [29]
+<images/CH3WrittenFeedback.pdf, id=531, 343.47316pt x 137.56339pt>
 File: images/CH3WrittenFeedback.pdf Graphic file (type pdf)
 <use images/CH3WrittenFeedback.pdf>
-Package pdftex.def Info: images/CH3WrittenFeedback.pdf  used on input line 362.
+Package pdftex.def Info: images/CH3WrittenFeedback.pdf  used on input line 410.
 
 (pdftex.def)             Requested size: 429.3404pt x 171.95378pt.
- [27 <./images/CH3WrittenFeedback.pdf>]
-<images/CH3PostClassHomework.pdf, id=676, 696.32056pt x 642.90193pt>
+ [30 <./images/CH3WrittenFeedback.pdf>]
+<images/CH3PostClassHomework.pdf, id=686, 696.32056pt x 642.90193pt>
 File: images/CH3PostClassHomework.pdf Graphic file (type pdf)
 <use images/CH3PostClassHomework.pdf>
-Package pdftex.def Info: images/CH3PostClassHomework.pdf  used on input line 37
-3.
+Package pdftex.def Info: images/CH3PostClassHomework.pdf  used on input line 42
+1.
 (pdftex.def)             Requested size: 348.15942pt x 321.45018pt.
- [28 <./images/CH3PostClassHomework.pdf>] [29]
+ [31 <./images/CH3PostClassHomework.pdf>] [32]
 Chapter 4.
-[30
+[33
 
-] [31]
-<./images/phases.pdf, id=695, 181.21887pt x 73.31786pt>
+] [34] [35]
+<./images/phases.pdf, id=707, 181.21887pt x 73.31786pt>
 File: ./images/phases.pdf Graphic file (type pdf)
 <use ./images/phases.pdf>
-Package pdftex.def Info: ./images/phases.pdf  used on input line 410.
+Package pdftex.def Info: ./images/phases.pdf  used on input line 458.
 (pdftex.def)             Requested size: 181.21841pt x 73.31767pt.
- [32] [33 <./images/phases.pdf>]
+ [36 <./images/phases.pdf>]
 Chapter 5.
-[34
+[37
 
-] [35]
-<./images/matrix.pdf, id=716, 231.11977pt x 231.11977pt>
+] [38]
+<./images/matrix.pdf, id=726, 231.11977pt x 231.11977pt>
 File: ./images/matrix.pdf Graphic file (type pdf)
 <use ./images/matrix.pdf>
-Package pdftex.def Info: ./images/matrix.pdf  used on input line 460.
+Package pdftex.def Info: ./images/matrix.pdf  used on input line 508.
 (pdftex.def)             Requested size: 231.11919pt x 231.11919pt.
- [36 <./images/matrix.pdf>] [37] [38]
+ [39 <./images/matrix.pdf>] [40] [41]
 Chapter 6.
-[39
+[42
 
 ]
 Chapter 7.
-[40
-
-] [41
-
-]
-Appendix A.
-(PhD_Obsniuk_Computation.bbl [42
-
-
-] [43
+[43
 
 ] [44
 
-]) [45] (PhD_Obsniuk_Computation.aux) ) 
+]
+Appendix A.
+(PhD_Obsniuk_Computation.bbl [45
+
+
+] [46
+
+] [47
+
+] [48]) [49]
+(PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
- 17962 strings out of 492976
- 339987 string characters out of 3135985
- 367081 words of memory out of 3000000
- 21658 multiletter control sequences out of 15000+200000
+ 17972 strings out of 492976
+ 340104 string characters out of 3135985
+ 367136 words of memory out of 3000000
+ 21668 multiletter control sequences out of 15000+200000
  543789 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,16n,63p,1279b,1483s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Michael\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Michael\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Micha
-el\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:
-\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
-2488.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx1440.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Michael\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (52 pages, 1306804 bytes).
+ <C:\Users\Michael\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Michael\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Michael\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\M
+ichael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
+ <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1440.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecbx1200.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on PhD_Obsniuk_Computation.pdf (56 pages, 1315601 bytes).
 PDF statistics:
- 1145 PDF objects out of 1200 (max. 8388607)
+ 1160 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

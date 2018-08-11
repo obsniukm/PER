@@ -11,10 +11,22 @@ Alfred Aho.
 \newblock Computation and computational thinking.
 \newblock {\em The Computer Journal}, 2012.
 
+\bibitem{Belloni2008}
+M.~Belloni and W.~Christian.
+\newblock Time development in quantum mechanics using a reduced hilbert space
+  approach.
+\newblock {\em American Journal of Physics}, 2008.
+
 \bibitem{Braun2008}
 Virginia Braun and Victoria Clarke.
 \newblock Using thematic analysis in psychology.
 \newblock {\em Qualitative Research in Psychology}, 2008.
+
+\bibitem{Buffler2008}
+A.~Buffler, S.~Pillay, F.~Lubben, and R.~Fearick.
+\newblock A model-based view of physics for computational activities in the
+  introductory physics course.
+\newblock {\em American Journal of Physics}, 2008.
 
 \bibitem{Bundy2007}
 Alan Bundy.
@@ -49,6 +61,16 @@ Norman Chonacky and David Winch.
   and guidelines for future developments.
 \newblock {\em American Journal of Physics}, 2008.
 
+\bibitem{Cook2008}
+D.~Cook.
+\newblock Computation in undergraduate physics: The lawrence approach.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{DiSessa1986}
+A.~A. DiSessa and H~Abelson.
+\newblock Boxer: A reconstructible computerional medium.
+\newblock {\em Communications of the ACM}, 1986.
+
 \bibitem{Fitzgerald2008}
 Sue Fitzgerald, Gary Lewandowski, Renee McCauley, Laurie Murphy, Beth Simon,
   Lynda Thomas, and Carol Zander.
@@ -65,6 +87,11 @@ Bent Flyvbjerg.
 Shuchi Grover and Roy Pea.
 \newblock Computational thinking in k-12: A review of the state of the field.
 \newblock {\em Educational Resarcher}, 2013.
+
+\bibitem{Hoover2008}
+Wm.~G. Hoover and C.~G. Hoover.
+\newblock Computational physics wth particles.
+\newblock {\em American Journal of Physics}, 2008.
 
 \bibitem{Irving2017}
 Paul Irving, Michael Obsniuk, and Marcos Caballero.
@@ -84,6 +111,12 @@ Renee McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon,
   perspective.
 \newblock {\em Computer Science Education}, 2008.
 
+\bibitem{McIntyre2008}
+D.~H. McIntyre and C.~A. Manogue.
+\newblock Integrating computational activities into the upper-level paradigms
+  in physics curriculum.
+\newblock {\em American Journal of Physics}, 2008.
+
 \bibitem{NGSS2012}
 Committee on~a Conceptual Framework~for New K-12 Science Education~Standards.
 \newblock {\em A Framework for K-12 Science Education: Practices, Crosscutting
@@ -99,6 +132,11 @@ Seymour Papert.
 Seymour Papert.
 \newblock An exploration in the space of mathematics educations.
 \newblock {\em Technology, Knowledge, and Learning}, 1996.
+
+\bibitem{Redish1992}
+Edward Redish and Jack Wilson.
+\newblock Student programming in the introductory physics course: M.u.p.p.e.t.
+\newblock {\em American Journal of Physics}, 1992.
 
 \bibitem{Sherer2000}
 David Sherer, Paul Dubois, and Bruce Sherwood.
@@ -116,6 +154,12 @@ Shawn Weatherford.
 \newblock {\em Student use of physics to make sense of Incomplete but
   functional VPython programs in a lab setting.}
 \newblock PhD thesis, North Carolina State University, 2011.
+
+\bibitem{Weiman2008}
+C.~E. Weiman, K.~K. Perkins, and W.~K. Adams.
+\newblock Interactive simulations for teaching physics: what works, what
+  doesn't, and why.
+\newblock {\em American Journal of Physics}, 2008.
 
 \bibitem{Weintrop2015}
 David Weintrop, Elham Behesthi, Michael Horn, Kai Orton, Kemi Jona, Laura
