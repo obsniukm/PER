@@ -148,73 +148,89 @@ For example, one of the earliest forms of computation at the introductory level,
 
 \begin{figure}\center
 \includegraphics[scale=0.75]{images/CH2BOXER.pdf}
-\caption{Graphical user interface for BOXER showing the graphics data and the resulting graphic.}\label{CH2:BOXER}
+\caption{Graphical user interface for BOXER showing the graphics data (e.g., $x$-position, $y$-position, step instructions) and the resulting graphic.}\label{CH2:BOXER}
 \end{figure}
 
 Alternatively, another implementation of computational physics takes the name VPython: the Python programming language with the Visual module.  Historically, the ultimate goal of developing VPython was to make it feasible for novice programmers in a physics course to do computer modeling with 3-dimensional visualizations \cite{Sherer2000}.  The visualizations generated with VPython are precise and stunning.
 
 Although VPython was ideal for novice programmers, it also catered to more advanced users.  Its basic algorithm is an Euler-Cromer style integration to calculate the contstantly updating position and momentum (or velocity) of an object within a while loop that depends on time.  For example, Fig.~\ref{CH2:MWP} shows a very simple but powerful MWP.  This algorithm can be used to analyze very simple situations (e.g., free-fall motion) as well as more complicated and realistic (e.g., the motion of satellites and rockets).
 
-\begin{figure}
-\includegraphics[scale=0.75]{images/CH2BOXER.pdf}
-\caption{}\label{CH2:MWP}
+\begin{figure}\center
+\includegraphics[scale=0.60]{images/CH2MWP.pdf}
+\caption{A MWP illustrating that the basic control structure (while loop) and integration algorithm are pre-written so that students can focus on the computational force model that must be constructed.}\label{CH2:MWP}
 \end{figure}
 
-Along with the development of VPython, a software called Easy Java Simulations (EJS) was increasing in use [CITE ESQUEMBRE].  These simulations were meant to give students a little more control behind the scences like VPython, while still limiting the generalizability like PhET simulations (described below).
+Along with the development of VPython, a software called Easy Java Simulations (EJS) was increasing in use \cite{Esquembre2005}.  These simulations were meant to give students a little more control behind the scences like VPython, while still limiting the generalizability like PhET simulations (described below).
 
 For example, a simulation of a pendulum could be constructed in EJS by dragging a particular object (e.g, a pendulum bob) into the model and using their built-in editor to solve the associated differential equation (see Fig.~\ref{CH2:EJS}).  Only a small amount of modification is needed, reducing the load on novice programmers.  This reduction in load through scaffolded programs is very similar to the MWPs used in a lot of the research within PER.
 
-\begin{figure}
-\includegraphics[scale=0.75]{images/CH2BOXER.pdf}
-\caption{}\label{CH2:EJS}
+\begin{figure}\center
+\includegraphics[scale=0.40]{images/CH2EJS.pdf}
+\caption{Graphical user interface for an EJS illustrating the ``drag-and-drop'' nature of the software.  Elements (e.g., a pendulum bob) can be added or remove from the different panels (e.g., the drawing panel) in the simulation view.}\label{CH2:EJS}
 \end{figure}
 
-Another implementation of computation, frequently used today, are the Physics Education Technology (PhET) simulations [CITE PERKINS].  These simulations have realistic graphics that display buttons, sliders, and knobs that can be graphically tweaked to change parameters in the system.  This type of testing -- searching for the effect on a physical system with the variation in a parameter -- is meant to be more engaging and conducive to learning.
+Another implementation of computation, frequently used today, are the Physics Education Technology (PhET) simulations \cite{Perkins2006}.  These simulations have realistic graphics that display buttons, sliders, and knobs that can be graphically tweaked to change parameters in the system.  This type of testing -- searching for the effect on a physical system with the variation in a parameter -- is meant to be more engaging and conducive to learning.
 
-For example, the PhET simulation shown in Fig.~\ref{CH2:PhET} is meant to demonstrate the dependence of a sinusoidal function on the various parameters (i.e., amplitude and frequency).  Being able to hold one parameter constant while varying the other helps students to identify its qualitative effect.
+For example, the PhET simulation shown in Fig.~\ref{CH2:PhET} is meant to demonstrate the dependence of a pendulum's motion (e.g., its period or amplitude of oscillation) on the various parameters of the system (e.g., the length of the pendulum or the magnitude of friction).  Being able to hold one parameter constant while varying the other helps students to confidently identify its qualitative effect.
 
-\begin{figure}
-\includegraphics[scale=0.75]{images/CH2BOXER.pdf}
-\caption{}\label{CH2:PhET}
+\begin{figure}\center
+\includegraphics[scale=0.50]{images/CH2PhET.pdf}
+\caption{A PhET simulation illustrating the dependence of pendulum motion on the length of the pendulum, the mass of the pendulum bob, the magnitude of the local acceleration due to the gravity, and any frictional forces.}\label{CH2:PhET}
 \end{figure}
 
 Finally, one of the more recent implementations of computation at the introductory level is called Glowscript \cite{Chabay2008}.  Glowscript is a variant of VPython which is designed (in part) to easily generate three-dimensional visualizations.  For example, the Glowscript program in Fig.~\ref{CH2:Glowscript} uses an Euler-Cromer integration algorithm to predict the motion of a projectile under the influence of a non-linear drag force.  
 
 \begin{figure}\center
 \includegraphics[scale=0.35]{images/CH2Glowscript.pdf}
-\caption{Glowscript output demonstrating its ability to generate three-dimensional visualizations of objects, vectors, and graphs.}\label{CH2:Glowscript}
+\caption{Glowscript output demonstrating its ability to generate three-dimensional visualizations of objects, vectors, and graphs.  The ability to quickly and accurately generate three-dimensional vectors allows for more flexibility and a deeper understanding of, for example, electric (vector) fields.}\label{CH2:Glowscript}
 \end{figure}
 
 This more realistic and descriptive three-dimensional visualization leveraged by VPython is thought to encourage students to form a deeper understanding of the underlying physics concepts.  Although many different implementations of computation exist, research focusing on improving those implementations is still lacking.  Some of the critical results, though, are described below.
 
 \subsection{Results}
 
-In the early 2000s, Chabay began to research the integration of computation into the introductory calculus-based physics course \cite{Chabay2008} using VPython.  This course included a computational curriculum following that of \textit{Matter and Interactions}.  Primarily, the courses studied focused on the application of the integral equation governing the linear motion of objects (i.e., $d\vec{p}=\vec{F}_{\rm net}\,dt+\vec{p}_{i}$ and $d\vec{r}=\vec{p}/m\,dt$).  These equations were applied iteratively through an Euler-Cromer style integration algorithm.
+In the early 2000s, Chabay began to research the integration of computation into the introductory calculus-based physics course using VPython \cite{Chabay2008}.  This course included a computational curriculum following that presented by \textit{Matter and Interactions}.  Primarily, the courses studied focused on the application of the integral equation governing the linear motion of objects (i.e., $d\vec{p}=\vec{F}_{\rm net}\,dt+\vec{p}_{i}$ and $d\vec{r}=\vec{p}/m\,dt$).  These equations were applied iteratively through an Euler-Cromer style integration algorithm, and allowed a more thoroughly analysis of position-dependent forces (e.g., the Newtonian gravitational and spring forces).
 
 Chabay found that one of the positive aspects of including computation at the introductory level was to stimulate creativity in students.  This creativity in approaching problem solving is thought to lead students to the construction of more realistic computational models.  In other words, computation allows students to easily verify and/or modify a model, encouraging creativity and a ``guess and check'' approach to problem solving.
 
-Around that same time, Kohlmyer dug a little deeper into student performance \cite{Kohlmyer2005}.  He found that, among other things, computational modeling students struggled to recognize that computers could even be used to solve physics problems.  Furthermore, once they did decide to use a computer, they struggled with the concepts and components of creating a computational model.
+Chabay also found that one requiring students to program at the introductory physics level was a difficult barrier to overcome.  Given that there is so much content to be covered in so little time in most introductory physics courses, finding the room/time to discuss the basics of programming is difficult.  One of the ways in which this difficulty is overcome is by providing Minimally Working Programs (MWPs) to students.  The MWP for a particular problem usually runs without error from the start (pre-written code), and requires small (or at least localized) changes to the underlying computational models.
 
-Interestingly, he found that students decided to take advantage of the Euler-Cromer style integration in discrete form even when they weren't using a computational model.  That is, students made use of the key conceptual tool that they were taught -- even if with paper and pen.  Kohlmyer made explicit the wide variety of unanswered questions that could be pursued in further research, hinting that the process of ``making assumptions'' and incorporating them into a computational model would be of particular interest.
+Around that same time, Kohlmyer dug a little deeper into student performance \cite{Kohlmyer2005}.  He found that, among other things, computational modeling students struggled to recognize that computers could even be used to solve physics problems.  Furthermore, once they did decide to use a computer, they struggled with the concepts and components of creating a computational model.  These results were generated from two experiments: looking at how students approach novel problems with computation and looking at the differences in the fundamental principles used as compared to traditional (i.e., a non-computation focused curriculum) students.
 
-In 2011, Weatherford began to look at integrating computation into the physics lab curriculum and the sense-making that students engage in \cite{Weatherford2011}.  He found, among other things, that computational physics students were able to reasonably interpret physical quantities according to their variable name.
+Interestingly, he found that students decided to take advantage of the Euler-Cromer style integration in discrete form even when they weren't using a computational model.  That is, students made use of the key conceptual tool that they were taught -- even if just on paper.
 
-For example, the mass of a satellite might be defined as \texttt{m.satellite = 1}, or the net force acting on object may be defined as \texttt{Fnet = vector(0,-m*g,0)}.  These aptly named variables are named so as to suggest to the students what physical quantity they represent.  However, the more complicated the definitions get (e.g., a function of multiple variables like \texttt{Fnet = -k * (ball.pos - origin.pos) / mag(L)}, the more students struggled at recognizing it.
+He also found that the complex procedure needed to model attractive position-dependent forces was a difficult challenge for students.  Reducing this difficulty can be achieved through increasing the frequency of computation throughout the course and requiring computational homework problems.  Kohlmyer made explicit the wide variety of unanswered questions that could be pursued in further research, hinting that the process of ``making assumptions'' and incorporating them into a computational model would be of particular interest.
 
-Weatherford clearly pointed out that the MWP activities in their study had much room for improvement, and that more research was needed on fostering student proficiency in computational physics.
+In 2011, Weatherford began to look at integrating computation into the physics lab curriculum and the sense-making that students engage in \cite{Weatherford2011}.  His study was an in-depth qualitative analysis of group problem solving, focusing on three different contexts: a scattering problem, a spring-mass problem, and a spacecraft-Earth problem.  A coding scheme was developed to help categorize different portions of transcript, as shown in Fig.~\ref{CH2:Weatherford}.
 
-Caballero later made recommendations for integrating computation into an upper-division mechanics course \cite{Caballero2014}.  He found that their model provided many affordances given its ``flipped'' nature.  Also, focusing on the fundamental concepts allowed even introductory students to not feel overwhelmed.  However, he is clear to point out that their model does not come without its shortcomings.
+\begin{figure}\center
+\includegraphics[scale=0.60]{images/CH2Weatherford.pdf}
+\caption{A sample of the in-depth analysis Weatherford performed.  Each particular line of code that the group is focusing on is tracked in time.}\label{CH2:Weatherford}
+\end{figure}
 
-Caballero also suggested that investigating the types of thinking and habits of mind students develop while solving computational problems was a good place to continue study \cite{Caballero2011}.  For example, Fig.~\ref{CH2:Caballero} shows a program that students, under the guidance of their TAs, completed in order to generate a simulation of a satellite orbiting Earth.  Based on his analysis of this problem, he concluded that the practice of debugging would serve students well.  Particularly, the act of troubleshooting syntax errors as well as the act of troubleshooting of \textit{physics} errors.
+He found, among other things, that computational physics students were able to reasonably interpret physical quantities according to their variable name.  For example, the mass of a satellite might be defined as \texttt{m.satellite = 1}, or the net force acting on object may be defined as \texttt{Fnet = vector(0,-m*g,0)}.  These pre-written variables are named so as to suggest to the students what physical quantity they represent.  However, the more complicated the definitions get (e.g., a function of multiple variables like \texttt{Fnet = -k * (ball.pos - origin.pos) / mag(L)}, the more students struggled at recognizing it.
+
+Additionally, Weatherford was able to encourage students to begin to incorporate a computational model in a MWP by providing a minimum level of support.  That is, only omitting the fundamental physics calculations that students are meant to engage with (e.g., various computational force models) helps to keep students focused on the physics.  Other tasks that are not physical in nature have a tendency to derail the physics discussion and the problem solving process in general.  For example, ensuring that the end of a spring is connected to the end of a mass in a computational spring-mass analysis begins to overshadow the more fundamental task of incorporate a position-dependent Hookian spring force.
+
+Weatherford clearly pointed out that the MWP activities in their study had much room for improvement, and that more research was needed on fostering student proficiency in computational physics.  Although the sequence of MWPs in his study didn't quite raise 
+students' program comprehension and program interpretation skills to a certain profficiency, he believes that more research will shed light on the subject.
+
+Caballero later suggested that investigating the types of thinking and habits of mind students develop while solving computational problems was a good place to continue study \cite{Caballero2011}.  For example, Fig.~\ref{CH2:Caballero} shows a program that students, under the guidance of their TAs, completed in order to generate a simulation of a satellite orbiting Earth.
 
 \begin{figure}\center
 \includegraphics[scale=0.8]{images/CH2Caballero.pdf}
-\caption{Sample program from Caballero et. al.}\label{CH2:Caballero}
+\caption{An expected solution to a computational satellite-Earth problem where the Newtonian gravitational force has been constructed from a separation vector and its magnitude.  The force calculation has been incorporated into the momentum through Newton's second law, and the momentum is incorporated into the position through a position update.}\label{CH2:Caballero}
 \end{figure}
+
+Caballero was able to identify a number of frequent student mistakes which were grouped into three different categories: initial condition mistakes, force calculation mistakes, and second law mistakes.  An initial condition mistake might take the form of an incorrect initial velocity or momentum of the satellite.  A force calculation mistake might manifest in a constant spring force rather than a position dependent spring force.  A second law mistake might involve missing the division of the mass from the net force on an object so that the velocity is correctly updated according to the acceleration.  These frequent mistakes result in both unexpected and physically inaccurate visualizations.
+
+Based on his analysis of the satellite-Earth problem, he concluded that the majority of students ($\sim\SI{60}{\percent}$) were able to correctly computational model novel physics problems and that the practice of debugging would serve students well.  Particularly, the act of troubleshooting syntax errors as well as the act of troubleshooting of \textit{physics} errors.
+
+Caballero also made recommendations for integrating computation into an upper-division mechanics course \cite{Caballero2014}.  He found that their model provided many affordances given its ``flipped'' nature.  Also, focusing on the fundamental concepts allowed even introductory students to not feel overwhelmed.  However, he is clear to point out that their model does not come without its shortcomings.
 
 \subsection{Remaining questions}
 
-Although many aspects of computation and computational thinking at the introductory level have been studied, there are still many unanswered questions within physics education.  Particularly, as to the type of practices that are indicative of computational thinking.  More research is needed to not only more clearly define the computational practices observed in introductory physics, but also to more clearly understand the habits of mind and types of thinking that students are engaging in.
+Although many aspects of computation and computational thinking at the introductory level have been studied, there are still many unanswered questions within physics education.  Particularly, as to the types of practices students are engaging in  that are indicative of computational thinking.  More research is needed to not only more clearly define the computational practices observed in introductory physics, but also to more clearly understand the habits of mind and types of thinking that students are engaging in.
 
 \section{Framework}
 

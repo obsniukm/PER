@@ -114,6 +114,13 @@
   Year                     = {1986}
 }
 
+@Article{Esquembre2005,
+  Title                    = {Easy Java Simulations: An open-source tool to develop interactive virtual laboratories using MATLAB/Simulink},
+  Author                   = {F. Esquembre},
+  Journal                  = {International Journal of Engineering Education},
+  Year                     = {2005}
+}
+
 @Article{Fitzgerald2008,
   Title                    = {Debugging: finding, fixing and flailing, a multi-institutional study of novice debuggers},
   Author                   = {Sue Fitzgerald and Gary Lewandowski and Renee McCauley and Laurie Murphy and Beth Simon and Lynda Thomas and Carol Zander},

@@ -71,6 +71,12 @@ A.~A. DiSessa and H~Abelson.
 \newblock Boxer: A reconstructible computerional medium.
 \newblock {\em Communications of the ACM}, 1986.
 
+\bibitem{Esquembre2005}
+F.~Esquembre.
+\newblock Easy java simulations: An open-source tool to develop interactive
+  virtual laboratories using matlab/simulink.
+\newblock {\em International Journal of Engineering Education}, 2005.
+
 \bibitem{Fitzgerald2008}
 Sue Fitzgerald, Gary Lewandowski, Renee McCauley, Laurie Murphy, Beth Simon,
   Lynda Thomas, and Carol Zander.
@@ -132,6 +138,12 @@ Seymour Papert.
 Seymour Papert.
 \newblock An exploration in the space of mathematics educations.
 \newblock {\em Technology, Knowledge, and Learning}, 1996.
+
+\bibitem{Perkins2006}
+Katherine Perkins, Wendy Adams, Michael Dubson, Noah Finkelstein, Sam Reid,
+  Carl Wieman, and Ron LeMaster.
+\newblock Phet: Interactive simulations for teaching and learning physics.
+\newblock {\em The Physics Teacher}, 2006.
 
 \bibitem{Redish1992}
 Edward Redish and Jack Wilson.
