@@ -234,52 +234,49 @@ Although many aspects of computation and computational thinking at the introduct
 
 \section{Framework}
 
-Recently, a framework for identifying the computational practices that are indicative of computational thinking has been proposed by Weintrop et. al.  This framework was developed using computational activities from general science and mathematics classrooms.  Their study analyzed $32$ different computational activitiesthat manifested $45$ distinct practices which were classified into $4$ different categories.  Each practice has roughly $5$ fundamental characteristics, as listed in Fig.~\ref{CH2:Framework}.
+Recently, a framework for identifying the computational practices that are indicative of computational thinking has been proposed by Weintrop et. al.  This framework was developed using existing literature on computational thinking, interview with mathematicians and scientists, and most importantly, computational activities from general science and mathematics classrooms.
 
-\begin{figure}
-\center
-\begin{enumerate}
-\item Data
-\begin{enumerate}
-\item Collecting
-\begin{enumerate}
-\item Propose protocols
-\item Articulate automation
-\end{enumerate}
-\item Creation
-\begin{enumerate}
-\item Define procedures
-\item Run simulations
-\item Create data
-\item Advance understanding
-\end{enumerate}
-\item Analysis
-\item Visualization
-\end{enumerate}
-\item Modeling and Simulation
-\item Problem Solving
-\item Systems Thinking
-\end{enumerate}
+In order to develop their framework, a literature review was performed to generate an intial set of $10$ math and science practices.  These initial practices are repeatedly cited as being central to computational thinking.  For example, the broad practice of generating algorithmic solutions might require a student to not only engage with a differential equation, but also to engage with the processing power of computers.  These initial practices were used to guide the subsequent qualitative analysis.
+
+Using the initial practices resulting from the literature review, two reviewers independently coded for the various ``facets'' of computational thinking that were required by the curricular materials.  They analyzed $32$ different computational activities from chemistry to programming, resulting in $208$ facets which were grouped into $45$ different practices.
+
+Next, a review process incorporating feedback from multiple source (e.g., teachers, content experts, and curriculum designers) was used to reduce the $45$ practices into $27$, which were further organized into $5$ different categories.  Further, external interviews were conducted with $16$ K-12 science and mathematics teachers, helping to reduce the $27$ practices into $22$ fitting $4$ different categories, shown in Tab.~\ref{CH2:Framework}.
+
+\begin{table}[hb]\centering
+\begin{tabular}{llll}\hline\hline
+Data         & Modeling     & Solving     & Systems       \\\hline
+Creating     & Conepts      & Preparing   & Investigating \\
+Collecting   & Testing      & Programming & Understanding \\
+Manipulating & Assessing    & Choosing    & Thinking      \\
+             &              & Creating    & Communicating \\
+             &              & Debugging   & Defining      \\\hline\hline
+\end{tabular}
 \caption{The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms.  Each category contains between five and seven individual practices, and each practice has between two and seven fundamental characteristics.}\label{CH2:Framework}
-\end{figure}
+\end{table}
+
+Finally, $15$ interviews with STEM professionals were conducted to rate the framework according to its appicability to authentic professional practices and to give direction for improvement.  For example, interviews showed that the practice of testing and debugging was a crucial practice that was not adequately captured by the framework, an improvement that should be made on future iterations of the framework.
 
 The four different categories of practices are labeled as data, modeling and simulation, computational problem solving, and systems thinking practices.  The data practices focus mostly on the creation and visualization of data.  The modeling and simulation practices focus mostly on the design, construction, and assessment of a computational model.  The problem solving practices focus mostly on programming and debugging, while the systems thinking practices are a little more abstract and focus mostly on the structure of the program itself.
 
-As a more concrete example, the computational practice of creating data has three fundamental characteristics: the creation of a set of data, an articulation of the underlying algorithm, and a use of the data to advance their understanding of a concept.  The more of the characteristics that we observe in a particular excerpt, the more confident we are that that excerpt can be classified as that practice.
+As a more concrete example, the computational practice of creating data (a data practice) has three fundamental characteristics: the creation of a set of data, an articulation of the underlying algorithm, and a use of the data to advance their understanding of a concept.  The more of the characteristics that we observe in a particular excerpt, the more confident we are that that excerpt can be classified as that practice.
 
 Although each practice is defined like this, according to Weintrop et. al, the characteristics themselves are rather vague (similar to the operational defintions from the NGSS).  For example, the computational practice of assessing computational models requires the identification of a phenomenon, a computational model, and a comparison made between the two.  Although it is clear what a comparison would look like in any situation, the phenomena studied and the models used will depend greatly on the context (See Ch.~\ref{CH3:Context}).  For this reason, much more work must be done to clearly define computational thinking within introductory physics classrooms.  Especially for the framework to become valuable to anyone looking to implement it in their classroom.
 
+Ultimately, Weintrop found three main benefits to including computation: it builds on the reciprocal relationship between computationl thinking and STEM domains, it engages learners as well as instructors, and it introduces an authentic and modern element of doing science.  However, he is clear to indicate that more research is needed to better address the challenge of educating a technologically and scientifically savvy population.
+
 \section{Task analysis}
 
-Motivation for this section.
+In order to give this research a solid foundation, early on, we conducted at ask analysis of a complicated computational physics problem.  A task analysis consists of breaking a problem down into multiple smaller but manageable sub-tasks.  These sub-tasks can then be searched for within data.  For example, an expert group might proceed in predicting the motion of an object by first constructing an Euler-Cromer style algorithm, constructing the various forces, and then construct the initial parameters of the system.
 
-A task analysis consists of breaking a complex ``task'' (e.g., modeling a gravitational system) down into related ``sub-tasks'' (e.g., determine the direction of the force). We aim to identify somewhat more manageable steps that must be taken in order to complete the overall task \cite{Catrambone1998}.
+This type of process was used by Catrambone to show that breaking a problem down into smaller but manageable sub-tasks helps students to transfer knowledge to new and novel problems \cite{Catrambone1998}.  He and others believe that it is a heriarchical structure of tasks rather than a linear structure of tasks that students need to transfer knowledge to new and novel situations.  The flexibility of a heirarchical structure is thought to support a more varied approach to solving a problem.
 
-The task analysis of this problem was initially constructed by a single content expert. After the first iteration it was presented to additional experts. Through this discussion, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks. The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks shown in Tab.~\ref{CH3:TaskAnalysis} were sufficiently described to be useful in video analysis.
+They performed three experiments, each focusing on how students transfer knowledge to new and novel problems.  The first experiment was a comparison between the meaningfulness of a label's name.  They found that the more meaningful the label was, the better prepared students were to solve new and novel problems.  The second was a deeper study of the connections between labels and sub-tasks.  They found, to a reasonable degree, that there was a fundamental connection between labels, sub-tasks, and how they were grouped.  The third was a talk-aloud study that looked at self-explanation while solving problems.  They found that aptly named labels could be used to cue students to group sub-tasks and explain their purpose through self-explanation.
+
+The task analysis of the problem that this thesis focuses on was initially constructed by a single content expert.  After the first iteration it was presented to additional experts.  Through the discussions surrounding these iterations, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks.  The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks shown in Tab.~\ref{CH3:TaskAnalysis} were sufficiently described/defined to be useful in video analysis.
 
 \begin{table}[hb]\centering
-\begin{tabular}{ll}
-\textbf{Step (Sub-Task)} & \textbf{Associated Code} \\\hline
+\begin{tabular}{lr}\hline\hline
+Step (Sub-Task) & Associated Code \\\hline
 Construct separation vector & \begin{lstlisting}
 sep = obj2.pos
 \end{lstlisting}\\
@@ -298,7 +295,7 @@ vector & \begin{lstlisting}
 Integrate the net force over & \begin{lstlisting}
 obj.p = obj.p + Fnet*dt
 \end{lstlisting}\\
-time into momentum & \\
+time into momentum & \\\hline\hline
 \end{tabular}\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{CH3:TaskAnalysis}}
 \end{table}
  
@@ -306,15 +303,22 @@ On top of this expert generated solution, there are many other (both expected an
 
 \section{Thematic analysis}
 
-Motivation for this section.
+The qualitative methodology that we used follows a widely used method within psychology: thematic analysis.  However frequently used, thematic analysis is rarely defined.  Accordingly, Braun et. al has provided clear guidelines for conducting a scientifically reliable and valid qualitative analysis \cite{Braun2008}.
 
-A description of the coding process, like Clarke \cite{Braun2008}.  First, verbatim transcription, making sure to indicate any gestures or implications, as well as identifying relevant writings/typings.  Second, reading through the transcripts or ``familiarizing'' yourself with the data.  Given the length of many of the transcripts, this step is necessary to break the data down into manageable chuncks.  Each transcript is broken down into roughly 50 excerpts.  Each excerpt contains roughly 1-3 practices that are confidently identified.
+According to Braun, a thematic analysis is a ``method for identifying, analyzing, and reporting patterns (themes) within data.''  This method consists of $6$ different phases, usually followed linearly, to finally produce a report (i.e, a thematic map) of the various themes and their relationships within a set of qualitative data.
 
-We indicated confidence by marking a potentially identified practice as either high (green), medium (yellow), or low (red) confidence.  To determine confidence, however, a process of inter-rater reliability was conducted between three raters.  This process included sharing a representative sample of the excerpts and converging on the actual practices observed.  Rationale for every high- to medium-confidence practice, then, is provided according to the framework, according to the data within the excerpt, and according to any data beyond the excerpt.
+The first phase focuses on transcribing and farmiliarizing yourself with the data.  Reading through the transcripts multiple times helps to generate preliminary ideas that can be coded for further investigation.  Next, each code must be collated with the corresponding transcript so as to provide a context.  After the codes have been collated with the corresponding transcript, themes begin to emerge in the third phase.
 
-With these practices identified, we then analyzed their frequency.  Many practices showed up frequently, and some showed up almost never.  These simple statistics, like $${\rm frequency\,of\,particular\,practice}=\frac{\rm number\,of\,particular\,practice\,observed}{\rm number\,of\,all\,practices\,observed},$$ give us a concrete way to hone in and focus our analysis on the most important (or at least frequent) practices.
+Reviewing any themes that emerge, particularly against the coded extracts and the transcript as a whole, leads to the next phase of defining, validating, and naming any themes.  These themes can finally be presented in a scholarly report with step-by-step transcript analysis and/or a thematic map.  A thematic map, shown in Fig.~\ref{CH2:Map}, shows not only the components of a theme, but also the \textit{relationships} between those components.
 
-The most important practices were then further analyzed for the variation in the characteristics that make up each practice.
+\begin{figure}\center
+\includegraphics[scale=0.60]{images/CH2Map.pdf}
+\caption{A final thematic map showing the components of a theme named ``computation as asset.''  The main components of this theme are ``power,'' ``fun'', and ``enjoyable.''}\label{CH2:Map}
+\end{figure}
+
+Braun is clear to point out that there are many pitfalls associate with thematic analysis, and that researchers must be cognizant of them through every phase of the process.  For example, one of the pitfalls she highlights is a possible mismatch between the data and the analytic claims that are being made.  In other words, it is important to always closely tie your claims with the actual data.  This closeness of the claims to the data can be ensured through frequent inter-rater reliability checks.
+
+Given the flexibility of qualitative anlysis, it is important to be clear and explicit about the decisions being made throughout the entire process.  Braun has presented $15$ criteria for conducting a good qualitative thematic analysis.  These criteria focus on things like checking that each data item has been given equal attention, and checking that themes are internally coherent, consistent, and distinctive.
 
 %
 %	CONTEXT (P3)
@@ -515,6 +519,12 @@ Each characteristic that is identified is supported with rationale on three leve
 \caption{Visual representation of the different levels of rationale pertaining to an excerpt.  Green, yellow, and red cells represent high, medium, and low confidence, respectively.}\label{CH3:VariableAnalysis}
 \end{figure}
 
+We indicated confidence by marking a potentially identified practice as either high (green), medium (yellow), or low (red) confidence.  To determine confidence, however, a process of inter-rater reliability was conducted between three raters.  This process included sharing a representative sample of the excerpts and converging on the actual practices observed.  Rationale for every high- to medium-confidence practice, then, is provided according to the framework, according to the data within the excerpt, and according to any data beyond the excerpt.
+
+With these practices identified, we then analyzed their frequency.  Many practices showed up frequently, and some showed up almost never.  These simple statistics, like $${\rm frequency\,of\,particular\,practice}=\frac{\rm number\,of\,particular\,practice\,observed}{\rm number\,of\,all\,practices\,observed},$$ give us a concrete way to hone in and focus our analysis on the most important (or at least frequent) practices.
+
+The most important practices were then further analyzed for the variation in the characteristics that make up each practice.
+
 So that we safeguard against the researcher influencing the results too much, inter-rater reliability is checked at multiple points throughout the analysis.  This check consists of an independent researcher (the inter-rater) identifying practices with confidence in a reduced set of the data and comparing with the primary researcher.  Any practices in which confidence is questioned and lost are discounted from being identified.
 
 \section{Findings}
@@ -612,8 +622,35 @@ The most important things that you should be paying attention to are the creatio
 %	EXTRA
 %
 
-%\begin{landscape}
-%\thispagestyle{empty}
-%\captionof{table}{caption_text}
-%\captionof{figure}{caption_text}
-%\end{landscape}
+\begin{landscape}
+\thispagestyle{empty}
+\captionof{table}{caption_text}
+\captionof{figure}{caption_text}
+\end{landscape}
+
+\begin{figure}
+\center
+\begin{enumerate}
+\item Data
+\begin{enumerate}
+\item Collecting
+\begin{enumerate}
+\item Propose protocols
+\item Articulate automation
+\end{enumerate}
+\item Creation
+\begin{enumerate}
+\item Define procedures
+\item Run simulations
+\item Create data
+\item Advance understanding
+\end{enumerate}
+\item Analysis
+\item Visualization
+\end{enumerate}
+\item Modeling and Simulation
+\item Problem Solving
+\item Systems Thinking
+\end{enumerate}
+\caption{The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms.  Each category contains between five and seven individual practices, and each practice has between two and seven fundamental characteristics.}\label{CH2:Framework}
+\end{figure}
