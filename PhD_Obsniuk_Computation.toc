@@ -4,7 +4,7 @@
 \contentsline {chapter}{\numberline {Chapter 2}Background}{6}
 \contentsline {section}{\numberline {2.1}Computational thinking}{6}
 \contentsline {section}{\numberline {2.2}Physics Education Research}{10}
-\contentsline {subsection}{\numberline {2.2.1}Implementation}{10}
+\contentsline {subsection}{\numberline {2.2.1}Implementation}{11}
 \contentsline {subsection}{\numberline {2.2.2}Results}{15}
 \contentsline {subsection}{\numberline {2.2.3}Remaining questions}{19}
 \contentsline {section}{\numberline {2.3}Framework}{20}
