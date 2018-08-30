@@ -6,6 +6,12 @@ Undergraduate Curriculum Task~Force AAPT.
   physics curriculum.
 \newblock Technical report, AAPT, 2016.
 
+\bibitem{Ahmadzedah2005}
+Marzieh Ahmadzedah, Dave Elliman, and Colin Higgins.
+\newblock An analysis of patterns of debugging among novice computer science
+  students.
+\newblock In {\em ITiCSE Proceedings}, 2005.
+
 \bibitem{Aho2012}
 Alfred Aho.
 \newblock Computation and computational thinking.
@@ -38,12 +44,6 @@ Marcos Caballero, Matthew Kohlmyer, and Michael Schatz.
 \newblock Fostering computational thinking in introductory mechanics.
 \newblock In {\em PERC Proceedings}, 2011.
 
-\bibitem{Caballero2014}
-Marcos Caballero and Steven Pollock.
-\newblock A model for incorporating computation without changing the course: An
-  example from middle-division classical mechanics.
-\newblock {\em Americal Journal of Physics}, 2014.
-
 \bibitem{Catrambone1998}
 Richard Catrambone.
 \newblock The subgoal learning model: Creating better eexample so that students
@@ -54,6 +54,11 @@ Richard Catrambone.
 Ruth Chabay and Bruce Sherwood.
 \newblock Computational physics in the introductory calculus-based course.
 \newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Chandra1990}
+B.~Chandrasekaran.
+\newblock Design problem solving: a task analysi.
+\newblock {\em AI maganize}, 1990.
 
 \bibitem{Chonacky2008}
 Norman Chonacky and David Winch.
@@ -77,6 +82,12 @@ F.~Esquembre.
   virtual laboratories using matlab/simulink.
 \newblock {\em International Journal of Engineering Education}, 2005.
 
+\bibitem{Fereda2006}
+Jennifer Fereda and Eimear Muir-Cochrane.
+\newblock Demonstrating rigor using thematic analysis: A hybrid approach of
+  inductive and deductive coding and theme development.
+\newblock {\em International Journal of Qualitative Methods}, 2006.
+
 \bibitem{Fitzgerald2008}
 Sue Fitzgerald, Gary Lewandowski, Renee McCauley, Laurie Murphy, Beth Simon,
   Lynda Thomas, and Carol Zander.
@@ -98,6 +109,11 @@ Shuchi Grover and Roy Pea.
 Wm.~G. Hoover and C.~G. Hoover.
 \newblock Computational physics wth particles.
 \newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Irving2016}
+P.~W. Irving and E.~C. Sayre.
+\newblock Developing physics identities.
+\newblock {\em Physics Today}, 2016.
 
 \bibitem{Irving2017}
 Paul Irving, Michael Obsniuk, and Marcos Caballero.
@@ -128,6 +144,11 @@ Committee on~a Conceptual Framework~for New K-12 Science Education~Standards.
 \newblock {\em A Framework for K-12 Science Education: Practices, Crosscutting
   Concepts, and Core Ideas}.
 \newblock The National Academies Press, 2012.
+
+\bibitem{Otero2009}
+Valerie Otero and Danielle Harlow.
+\newblock {\em Getting started in PER}.
+\newblock AAPT, 2009.
 
 \bibitem{Papert1972}
 Seymour Papert.
@@ -199,5 +220,11 @@ Jeanette Wing.
 Jeannette Wing.
 \newblock Computational thinking.
 \newblock {\em Communications of the ACM}, 2006.
+
+\bibitem{Winter1970}
+D.G. Winter and D.C. McClelland.
+\newblock Thematic analysis: An empirically derived measure of the effects of
+  liberal arts education.
+\newblock {\em Journal of educational psychology}, 1970.
 
 \end{thebibliography}
