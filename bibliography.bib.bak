@@ -206,6 +206,11 @@
   Year                     = {2009}
 }
 
+@Article{Papert1971,
+  Author                   = {Seymour Papert},
+  Year                     = {1971}
+}
+
 @Book{Papert1981,
   Title                    = {Mindstorms: Children, computers, and powerful ideas},
   Author                   = {Seymour Papert},
@@ -218,6 +223,20 @@
   Author                   = {Seymour Papert},
   Journal                  = {Technology, Knowledge, and Learning},
   Year                     = {1996}
+}
+
+@Article{Perkins2006,
+  Title                    = {PhET: Interactive Simulations for Teaching and Learning Physics},
+  Author                   = {Katherine Perkins and Wendy Adams and Michael Dubson and Noah Finkelstein and Sam Reid and Carl Wieman and Ron LeMaster},
+  Journal                  = {The Physics Teacher},
+  Year                     = {2006}
+}
+
+@Book{Piaget1963,
+  Title                    = {Origins of intellifence in children},
+  Author                   = {Jean Piaget},
+  Publisher                = {W. W. Norton and Company},
+  Year                     = {1963}
 }
 
 @Article{Redish1992,

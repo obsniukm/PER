@@ -3,13 +3,13 @@
 \contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}
 \contentsline {chapter}{\numberline {Chapter 2}Background}{6}
 \contentsline {section}{\numberline {2.1}Computational thinking}{6}
-\contentsline {section}{\numberline {2.2}Physics Education Research}{10}
+\contentsline {section}{\numberline {2.2}Physics Education Research}{11}
 \contentsline {subsection}{\numberline {2.2.1}Implementation}{11}
 \contentsline {subsection}{\numberline {2.2.2}Results}{15}
-\contentsline {subsection}{\numberline {2.2.3}Remaining questions}{19}
+\contentsline {subsection}{\numberline {2.2.3}Remaining questions}{20}
 \contentsline {section}{\numberline {2.3}Framework}{20}
-\contentsline {section}{\numberline {2.4}Task analysis}{22}
-\contentsline {section}{\numberline {2.5}Thematic analysis}{24}
+\contentsline {section}{\numberline {2.4}Task analysis}{23}
+\contentsline {section}{\numberline {2.5}Thematic analysis}{25}
 \contentsline {chapter}{\numberline {Chapter 3}Context}{27}
 \contentsline {section}{\numberline {3.1}Course design}{27}
 \contentsline {section}{\numberline {3.2}VPython}{28}
