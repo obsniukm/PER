@@ -52,6 +52,7 @@
 \maketitlepage
 
 \begin{abstract}
+Introduction, Background, Context, Motivation, Analysis, Discussion, Conclusion.
 \end{abstract}
 
 \TOC
@@ -63,7 +64,21 @@
 \begin{doublespace}
 
 %
-%	INTRODUCTION (VERY HIGH LEVEL)
+%
+%
+%
+%
+%
+%
+%
+%	INTRODUCTION
+%
+%
+%
+%
+%
+%
+%
 %
 
 \chapter{Introduction}\label{CH1:Introduction}
@@ -93,7 +108,21 @@ However, the broad and expert-generated definitions that make the taxonomy widel
 Ultimately, this dissertation is meant to illustrate the process of identifying the common practices that groups of students engage in while solving a realistic computational physics problem.  In Ch.~\ref{CH2:Background} we explicate the prior research on computation and its results, as well as the theoretical and methodological underpinnings of the study.  This includes the historical and recent results from Physics Education Research (PER) and Computer Science Education Research (CSER).  In Ch.~\ref{CH3:Context}, we describe the course from which our data has been collected -- a calculus-based introductory physics course with a focus on engineering, working in groups, and computation.  We also describe the types of computational problems students are working on in class.  In Ch.~\ref{CH4:Motivation}, we provide a motivation for not only the existence of the study, but also the theories and methods that we decided on using.  Our theories and methodologies used depended highly on the type of data that we had and the type of research we were conducting.  In Chs.~\ref{CH5:Analysis}--\ref{CH7:Conclusion}, we present the analysis and results of our current study with concluding remarks.
 
 %
-%	BACKGROUND (VERY DETAILED)
+%
+%
+%
+%
+%
+%
+%
+%	BACKGROUND
+%
+%
+%
+%
+%
+%
+%
 %
 
 \chapter{Background}\label{CH2:Background}
@@ -102,7 +131,7 @@ In order to better understand the analysis and results of this thesis, there are
 
 \section{Computational thinking}
 
-As mentioned in the introduction, computational thinking and its associated practices within introductory physics are of primary interest to this thesis.  These practices, which are generally thought of as a combination of the accumulation of knowledge and its  application through particular skills, are the observables that we can look for within our data.  Building on previous research that attempts to tie computational thinking to observable skills and practices \cite{AAPT2016,NGSS2012,Weintrop2015}, we are confident that we can more clearly and precisely define the fundamental practices within introductory physics.
+As mentioned in the introduction, computational thinking and its associated practices within introductory physics are of primary interest to this thesis.  These practices, which are generally thought of as a combination of the accumulation of knowledge and its  application through particular skills, are the observables that we can look for within our data.  Building on previous research that attempts to tie computational thinking to observable skills and practices \cite{AAPT2016,NGSS2012,Weintrop2015}, we have attempted to more clearly and precisely define the fundamental practices within introductory physics.
 
 The history of computational thinking and its defintion is long but incomplete \cite{Papert1981,Papert1996,Wing2006,Wing2008,Aho2012,Grover2013,Bundy2007}.  Early on, the term was introduced by Seymore Papert as it related to students actively constructing knowledge through the production of an artifact (ideally, but not necessarily, a computer program).  This idea of learning through construction, often called ``constructionism,'' was built on the Piagetian idea of ``constructivism.''  Constructivism states that students learn best when they are actively involved in the construction of their knowledge \cite{Piaget1963}.  Constructionism, on the other hand, believes that it is the construction of a tangible (or intangible) object that is of critical importance when actively constructing knowledge \cite{Papert1981}.
 
@@ -110,11 +139,11 @@ Papert was very interested in looking at how computers could be used to teach th
  
 However, Papert did not initially attempt to define computational thinking in terms of constructionism.  Rather, he commented that attempts to integrate computational thinking into everyday life had failed because of the insufficient definition of computational thinking.  He optimistically claimed that more attempts to define computational thinking would be made, and eventually ``the pieces will come together \cite{Papert1981}.''  Papert would later go on to say that computational thinking involves ``forging new ideas'' that are both ``accessible and powerful \cite{Papert1996}.''
 
-More recently, building on Papert's preliminary observations, Jeanette Wing defines computational thinking as it relates to the processing power of modern computers with the addition of human creativity.  This echoes the core sentiments expressed by Papert of using human creativity to forge new ideas that are computationally powerful.
+More recently, building on Papert's preliminary observations, Jeanette Wing defines computational thinking as it relates to the processing power of modern computers with the addition of human creativity.  This echoes the core sentiments expressed by Papert of using human creativity to forge new ideas that are computationally powerful.  She states that ``[it] involves solving problems, designing systems, and understanding human behavior, by drawing on the concepts fundamental to computer science. \cite{Wing2006}''
 
 Wing is careful to remind readers that computational thinking is a fundamental skill for everyone, not just computer scientists \cite{Wing2008}.  This speaks to the robust nature of computational thinking, but also speaks to the difficulty in clearly defining it.  She believes that computational thinking should be taught at the introductory college level, and should even go so far back as to be introduced at the pre-college level.  Wing makes substantial progress in defining computational thinking, but still falls short -- especially within particular sub-domains like computational physics or chemistry.
 
-Further elaboration by Alfred Aho points out that the process of finding the right tool (e.g., a software like Excel or an algorithmic model like Euler-Cromer) for the right job is a clear indicator of computational thinking.  Mathematical abstraction (sometimes called modeling) is at the heart of computational thinking, and being able to choose between competing abstractions (models) is of critical importance \cite{Aho2012}.  Aho points out that although there are many useful definitions of computational thinking within the field of computer science, new domains of investigation (e.g., introductory physics) require definitions of their own.
+Further elaboration by Alfred Aho points out that the process of finding the right tool (e.g., a software like Excel or an algorithmic model like Euler-Cromer) for the right job is a clear indicator of computational thinking.  He considers computational thinking to be the `` thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.''  Mathematical abstraction (sometimes called modeling) is at the heart of computational thinking, and being able to choose between competing abstractions (models) is of critical importance \cite{Aho2012}.  Aho points out that although there are many useful definitions of computational thinking within the field of computer science, new domains of investigation (e.g., introductory physics) require definitions of their own.
 
 Aho believed that clear and precise definitions of computational thinking within a particular field were required for practitioners to be able to leverage them in their classrooms.  Ideally, these definitions would match the various models used within that particular field.  For example, within cloud computing, the various models used while developing systems and building tools could be extended to research \cite{Aho2012}.
 
@@ -130,7 +159,7 @@ Theoretical definitions aside, The Next Generation Science Standards has most re
 \item[E5.] Use grade-level-appropriate understanding of mathematics and staistics in analyzing data.
 \end{enumerate}
 
-For example, the expectation of being able to recognize dimensions in a mathematical formula (E1) might show up in a chemistry classroom focusing on mass conservation before and after a chemical reaction.  Alternatively, the expectation of students understanding that simulations rely on mathematical models (E3) might show up in a biology course involving predator/prey predictions based on an underlying computational algorithm (e.g., the Lotka-Volterra equations). 
+These expectations, though useful, are rather broad and can be reasonably applied to any science classroom.  For example, the expectation of being able to recognize dimensions in a mathematical formula (E1) might show up in a chemistry classroom focusing on mass conservation before and after a chemical reaction.  Alternatively, the expectation of students understanding that simulations rely on mathematical models (E3) might show up in a biology course involving predator/prey predictions based on an underlying computational algorithm (e.g., the Lotka-Volterra equations). 
 
 Although these expectations require computational thinking, they are still rather vague and could apply to any number of different science classrooms.  More clearly and precisely defining these expectations is an important task, especially within a particular domain of interest.  Without precise and domain-specific definitions, applying them to an actual classroom is rather difficult for practitioners.  Accordingly, one field whose precise definitions are particularly lacking (though, progress is being made on) is that of physics.
 
@@ -193,13 +222,13 @@ This more realistic and descriptive three-dimensional visualization leveraged by
 
 \subsection{Results}
 
-In the early 2000s, Chabay began to research the integration of computation into the introductory calculus-based physics course using VPython \cite{Chabay2008}.  This course included a computational curriculum following that presented by \textit{Matter and Interactions}.  Primarily, the courses studied by Chabay focused on the application of the integral equation governing the linear motion of objects (i.e., $d\vec{p}=\vec{F}_{\rm net}\,dt+\vec{p}_{i}$ and $d\vec{r}=\vec{p}/m\,dt$).  These equations were applied iteratively through an Euler-Cromer style integration algorithm, and allowed a more thoroughly analysis of position-dependent forces (e.g., the Newtonian gravitational and spring forces).
+In the early 2000s, Chabay began to research the integration of computation into the introductory calculus-based physics course using VPython \cite{Chabay2008}.  This course included a computational curriculum following that presented by \textit{Matter and Interactions}.  Primarily, the courses studied by Chabay focused on the application of the integral equation governing the linear motion of objects (i.e., $d\vec{p}=\vec{F}_{\rm net}\,dt$ and $d\vec{r}=\vec{p}/m\,dt$).  These equations were applied iteratively through an Euler-Cromer style integration algorithm, and allowed a more thoroughly analysis of position-dependent forces (e.g., the Newtonian gravitational and spring forces).
 
 Chabay found that one of the positive aspects of including computation at the introductory level was to stimulate creativity in students \cite{Chabay2008}.  This creativity in approaching problem solving is thought to lead students to the construction of more realistic computational models.  In other words, computation allows students to easily verify and/or modify a model, encouraging creativity and a ``guess and check'' approach to problem solving.
 
 She also found that requiring students to program at the introductory physics level was a difficult barrier to overcome.  Given that there is so much content to be covered in so little time in most introductory physics courses, finding the room/time to discuss the basics of programming is difficult.  One of the ways in which this difficulty is overcome is by providing Minimally Working Programs (MWPs) to students.  The MWP for a particular problem usually runs without error from the start (pre-written code), and requires small (or at least localized) changes to the underlying computational models.  For example, see the MWP in Fig.~\ref{CH2:Caballero}.
 
-Around that same time, Kohlmyer dug a little deeper into student performance \cite{Kohlmyer2005}.  He found that, among other things, computational modeling students struggled to recognize that computers could even be used to solve physics problems.  Furthermore, once they did decide to use a computer, they struggled with the concepts and components of creating a computational model.  These results were generated from two experiments: looking at how students approach novel problems with computation and looking at the differences in the fundamental principles used as compared to traditional (i.e., non-computation focused curriculum) students.
+Around that same time, Kohlmyer dug deeper into student performance \cite{Kohlmyer2005}.  He found that, among other things, computational modeling students struggled to recognize that computers could even be used to solve physics problems.  Furthermore, once they did decide to use a computer, they struggled with the concepts and components of creating a computational model.  These results were generated from two experiments: looking at how students approach novel problems with computation and looking at the differences in the fundamental principles used as compared to traditional (i.e., non-computation focused curriculum) students.
 
 Interestingly, he found that students decided to take advantage of the Euler-Cromer style integration in discrete form even when they weren't using a computational model.  That is, students made use of the key conceptual tool that they were taught -- even if just on paper.
 
@@ -230,7 +259,7 @@ Based on his analysis of the satellite-Earth problem, shown in Fig.~\ref{CH2:Cab
 
 \subsection{Remaining questions}
 
-Although many aspects of computation and computational thinking at the introductory level have been studied, there are still many unanswered questions within physics education.  Particularly, as to the types of practices students are engaging in that are indicative of computational thinking.  More research is needed to not only more clearly define the computational practices observed in introductory physics, but also to more clearly understand the habits of mind and types of thinking that students are engaging in.  \textbf{This thesis attempts to provide clear and precise definitions of the various practices that students engage in within introductory physics.}
+Although many aspects of computation and computational thinking at the introductory level have been studied, there are still many unanswered questions within physics education.  Particularly, as to the types of practices students are engaging in that are indicative of computational thinking.  More research is needed to not only more clearly define the computational practices observed in introductory physics, but also to more clearly understand the habits of mind and types of thinking that students are engaging in.  \textbf{This thesis attempts to provide clear and precise definitions with examples of the various practices that students engage in within introductory physics.}
 
 \section{Framework}
 
@@ -262,19 +291,23 @@ As a more concrete example, the computational practice of creating data (a data 
 
 Although each practice is defined like this, according to Weintrop et. al, the characteristics themselves are rather vague (similar to the operational defintions from the NGSS).  For example, the computational practice of assessing computational models requires the identification of a phenomenon, a computational model, and a comparison made between the two.  Although it is clear what a comparison would look like in any situation, the phenomena studied and the models used will depend greatly on the context (See Ch.~\ref{CH3:Context}).  For this reason, much more work must be done to clearly define computational thinking within introductory physics classrooms -- a central task to this thesis.
 
-Ultimately, Weintrop found three main benefits to including computation: it builds on the reciprocal relationship between computationl thinking and STEM domains, it engages learners as well as instructors, and it introduces an authentic and modern element of doing science.  However, he is clear to indicate that more research is needed to better address the challenge of educating a technologically and scientifically savvy population.  This thesis attempts to improve that education process by providing clear and precise defintions of the computational practices that are indicative of computational thinking.
+Ultimately, Weintrop found three main benefits to including computation: it builds on the reciprocal relationship between computationl thinking and STEM domains, it engages learners as well as instructors, and it introduces an authentic and modern element of doing science.  However, he is clear to indicate that more research is needed to better address the challenge of educating a technologically and scientifically savvy population.  This thesis attempts to improve that education process by providing clear and precise defintions with examples of the computational practices that are indicative of computational thinking.
 
 \section{Task analysis}
 
-In order to give this research a solid foundation, early on, we conducted a task analysis of a complicated computational physics problem.  We wanted to look at what students were doing in an actual introductory physics classroom, and the task analysis of a complicated computational physics problem was necessary to help guide our qualitative analysis.  Within an any actual classroom, there are many expected and unexpected tasks that students engage in while solving a particular problem.  For example, taking the time to properly name a variable or working to construct a multiple-variable function within a program.  Accordingly, the task analysis was used to initially reduce the set of tasks that we focused our attention on.  This initial set of tasks was modified during subsequent qualitative analysis (see Sec.~\ref{CH2:Thematic}).
+A task analysis is a procedure that can be used to better understand the requirements of a particular task and the way an ``operator'' (or group of operators) might work to satisfy those requirements \cite{Kirwan2005}.  This type of task analysis is usually focused on the observable actions that an operator might engage in while working toward a particular goal (e.g., ), but there is also a strong cognitive link between the observed actions and the requirements of the task \cite{Crandall2006}.
 
-A task analysis consists of breaking a problem down into multiple smaller but manageable sub-tasks that can then be tied together at the end.  This type of analysis is frequently used in the fields of mathematics and computer science \cite{Catrambone1998,Chandra1990,Fitzgerald2008,Ahmadzedah2005}.  The smaller but manageable sub-tasks are the ``unit of analysis'' that can then be searched for within data.  For example, an expert group might proceed in predicting the motion of an object by first constructing an Euler-Cromer style algorithm, constructing the various forces, and then construct the initial parameters of the system.  These steps can be done in any order, but are all necessary to the overarching task.
+Before begining a task analysis, data must first be collected.  Often, the method for collecting data is observation based (e.g., observing the actions of a group of operators as they carry out a task), although data can also be subject based (e.g., asking an expert what the ideal actions would be to carry out a task).  Either way, the task itself generally guides the collection of data.
+
+Once the data has been collected, there are many different types of descriptions that can be attached to it and just as many techniques that can be used to generate them.  For example, one of the techniques frequently used is to \textit{chart and network} the data.  These descriptions can be written, but are most often presented visually through information flow charts or Murphy diagrams.  This thesis leverages a technique for generating an \textit{organized heirarchy} of description of the data: complex tasks are broken down into multiple smaller but more manageable tasks.
+
+In order to give this research a solid foundation, early on, we conducted a task analysis of a complicated computational physics problem.  We wanted to look at what students were doing in an actual introductory physics classroom, and the task analysis was necessary to help guide our qualitative analysis.
+
+Within an any actual classroom, there are a myriad of expected and unexpected tasks that students engage in while solving a particular problem.  For example, taking the time to name a variable with meaning, working to construct a multiple-variable function, or changing the color of an object within a program.  Given the almost limitless number of tasks that might draw students' (and our) attention, the task analysis was used to reduce the initial set of tasks that we focused our attention on.  This initial set of tasks was modified and expanded during subsequent qualitative analysis (see Sec.~\ref{CH2:Thematic}).
+
+A task analysis consists of breaking a problem down into multiple smaller but manageable sub-tasks that can be tied together at the end.  This type of analysis is frequently used in the fields of mathematics and computer science \cite{Catrambone1998,Chandra1990,Fitzgerald2008,Ahmadzedah2005}.  The smaller but manageable sub-tasks are the ``unit of analysis'' that can then be searched for within data.  For example, an expert group might proceed in predicting the motion of an object by first constructing an Euler-Cromer style algorithm, constructing the various forces, and then construct the initial parameters of the system.  These steps can be done in any order, but are all necessary to the overarching task.
 
 This type of process was used by Catrambone to show that breaking a problem down into smaller but manageable sub-tasks helps students to transfer knowledge to new and novel problems \cite{Catrambone1998}.  He and others believe that it is a heriarchical structure of tasks rather than a linear structure of tasks that students need to transfer knowledge to new and novel situations.  The flexibility of a heirarchical structure is thought to support a more varied approach to solving a problem.
-
-They performed three experiments, each focusing on how students transfer knowledge to new and novel problems.  The first experiment was a comparison between the meaningfulness of a label's name.  They found that the more meaningful the label was, the better prepared students were to solve new and novel problems.  The second was a deeper study of the connections between labels and sub-tasks.  They found, to a reasonable degree, that there was a fundamental connection between labels, sub-tasks, and how they were grouped.  The third was a talk-aloud study that looked at self-explanation while solving problems.  They found that aptly named labels could be used to cue students to group sub-tasks and explain their purpose through self-explanation.
-
-The task analysis of the problem that this thesis focuses on was initially constructed by a single content expert.  After the first iteration it was presented to additional experts.  Through the discussions surrounding these iterations, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks.  The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks shown in Tab.~\ref{CH3:TaskAnalysis} were sufficiently described/defined to be useful in video analysis.
 
 \begin{table}[hb]\centering
 \begin{tabular}{lr}\hline\hline
@@ -300,22 +333,34 @@ obj.p = obj.p + Fnet*dt
 time into momentum & \\\hline\hline
 \end{tabular}\caption{Some of the necessary steps that must be taken when constructing a Newtonian gravitational force in code.  Each step is associated with the construction/modification of a line of code.\label{CH3:TaskAnalysis}}
 \end{table}
+
+They performed three experiments, each focusing on how students transfer knowledge to new and novel problems.  The first experiment was a comparison between the meaningfulness of a label's name.  They found that the more meaningful the label was, the better prepared students were to solve new and novel problems.  The second was a deeper study of the connections between labels and sub-tasks.  They found, to a reasonable degree, that there was a fundamental connection between labels, sub-tasks, and how they were grouped.  The third was a talk-aloud study that looked at self-explanation while solving problems.  They found that aptly named labels could be used to cue students to group sub-tasks and explain their purpose through self-explanation.
+
+The task analysis of the problem that this thesis focuses on was initially constructed by a single content expert.  After the first iteration it was presented to additional experts.  Through the discussions surrounding these iterations, it became clear that the construction of the position dependent Newtonian gravitational force in code is a multi-step procedure involving a number of different sub-tasks.  The task analysis was iteratively refined through this process until all experts agreed that the sub-tasks shown in Tab.~\ref{CH3:TaskAnalysis} were sufficiently described/defined to be useful in video analysis.
  
 On top of this expert generated solution, there are many other (both expected and unexpected) student generated solutions that we observe in the data.  However, the expert generated solution is an ideal path to follow and so the instructors try to keep groups moving in this direction.  For example, a sufficient force model be constructed in terms of the polar and azimuthal angle of the satellite, although it requires a substantial amount of work to code.  Both the expert and student generated solutions are a good place to look for evidence of computational thinking and its accompanying practices.
 
 \section{Thematic analysis}\label{CH2:Thematic}
 
-The qualitative methodology that we used follows a widely used methodology within psychology: thematic analysis.  This methodology, although most popular within the field of psychology, is applicable to many other fields, from liberal arts to STEM \cite{Fereda2006,Winter1970,Otero2009}.  Within PER, qualitative thematic analysis is frequently used for analyzing interview or work-aloud data.
+Thematic analaysis is a poorly defined, but commonly used, type of qualitative analysis that is predominately used within psychology.  However, Braun makes the well-supported case that thematic analysis can effectively be used in many other fields (e.g., nursing or physics education) and clearly defines the sufficient steps that can be taken in order to complete a reasonably reliable and valid thematic analysis \cite{Braun2008,Fereda2006,Aronson1995,Vaismoradi2013,Joffe2004,Potter1997,Antaki2002}.
 
-For example, Irving found that there were many different themes that came from the various perceptions students have about what it means to ``be a physicist'' \cite{Irving2016}.  These themes were then broken down into $12$ sub-categories (e.g., high or low interest in research), highlighting the different perceptions students had about what it means to ``do physics.''  Along these same lines, this thesis uses a thematic analysis to guide our study of work-aloud group problem solving in introductory computational physics with the hopes of highlighting the various practices students engage in that are indicative of computational thinking.
+Within PER, thematic analysis is usually used for analyzing interview or work-aloud data of students solving problems.  For example, Irving found that there were many different themes that came from the various perceptions students have about what it means to ``be a physicist'' \cite{Irving2016}.  These themes were then broken down into $12$ sub-categories (e.g., high or low interest in research), highlighting the different perceptions students had about what it means to ``do physics.''  This type of analysis, as demonstrated by Irving, can be used to generate robust themes that can be used to inform instructional changes/improve instruction.
 
-However frequently used, thematic analysis is rarely defined.  Accordingly, Braun et. al has provided clear guidelines for conducting a scientifically reliable and valid qualitative analysis in almost any field \cite{Braun2008}.  
+However, thematic analysis is just one of many qualitative techniques that can be used to analyze qualitative data.  The various qualitative methodologies can be broken into roughly two main types: those strongly tied to a theory/epistemology and those that are developed independent of a guiding theory/epistemology.  Thematic analysis, according to Braun, is of the second type.  So as to guard against the often cited critique of thematic analysis as being ill-defined \cite{Antaki2002}, Braun presents a 6-phase guide to conducting a reliable and valid thematic analysis.
 
-According to Braun, a thematic analysis is a ``method for identifying, analyzing, and reporting patterns (themes) within data.''  This method consists of $6$ different phases, usually followed linearly, to finally produce a report (e.g., a thematic map) of the various themes and their relationships within a set of qualitative data.
+According to Braun, a thematic analysis is a ``method for identifying, analyzing, and reporting patterns [themes] within data.''  This method consists of $6$ different phases, usually followed linearly, to finally produce a report (e.g., a thematic map) of the various themes and their relationships within a set of qualitative data.  However, before entering the first of the $6$ phases, there are a few fundamental decisions that must be made and explicitly stated.  Ideally, these decisions will be made in relation to the research question and the goal of the study.
 
-The first phase focuses on transcribing and farmiliarizing yourself with the data.  Reading through the transcripts multiple times helps to generate preliminary ideas that can be coded for further investigation.  Next, each code must be collated with the corresponding transcript so as to provide a context.  After the codes have been collated with the corresponding transcript, themes begin to emerge in the third phase.
+First, it is crucial that researchers explicitly state the metric by which they plan to identify themes.  For example, a theme that shows up more frequently is not necessarily more important.  Additionally, a theme that shows up less frequently is not necessarily less important.  Rather, it is important to be consistent throughout anlysis.  This thesis mostly focuses on the more frequent themes, but consideration is also given to themes that are particularly illustrative yet infrequent.
 
-Reviewing any themes that emerge, particularly against the coded extracts and the transcript as a whole, leads to the next phase of defining, validating, and naming any themes.  These themes can finally be presented in a scholarly report with step-by-step transcript analysis and/or a thematic map.  A thematic map, shown in Fig.~\ref{CH2:Map}, shows not only the components of a theme, but also the \textit{relationships} between those components.
+Second, researchers must decide between a rich description of the entire data set or a more detailed account of a particular sub-set.  For example, within physics education, you might be interested in a rough description of the entire process that a group followed to successfuly solve a complicated problem.  Alternatively, you might want to focus in on a particular sub-task and its nuance.  Again, it is important to be consistent throughout your analysis.  This thesis focuses on a more detailed account of a particular sub-set of the themes (i.e., those involving computational thinking).
+
+Third, researchers must decide between an inductive and a more theoretical approach to the generation of themes within their data.  An inductive approach often leads to themes that are not related to the original research questions, but rather have generated spontaneously and are more strongly ties to the data itself.  A theoretical approach, on the other hand, often leads to a set of themes that are less descriptive but are better suited to answer a particular research question.  Again, it is important to be consistent throughout your analysis.  This thesis follows a more theoretical approach, using the theoretical framework presented in Sec.~\ref{CH2:Framework} as a foundation for the generation of our themes.
+
+Fourth, researchers must decide whether they will be looking for semantic or latent themes within their data.  Semantic themes are those that are clearly indicated within the data, whereas latent themes often go beyond what is actually being observed.  For example, within physics education, a group of students might be struggling with a particular problem.  The reason for this struggle might otherwise go unnotticed without looking beyond the immediate and recognizing that each student had a late and mentally taxing chemistry exam the previous night.  Usually a thematic analysis focuses on one level, and as always it is important to be consistent through your analysis.  This thesis primarily focuses on the semantic themes that are directly tied to the actions observed during the problem solving process.
+
+Fifth, researchers must be choose between an essentialist and a constructionist thematic analysis.  An essentialist thematic analysis allows researchers to theorize student understanding and meaning in a straightforward way \cite{Potter1997,Widdicombe1995}.  A constructionist approach focuses more on the overarching sociocultural and structural environment that each student lives within.  It is important to be consistent throughout your analysis, and this thesis focuses on a more essentialist approach, paying special attention to the computational thinking and habits of mind that students are engaging in.
+
+Once these decisions have been made, the qualitative analysis can proceed through the $6$ phases laid out by Braun.  The first phase focuses on (1) transcribing and farmiliarizing yourself with the data.  Reading through the transcripts multiple times helps to generate preliminary ideas that can be (2) coded for further investigation.  Next, each code must be (3) collated with the corresponding transcript so as to provide a context.  After the codes have been collated with the corresponding transcript, (4) themes begin to emerge in the third phase.  Reviewing any themes that emerge, particularly against the coded extracts and the transcript as a whole, leads to the next phase of (5) defining, validating, and naming any themes.  These themes can finally be presented in a (6) scholarly report with step-by-step transcript analysis and/or a thematic map.  A thematic map, like the one shown in Fig.~\ref{CH2:Map}, shows not only the components of a theme, but also the \textit{relationships} between those components.
 
 \begin{figure}\center
 \includegraphics[scale=0.60]{images/CH2Map.pdf}
@@ -324,10 +369,26 @@ Reviewing any themes that emerge, particularly against the coded extracts and th
 
 Braun is clear to point out that there are many pitfalls associate with thematic analysis, and that researchers must be cognizant of them through every phase of the process.  For example, one of the pitfalls she highlights is a possible mismatch between the data and the analytic claims that are being made.  In other words, it is important to always closely tie your claims with the actual data.  This closeness of the claims to the data can be ensured through frequent inter-rater reliability checks.
 
-Given the flexibility of qualitative anlysis, it is important to be clear and explicit about the decisions being made throughout the entire process.  Braun has presented $15$ criteria for conducting a good qualitative thematic analysis.  These criteria focus on things like checking that each data item has been given equal attention, and checking that themes are internally coherent, consistent, and distinctive.
+Given the flexibility of qualitative anlysis, it is important to be clear and explicit about the decisions being made throughout the entire process.  Braun has presented $15$ criteria for conducting a good qualitative thematic analysis.  These criteria focus on things like checking that each data item has been given equal attention, and checking that themes are internally coherent, consistent, and distinctive.  These critera help to safeguard against the many pitfalls of thematic analysis.
+
+As we have shown, thematic analysis is a powerful and flexible qualitative methodology.  Accordingly, this thesis leverages thematic analysis to guide our study of group problem solving in introductory computational physics with the hopes of highlighting the various practices students engage in that are indicative of computational thinking.  A detailed account of this process is described in Sec.~\ref{CH5:Analysis}.
 
 %
+%
+%
+%
+%
+%
+%
+%
 %	CONTEXT (P3)
+%
+%
+%
+%
+%
+%
+%
 %
 
 \chapter{Context}\label{CH3:Context}
@@ -454,7 +515,21 @@ There are a number of post-class homework questions that are meant to reinforce 
 This type of problem helps to encourage students to identify, isolate, reproduce, and correct unexpected problems that arise while constructing computational models.  Ideally, it requires students to interpret the names given to the variables being used and verify that they are defined in a correct form.  Correct form means following one of the basic rules of algebra -- you cannot add a scalar and a vector.
 
 %
+%
+%
+%
+%
+%
+%
+%
 %	MOTIVATION
+%
+%
+%
+%
+%
+%
+%
 %
 
 \chapter{Motivation}\label{CH4:Motivation}
@@ -505,12 +580,30 @@ A description of the development of the protocol.
 Since there are no real results, we can just describe how we analyzed the interview data.
 
 %
+%
+%
+%
+%
+%
+%
+%
 %	ANALYSIS
+%
+%
+%
+%
+%
+%
+%
 %
 
 \chapter{Analysis}\label{CH5:Analysis}
 
 \section{Specific methods}
+
+The task analysis, the thematic analysis (excel sheets and thematic maps).
+
+Come back to the task analysis in chapter 5.  A section that describes data reduction: how we looked at the data, when decisions were made to pull out data from the task analysis.  Point back to section 2.4.  Have an example:  what were the markers that we used to decide that an expert was relevant to our task analysis.
 
 Following the suggestion of thematic analysis, we begin with a full transcription of the in-class video.  This transcription is verbatim to the best of our abilities.  Any inaudible sections are indicated, with long pauses being indicated by ellipses ($\ldots$).  To distingish between unspoken actions (e.g., pointing to an equation) and infereces made by the researcher (e.g., refering to a previous equation), we follow the convention of square brackets ($[\,]$) and curly brackets ($\{\,\}$), respectively.
 

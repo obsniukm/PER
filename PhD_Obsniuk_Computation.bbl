@@ -17,6 +17,17 @@ Alfred Aho.
 \newblock Computation and computational thinking.
 \newblock {\em The Computer Journal}, 2012.
 
+\bibitem{Antaki2002}
+C.~Antaki, M.~Billig, D.~Edwards, and J.~Potter.
+\newblock Discourse analysis means doing aanalysi: a critqiue of six analytic
+  shortcomings.
+\newblock {\em DAOL Discourse Analysis Online}, 2002.
+
+\bibitem{Aronson1995}
+J.~Aronson.
+\newblock A pragmatic view of thematic analysis.
+\newblock {\em The Qualitative Report}, 1995.
+
 \bibitem{Belloni2008}
 M.~Belloni and W.~Christian.
 \newblock Time development in quantum mechanics using a reduced hilbert space
@@ -71,6 +82,11 @@ D.~Cook.
 \newblock Computation in undergraduate physics: The lawrence approach.
 \newblock {\em American Journal of Physics}, 2008.
 
+\bibitem{Crandall2006}
+B.~Crandall, G~Kelin, and R.~R. Hoffman.
+\newblock {\em Working minds: a practioner's guide to cognitive task analysis}.
+\newblock Massachusetts Institute of Technology, 2006.
+
 \bibitem{DiSessa1986}
 A.~A. DiSessa and H~Abelson.
 \newblock Boxer: A reconstructible computerional medium.
@@ -120,6 +136,16 @@ Paul Irving, Michael Obsniuk, and Marcos Caballero.
 \newblock P$^{3}$: A practice focused learning environment.
 \newblock {\em European Journal of Physics}, 2017.
 
+\bibitem{Joffe2004}
+H.~Joffe and L.~Yardley.
+\newblock {\em Research Methods for Clinical and Health Psychology}.
+\newblock Sage, 2004.
+
+\bibitem{Kirwan2005}
+B.~Kirwan and L.~K. Ainsworth.
+\newblock {\em A guide to task analysis}.
+\newblock Taylor \& Francis, 2005.
+
 \bibitem{Kohlmyer2005}
 Matthew Kohlmyer.
 \newblock {\em Student performance in computer modeling and problem solving in
@@ -144,11 +170,6 @@ Committee on~a Conceptual Framework~for New K-12 Science Education~Standards.
 \newblock {\em A Framework for K-12 Science Education: Practices, Crosscutting
   Concepts, and Core Ideas}.
 \newblock The National Academies Press, 2012.
-
-\bibitem{Otero2009}
-Valerie Otero and Danielle Harlow.
-\newblock {\em Getting started in PER}.
-\newblock AAPT, 2009.
 
 \bibitem{Papert1972}
 Seymour Papert.
@@ -176,6 +197,12 @@ Jean Piaget.
 \newblock {\em Origins of intellifence in children}.
 \newblock W. W. Norton and Company, 1963.
 
+\bibitem{Potter1997}
+J.~Potter and M.~Wetherell.
+\newblock {\em Discourse analysis as a way of analysing naturally occurring
+  talk}.
+\newblock Sage, 1997.
+
 \bibitem{Redish1992}
 Edward Redish and Jack Wilson.
 \newblock Student programming in the introductory physics course: M.u.p.p.e.t.
@@ -185,6 +212,12 @@ Edward Redish and Jack Wilson.
 David Sherer, Paul Dubois, and Bruce Sherwood.
 \newblock Vpython: 3d interactive scientific graphics for students.
 \newblock {\em Computing in Science \& Engineering}, 2000.
+
+\bibitem{Vaismoradi2013}
+M.~Vaismoradi and T.~Bondas.
+\newblock Content analysis and thematic analysis: implications for conducting a
+  qualitative descriptive study.
+\newblock {\em Nursing and Health Sciences}, 2013.
 
 \bibitem{Vygotsky1980}
 L.S. Vygotsky.
@@ -211,6 +244,11 @@ David Weintrop, Elham Behesthi, Michael Horn, Kai Orton, Kemi Jona, Laura
   classrooms.
 \newblock {\em Journal of Science Education Technology}, 2015.
 
+\bibitem{Widdicombe1995}
+S.~Widdicombe and R.~Wooffitt.
+\newblock {\em The language of youth subcultures: social identity in action}.
+\newblock Harvester Wheatsheaf, 1995.
+
 \bibitem{Wing2008}
 Jeanette Wing.
 \newblock Computational thinking and thinking about computing.
@@ -220,11 +258,5 @@ Jeanette Wing.
 Jeannette Wing.
 \newblock Computational thinking.
 \newblock {\em Communications of the ACM}, 2006.
-
-\bibitem{Winter1970}
-D.G. Winter and D.C. McClelland.
-\newblock Thematic analysis: An empirically derived measure of the effects of
-  liberal arts education.
-\newblock {\em Journal of educational psychology}, 1970.
 
 \end{thebibliography}
