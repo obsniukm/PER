@@ -30,21 +30,13 @@
 \contentsline {subsection}{\numberline {4.2.1}Protocol}{47}
 \contentsline {subsection}{\numberline {4.2.2}Analysis}{47}
 \contentsline {chapter}{\numberline {Chapter 5}Analysis}{48}
-\contentsline {section}{\numberline {5.1}Specific methods}{48}
-\contentsline {section}{\numberline {5.2}Findings}{50}
-\contentsline {subsection}{\numberline {5.2.1}Assessing computational models}{51}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Computational model}{52}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Phenomenon}{52}
-\contentsline {subsubsection}{\numberline {5.2.1.3}Comparison between}{52}
-\contentsline {subsection}{\numberline {5.2.2}Creating data}{53}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Data set}{53}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Algorithmic procedure}{53}
-\contentsline {subsubsection}{\numberline {5.2.2.3}Advance understanding}{53}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{54}
-\contentsline {section}{\numberline {6.1}Primary practices}{54}
-\contentsline {section}{\numberline {6.2}Secondary practices}{54}
-\contentsline {section}{\numberline {6.3}Absent practices}{54}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{55}
-\contentsline {chapter}{APPENDICES}{56}
-\contentsline {section}{{Appendix A }Additional excerpts}{57}
-\contentsline {chapter}{BIBLIOGRAPHY}{58}
+\contentsline {section}{\numberline {5.1}Troubleshooting and debugging}{50}
+\contentsline {section}{\numberline {5.2}Assessing computational models}{53}
+\contentsline {subsection}{\numberline {5.2.1}Justification}{53}
+\contentsline {subsection}{\numberline {5.2.2}Explanation}{56}
+\contentsline {section}{\numberline {5.3}Computational abstractions}{58}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{60}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{61}
+\contentsline {chapter}{APPENDICES}{62}
+\contentsline {section}{{Appendix A }Additional excerpts}{63}
+\contentsline {chapter}{BIBLIOGRAPHY}{64}
