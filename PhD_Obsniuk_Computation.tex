@@ -723,10 +723,57 @@ Again, this excerpt can be used to explain \textit{why} the group is modifying t
 
 \section{Computational abstractions}
 
+Sometimes, it is easier to describe what a practice is \textit{not}, rather than what it is -- though both descriptions are of interest and should be taken together.  For example, we can compare Excerpts 3 and 4 from Group D as they exemplify both of these types of descriptions -- giving us a well-rounded description of what it means for a group to create a computational abstraction.
+
+\subsection{What it is not}
+
+Excerpt 3 shows the group identifying a computational abstraction as they work to advance their scientific pursuit of generating the trajectory of a geostationary satellite.  The begin by recalling a point in time (i.e., the last computational problem that they worked on last week) where they were provided with a ``dummy value'' that needed to be changed to a more realistic one: \begin{description}
+\SD yeah \texttt{Fnet}
+\SC but i dont know where the five thousand came out of 
+\SB well remember the one time we just started and it \{the program\} like gave us ten or something?
+\SC oh just... they are just giving?
+\SC okay...\end{description}  Here, the group can be seen referencing the mass of a hovercraft as it pre-defined in the second computational problem that each group worked on together.  Eventually, they had to change this pre-defined `dummy' value to the realistic value for the particular situation.  This is very similar to what is actually going on in this excerpt.
+
+The group has first recognized that the pre-defined momentum of the satellite is not something that they are completely sure of.  Once the group has recalled that something like this has happened before, they then suggest that they should take their more realistic numerical values and use them to calculate the force: \begin{description}
+\SA what if we just put this [points to mass of satellite] in here [points to \texttt{m} in \texttt{G*m*M/D**2}]?
+\SC yeah
+\SA and we put this [points to the radius of geostationary orbit on the WB] in there [points to \texttt{D} in the equation \texttt{G*m*M/D**2}]
+\SA would that give us our force?\end{description}  In this way, the group is modifying their code and advancing their scientific pursuit of generating a more realistic simulation.  Ultimately, these modifications were due to the scrutiny of the pre-defined numerical value of a variable.
+
+Although this interaction, as summarized in Fig.~\ref{CH5:GroupDExerpt3}, seems to involve a computational abstraction in some loose sense, it is actually more useful as an example of what a computational abstraction is \textit{not}.  That is, although the group has identified a variable that is defined using a ``dummy'' value and begin to modify them to reflect the realistic situation, they have not really created a computational abstraction.  The creating of a computational abstraction, then, seems to be more of a complicated procedure, as shown below.
+
 \begin{figure}\centering
 \includegraphics[scale=0.70]{./images/CH5GroupDExcerpt3.pdf}
 \caption{Caption.}\label{CH5:GroupDExerpt3}
 \end{figure}
+
+\subsection{What it is}
+
+Excerpt 4 shows a more clear-cut example of what creating a computational abstraction looks like.  The group begins with SD making a suggestion to define a function for the net force, as opposed to entering a single numerical value: \begin{description} 
+\SD so just put the r value, vector value
+\SD just put this uhh function
+\SB as a parameter?   
+\SD just give the computer a function so we dont have to calculate F \{like SA is doing\}
+\SB thats a good idea   
+\SB should we put it in the parameter?    
+\end{description}  Although SB seems to agree that they should be constructing a function, she is not quite sure where to put and asks if she should place it in the parameter section.
+
+Although they never finally agree on where to place the function (i.e., in the parameter section or calculation loop), they continue to discuss how they might go about constructing the function:\begin{description}
+\SB what would it be?   
+\SC and what is the r value?  
+\SD r is the position...
+\SB you calculated that \{the force\} out?   
+\SA thats what i have is the force, yeah      
+\SB so should i put a parameter in or...    
+\SA i dunno     
+\SD position of satellite...
+\SC do they have a position of the earth  
+\SC and a position of the satellite?  
+\SB yeah here [points to code]    
+\SA so its saying the earth is at the origin      
+\end{description}  The group seems to be split in this portion of the transcript: one group (SA and SB) is still focusing on where to place the function and the other group (SC and SD) are discussing how to construct the function by using variables already defined in the program (i.e., the position of the Eart and the satellite).  Thus, the group can be seen working to tie multiple abstractions together into a single more complex abstraction or function.
+
+As summarized in Fig.~\ref{CH5:GroupDExerpt4}, the group can be seen deciding to construct a complicated function in code, as opposed to using numerical values that they have calculated on their TI-83s.  This creating of a complicated function looks to be the hallmark of the practice of creating computation abstractions.  Allowing the processing power of VPython to do iterative calculations for you, by generating a complicated abstract equation, seems to be indicative of creating computation abstractions while thinking computationally.
 
 \begin{figure}\centering
 \includegraphics[scale=0.70]{./images/CH5GroupDExcerpt4.pdf}
