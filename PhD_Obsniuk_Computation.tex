@@ -393,7 +393,7 @@ As we have shown, thematic analysis is a powerful and flexible qualitative metho
 
 \chapter{Context}\label{CH3:Context}
 
-It is important to understand the course from which we have collected our data to better understand the results of our study.  That course -- called Projects and Practices in Physics (${\rm P}^{3}$) -- is based on a social constructivist theory of learning and a flipped/problem-based pedagogy.  In other words, students familiarize themselves with relevant material before coming to class, where they will work in small groups to actively and socially construct knowledge while solving complex analytical and computational physics and engineering problems.  The course has intentionally been designed to encourage computational thinking wherever possible.  Specifically, computational thinking has been incorporated into the notes, pre- and post-class homework, in-class feedback and assessments, and a selection of the in-class problems.
+It is important to understand the course from which we have collected our data to better understand the results of our study.  That course -- called Projects and Practices in Physics (${\rm P}^{3}$) -- is based on a social constructivist theory of learning and a flipped/problem-based pedagogy \cite{Irving2017}.  In other words, students familiarize themselves with relevant material before coming to class, where they will work in small groups to actively and socially construct knowledge while solving complex analytical and computational physics and engineering problems.  The course has intentionally been designed to encourage computational thinking wherever possible.  Specifically, computational thinking has been incorporated into the notes, pre- and post-class homework, in-class feedback and assessments, and a selection of the in-class problems.
 
 \section{Course design}
 
@@ -534,7 +534,7 @@ This type of problem helps to encourage students to identify, isolate, reproduce
 
 \chapter{Motivation}\label{CH4:Motivation}
 
-Aside from a general interest in introductory computational physics, it is important to understand the underlying motivation(s) for this thesis.  The following chapter was published in the proceedings of the 2015 Physics Education Research Conference \cite{AAPT2016}, and is presented here with minor modifications from its appearance in publication. It was published with second and third authors Paul W. Irving and Marcos D. Caballero, respectively.
+Aside from a general interest in introductory computational physics, it is important to understand the underlying motivation(s) for this thesis.  Sections from the following chapter, detailing some of those motivations, were published in the proceedings of the 2015 Physics Education Research Conference \cite{AAPT2016}, and is presented here with minor modifications from its appearance in publication. It was published with second and third authors Paul W. Irving and Marcos D. Caballero, respectively.
 
 The process of identifying an interesting computational practice, described in Sec.~\ref{Sec:Debug}, was the earliest motivation for this study.  We found that it was extremely difficult to define and identify the particular practice of what we named ``physics debugging.''  Not only did the practice need to be clearly defined, it also needed to be clearly identified in the data.  This required a lot of in-depth qualitative analysis and inter-rater reliability, motivating our use of the Weintrop framework and the qualitative methods of Clarke et. al.
 
@@ -544,7 +544,12 @@ Additionally, as described in Sec.~\ref{Sec:Phenom}, we found that it was very d
 
 In this section, we present a case study of a group of students immersed in this ${\rm P}^{3}$ environment solving a computational problem.  This problem requires the translation of a number of fundamental physics principles into computer code.  Our analysis consists of qualitative observations in an attempt to describe, rather than generalize, the computational interactions, debugging strategies, and learning opportunities unique to this novel environment.
 
-We focus this case study on the interactions between group and computer to begin to understand the ways in which computation can influence learning.  Particularly, we are interested in the interactions occurring simultaneously with social exchanges of fundamental physics principles (FPPs) specific to the present task (e.g., discussing $d\mathbf{r}=\mathbf{v}\,dt$ on a motion task) and the display of desirable problem solving strategies (e.g., divide-and-conquer).  These group-computer interactions vary in form, from the more active process of sifting through lines of code, to the more passive process of observing a three-dimensional visual display.
+\begin{figure}\centering
+\includegraphics[scale=1]{./images/CH4Interactions.pdf}
+\caption{Caption.}\label{CH4:Interactions}
+\end{figure}
+
+We focus this case study on the interactions between group and computer, illustrated in Fig.~\ref{CH4:Interactions}, to begin to understand the ways in which computation can influence learning.  Particularly, we are interested in the interactions occurring simultaneously with social exchanges of fundamental physics principles (FPPs) specific to the present task (e.g., discussing $d\mathbf{r}=\mathbf{v}\,dt$ on a motion task) and the display of desirable problem solving strategies (e.g., divide-and-conquer).  These group-computer interactions vary in form, from the more active process of sifting through lines of code, to the more passive process of observing a three-dimensional visual display.
 
 One previously defined computational interaction that reinforces desirable strategies, borrowing from computer science education research, is the process of debugging \cite{Fitzgerald2008}.  Computer science defines debugging as a process that comes after testing \emph{syntactically} correct code where programmers ``find out exactly where the error is and how to fix it. \cite{McCauley2008}''  Given the generic nature of the application of computation in computer science environments (e.g., data sorting, poker statistics, or ``Hello, World!'' tasks), we expect to see unique strategies specific to a computational \emph{physics} environment.  Thus, we extend this notion of computer science debugging into a physics context to help uncover the strategies employed while groups of students debug \emph{fundamentally} correct code that produces unexpected physical results.
 
@@ -556,18 +561,73 @@ The project that the selected group worked on for this study consists of creatin
 
 This study focuses on one group in the fourth week of class (the fourth computational problem seen) consisting of four individuals: Students A, B, C, and D.  The group had primary interaction with one assigned instructor.  Broadly, we see a 50/50 split on gender, with one ESL international student.  Student A had the most programming experience out of the group.  It is through the audiovisual and screencast documentation of this group's interaction with each other and with the technology available that we began our analysis.
 
-To focus in on the group's successful physics debugging occurring over the $\SI{2}{\hour}$ class period, we needed to identify phases in time when the group had recognized and resolved a physics bug.  These two phases in time, \emph{bug recognition} and \emph{bug resolution} are the necessary limits on either side of the process of \emph{physics debugging}, as represented in Fig.~\ref{CH4:Phases}.  We identified these two bounding phases at around $\SI{60(5)}{\minute}$ into the problem, and further examined the process of debugging in-between.  That is, we focused on the crucial moments surrounding the final modifications that took the code from producing unexpected output to expected output.
+To focus in on the group's successful physics debugging occurring over the $\SI{2}{\hour}$ class period, we needed to identify phases in time when the group had recognized and resolved a physics bug.  These two phases in time, \emph{bug recognition} and \emph{bug resolution} are the necessary limits on either side of the process of \emph{physics debugging}, as represented in Fig.~\ref{CH4:Strategies}.  We identified these two bounding phases at around $\SI{60(5)}{\minute}$ into the problem, and further examined the process of debugging in-between.  That is, we focused on the crucial moments surrounding the final modifications that took the code from producing unexpected output to expected output.
 
 \begin{figure}\centering
-\includegraphics[scale=1]{./images/phases.pdf}
-\caption{The debugging process necessarily corresponds to a phase beset on either side by the phases of recognition and resolution.  Note the absence of a vertical scale, as the vertical separation merely acts to distinguish phases.}\label{CH4:Phases}
+\includegraphics[scale=1]{./images/CH4Strategies.pdf}
+\caption{The debugging process necessarily corresponds to a phase beset on either side by the phases of recognition and resolution.  Note the absence of a vertical scale, as the vertical separation merely acts to distinguish phases.}\label{CH4:Strategies}
 \end{figure}
 
 \subsubsection{Recognition}
 
+At around 55 min into the problem, following an intervention from their instructor, the group began to indicate that they were at an impasse: \begin{description}
+\SB We're stuck.
+\SD Yeah...\end{description} The simulation clearly displayed the trajectory of the satellite falling into the Earth not the geostationary or bit they expected as observed on the screencast. This impasse was matched with an indication that they believed the FPPs necessary to model this real world phenomenon were incorporated successfully into the code:\begin{description}
+\SB And it's gonna be something really dumb too.
+\SA That's the thing like, I don't think it's a problem with our understanding of physics, it's a problem with our understanding of Python.\end{description}  Instead of attributing the unexpected output with a mistake in their understanding or encoding of FPPs, they instead seemed to place blame on the computational aspect of the task.
+
+During this initial phase, we see a clear indication that the group has recognized a bug -- there is an unidentified error in the code, which must be found and fixed: \begin{description}
+\SA I don't know what needs to change here...
+\SD  I mean, that means we could have like anything wrong really.\end{description}  Although they have identified the existence of the bug, they still are not sure how to fix it -- this necessitates the
+process of debugging.
+
+\subsubsection{Physics debugging}
+
+Within the previously identified phase of bug recognition, the group developed a clear and primary task:
+figure out exactly how to remove the bug. Eventually,
+following a little off-topic discussion, the group accepted that in order to produce a simulation that generates the correct output, they must once again delve into the code to check every line:\begin{description}
+\SA ...I'm just trying to break it down as much as possible so that we can find any mistakes.\end{description}  In this way, the group began to not only deter mined the correctness of lines of code that have been added/modified, but also began to examine the relation ships between those lines.
+
+For example, the group began by confirming the correctness of the form of one such line of code:\begin{description}
+\SA Final momentum equals initial momentum
+plus net force times delta t. True?
+\SC Yeah...
+\SB Yes.
+\SA O.K. That's exactly what we have here. So this is not the problem. This is right.
+\SD Yeah.\end{description}  That is, Student A i) read aloud and wrote down the
+line of code $\vec{p}_{f} = \vec{p}_{i} + \vec{F}_{\rm net}*dt$ while the entire group confirmed on its correct form. This written line was then boxed, and was shortly followed up (ii) with a similar confirmation of the line $\vec{r}_{f} = \vec{r}_{i} + \vec{v}*dt$ that immediately
+prompted (iii) the confirmation of $\vec{v} = \vec{p}/m$. Thus, not only do we see the group determining the correctness of added/modified lines of code as in (i)---(iii), we further see confirmation with the links between those lines. The confirmation of the link between the lines of code (i) and (ii), representing the incremental update of position and momentum in time, respectively, was evidenced not through the mere addition of the linking equation (iii) to the list of lines added, but further through the gestures exhibited by student A. Pointing at (iii), the $\vec{v}$ in (ii), and the $\vec{p}_{f}$ in (i), demonstrated that the group understood that without this linking equation (iii), the velocity used in (ii) would not reflect the time updated velocity by means of (i).
+
+The group ran through these types of confirmations
+with FPPs rapidly over the span of a few minutes. Once
+the group had confirmed all the added/modified lines of
+code to their satisfaction, the discussion quieted down.
+The FPPs were winnowed from the discussion, and after
+a little more off-topic discussion we find them seeking
+help from the instructor:\begin{description}
+\SD  Maybe we should just stare at him until he comes help us...\end{description} Suddenly, a haphazard change to the code:\begin{description}
+\SA You know what, I'm gonna try something... \end{description} where Student A changed the order of magnitude of the initial momentum a few times. This modification even tually resulted in a simulation that produced the correct output.
+
 \subsubsection{Resolution}
 
-\label{Sec:Phenom}
+At about 65 min into the problem, Student A changed
+the order of magnitude of the momentum one final time,
+which produced something closer to the output that they
+expected: \begin{description}
+\SA Oh wait... Oh god...
+\SD Is it working?\end{description}  The satellite now elliptically orbited the Earth. This marks the end of the debugging phase and the beginning of the resolution phase the bug had successfully been found and remedied. Given that the only line of code modified to produce this change was the initial momentum, they began to rethink the problem:\begin{description}\SD I think that is the issue is that we don't have the initial momentum...
+\SA ...momentum correct?\end{description}  That is to say, the group pursued the issue of determining the correct initial momentum with the added insight gained through debugging fundamentally correct VPython code.
+
+\subsubsection{Strategies}
+
+This case study has described two strategies (one more
+and one less strategic) employed by a group of students
+in a physics course where students develop computational models using VPython while negotiating meaning of fundamental physics principles. These strategies
+arose through the group's process of debugging a fundamentally correct program that modeled a geostationary orbit. The additional data we have collected around students' use of computation is rich, and further research is needed to advance the depth and breadth of our understanding of the myriad of ways in which students might debug computational models in physics courses.
+
+\section{Phenomenography}\label{Sec:Phenom}
+
+We also conducted a phenomenography in order to characterize the qualitatively different ways in which students were experiencing the problem.  In order fill the outcome space, we looked for the variation in students descriptions of what we called the ``critical'' components of the problem.  This was accomplished through post-class interviews where we followed a semi-structured protocol that was developed specifically for this case study.  Some of the very interesting results that can be generated from this type of analysis is presented in \cite{Hawkins2017}.
 
 %
 %

@@ -177,6 +177,13 @@
   Year                     = {2013}
 }
 
+@InProceedings{Hawkins2017,
+  Title                    = {Understanding student perceptions of computational physics pproblem in Introductory mechanics},
+  Author                   = {N. T. Hawkins and P. W. Irving and M. D. Caballero},
+  Booktitle                = {PERC Proceedings},
+  Year                     = {2017}
+}
+
 @Article{Hoover2008,
   Title                    = {Computational physics wth particles},
   Author                   = {Wm. G. Hoover and C. G. Hoover},
@@ -196,6 +203,14 @@
   Author                   = {P. W. Irving and E. C. Sayre},
   Journal                  = {Physics Today},
   Year                     = {2016}
+}
+
+@Book{Joffe2004,
+  Title                    = {Research Methods for Clinical and Health Psychology},
+  Author                   = {H. Joffe and L. Yardley},
+  Editor                   = {D. F. Marks and L. Yardley},
+  Publisher                = {Sage},
+  Year                     = {2004}
 }
 
 @Book{Kirwan2005,
