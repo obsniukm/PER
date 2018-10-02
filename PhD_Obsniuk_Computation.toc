@@ -32,11 +32,11 @@
 \contentsline {chapter}{\numberline {Chapter 5}Observations}{52}
 \contentsline {section}{\numberline {5.1}Analysis}{52}
 \contentsline {subsection}{\numberline {5.1.1}Data reduction}{53}
-\contentsline {subsection}{\numberline {5.1.2}Coding process}{55}
+\contentsline {subsection}{\numberline {5.1.2}Coding process}{56}
 \contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{57}
 \contentsline {section}{\numberline {5.2}Computational practices}{59}
 \contentsline {subsection}{\numberline {5.2.1}Troubleshooting and debugging}{59}
-\contentsline {subsection}{\numberline {5.2.2}Assessing computational models}{60}
+\contentsline {subsection}{\numberline {5.2.2}Assessing computational models}{61}
 \contentsline {subsubsection}{\numberline {5.2.2.1}Justification}{61}
 \contentsline {subsubsection}{\numberline {5.2.2.2}Explanation}{64}
 \contentsline {subsection}{\numberline {5.2.3}Computational abstractions}{66}
