@@ -32,18 +32,18 @@
 \contentsline {chapter}{\numberline {Chapter 5}Observations}{52}
 \contentsline {section}{\numberline {5.1}Analysis}{52}
 \contentsline {subsection}{\numberline {5.1.1}Data reduction}{53}
-\contentsline {subsection}{\numberline {5.1.2}Coding process}{56}
-\contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{57}
-\contentsline {section}{\numberline {5.2}Computational practices}{59}
-\contentsline {subsection}{\numberline {5.2.1}Troubleshooting and debugging}{59}
-\contentsline {subsection}{\numberline {5.2.2}Assessing computational models}{61}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Justification}{61}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Explanation}{64}
-\contentsline {subsection}{\numberline {5.2.3}Computational abstractions}{66}
-\contentsline {subsubsection}{\numberline {5.2.3.1}What it is not}{66}
-\contentsline {subsubsection}{\numberline {5.2.3.2}What it is}{68}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{71}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{72}
-\contentsline {chapter}{APPENDICES}{73}
-\contentsline {section}{{Appendix A }Additional excerpts}{74}
-\contentsline {chapter}{BIBLIOGRAPHY}{75}
+\contentsline {subsection}{\numberline {5.1.2}Coding process}{55}
+\contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{55}
+\contentsline {section}{\numberline {5.2}Computational practices}{55}
+\contentsline {subsection}{\numberline {5.2.1}Troubleshooting and debugging}{56}
+\contentsline {subsection}{\numberline {5.2.2}Assessing computational models}{57}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Justification}{58}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Explanation}{61}
+\contentsline {subsection}{\numberline {5.2.3}Computational abstractions}{62}
+\contentsline {subsubsection}{\numberline {5.2.3.1}What it is not}{63}
+\contentsline {subsubsection}{\numberline {5.2.3.2}What it is}{65}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{68}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{69}
+\contentsline {chapter}{APPENDICES}{70}
+\contentsline {section}{{Appendix A }Additional excerpts}{71}
+\contentsline {chapter}{BIBLIOGRAPHY}{72}

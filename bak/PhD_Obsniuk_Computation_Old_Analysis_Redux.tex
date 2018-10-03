@@ -653,30 +653,59 @@ Throughout this thesis we have made many different types of observations, and ha
 
 \section{Analysis}
 
-Our full analysis involves many different stages: first the inital data was collected and susequently reduced in order to provide a manageable set of data, second an independent coding scheme was generated -- using the Weintrop framework from Sec.~\ref{CH2:Framework} -- to help identify computational practices, and three inter-raters were used to ensure reliability of the analysis.  Each of these stages are detailed below.
+Our full analysis involves many different stages: first the inital data was collected and susequently reduced in order to provide a manageable set of data, second an independent coding scheme was generated -- using the Weintrop framework -- to help identify computational practices, and three inter-raters were used to ensure reliability of the analysis.  Each of these stages are detailed below.
 
 \subsection{Data reduction}
 
-Our total set or corpus of data consists of in-class video of nine groups of four individuals working on three computational problems (twenty-seven videos in total) that increase in difficulty/complexity.  These computational problems, described in Sec.~\ref{CH3:Schedule}, require students to construct various computational force models in code.  Each week, the appropriate force model increases in complexity and generality.  More specifically, the first problem involves a constant zero force on a boat, the second problem involves the constant local gravitational force on a hovercraft in free-fall, and the third problem involves the non-constant Newtonian gravitational force on a satellite orbiting Earth.
+Following the suggestions of thematic analysis, we began with a full transcription of the in-class video.  Our video data was collected from nine groups working on three different but related computational problems (see Ch.~\ref{CH3:Context}).  Slowly, we found that the most interesting things were occurring in the last (and most complicated) of the computational problems.  Thus, we focused our analysis on the satellite problem.
 
-In order to first reduce the corpus of our data to a more focused and manageable set, we payed attention to when students were making the most progress toward a solution.  Surprisingly, the frequency of independent progress being made increased as the complexity of the problem increased (i.e., students made the most independent progress on constructing the Newtonian gravitational force model).  We believe this might be due to their lack of prior programming experience coming into the course.  For example, on the first problem, many groups struggled with even understanding the basics of the calculation loop.  By the time they see the third problem, they have already gained a little experience and are beginning to really think computationally.
-
-Accordingly, our preliminary set of data consists of transcripts from in-class video (both side-view and overhead-view) of nine groups working on the Newtonian gravitational force problem from Sec.~\ref{CH3:SatelliteProblem}.  We also collected computer screencasts to capture exactly what students are doing when they type/click.  Following the suggestions of thematic analysis, we began with a full transcription of the in-class video to the best of our abilities.  Any inaudible sections are indicated, with long pauses being indicated by ellipses ($\ldots$).  To distinguish between unspoken actions (e.g., pointing to an equation) and inferences made by the researcher (e.g., a group referring to a previously used equation), we follow the convention of square brackets ($[\,]$) and curly brackets ($\{\,\}$), respectively.  For example, Fig.~\ref{CH5:Transcript} shows a portion of transcript.
+Each transcript has been transcribed verbatim to the best of our abilities.  Any inaudible sections are indicated, with long pauses being indicated by ellipses ($\ldots$).  To distinguish between unspoken actions (e.g., pointing to an equation) and inferences made by the researcher (e.g., referring to a previous equation), we follow the convention of square brackets ($[\,]$) and curly brackets ($\{\,\}$), respectively.  For example, Fig.~\ref{CH5:Transcript} shows a portion of transcript.
 
 \begin{figure}\centering
 \includegraphics[scale=0.75]{./images/CH5Transcript.pdf}
 \caption{A portion of transcript meant to highlight the indication of unspoken and inferred actions.  For example, line 367 shows this group looking in their notes for an equation.  The equation that they find is written down in line 370.}\label{CH5:Transcript}
 \end{figure}
 
-Once we had reduced our corpus of data to a more manageable and focused set of nine transcripts, we continued our investigation into the computational practices and computational thinking students were engaging in.  Accordingly, each transcript was read multiple times in order to generate a low-resolution but coherent picture of what each group was doing -- or at least, what each group was trying to do.  This low-resolution picture helped us to identify the off-topic and otherwise irrelevant discussion.
+Each full transcript is read through multiple times, noting any points of interest in terms of the Weintrop framework for computational practices involving computational thinking \cite{Weintrop2015}.  We then divide the transcript into multiple excerpts of shorter length centered around those initial points of interest.  Although we lose some of the coherence of the problem as a whole by focusing on shorter excerpts, these relatively shorter excerpts help to facilitate a deeper analysis.  Each transcript contains $\approx\SI{1500}{lines}$ of speech comprising $\approx\SI{50}{excerpts}$.
 
-More specifically, each transcript was initally analyzed with an eye towards identifying discussion where students were i) solving the satellite problem and ii) using a computer.  All other discussion then could be considered off-topic and safely discard.  For example, groups are often seen discussing homework for other classes that in no way relates to the Newtonian problem.  Alternatively, groups can often be seen discussing recent social events (e.g., a concert).  This type of off-topic and otherwise irrelevant discussion can safely be discarded.  In this way, we further reduce our data set by about one quarter.  With each transcript being about fifteen-hundred lines of speech/action in total, this translates to about ten-thousand lines of on-topic discussion.
+A preliminary analysis of each transcript was done with an eye towards finding candidate excerpts where students were i) solving the satellite problem and ii) where they were using the computer.  There is a fair amount of off-topic conversation in each transcript, which can easily be identified and removed without worry.  However, a closer look is required to make sure that we are not throwing away any valuable data.
 
-A closer analysis of this on-topic discussion is where we begin to more clearly define what computational practices and computational thinking looks like within our data.  This closer analysis started with the search for a number of characteristics within the on-topic discussion.  For an example, the key characteristics for the practice of thinking in levels are: identifying the different levels of a system, articulating the behavior of each of the levels, and articulating the relationship between levels.  These characteristics, once identified, can be used to justify the classification of a particular computational practice.  These justifications allow us to confidently define the computational practices and computational thinking we see in our data.  A detailed account of this process of justification is described below.
+This closer look is what ultimately helps us to more clearly define what a computational practice both is and is \textit{not} within an excerpt.  By removing the off-topic and otherwise irrelevant information, we are focusing our analysis specifically on group computational problem solving and its associated practices.  For example, Fig.~\ref{CH5:OffTopic} shows a portion of transcript containing multiple candidate excerpts with some off-topic conversation.
+
+\begin{figure}\centering
+\includegraphics[scale=1]{./images/CH5OffTopic.pdf}
+\caption{A portion of transcript highlighting off-topic and relevant discussion.  The relevant discussion is further broken down into individual excerpts according to the Weintrop framework.  A more detailed analysis of a individual excerpt is shown in Sec.~\ref{CH5:CodingProcess}.}\label{CH5:OffTopic}
+\end{figure}
+
+Initially, we used the various computational practices already defined by Weintrop, along with their associated characteristics, to identify a reasonable amount of candidate excerpts.  Each candidate excerpt is then scrutinized individually and as compared to other excerpts to more clearly define the characteristics within the data -- the more characteristics observed, the more likely that what we are looking at really is a particular computational practice.  \textbf{In this way, we reduce our data to a manageable and relevant set.}
 
 \subsection{Coding process}\label{CH5:CodingProcess}
 
+Each excerpt is analyzed in terms of the practices the group is engaging in.  This means we need to look for the characteristics of each practice, as described in Sec.~\ref{CH2:Framework}, to give us an initial footing.  With these characteristics identified in the data, we are justified in classifying the particular excerpt as that practice.  Each excerpt generally has between one and four identified computational practices, and each practice generally has between three and eight identified characteristics.
+
+For example, Fig.~\ref{CH5:RationaleAndConfidence} shows Excerpt 42 from Group H where a few characteristics have been identified.  These four characteristics, as further analysis will show, pertain to the computational practice of creating and visualizing data.
+
+Each characteristic that is identified is supported with rationale on three levels: the rationale according to the framework, the rationale within the excerpt, and the rationale beyond the excerpt.  For example, the rationale beyond an excerpt might pertain to a relevant statement made minutes (sometimes hours) before an excerpt.  The rationale within an excerpt usually references a line (or few lines) of the associated transcript.  These rationale are then used to support the claim that a number of characteristics have been identified.  These characteristics are listed under the rationale according to the Weintrop framework.  The result of this process is illustrated in the excerpt shown in Fig.~\ref{CH5:RationaleAndConfidence}.
+
+\begin{figure}\centering
+\includegraphics[scale=0.45]{./images/CH5RationaleAndConfidence.pdf}
+\caption{Visual representation of the different levels of rationale pertaining to an excerpt.  Green, yellow, and red cells represent high, medium, and low confidence, respectively.}\label{CH5:RationaleAndConfidence}
+\end{figure}
+
+The confidence in each rationale (specifically, the rationale within the excerpt) manifests itself in a high, medium, and low confidence rating for the identification of this practice.  In that way, we know not only how frequently the practices are identified, but also how confident we are in that assessment.  The result of this process is illustrated in the excerpt shown in Fig.~\ref{CH5:RationaleAndConfidence}.
+
 \subsection{Inter-rater reliability}
+
+We indicated confidence by marking a potentially identified practice as either high (green), medium (yellow), or low (red) confidence.  To determine confidence, a process of inter-rater reliability was conducted between three raters.  This process included sharing a representative sample of the excerpts and converging on the actual practices observed.  Rationale for every high- to medium-confidence practice, then, is provided according to the framework, according to the data within the excerpt, and according to any data beyond the excerpt.
+
+With these practices identified, we then analyzed their frequency.  Many practices showed up frequently, and some showed up almost never.  Analysis of these simple statistics, represented visually in Fig.~\ref{CH5:DensityPlot}, gives us a concrete way to hone in and focus our analysis on the most important (or at least frequent) practices.  The most important practices were then further analyzed for the variation in the characteristics that make up each practice.
+
+\begin{figure}\centering
+\includegraphics[scale=1]{./images/CH5DensityPlot.pdf}
+\caption{A ``density plot'' for all computational practices and all groups, showing that many practices show up frequently, while other show up never.}\label{CH5:DensityPlot}
+\end{figure}
+
+So that we safeguard against the researcher influencing the results too much, inter-rater reliability is checked at multiple points throughout the analysis.  This check consists of an independent researcher (the inter-rater) identifying practices with confidence in a reduced set of the data and comparing with the primary researcher.  Any practices in which confidence is questioned and lost are discounted from being identified.
 
 \section{Computational practices}
 
