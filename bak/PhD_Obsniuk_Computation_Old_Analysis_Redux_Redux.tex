@@ -676,38 +676,176 @@ A closer analysis of this on-topic discussion is where we begin to more clearly 
 
 \subsection{Coding process}\label{CH5:CodingProcess}
 
-In order to justify the classification of an excerpt as a particular computational practice, we needed to identify the various characteristics within that excerpt in a systematic way.  Given that each excerpt is only a part of the whole transcript, we followed a coding process of providing rationale at three different levels: at the level of multiple related excerpts (i.e., the transcript as a whole), at the level of the individual excerpt, and at the level of the framework.  Each of these levels of rationale, meant to justify the classification of a particular computational practice, are described in detail below.
+In order to justify the classification of an excerpt as a particular computational practice, we needed to identify the various characteristics within that excerpt in a systematic way.  Given that each excerpt is only a part of the whole transcript, we followed a process of providing rationale at three different levels: at the level of the framework, at the level of the individual excerpt, and at the level of multiple related excerpts.  Each level of the coding process is described in detail below.
 
-At the level of multiple related excerpts (i.e., the transcript as a whole), we are able to generate a low-resolution that captures the overarching goals that each group is working toward.  This low-resolution picture helps us to contextualize each individual excerpt within the broader transcript.  For example, within an individual excerpt, a group might reference -- without defining -- an (equation: \begin{description}
-\SA \textit{(894)} should we try that one equation?
-\SB \textit{(895)} yeah i think we should do that...
-\SA \textit{(896)} okay
-\SC \textit{(897)} yeah thats a good idea lets use that one
-\end{description}  Using our low-resolution picture of the transcript as a whole, we can track back through time (often minutes, sometimes hours) to find out exactly what vague equation they are referencing: \begin{description}
-\SC \textit{(120)} how about we use the equation...
-\SC \textit{(121)} G m M over r squared...
-\SC \textit{(122)} and then multiplied by r hat
-\SD \textit{(123)} i dunno...
-\end{description}  Any rationale provided at this level usually references the number of another excerpt that provides additional information.  This level of rationale can be found in Column I of Fig.~\ref{CH5:Levels}.
+At the level of the individual excerpt, The "abstractions" that the group is developing are the mass of the Earth (line 501), the radius of the Earth (line 502), and the universal gravitational constant (line 507).  For example,.
 
-\begin{figure}\centering
-\includegraphics[scale=0.42]{./images/CH5Levels.pdf}
-\caption{The template used for the coding process.  Each excerpt is numbered, each line of speech/action is numbered and attributed to an individual member of the group, and the three levels of rationale are used to justify the classification of a particular practice.}\label{CH5:Levels}
-\end{figure}
+At the level a multiple related excerpts, The "goal" that they are working toward is creating a Newtonian gravitational force acting on the satellite.  For example,.
 
-At the level of the individual excerpt, we are able to focus in on what each member of the group says and does as they work toward a clear and focused goal.  Any rationale provided at this level usually references multiple line numbers pertaining to a specific line of speech within the excerpt that embodies the characteristic in question.  In this way, we closely tie our rationale and the framework to the data.  For example, a group might identify an unexpected error in their program and say: \begin{description}
-\SC \textit{(756)} oh there it is
-\SB \textit{(757)} where?
-\SC \textit{(758)} in the thing on the screen... 
-\end{description}  This short exchange might be referenced as (line 757) to highlight the approximate point in time where a group has clearly identified an unexpected error in their program -- a characteristic of this short exchange.  This level of rationale can be found in Column H of Fig.~\ref{CH5:Levels}.
+At the level of the framework, The group is creating "abstractions" as they work toward a "goal.".  For example,.
 
-At the level of the framework, we synthesize each characteristic found within a particular excerpt and compare it to the Weintrop framework.  This synthesis of individual characteristics then helps us to classify each excerpt according to the practices defined by Weintrop.  Any rationale provided at this level usually references not only the language of the framework, but also the language/codes of the other two levels of rationale.  For example, ``identifying an unexpected error in code'' is not only a required characteristic according to the language of the framework, but it also happens to be a frequently identified characteristic in our data.  Two variations of this characteristic might be: i) reading the output of the shell to identify an error or ii) reproducing the error to clearly identified it.  This level of rationale can be found in Column G of Fig.~\ref{CH5:Levels}.
-
-This coding process that generated three levels of rationale was followed for nine groups totalling about five-hundred candidate excerpts.  Each excerpt has anywhere from one to four possible practices identified, with supporting rationale at the three levels described above.  That equates to roughly three-thousand individual justifications that must be confidently found within our data.
-
-The three levels of rationale described above, though not necessarily persuasive individually, when taken together can provide a reasonable justification for the classification of an excerpt as belonging to a particular computational practice.  However, in order to ensure a \textit{reasonable} justification, an iterative process of inter-rater reliability was followed.  This process of generating confidence and inter-rater reliability is described in more detail below.
+These three levels of rationale, though not necessarily persuasive individually, when taken together can provide a reasonable justification for the classification of an excerpt as belonging to a particular computational practice.  However, in order to ensure this reasonable justification, an iterative process of inter-rater reliability is followed.  This process of generating confidence and inter-rater reliability is described in more detail below.
 
 \subsection{Inter-rater reliability}
+
+\section{Computational practices}
+
+We have identified a number of frequent computational practices within our data set.
+
+\subsection{Troubleshooting and debugging}
+
+In Excerpt 3 from Group D, a group can clearly be seen engaging in the practice of troubleshooting and debugging.  This practice usually requires that students identify an unexpected error in the program and work to systematically rectify it.  For example, SC can be seen identifying an error: \begin{description}
+\SC try it...
+\SC im not sure it gonna run [inaudible]
+\SC type is wrong [reading error statement]
+\end{description} as she reads the error output from the VIDLE shell.  This error output reads: \texttt{Traceback (most recent call last): File "satellite.py", line 16, in <module>}.  Given the output of the VIDLE shell, SC identifies that the unexpected error that they have run into is that they are trying to use a scalar for something that needs to be defined as a vector.  Once this error has been identified, the group begins to systematically work towards rectifying it.
+
+Accordingly, the group can be seen going back through their code and systematically checking for variables that can be turned into vectors: \begin{description}
+\SB it needs to be a vector    
+\SC yeah it should be vector type but it wasn't...
+\SC so the problem is, this one [\texttt{r}] is vector, this one is not a vector [m]
+\SC the problem is not a vector and vector, we trying to combine together
+\SC we never gonna get answer as computer cause its a computer\end{description}  Mistakenly, SC believes that in order for the program to be able to calculate their net force, they need to turn every other variable used in the calculation of the net force into a vector (e.g., the mass of the satellite).
+
+\begin{figure}\centering
+\includegraphics[scale=0.70]{./images/CH5GroupDExcerpt2.pdf}
+\caption{Caption.}\label{CH5:GroupDExerpt2}
+\end{figure}
+
+Subsequently, Group C can be seen systematically working toward rectifying that error by turning each variable used in the calculation of the net force into a vector.  Although this group is later encouraged by the TA to change some of the variables back to scalars, this Excerpt, summarized in Fig.~\ref{CH5:GroupDExerpt2}, is a clear example of a systematic process of troubleshooting and debugging.
+
+\subsection{Assessing computational models}
+
+The practice of assessing a computational model manifests itself in Excerpts 6 and 7 from Group D.  With these excerpts, we are able to justify \textit{that} the Group D is engaging in assessing a computational model through all of Excerpt 6, and we are able to explain \textit{why} they are engaging in that practice through most of Excerpt 7.  These excerpts are presented in detail below.
+
+\subsubsection{Justification}
+
+Excerpt 6 shows the group, broadly speaking, as they modify their net force so that it involves a vector position as opposed to just its magnitude.  They begin by first considering the general modification: \begin{description}
+\SC oh no its infinitely running  
+\SC and error is again, oh gee  
+\SA maybe we have r defined as the distance that we calculated last time and maybe we should have r defined as a formula or a vector... r needs to be a vector.    
+\SB you agree with that SC?   
+\SB that r should be defined as like a formula or a vector instead of  number?    
+\SC you guys change, you talk about r changing as vector type 
+\SA yeah      
+\SC how?  
+\end{description}  That is, we see SA questioning whether or not they should be using the distance as a numerical scalar as opposed to a formula or a vector.  Ultimately, he decides that they should be using a vector.  The group is not ultimately sure if this is what they should be doing, but SB asks SC if she agrees with SA, and they at least begin to questions how to implement the change.
+
+Next, they start to go about implementing a change by deleting what they have previously defined as the distance that they calculated last time (i.e., \texttt{D=1E6}).  This distance represents the radius of the roughly circular orbit of the satellite in geostationary orbit: \begin{description}
+\SD the position depends on the earth radius...
+\SC oh can we just do the... oh they already give us earth radius 
+\SC so?
+\SB so...   
+\SD delete that [D]
+\SC just delete?  
+\SD and then...
+\SB do i delete that?   
+\SD yeah yeah
+\SC D part? 
+\SC and then we put the r instead of what we had there  
+\end{description}  Not only does the group decide to delete what they have previously defined, but they then discuss what should be added in its place.  Although they aren't exactly sure \textit{how} to replace the scalar \texttt{D} with the vector \text{r}, they at least know that it must be done.
+
+Finally, they begin to replace what hey have deleted with a vector position of the satellite as \texttt{satellite.pos}: \begin{description}
+\SB what do you want there {in place of D}?   
+\SC r, is the radius for...  
+\SA {the magnitude of} R needs to be distance
+\SC no no just wrote down the satellite
+\SB oh you just want me to put satellite?
+\SC satellite dot pos
+\SB satellite... [typing]
+\SC yeah dot position
+\end{description}  It takes a little figuring to work out that instead of defining a new variable \texttt{r} as a vector, they can just directly use the pre-defined \texttt{satellite.pos}.  This vector \texttt{r} is what eventually gets used in the construction of the Newtonian gravitational force -- specifically, to give it a direction.
+
+\begin{figure}\centering
+\includegraphics[scale=1]{./images/CH5GroupDExcerp6.pdf}
+\caption{Caption.}\label{CH5:GroupDExerpt6}
+\end{figure}
+
+Again, this excerpt can be used to justify \textit{that} the group is modifying their net force -- in other words, that they are engaging in the practice of assessing a computational model.  Specifically, as summarized in Fig.~\ref{CH5:GroupDExerpt6}, the model that they are assessing is a Newtonian gravitational force that is a scalar as opposed to a vector (i.e., a force that has a direction).  This comparison between what the model is and what the model should be is one of the hallmarks of the practice of assessing a computational model.
+
+\subsubsection{Explanation}
+
+Excerpt 7 shows the group beginning to construct a Newtonian gravitational force in their code that specifically takes a direction into account through a unit vector.  They first begin by recognizing that the force needs to have a direction: \begin{description}
+\SA yeah i dunno \{if the mass needs to be defined with the realistic value\}
+\SA great question... [calculates the magnitude of the force on his calculator]     
+\SC yeah just try that one [points to $\vec{F}\propto\hat{r}/r^{2}$] first 
+\SD but the direction of \texttt{F} is...
+\SD so we need to turn the \texttt{r} into a vector
+\end{description}  This recognition is implied by SD when she mentions a ``direction of \texttt{F}'' and then suggests that they turn their previously defined radius of the roughly circular orbit \texttt{r} into a vector to rectify the mistake.  The implication being that by defining their net force in terms of a vector position, it (the force) will take on the desired direction.
+
+With the recognition that the net force needs to be a vector (i.e., have a direction), the group then tentatively decides on an equation that they should be trying to replicate in code:
+\begin{description}
+\SC i think we should...
+\SD [writes $\vec{F}\propto\hat{r}/|\vec{r}|^{2}$]
+\SD so just put the \texttt{r} value, vector value and just put this uhh \{mag()\} function
+\SB as a parameter?   
+\end{description}  This equation specifically takes the direction into account by using the vector position of the satellite to calculate a unit vector as well as its magnitude by the \texttt{mag()} function.
+
+\begin{figure}\centering
+\includegraphics[scale=1]{./images/CH5GroupDExcerp7.pdf}
+\caption{Caption.}\label{CH5:GroupDExerpt7}
+\end{figure}
+
+Again, this excerpt can be used to explain \textit{why} the group is modifying their net force -- that is, why they are engaging in the practice of assessing a computational models.  Specifically, as summarized in Fig.~\ref{CH5:GroupDExerpt6}, the group begins to change the way that the net force is defined.
+
+\subsection{Computational abstractions}
+
+Sometimes, it is easier to describe what a practice is \textit{not}, rather than what it is -- though both descriptions are of interest and should be taken together.  For example, we can compare Excerpts 3 and 4 from Group D as they exemplify both of these types of descriptions -- giving us a well-rounded description of what it means for a group to create a computational abstraction.
+
+\subsubsection{What it is not}
+
+Excerpt 3 shows the group identifying a computational abstraction as they work to advance their scientific pursuit of generating the trajectory of a geostationary satellite.  The begin by recalling a point in time (i.e., the last computational problem that they worked on last week) where they were provided with a ``dummy value'' that needed to be changed to a more realistic one: \begin{description}
+\SD yeah \texttt{Fnet}
+\SC but i dont know where the five thousand came out of 
+\SB well remember the one time we just started and it \{the program\} like gave us ten or something?
+\SC oh just... they are just giving?
+\SC okay...\end{description}  Here, the group can be seen referencing the mass of a hovercraft as it pre-defined in the second computational problem that each group worked on together.  Eventually, they had to change this pre-defined `dummy' value to the realistic value for the particular situation.  This is very similar to what is actually going on in this excerpt.
+
+The group has first recognized that the pre-defined momentum of the satellite is not something that they are completely sure of.  Once the group has recalled that something like this has happened before, they then suggest that they should take their more realistic numerical values and use them to calculate the force: \begin{description}
+\SA what if we just put this [points to mass of satellite] in here [points to \texttt{m} in \texttt{G*m*M/D**2}]?
+\SC yeah
+\SA and we put this [points to the radius of geostationary orbit on the WB] in there [points to \texttt{D} in the equation \texttt{G*m*M/D**2}]
+\SA would that give us our force?\end{description}  In this way, the group is modifying their code and advancing their scientific pursuit of generating a more realistic simulation.  Ultimately, these modifications were due to the scrutiny of the pre-defined numerical value of a variable.
+
+Although this interaction, as summarized in Fig.~\ref{CH5:GroupDExerpt3}, seems to involve a computational abstraction in some loose sense, it is actually more useful as an example of what a computational abstraction is \textit{not}.  That is, although the group has identified a variable that is defined using a ``dummy'' value and begin to modify them to reflect the realistic situation, they have not really created a computational abstraction.  The creating of a computational abstraction, then, seems to be more of a complicated procedure, as shown below.
+
+\begin{figure}\centering
+\includegraphics[scale=0.70]{./images/CH5GroupDExcerpt3.pdf}
+\caption{Caption.}\label{CH5:GroupDExerpt3}
+\end{figure}
+
+\subsubsection{What it is}
+
+Excerpt 4 shows a more clear-cut example of what creating a computational abstraction looks like.  The group begins with SD making a suggestion to define a function for the net force, as opposed to entering a single numerical value: \begin{description} 
+\SD so just put the r value, vector value
+\SD just put this uhh function
+\SB as a parameter?   
+\SD just give the computer a function so we dont have to calculate F \{like SA is doing\}
+\SB thats a good idea   
+\SB should we put it in the parameter?    
+\end{description}  Although SB seems to agree that they should be constructing a function, she is not quite sure where to put and asks if she should place it in the parameter section.
+
+Although they never finally agree on where to place the function (i.e., in the parameter section or calculation loop), they continue to discuss how they might go about constructing the function:\begin{description}
+\SB what would it be?   
+\SC and what is the r value?  
+\SD r is the position...
+\SB you calculated that \{the force\} out?   
+\SA thats what i have is the force, yeah      
+\SB so should i put a parameter in or...    
+\SA i dunno     
+\SD position of satellite...
+\SC do they have a position of the earth  
+\SC and a position of the satellite?  
+\SB yeah here [points to code]    
+\SA so its saying the earth is at the origin      
+\end{description}  The group seems to be split in this portion of the transcript: one group (SA and SB) is still focusing on where to place the function and the other group (SC and SD) are discussing how to construct the function by using variables already defined in the program (i.e., the position of the Eart and the satellite).  Thus, the group can be seen working to tie multiple abstractions together into a single more complex abstraction or function.
+
+As summarized in Fig.~\ref{CH5:GroupDExerpt4}, the group can be seen deciding to construct a complicated function in code, as opposed to using numerical values that they have calculated on their TI-83s.  This creating of a complicated function looks to be the hallmark of the practice of creating computation abstractions.  Allowing the processing power of VPython to do iterative calculations for you, by generating a complicated abstract equation, seems to be indicative of creating computation abstractions while thinking computationally.
+
+\begin{figure}\centering
+\includegraphics[scale=0.70]{./images/CH5GroupDExcerpt4.pdf}
+\caption{Caption.}\label{CH5:GroupDExerpt4}
+\end{figure}
 
 %
 %	DISCUSSION
