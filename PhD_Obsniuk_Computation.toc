@@ -32,10 +32,10 @@
 \contentsline {chapter}{\numberline {Chapter 5}Observations}{52}
 \contentsline {section}{\numberline {5.1}Analysis}{52}
 \contentsline {subsection}{\numberline {5.1.1}Data reduction}{53}
-\contentsline {subsection}{\numberline {5.1.2}Coding process}{55}
+\contentsline {subsection}{\numberline {5.1.2}Coding process}{56}
 \contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{59}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{60}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{61}
-\contentsline {chapter}{APPENDICES}{62}
-\contentsline {section}{{Appendix A }Additional excerpts}{63}
-\contentsline {chapter}{BIBLIOGRAPHY}{64}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{61}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{62}
+\contentsline {chapter}{APPENDICES}{63}
+\contentsline {section}{{Appendix A }Additional excerpts}{64}
+\contentsline {chapter}{BIBLIOGRAPHY}{65}
