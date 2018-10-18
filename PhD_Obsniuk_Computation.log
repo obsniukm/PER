@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  17 OCT 2018 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  18 OCT 2018 19:46
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -1039,24 +1039,21 @@ Chapter 5.
 <./images/CH5Transcript.pdf, id=802, 471.26062pt x 319.1925pt>
 File: ./images/CH5Transcript.pdf Graphic file (type pdf)
 <use ./images/CH5Transcript.pdf>
-Package pdftex.def Info: ./images/CH5Transcript.pdf  used on input line 674.
+Package pdftex.def Info: ./images/CH5Transcript.pdf  used on input line 658.
 (pdftex.def)             Requested size: 353.4446pt x 239.39378pt.
  [54 <./images/CH5Transcript.pdf>] [55] [56] [57]
 <./images/CH5Levels.pdf, id=820, 1095.3422pt x 204.01218pt>
 File: ./images/CH5Levels.pdf Graphic file (type pdf)
 <use ./images/CH5Levels.pdf>
-Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 709.
+Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 693.
 (pdftex.def)             Requested size: 460.04059pt x 85.68452pt.
-File: ./images/CH5Levels.pdf Graphic file (type pdf)
-<use ./images/CH5Levels.pdf>
-Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 716.
-(pdftex.def)             Requested size: 460.04059pt x 85.68452pt.
- [58 <./images/CH5Levels.pdf>] [59]
-File: ./images/CH5Levels.pdf Graphic file (type pdf)
-<use ./images/CH5Levels.pdf>
-Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 731.
-(pdftex.def)             Requested size: 460.04059pt x 85.68452pt.
- [60]
+ [58 <./images/CH5Levels.pdf>]
+<./images/CH5Reliability.pdf, id=828, 561.3704pt x 401.69035pt>
+File: ./images/CH5Reliability.pdf Graphic file (type pdf)
+<use ./images/CH5Reliability.pdf>
+Package pdftex.def Info: ./images/CH5Reliability.pdf  used on input line 706.
+(pdftex.def)             Requested size: 364.88644pt x 261.09563pt.
+ [59 <./images/CH5Reliability.pdf>] [60]
 Chapter 6.
 [61
 
@@ -1078,10 +1075,10 @@ Appendix A.
 ] [67] [68]) [69]
 (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
- 18031 strings out of 492976
- 341441 string characters out of 3135985
- 368279 words of memory out of 3000000
- 21719 multiletter control sequences out of 15000+200000
+ 18035 strings out of 492976
+ 341593 string characters out of 3135985
+ 368268 words of memory out of 3000000
+ 21722 multiletter control sequences out of 15000+200000
  543789 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,16n,63p,1285b,1483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1100,9 +1097,9 @@ nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 /amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (76 pages, 1768128 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (76 pages, 1797603 bytes).
 PDF statistics:
- 1275 PDF objects out of 1440 (max. 8388607)
+ 1284 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
