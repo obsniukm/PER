@@ -34,9 +34,18 @@
 \contentsline {subsection}{\numberline {5.1.1}Data reduction}{53}
 \contentsline {subsection}{\numberline {5.1.2}Coding process}{56}
 \contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{59}
-\contentsline {section}{\numberline {5.2}Findings}{61}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{62}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{63}
-\contentsline {chapter}{APPENDICES}{64}
-\contentsline {section}{{Appendix A }Additional excerpts}{65}
-\contentsline {chapter}{BIBLIOGRAPHY}{66}
+\contentsline {section}{\numberline {5.2}Computational practices}{61}
+\contentsline {subsection}{\numberline {5.2.1}Creating data}{63}
+\contentsline {subsection}{\numberline {5.2.2}Analyzing data}{64}
+\contentsline {subsection}{\numberline {5.2.3}Designing models}{64}
+\contentsline {subsection}{\numberline {5.2.4}Constructing models}{64}
+\contentsline {subsection}{\numberline {5.2.5}Assessing models}{64}
+\contentsline {subsection}{\numberline {5.2.6}Programming}{64}
+\contentsline {subsection}{\numberline {5.2.7}Creating abstractions}{64}
+\contentsline {subsection}{\numberline {5.2.8}Troubleshooting and debugging}{68}
+\contentsline {subsection}{\numberline {5.2.9}Thinking in levels}{68}
+\contentsline {subsection}{\numberline {5.2.10}Communicating information}{68}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{69}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{70}
+\contentsline {chapter}{APPENDICES}{71}
+\contentsline {chapter}{BIBLIOGRAPHY}{73}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  24 OCT 2018 09:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  30 OCT 2018 18:07
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -861,11 +861,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-])
+] [7])
 \tf@lof=\write5
 \openout5 = `PhD_Obsniuk_Computation.lof'.
 
- [7] [8]
+ [8]
 Chapter 1.
 [1
 
@@ -1048,44 +1048,48 @@ File: ./images/CH5Levels.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 693.
 (pdftex.def)             Requested size: 460.04059pt x 85.68452pt.
  [58 <./images/CH5Levels.pdf>]
-<./images/CH5LevelsofConfidence.pdf, id=839, 282.96454pt x 558.80804pt>
+<./images/CH5LevelsofConfidence.pdf, id=839, 282.96454pt x 516.33173pt>
 File: ./images/CH5LevelsofConfidence.pdf Graphic file (type pdf)
 <use ./images/CH5LevelsofConfidence.pdf>
 Package pdftex.def Info: ./images/CH5LevelsofConfidence.pdf  used on input line
  706.
-(pdftex.def)             Requested size: 282.96384pt x 558.80669pt.
-<./images/CH5Reliability.pdf, id=840, 561.3704pt x 401.69035pt>
+(pdftex.def)             Requested size: 254.66573pt x 464.69426pt.
+<./images/CH5Reliability.pdf, id=840, 567.04346pt x 415.65034pt>
 File: ./images/CH5Reliability.pdf Graphic file (type pdf)
 <use ./images/CH5Reliability.pdf>
 Package pdftex.def Info: ./images/CH5Reliability.pdf  used on input line 713.
-(pdftex.def)             Requested size: 364.88644pt x 261.09563pt.
+(pdftex.def)             Requested size: 368.57388pt x 270.16951pt.
  [59] [60 <./images/CH5LevelsofConfidence.pdf>] [61 <./images/CH5Reliability.pd
 f>]
+<./images/CH5DensityPlot.pdf, id=871, 324.46219pt x 473.51903pt>
+File: ./images/CH5DensityPlot.pdf Graphic file (type pdf)
+<use ./images/CH5DensityPlot.pdf>
+Package pdftex.def Info: ./images/CH5DensityPlot.pdf  used on input line 724.
+(pdftex.def)             Requested size: 210.8979pt x 307.7837pt.
+ [62 <./images/CH5DensityPlot.pdf>] [63] [64] [65] [66] [67]
+[68]
 Chapter 6.
-[62
+[69
 
 ]
 Chapter 7.
-[63
+[70
 
-] [64
+] [71
 
-]
-Appendix A.
-(PhD_Obsniuk_Computation.bbl [65
+] (PhD_Obsniuk_Computation.bbl [72
 
+] [73
 
-] [66
+] [74
 
-] [67
-
-] [68] [69]) [70]
+] [75] [76]) [77]
 (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
- 18041 strings out of 492976
- 341821 string characters out of 3135985
- 368279 words of memory out of 3000000
- 21727 multiletter control sequences out of 15000+200000
+ 18049 strings out of 492976
+ 342031 string characters out of 3135985
+ 368310 words of memory out of 3000000
+ 21734 multiletter control sequences out of 15000+200000
  543789 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,16n,63p,1285b,1483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1104,9 +1108,9 @@ nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 /amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (78 pages, 1851447 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (85 pages, 1896426 bytes).
 PDF statistics:
- 1308 PDF objects out of 1440 (max. 8388607)
+ 1354 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
