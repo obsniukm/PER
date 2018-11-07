@@ -42,10 +42,10 @@
 \contentsline {subsection}{\numberline {5.2.5}Assessing models}{64}
 \contentsline {subsection}{\numberline {5.2.6}Programming}{64}
 \contentsline {subsection}{\numberline {5.2.7}Creating abstractions}{64}
-\contentsline {subsection}{\numberline {5.2.8}Troubleshooting and debugging}{68}
-\contentsline {subsection}{\numberline {5.2.9}Thinking in levels}{68}
-\contentsline {subsection}{\numberline {5.2.10}Communicating information}{68}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{69}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{70}
-\contentsline {chapter}{APPENDICES}{71}
-\contentsline {chapter}{BIBLIOGRAPHY}{73}
+\contentsline {subsection}{\numberline {5.2.8}Troubleshooting and debugging}{69}
+\contentsline {subsection}{\numberline {5.2.9}Thinking in levels}{69}
+\contentsline {subsection}{\numberline {5.2.10}Communicating information}{69}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{70}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{71}
+\contentsline {chapter}{APPENDICES}{72}
+\contentsline {chapter}{BIBLIOGRAPHY}{74}

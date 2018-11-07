@@ -783,13 +783,13 @@ Confidence
 
 \subsection{Creating abstractions}
 
-The computational practice of creating abstractions involves three fundamental characteristics: i) identifying computational abstractions, ii) creating computational abstractions, iii) and working toward a goal.  These three characteristics, if confidently observed within this excerpt, would serve to classify the excerpt as creating computational abstractions.
+The computational practice of creating abstractions, as defined by Weintrop et. al, requires ``the ability to conceptualize and then represent an idea or a process in more general terms by foregrounding the important aspects of the idea while backgrounding less important features.''  More specifically, this practice involves three fundamental characteristics: i) identifying computational abstractions, ii) creating computational abstractions, iii) and working toward a goal.  These three characteristics, if confidently observed within this excerpt, would serve to classify the excerpt as creating computational abstractions.
 
-Consider Excerpt X from Group Y shown below.  Broadly, the group can be seen identifying computational abstrations, creating a computational abstraction, and using it to work toward a goal.  They start by looking at the pre-defined variables in the MPW: \begin{description}\SB \textit{(104)} yeah			
+Consider Excerpt 13 from Group D shown below.  Broadly, the group can be seen identifying computational abstrations, creating a computational abstraction, and using it to work toward a goal.  They start by looking at the pre-defined variables in the MWP (emphasis added): \begin{description}\SB \textit{(104)} yeah			
 \SC \textit{(105)} its like theyve \textbf{just given} {these values}...		
 \SA \textit{(106)} yeah i dunno				
 \SA \textit{(107)} great question	
-\end{description} Specifically, the group can be seen commenting on the fact that some of the variables in the MWP had come pre-defined with numerical values that were not realistic (line 105).  For example, the mass of the satellite was set to \texttt{1}.  They are not sure if they should be using those pre-defined and \textbf{given} values, or if they should change them to reflect the realistic situation of the mass of the satellite being \texttt{1E5}.
+\end{description} Specifically, the group can be seen commenting on the fact that some of the variables in the MWP had come pre-defined with numerical values that were not realistic (line 105).  The unrealistic nature of these pre-defined numerical values shows up in the mass of the satellite being set to \texttt{1}.  They are not sure if they should be using those pre-defined and unrealistic values, or if they should change them to reflect the realistic situation of the mass of the satellite being \texttt{1E5}.
 
 Later on, the group looks for an equation that they can use to try to calculate the direction of the force: \begin{description}
 \SA \textit{(108)} [calculates the magnitude of the force on his calculator]
@@ -801,14 +801,21 @@ Later on, the group looks for an equation that they can use to try to calculate 
 \SD \textit{(114)} [writes force equation with r2 as the square of the magnitude of the vector r]	
 \end{description}  Here the group can be seen deciding (or at least suggesting in line 109) that the computational force that they end up using should take a direction into account (i.e., it needs to be a vector).  This equation (retrieved from their notes) is written down on the WB, and it involves $\hat{r}$ to give the force a direction.  This unit vector is what the group ultimately works toward to construct.
 
-The group begins to create a computational abstraction once they have identified it:\begin{description}
+The group begins to create a computational abstraction once they have identified it (i.e., once they have identified $\hat{r}$ they begin its construction):\begin{description}
 \SD \textit{(115)} so just put the r value, vector value	
 \SD \textit{(116)} just put this uhh function	
 \SB \textit{(117)} as a parameter?			
 \SD \textit{(118)} just give the \textbf{computer a function} so we dont have to calculate F {like SA is doing}	
-\SB \textit{(119)} thats a good idea\end{description} Unfortunately, they are a little stuck on how to define their unit vector, but they at least know that they want it to be a function rather than just a single numerical value (line 118).  Presumably, this is because they know that the numerical values will need to change in time.
+\SB \textit{(119)} thats a good idea\end{description} Unfortunately, they are a little stuck on how to define their unit vector, but they at least know that they want it to be a function rather than just a single numerical value (line 118).  Presumably, this is because they know that the numerical values will need to change in time.  Eventually, this group can be seen mentioning this time dependence in (line 271):\begin{description}
+\SD \textit{(269)} no i mean this is the distance... and it has a direction...	
+\SB \textit{(270)} so its a vector			
+\SD \textit{(271)} yeah this {the position of the satellite} is av ector	
+\SD \textit{(272)} change with time	
+\SC \textit{(273)} yeah im talk about the very beginning with the D... here		
+\SB \textit{(274)} so the D is the radius...
+\end{description}
 
-The group struggled with this for a bit: \begin{description}
+The group struggled with deciding whether or not to add a vector for the position of the satellite and where to place it: \begin{description}
 \SB \textit{(120)} should we put it in the parameter?			
 \SB \textit{(121)} what would it be?			
 \SC \textit{(122)} and what is the r value?		
@@ -817,9 +824,9 @@ The group struggled with this for a bit: \begin{description}
 \SA \textit{(128)} i dunno	
 \end{description}  There is a little confusion as to where to place the function, but the group suspects that they should place it within the initial conditions and the parameters (as opposed to inside the calculation loop).
 
-During this transcript, SA can initially be seen \textit{(line 108)} calculating the magnitude of the force on his hand calculator.  At the same time SC can be seen (line 105) questioning the numerical values that have been initially assigned to some of the variables (the mass and position of the satellite).  Eventually, the group begins to wonder (line 116) if they should define the position of the satellite as a vector function, rather than a numerical constant.  They wonder this because of the fact that the force on the satellite (which depends on the position of the satellite) should have a direction like the position of the satellite does.  The group spends about a minute thinking about adding this definition and reiterate it is (line 127).
+During this transcript, SA can initially be seen \textit{(line 108)} calculating the magnitude of the force on his hand calculator.  At the same time SC can be seen (line 105) questioning the numerical values that have been initially assigned to some of the variables (the mass and position of the satellite).  Eventually, the group begins to wonder (line 116) if they should define the position of the satellite as a vector function, rather than a numerical constant.  They wonder this, because in line (118), one of the group members mentions that this function will save them from having to calculate things out by hand.  The group spends about a minute thinking about whether or not to add this function and begin to question where to place it (line 127).
 
-Within this excerpt, the group can be seen identifying computational abstractions in the mass and position of the satellite around line (104).  Also, they can be seen creating computational abstractions for the vector position of the satellite in line (118).  Similarly, they can be seen using their computational abstraction as they toward the goal of creating a set of numerical values for the various net force values.  These three characteristics, if confidently observed within this excerpt, would serve to classify the excerpt as creating computational abstractions.
+Within this excerpt, the group can be seen identifying computational abstractions in the mass and position of the satellite around line (104).  Also, they can be seen creating computational abstractions for the vector position of the satellite in line (118).  Similarly, they can be seen using their computational abstraction as they toward the goal of creating a set of numerical values for the various net force values.  These three characteristics, since confidently observed within this excerpt, serve to classify the excerpt as creating computational abstractions.
 
 Through the process of inter-rater reliability, the confidence on classifying this excerpt as computational abstractions was raised and the confidence on creating data was lowered.  These final confidences hinge on the group, specifically SD in line (118), suggesting that they construct a \textbf{function} for the program to calculate a \textbf{set} of numerical data -- as opposed to calculating each individual force by hand like SA is in line (108).
 
