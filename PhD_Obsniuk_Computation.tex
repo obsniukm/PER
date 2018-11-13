@@ -783,30 +783,24 @@ Confidence
 
 \subsection{Creating abstractions}
 
-The computational practice of creating abstractions, as defined by Weintrop et. al, requires ``the ability to conceptualize and then represent an idea or a process in more general terms by foregrounding the important aspects of the idea while backgrounding less important features.''  More specifically, this practice involves three fundamental characteristics: i) identifying computational abstractions, ii) creating computational abstractions, iii) and working toward a goal.  These three characteristics, if confidently observed within this excerpt, would serve to classify the excerpt as creating computational abstractions.
+The computational practice of creating abstractions, as defined by Weintrop et. al, requires ``the ability to conceptualize and then represent an idea or a process in more general terms.''  This means that we need to observe three fundamental characteristics within an excerpt: i) identifying and ii) creating computational abstractions, and iii) working toward a goal.  These three characteristics, if confidently observed within an excerpt, would serve to classify that excerpt as creating computational abstractions.
 
-Consider Excerpt 13 from Group D shown below.  Broadly, the group can be seen identifying computational abstrations, creating a computational abstraction, and using it to work toward a goal.  They start by looking at the pre-defined variables in the MWP (emphasis added): \begin{description}\SB \textit{(104)} yeah			
-\SC \textit{(105)} its like theyve \textbf{just given} {these values}...		
-\SA \textit{(106)} yeah i dunno				
-\SA \textit{(107)} great question	
-\end{description} Specifically, the group can be seen commenting on the fact that some of the variables in the MWP had come pre-defined with numerical values that were not realistic (line 105).  The unrealistic nature of these pre-defined numerical values shows up in the mass of the satellite being set to \texttt{1}.  They are not sure if they should be using those pre-defined and unrealistic values, or if they should change them to reflect the realistic situation of the mass of the satellite being \texttt{1E5}.
-
-Later on, the group looks for an equation that they can use to try to calculate the direction of the force: \begin{description}
-\SA \textit{(108)} [calculates the magnitude of the force on his calculator]
+Consider Excerpt 13 from Group D in the following analysis.  Overall, the group can be seen identifying a computational abstration, beginning to create that computational abstraction, and planning to use that abstraction as they work toward a goal.  They start by looking for an equation that they can use to try to calculate the net force on the satellite: \begin{description}
+\SA \textit{(108)} [calculating the magnitude of the force on his calculator]
 \SC \textit{(109)} yeah just try that one [equation] first		
-\SC \textit{(110)} if thats not gonna work, then think other...		
-\SD \textit{(111)} but the direction of F is...	
-\SD \textit{(112)} so we need to turn the r into a vector	
+\SC \textit{(110)} if thats not gonna work, then \{I\} think \{the\} other...		
+\SD \textit{(111)} but the direction of F is \{a vector\}...	
+\SD \textit{(112)} so we need to turn the r into a vector
 \SC \textit{(113)} i think we should...		
-\SD \textit{(114)} [writes force equation with r2 as the square of the magnitude of the vector r]	
-\end{description}  Here the group can be seen deciding (or at least suggesting in line 109) that the computational force that they end up using should take a direction into account (i.e., it needs to be a vector).  This equation (retrieved from their notes) is written down on the WB, and it involves $\hat{r}$ to give the force a direction.  This unit vector is what the group ultimately works toward to construct.
+\SD \textit{(114)} [writes force equation with r2 as the square of the magnitude of the vector r and rhat]	
+\end{description}  Here the group can be seen deciding (or at least suggesting in line 109) that the computational force model that they are using will need to take a direction into account (i.e., it needs to be a vector).  This equation, $\vec{F}\propto\frac{1}{r^{2}}\hat{r}$ (retreived from their notes), is written down on the WB.  Notice that it involves using $\hat{r}$ to give the force a direction.  This unit vector is the computational abstraction that the group identifies and ultimately begins to construct in their program.  This abstraction helps them to work toward their goal of constructing the non-constant Newtonian gravitational force on the satellite.
 
-The group begins to create a computational abstraction once they have identified it (i.e., once they have identified $\hat{r}$ they begin its construction):\begin{description}
-\SD \textit{(115)} so just put the r value, vector value	
-\SD \textit{(116)} just put this uhh function	
+Once the unit vector ($\hat{r}$) has been identified as a computational abstraction, they begin its creation in code:\begin{description}
+\SD \textit{(115)} so just put the r value, vector value
+\SD \textit{(116)} just put this [points to r hat\ uhh function	
 \SB \textit{(117)} as a parameter?			
 \SD \textit{(118)} just give the \textbf{computer a function} so we dont have to calculate F {like SA is doing}	
-\SB \textit{(119)} thats a good idea\end{description} Unfortunately, they are a little stuck on how to define their unit vector, but they at least know that they want it to be a function rather than just a single numerical value (line 118).  Presumably, this is because they know that the numerical values will need to change in time.  Eventually, this group can be seen mentioning this time dependence in (line 271):\begin{description}
+\SB \textit{(119)} thats a good idea\end{description} Although they have clearly identified that $\hat{r}$ is an abstraction that they can use to construct the force on the satellite, they are a little stuck on how to actually go about creating it.  However, they at least know that they want it to be a function (line 118) rather than just a constant numerical value.  Presumably, this is because they know that the numerical values will need to change in time (line 271):\begin{description}
 \SD \textit{(269)} no i mean this is the distance... and it has a direction...	
 \SB \textit{(270)} so its a vector			
 \SD \textit{(271)} yeah this {the position of the satellite} is av ector	
@@ -815,24 +809,47 @@ The group begins to create a computational abstraction once they have identified
 \SB \textit{(274)} so the D is the radius...
 \end{description}
 
-The group struggled with deciding whether or not to add a vector for the position of the satellite and where to place it: \begin{description}
-\SB \textit{(120)} should we put it in the parameter?			
-\SB \textit{(121)} what would it be?			
-\SC \textit{(122)} and what is the r value?		
-\SD \textit{(123)} r is the position...	
-\SB \textit{(127)} so should i put \textbf{a parameter} in or...			
-\SA \textit{(128)} i dunno	
-\end{description}  There is a little confusion as to where to place the function, but the group suspects that they should place it within the initial conditions and the parameters (as opposed to inside the calculation loop).
-
-During this transcript, SA can initially be seen \textit{(line 108)} calculating the magnitude of the force on his hand calculator.  At the same time SC can be seen (line 105) questioning the numerical values that have been initially assigned to some of the variables (the mass and position of the satellite).  Eventually, the group begins to wonder (line 116) if they should define the position of the satellite as a vector function, rather than a numerical constant.  They wonder this, because in line (118), one of the group members mentions that this function will save them from having to calculate things out by hand.  The group spends about a minute thinking about whether or not to add this function and begin to question where to place it (line 127).
-
-Within this excerpt, the group can be seen identifying computational abstractions in the mass and position of the satellite around line (104).  Also, they can be seen creating computational abstractions for the vector position of the satellite in line (118).  Similarly, they can be seen using their computational abstraction as they toward the goal of creating a set of numerical values for the various net force values.  These three characteristics, since confidently observed within this excerpt, serve to classify the excerpt as creating computational abstractions.
-
-Through the process of inter-rater reliability, the confidence on classifying this excerpt as computational abstractions was raised and the confidence on creating data was lowered.  These final confidences hinge on the group, specifically SD in line (118), suggesting that they construct a \textbf{function} for the program to calculate a \textbf{set} of numerical data -- as opposed to calculating each individual force by hand like SA is in line (108).
-
-Beyond the excerpt, we eventually see the group using their computational abstraction of the position of the satellite to construct the Newtonian gravitational force.  In terms of the framework, the group ends up engaging in the practice of creating data.  The data that they end up creating are the various force values as the satellite moves around the Earth.  This set of data helps them to better visualize the situation at hand (see Sec.~).
+To summarize, the computational abstraction that the group has \textit{identified} is the unit vector for the position of the satellite (line 109).  They plan to \textit{create} this computational abstraction by first deciding to place it (incorrectly) in the initial conditions/parameters section of the MWP (line 117).  Eventually, the group does correctly create the the unit vector, and uses that computational abstraction to work toward the \textit{goal} of constructing the Newtonian gravitational force on the satellite.  Thus, the \textit{idea/process} that the group is working with is that of a non-constant position-position dependent net force, and the \textit{general term} that the group represents this idea/process with is the unit vector ($\hat{r}$).
 
 \subsection{Troubleshooting and debugging}
+
+The computational practice of troubleshooting and debugging, as broadly defined by Weintrop et. al, refers to ``the process of figuring out why something is not working or behaving as expected.''  This process is frequently undertaken by students in all fields of study -- especially within introductory computational physics, given the reliance on incomplete/approximate computational and physical models.  The five fundamental characteristics of this computational practice are: i) identifying, ii) isolating, iii) reproducing, and ultimately iv) correcting unexpected errors while doing so v) in a systematic way.  These five characteristics, if confidently observed within an excerpt (either in totality or only partially), would serve to classify that excerpt as troubleshooting and debugging.
+
+For example, consider Excerpt 2 from Group I in the following analysis.  The group begins by reading through the Euler-Cromer update of the position of the satellite in the calculation loop (line 6).  This update involves the position of the satellite, the momentum of the satellite, the mass of the satellite, and the discrete time step (i.e., \texttt{satellite.pos = satellite.pos + satellite.p/msatellite*dt}):  \begin{description}
+\SC \textit{(6)} It \{the MWP\} does the satellites position plus, vector, zero, five thousand, zero, thats the momentum of the satellite
+\SC \textit{(7)} divided by the mass, so, satellites position...\end{description}  They also begin to consider the numerical values that have been assigned to the physical quantities being used (i.e., the initial position and momentum of the satellite and the mass of the satellite).  Notably, the group points out (line 8) that the mass of the satellite should be changed to reflect the realistic value given in the problem statement: \begin{description}
+\SD \textit{(8)} this [points to msatellite] is the mass? should we change that then?
+\SC \textit{(9)} yeah we know that this is... they gave it to us didnt they?
+\SD \textit{(10)} [reading from the problem statement] fifteen times ten to the third
+\SA \textit{(11)} i have all of the numbers up here [points to 4Q]
+\SC \textit{(12)} [changes the mass of the satellite from 1 to 1.5E4]
+\end{description}  By changing the mass of the satellite from \texttt{1} to \texttt{1.5E4} (line 12), they have correctly modified the program to reflect the realistic situation presented to them.  However, by changing the mass of the satellite they have also introduced an unexpected error.
+
+After making their change to the program (line 12), the group begins to wonder (line 15) what the new visualization will look like.  After some back and forth about what the visualization used to look like (line 18), they decide to run the program and observe the new visualization.  The group discovers (line 20) that the satellite, although it used to travel in a straight line trajectory, now remains stationary relative to the rotating Earth:\begin{description}
+\SA \textit{(15)} well i wonder what it \{the visualization\} looks like now
+\SD \textit{(16)} it just like shoots straight
+\SA \textit{(17)} are you \{sure\}, did you already try it?
+\SC \textit{(18)} yeah \{previously\}, but it might be different
+\SD \textit{(19)} we just changed the mass
+\SC \textit{(12)} [runs the program]
+\SA \textit{(20)} uhh its not moving, maybe we should...\end{description}  Given this unexpected error, the group begins to identify/isolate/reproduce the cause of the unexpected error.  They consider that they may have introduced a syntax error since they last ran the program (e.g., in using E as opposed to **), resulting in it crashing the program (line 22).  They also consider that changing the mass might have lead to the unexpected error, and work to at least temporarily rectify it (line 25): \begin{description}
+\SC \textit{(21)} we probably wrote it wrong
+\SC \textit{(22)} maybe it might have crashed the...
+\SA \textit{(23)} well just x it out then
+\SD \textit{(24)} yeah
+\SD \textit{(25)} should we change it back and see if it runs again?
+\SC \textit{(26)} well if we change it back to one itll probably run again because we didnt change anything else
+\SA \textit{(27)} well can i see what it looks like when it runs with one?
+\SC \textit{(28)} yeah
+\end{description}
+
+Changing the mass of the satellite back to its initial dummy value is indeed a temporary fix to their unexpected error.  However, a more long-term correction is needed to ensure the generalizability of their program.  Ultimately, the group does work to correct the error in a more long-term manner: \begin{description}
+\SB \textit{(745)} so, okay so, were all in understanding of why we are doing it like this \{defining the momentum of the satellite as the mass times velocity\} instead of declaring this \{a hard-coded numerical value\}?
+\SB \textit{(746)} it also like it makes it really explicit too like when we go down here and do this thing where you take p divided by m you are literally just left with velocity
+\SB \textit{(747)} so thats good
+\SD \textit{(748)} yeah\end{description}  Here, the group recognizes that the momentum of the satellite should be defined as a function utilizing the velocity and mass of the satellite separately (line 745).  That way, when the momentum is used in the Euler-Cromer update, it will correctly divide out the mass no matter what value they use (line 746). 
+
+To summarize, the unexpected error that the group runs into is that in changing the mass of the satellite to reflect the realistic situation, the satellite remains motationless relative to the rotating Earth (line 20).  This introduces concern to the group, presumably because a straight line trajectory is closer to a geostationary orbit as compared to no trajectory at all.  The group identifies/isolates/reproduces the error by changing the mass of the satellite back to its initial dummy value and finding that this does indeed rectify the unexpected error (line 25).  Ultimately, the group works to correct this error by redinfing the momentum of the satellite as a function (line 745).
 
 \subsection{Thinking in levels}
 
@@ -843,6 +860,7 @@ Beyond the excerpt, we eventually see the group using their computational abstra
 %
 
 \chapter{Discussion}\label{CH6:Discussion}
+
 
 %
 %	CONCLUSIONS
@@ -856,9 +874,9 @@ Beyond the excerpt, we eventually see the group using their computational abstra
 
 \appendices\label{Appendix}
 
-\section*{Collecting data}
+\section*{This}
 
-\section*{Choosing effective tools}
+\section*{That}
 
 %
 %	BIBLIOGRAPHY
