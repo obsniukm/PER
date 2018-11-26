@@ -5,6 +5,7 @@
 \usepackage{enumitem}
 \usepackage{minibox}
 \usepackage{color}
+\usepackage{tabularx}
 \usepackage{siunitx}\sisetup{per-mode=symbol}
 \usepackage{listings} 
 \usepackage[T1]{fontenc}
@@ -785,6 +786,14 @@ Confidence
 
 The computational practice of creating abstractions, as defined by Weintrop et. al, requires ``the ability to conceptualize and then represent an idea or a process in more general terms.''  This ability show up frequently in the STEM domains -- especially within introductory computational physics.  The two fundamental characteristics of this computational practice are: i) conceptualizing an idea and ii) representing it in more general terms.  These two characteristics, if confidently observed within an excerpt, would serve to classify that excerpt as the computational practice of creating computational abstractions.
 
+\begin{table}
+\begin{tabular}{r|p{0.8\textwidth}}
+Characteristic & Qualities \\\hline\hline
+Conceptualizing & Some idea must be conceptualized -- either in particular and general terms.  This process of conceptualization usually involves a particular numerical value or an equation involving variables.\\
+Representing & A particular idea or concept must be transformed from less general to more general.  This process of representing things more generally lies at the heart of the process of abstraction.
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of creating computational abstractions.}
+\end{table}
+
 Consider Excerpt 13 from Group D in the following analysis.  Overall, the group can be seen giving their net force a direction through the use of a unit vector ($\hat{r}$).  They first recognize that their force needs to be a vector, and propose an equation to use that specifically involves a direction ($\vec{F}\propto\hat{r}/r^{2}$).  Once they have their equation to work with, they begin to discuss how they can define it as a general function.  In other words, the group can be seen \textit{conceptualizing} and \textit{representing} an idea in general terms.
 
 They start by looking for an equation that they can use to try to calculate the net force on the satellite: \begin{description}
@@ -816,6 +825,15 @@ To summarize this excerpt, the computational abstraction that the group has crea
 \subsection{Troubleshooting and debugging}
 
 The computational practice of troubleshooting and debugging, as broadly defined by Weintrop et. al, refers to ``the process of figuring out why something is not working or behaving as expected.''  This process is frequently undertaken by students in all fields of study -- especially within introductory computational physics, given their reliance on incomplete/approximate computational and physical models.  The three fundamental characteristics of this computational practice that we have identified are: i) isolating an unexpected error, ii) correcting that unexpected error, and iii) doing so in a systematic/efficient way.  These three characteristics, if confidently observed within an excerpt, would serve to classify that excerpt as troubleshooting and debugging.
+
+\begin{table}
+\begin{tabular}{r|p{0.8\textwidth}}
+Characteristic & Qualities \\\hline\hline
+Isolating & The cause of an unexpected error that arises in a program must be tracked down.  This sometimes involves retracing steps (or keystrokes) through the undo command, but usually involves testing the program through a process of guessing and checking.\\
+Correcting & The unexpected error must ultimately be corrected in a long-term and generalizable manner.\\
+Systematizing & When isolating or correcting the unexpected error, it should be done is a systematic and efficient way.  This characteristic is not necessarily required.\\
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of troubleshooting and debugging.}
+\end{table}
 
 For example, consider Excerpt 2 from Group I in the following analysis.  Broadly, the group can be seen working to incorporate realistic values and generalizeable functions into their MWP.  A couple of minutes into starting the problem (Sec.~\ref{CH3:SatelliteProblem}), they modify the pre-written numerical value for the mass of the satellite from 1 to 1E4.  This leads, over the course of about thirty minutes, to the group defining the momentum of the satellite as a function.  In other words, the group can be seen \textit{isolating} and \textit{correcting} an unexpected error in a \textit{systematic way}.
 
@@ -904,30 +922,3 @@ To summarize, the unexpected error that the group runs into is that in changing 
 \captionof{table}{caption_text}
 \captionof{figure}{caption_text}
 \end{landscape}
-
-\begin{figure}
-\center
-\begin{enumerate}
-\item Data
-\begin{enumerate}
-\item Collecting
-\begin{enumerate}
-\item Propose protocols
-\item Articulate automation
-\end{enumerate}
-\item Creation
-\begin{enumerate}
-\item Define procedures
-\item Run simulations
-\item Create data
-\item Advance understanding
-\end{enumerate}
-\item Analysis
-\item Visualization
-\end{enumerate}
-\item Modeling and Simulation
-\item Problem Solving
-\item Systems Thinking
-\end{enumerate}
-\caption{The framework developed by Weintrop et. al to describe the computational practices observed in science and mathematics classrooms.  Each category contains between five and seven individual practices, and each practice has between two and seven fundamental characteristics.}\label{CH2:Framework}
-\end{figure}
