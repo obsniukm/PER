@@ -732,46 +732,6 @@ The other less frequent practices, though not the focus here, are still of great
 
 \subsection{Creating data}
 
-Summary of the characteristics of the practice according to the framework.
-
-Broad explanation of the excerpt.
-
-Details of the transcript in small portions:
-
-\begin{description}
-\SA \textit{(123)} Hello.
-\SB \textit{(123)} [Hello.]
-\SC \textit{(123)} \{Hello.\}
-\SD \textit{(123)} Hello.
-\TA \textit{(123)} Hello.
-\end{description}
-
-Summary of the portion of the transcript.
-
-\begin{description}
-\SA \textit{(123)} Hello.
-\SB \textit{(123)} [Hello.]
-\SC \textit{(123)} \{Hello.\}
-\SD \textit{(123)} Hello.
-\TA \textit{(123)} Hello.
-\end{description}
-
-Summary of the portion of the transcript.
-
-\begin{description}
-\SA \textit{(123)} Hello.
-\SB \textit{(123)} [Hello.]
-\SC \textit{(123)} \{Hello.\}
-\SD \textit{(123)} Hello.
-\TA \textit{(123)} Hello.
-\end{description}
-
-Summary of the portion of the transcript.
-
-Summary of the characteristics observed in this excerpt.
-
-Confidence
-
 \subsection{Analyzing data}
 
 \subsection{Designing models}
@@ -789,8 +749,8 @@ The computational practice of creating abstractions, as defined by Weintrop et. 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
 Characteristic & Qualities \\\hline\hline
-Conceptualizing & Some idea must be conceptualized -- either in particular and general terms.  This process of conceptualization usually involves a particular numerical value or an equation involving variables.\\
-Representing & A particular idea or concept must be transformed from less general to more general.  This process of representing things more generally lies at the heart of the process of abstraction.
+Conceptualizing & There needs to be some concept that a group is focusing on.  Concepts usually range from individual physical quantities to more complicated physical relationships.\\
+Representing & A particular concept should be represented mathematically.  This process of representation usually involves translating a mathematical equation from the notes into a more general computer function.
 \end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of creating computational abstractions.}
 \end{table}
 
@@ -808,10 +768,10 @@ They start by looking for an equation that they can use to try to calculate the 
 
 Once the unit vector ($\hat{r}$) has been identified as a computational abstraction, they begin its creation in code:\begin{description}
 \SD \textit{(115)} so just put the r value, vector value
-\SD \textit{(116)} just put this [points to r hat\ uhh function	
+\SD \textit{(116)} just put this [points to r hat] uhh function	
 \SB \textit{(117)} as a parameter?			
 \SD \textit{(118)} just give the \textbf{computer a function} so we dont have to calculate F {like SA is doing}	
-\SB \textit{(119)} thats a good idea\end{description} Although they have clearly identified that $\hat{r}$ is an abstraction that they can use to construct the force on the satellite, they are a little stuck on how to actually go about creating it.  However, they at least know that they want it to be a function (line 118) rather than just a constant numerical value.  Presumably, this is because they know that the numerical values will need to change in time (line 271):\begin{description}
+\SB \textit{(119)} thats a good idea\end{description} Although they are clearly focusing on the concept of the direction of the Newtonian gravitational force, they are a little stuck on how to actually go about creating it.  However, they at least know that they want it to be a function (line 118) rather than just a constant numerical value.  Presumably, this is because they know that the numerical values will need to change in time (line 271):\begin{description}
 \SD \textit{(269)} no i mean this is the distance... and it has a direction...	
 \SB \textit{(270)} so its a vector			
 \SD \textit{(271)} yeah this {the position of the satellite} is av ector	
@@ -820,7 +780,7 @@ Once the unit vector ($\hat{r}$) has been identified as a computational abstract
 \SB \textit{(274)} so the D is the radius...
 \end{description}
 
-To summarize this excerpt, the computational abstraction that the group has created is a function for the unit vector of the position of the satellite (line 116).  They decide to create a function (as opposed to a hard-coded value) so that it will be able to change over time (line 272).  That is, the group has \textit{conceptualized} the direction of the force as a unit vector and have \textit{represented} that idea as a more generaliazble function.  Given these characteristics, this excerpt illustrates the computational practice of creating computational abstractions.
+To summarize this excerpt, the computational abstraction that the group has created is a function for the unit vector of the position of the satellite (line 116).  They decide to create a function (as opposed to a hard-coded value) so that it will be able to change over time (line 272).  That is, the group has \textit{conceptualized} the direction of the force with a unit vector ($\vec{F}\propto\hat{r}$) and have \textit{represented} that idea as a position dependent and therefore more generalizable function (\texttt{rhat = satellite.pos/R}).  Given these characteristics, this excerpt illustrates the computational practice of creating computational abstractions.
 
 \subsection{Troubleshooting and debugging}
 
@@ -835,7 +795,7 @@ Systematizing & When isolating or correcting the unexpected error, it should be 
 \end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of troubleshooting and debugging.}
 \end{table}
 
-For example, consider Excerpt 2 from Group I in the following analysis.  Broadly, the group can be seen working to incorporate realistic values and generalizeable functions into their MWP.  A couple of minutes into starting the problem (Sec.~\ref{CH3:SatelliteProblem}), they modify the pre-written numerical value for the mass of the satellite from 1 to 1E4.  This leads, over the course of about thirty minutes, to the group defining the momentum of the satellite as a function.  In other words, the group can be seen \textit{isolating} and \textit{correcting} an unexpected error in a \textit{systematic way}.
+For example, consider Excerpt 2 from Group I in the following analysis.  Broadly, the group can be seen working to incorporate realistic values and generalizeable functions into their MWP.  A couple of minutes into starting the problem (Sec.~\ref{CH3:SatelliteProblem}), they modify the pre-written numerical value for the mass of the satellite from \texttt{1} to \texttt{1E4}.  This leads, over the course of about thirty minutes, to the group defining the momentum of the satellite as a function.  That is, the group can be seen \textit{isolating} the cause of an unrealistic satellite trajectory and ultimately \textit{correcting} it in a \textit{systematic way} by redifing the momentum of the satellite from a hard-coded value to computer function.
 
 The group begins by reading through the Euler-Cromer update of the position of the satellite in the calculation loop (line 6).  This update involves the position of the satellite, the momentum of the satellite, the mass of the satellite, and the discrete time step (i.e., \texttt{satellite.pos = satellite.pos + satellite.p/msatellite*dt}):  \begin{description}
 \SC \textit{(6)} It \{the MWP\} does the satellites position plus, vector, zero, five thousand, zero, thats the momentum of the satellite
@@ -845,7 +805,7 @@ The group begins by reading through the Euler-Cromer update of the position of t
 \SD \textit{(10)} [reading from the problem statement] fifteen times ten to the third
 \SA \textit{(11)} i have all of the numbers up here [points to 4Q]
 \SC \textit{(12)} [changes the mass of the satellite from 1 to 1.5E4]
-\end{description}  By changing the mass of the satellite from \texttt{1} to \texttt{1.5E4} (line 12), they have correctly modified the program to reflect the realistic situation presented to them.  However, by changing the mass of the satellite they have also introduced an unexpected error.
+\end{description}  By changing the mass of the satellite from \texttt{1} to \texttt{1.5E4} (line 12), they have correctly modified the program to reflect the realistic situation presented to them.  However, by changing the mass of the satellite they have also introduced an unexpected error -- their satellite looks as if it is floating motionless in space.
 
 After making their change to the program (line 12), the group begins to wonder (line 15) what the new visualization will look like.  After some back and forth about what the visualization used to look like (line 18), they decide to run the program and observe the new visualization.  The group discovers (line 20) that the satellite, although it used to travel in a straight line trajectory, now remains stationary relative to the rotating Earth:\begin{description}
 \SA \textit{(15)} well i wonder what it \{the visualization\} looks like now
@@ -898,9 +858,9 @@ To summarize, the unexpected error that the group runs into is that in changing 
 
 \appendices\label{Appendix}
 
-\section*{This}
+\section*{Protocol?}
 
-\section*{That}
+\section*{Full Transcript?}
 
 %
 %	BIBLIOGRAPHY

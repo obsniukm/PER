@@ -36,16 +36,16 @@
 \contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{59}
 \contentsline {section}{\numberline {5.2}Computational practices}{61}
 \contentsline {subsection}{\numberline {5.2.1}Creating data}{63}
-\contentsline {subsection}{\numberline {5.2.2}Analyzing data}{64}
-\contentsline {subsection}{\numberline {5.2.3}Designing models}{64}
-\contentsline {subsection}{\numberline {5.2.4}Constructing models}{64}
-\contentsline {subsection}{\numberline {5.2.5}Assessing models}{64}
-\contentsline {subsection}{\numberline {5.2.6}Programming}{64}
-\contentsline {subsection}{\numberline {5.2.7}Creating abstractions}{64}
-\contentsline {subsection}{\numberline {5.2.8}Troubleshooting and debugging}{67}
-\contentsline {subsection}{\numberline {5.2.9}Thinking in levels}{72}
-\contentsline {subsection}{\numberline {5.2.10}Communicating information}{72}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{73}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{74}
-\contentsline {chapter}{APPENDICES}{75}
-\contentsline {chapter}{BIBLIOGRAPHY}{77}
+\contentsline {subsection}{\numberline {5.2.2}Analyzing data}{63}
+\contentsline {subsection}{\numberline {5.2.3}Designing models}{63}
+\contentsline {subsection}{\numberline {5.2.4}Constructing models}{63}
+\contentsline {subsection}{\numberline {5.2.5}Assessing models}{63}
+\contentsline {subsection}{\numberline {5.2.6}Programming}{63}
+\contentsline {subsection}{\numberline {5.2.7}Creating abstractions}{63}
+\contentsline {subsection}{\numberline {5.2.8}Troubleshooting and debugging}{66}
+\contentsline {subsection}{\numberline {5.2.9}Thinking in levels}{71}
+\contentsline {subsection}{\numberline {5.2.10}Communicating information}{71}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{72}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{73}
+\contentsline {chapter}{APPENDICES}{74}
+\contentsline {chapter}{BIBLIOGRAPHY}{76}
