@@ -736,7 +736,44 @@ The other less frequent practices, though not the focus here, are still of great
 
 \subsection{Designing models}
 
-\subsection{Constructing models}
+The computational practice of designing computational models, as defined by Weintrop et. al, involves the process of making ``technological, methodological, and conceptual decisions.''  These types of decisions are frequently dealt with in the STEM discipline given the complexity of modern scientific endeavors -- scientific rigor and sound methodology must be utilized while using powerful tools at the forefront of technology (i.e., computation) to investigate modern phenomena.  At the same time, developing a deep conceptual understanding of the models and the phenomena that they represent is playing an increasingly important role in the sharing and communication of scientific information.  The fundamental characteristics associated with this computational practice are: i) defining the components of a model, ii) describing how the components of a model interact, and iii) articulating what data/conclusions cam be produced/drawn by the model.
+
+\begin{table}
+\begin{tabular}{r|p{0.8\textwidth}}
+Characteristic & Qualities \\\hline\hline
+Defining & Each individual component of a model must be separately defined in code.  For example, the mass and velocity of an object can be separately defined and used to construct the momentum of the object.\\
+Describing & The group must describe the way that the individual components interact to model a phenomenon.  This interaction usually mirrors an equation/relationship that they have seen in the notes.  For example, the momentum of an object is linearly proportional to not only the mass but also the velocity and is used to calculate the position.\\
+Articulating & The group must articulate what information their model will provide them, and use that information to make predications about the time evolution of a phenomenon given initial conditions.  For example, a force model can generate the various values of the force acting on an object at different positions in time.  This set of data can then be used to make predictions about the motion of the object.\\
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of designing a computational model.}
+\end{table}
+
+Consider Excerpt 12 from Group G.  Overall, the group can be seen designing a model that can be used to calculate the position of the satellite over time.  This model involves the definition of the mass, position, velocity, momentum, and net force as the individual components that interact with time to integrate Newton's equations of motion.  Specifically, they focus on the way that the momentum interacts with the mass and velocity (i.e., $\vec{p}=m\vec{v}$) as well as the way that this momentum is used (along with the force) to calculate the position of the satellite over time (i.e., through the Euler-Cromer equations of $\vec{p}_{\rm new}=\vec{p}_{\rm old}+\vec{F}_{\rm net}dt$ and $\vec{r}_{\rm new}=\vec{r}_{\rm old}+(\vec{p}/m)dt$).
+
+The group begins by recalling an equation (line 350) for the momentum of an object in terms of the mass and velocity of the object and begin to define them code: \begin{description}
+\SA \textit{(line 350)} whats the equation for momentum?	
+\SB \textit{(line 351)} [looking in notes] mass times velocity.
+\SA \textit{(line 352)} okay so we have to add velocity \{in the code\}... we have the mass, we just fixed the mass...
+\SB \textit{(line 353)} right...
+\SC \textit{(line 354)} so the mass...	
+\SA \textit{(line 355)} we \{need to\} add the velocity, which we solved \{last time\} to be uhh thirty err three thousand seventy one.
+\SB \textit{(line 356)} what?		
+\SA \textit{(line 357)} I said we add the velocity which we found to be three thousand seventy one.\end{description}  They have identified (line 352) that the mass of the satellite is already defined in their program and they have modified it so that it reflects the realistic value provided in the problem statement.  Next, they begin to define the velocity (line 355) of the satellite in terms of the numerical value that they calculated from the previous day's (related) problem.  In this way, the group is defining some of the individual components of the model representing the momentum and position of the satellite over time.
+
+However, before getting too far, the group expresses concern about the fact that their program does not allow for the analysis of elliptical orbits.  In other words, they need the velocity of the satellite to change (line 358) over time:  \begin{description}
+\SB \textit{(line 358)} i think in that thing \{the problem statement\} it said we have to do it elliptical too...
+\SB \textit{(line 359)} which would change the velocity.		
+\SB \textit{(line 360)} so we have to figure out, we gotta write the entire equation \{Euler-Cromer\} in there how the velocity changes		
+\SA \textit{(line 361)} hold on...
+\SB \textit{(line 362)} yeah thats gonna be annoying.		
+\SB \textit{(line 363)} yeah, but the velocity has to change.\end{description}  Although they have defined the correct mass and initial velocity of the satellite, they have not yet related them to momentum.  The momentum is what shoes up in the Euler-Cromer equations to integrate the force into the position of the satellite.
+
+A little later, they begin to describe the algorithm that utilizes the momentum to ensure that the velocity of the satellite will constantly and correctly change (line 752) over time so that they can investigate elliptical orbits: \begin{description}
+\SD \textit{(line 750)} and then we have update the momentum of the system with p final equals p i plus F net times delta t
+\SD \textit{(line 751)} or r final, which is for the position, equals r initial plus v average times delta t
+\SD \textit{(line 752)} so one updates the momentum and one updates the position
+\end{description}  This algorithm involves (line 750) the momentum of the satellite being changed by a force and its position being changed by its new momentum divided by its mass.  It seem as though they have correctly made the connection that their momentum divided by the mass is what gives them the average velocity as their code shows \texttt{sat.pos = sat.pos + (psat/msat)*dt} yet they mention the velocity and not the momentum (line 751).
+
+To summarize, the group runs into an issue where the position of their satellite in not correctly being calculated over time.  This issue is ultimately due to the fact that the mass and the velocity of the satellite (both separately defined in code) were not being used to calculate the corresponding momentum (which is then used to calculate the new position).  However, once the momentum of the satellite is correctly defined in terms of its mass and velocity, it then correctly produces a set of data that can predict the position of the satellite for elliptical orbits.  That is, the group has \textit{defined} the mass, position, velocity, momentum, force, and time of the satellite as six individual components in their model of motion.  Further, they have \textit{described} the way that these individual components interact through of a process of Euler-Cromer style integration.  Finally, they have \textit{articulated} that their model will produce a set of values for the velocity of the satellite over time which are then used to ultimately calculate the positions of the satellite for various initial conditions (i.e., elliptical orbits).  Given these characteristics that we have identified, this excerpt illustrates the computational practice of designing a computational model.
 
 \subsection{Assessing models}
 
@@ -774,13 +811,13 @@ Once the unit vector ($\hat{r}$) has been identified as a computational abstract
 \SB \textit{(119)} thats a good idea\end{description} Although they are clearly focusing on the concept of the direction of the Newtonian gravitational force, they are a little stuck on how to actually go about creating it.  However, they at least know that they want it to be a function (line 118) rather than just a constant numerical value.  Presumably, this is because they know that the numerical values will need to change in time (line 271):\begin{description}
 \SD \textit{(269)} no i mean this is the distance... and it has a direction...	
 \SB \textit{(270)} so its a vector			
-\SD \textit{(271)} yeah this {the position of the satellite} is av ector	
+\SD \textit{(271)} yeah this {the position of the satellite} is a vector	
 \SD \textit{(272)} change with time	
 \SC \textit{(273)} yeah im talk about the very beginning with the D... here		
 \SB \textit{(274)} so the D is the radius...
 \end{description}
 
-To summarize this excerpt, the computational abstraction that the group has created is a function for the unit vector of the position of the satellite (line 116).  They decide to create a function (as opposed to a hard-coded value) so that it will be able to change over time (line 272).  That is, the group has \textit{conceptualized} the direction of the force with a unit vector ($\vec{F}\propto\hat{r}$) and have \textit{represented} that idea as a position dependent and therefore more generalizable function (\texttt{rhat = satellite.pos/R}).  Given these characteristics, this excerpt illustrates the computational practice of creating computational abstractions.
+To summarize this excerpt, the computational abstraction that the group has created is a function for the unit vector of the position of the satellite (line 116).  They decide to create a function (as opposed to a hard-coded value) so that it will be able to change over time (line 272).  That is, the group has \textit{conceptualized} the direction of the force with a unit vector ($\vec{F}\propto\hat{r}$) and have \textit{represented} that idea as position dependent and therefore more generalizable function (\texttt{rhat = satellite.pos/R}).  Given these characteristics, this excerpt illustrates the computational practice of creating computational abstractions.
 
 \subsection{Troubleshooting and debugging}
 
