@@ -773,9 +773,66 @@ A little later, they begin to describe the algorithm that utilizes the momentum 
 \SD \textit{(line 752)} so one updates the momentum and one updates the position
 \end{description}  This algorithm involves (line 750) the momentum of the satellite being changed by a force and its position being changed by its new momentum divided by its mass.  It seem as though they have correctly made the connection that their momentum divided by the mass is what gives them the average velocity as their code shows \texttt{sat.pos = sat.pos + (psat/msat)*dt} yet they mention the velocity and not the momentum (line 751).
 
-To summarize, the group runs into an issue where the position of their satellite in not correctly being calculated over time.  This issue is ultimately due to the fact that the mass and the velocity of the satellite (both separately defined in code) were not being used to calculate the corresponding momentum (which is then used to calculate the new position).  However, once the momentum of the satellite is correctly defined in terms of its mass and velocity, it then correctly produces a set of data that can predict the position of the satellite for elliptical orbits.  That is, the group has \textit{defined} the mass, position, velocity, momentum, force, and time of the satellite as six individual components in their model of motion.  Further, they have \textit{described} the way that these individual components interact through of a process of Euler-Cromer style integration.  Finally, they have \textit{articulated} that their model will produce a set of values for the velocity of the satellite over time which are then used to ultimately calculate the positions of the satellite for various initial conditions (i.e., elliptical orbits).  Given these characteristics that we have identified, this excerpt illustrates the computational practice of designing a computational model.
+To summarize, the group runs into an issue where the position of their satellite in not correctly being calculated over time.  This issue is ultimately due to the fact that the mass and the velocity of the satellite (both separately defined in code) were not being used to calculate the corresponding momentum (which is then used to calculate the new position).  However, once the momentum of the satellite is correctly defined in terms of its mass and velocity, it then correctly produces a set of data that can predict the position of the satellite for elliptical orbits.  That is, the group has \textit{separately} defined the mass, position, velocity, momentum, force, and time of the satellite as six individual components in their model of motion.  Further, they have described the way that these individual components \textit{relate} through of a process of Euler-Cromer style integration.  Finally, they have articulated that their model will be able to \textit{predict} the values for the velocity of the satellite over time which are then used to ultimately calculate the positions of the satellite for various initial conditions (i.e., elliptical orbits).  Given these characteristics that we have identified, this excerpt illustrates the computational practice of designing a computational model.
 
 \subsection{Assessing models}
+
+The computational practice of assessing a computational model, as defined by Weintrop et. al, involves ``understanding how the model relates to the phenomenon being represented.''  This is a crucial step in the process of modeling -- without an assessment of the validity and meaning of the results (i.e., without a deep understanding), the model is almost certainly useless.  The fundamental characteristics associated with this crucial computational practice are: i) raising issues with the model and ii) identifying assumptions built into it.
+
+\begin{table}
+\begin{tabular}{r|p{0.8\textwidth}}
+Characteristic & Qualities \\\hline\hline
+Validating & During the design and construction of a computational model, issues or threats to its validity are often raised.  For example, the fact that a particular model of motion cannot handle elliptical orbits is a threat to its generalizability or validity.\\
+Assuming & In designing a computational model, certain assumptions are invariably taken into account.  These assumptions -- regardless of how appropriate -- should be identified and clearly articulated by the group.  For example, the assumption that the satellite will be traveling in a circular orbit, although a poor one, is an assumption.\\
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of assessing a computational model.}
+\end{table}
+
+Consider Excerpt 9 of Group C.  Generally speaking, the group can be seen working to incorporate a gravitational force into their code.  Early on, they recognize that their code is missing the net force on the satellite, and subsequently spend about thirty minutes deciding on if and how they should should incorporate a gravitational force.  Eventually they come a conclusion after assesing a couple of different options (i.e., a Newtonian or a local gravitational force).
+
+At about 10 minutes in, the group considers what happens to the initial momentum as the program runs (line 256):
+\begin{description}
+\SA \textit{(253)} umm...
+\SB	\textit{(254)} okay.
+\SA \textit{(255)} so thats our initial momentum.			
+\SA \textit{(256)} and then what happens...			
+\SD \textit{(257)} and the...
+\SA \textit{(258)} we need, we have it...		
+\SA \textit{(259)} the net frce equation is whats [inaudible]			
+\SD \textit{(260)} yeah the net force equals to like gravity, right?\end{description}  Obviously the group is concerned with the state of the net force equation (line 259), and a proposal is made to set the net force equal some sort of gravitational force (line 260).  This is the beginning of an assumption that the group is making about their model (i.e., that it is a Newtonian gravitational force acting on the satellite as opposed to a local gravitational force).
+
+They continue to discuss the gravitational force that they plan to incorporate into their code.  Specifically they wonder what numerical value they should be using (line 262), and Student A suggests using the local gravitational constant ($g=\SI{9.81}{\meter\per\second\squared}$):
+\begin{description}
+\SD \textit{(261)} so we just to like plug in the value of gravity right
+\SA \textit{(262)} yeah but whats the value that we need?			
+\SA \textit{(263)} because we have um we have um we have			
+\SA \textit{(264)} mass in kilograms and we have {the radius of orbit in} kilometers umm, obviously we all know like nine point eight number			
+\SC \textit{(265)} thats close to {the surface of the Earth}...	
+\SA \textit{(266)} nine point is meteres per second though...\end{description}  However, Student C recognizes that their satellite is not really that close to the surface of the Earth (line 265), and that the local gravitational constant really only applies there.  In other words, the group can be seen validating their computational model.
+
+Eventually, the group does decide on a particular gravitational force to use (line 270):
+\begin{description}		
+\SC \textit{(267)} [looks in notes]
+\SD \textit{(268)} yeah its that
+\SD \textit{(269)} gravity equals to like gravity, of gravity equals F net
+\SD \textit{(270)} equals to gravity equals to {writes Newtonian force on board}
+\SB	\textit{(271)} whats that?		
+\SD \textit{(272)} thats the constant of
+\SB	\textit{(273)} oh the G yeah		
+\SB	\textit{(274)} six point six...\end{description}  This force involves the universal gravitational constant ($G=\SI{6.61E-11}{\newton\meter\squared\per\kilo\gram\squared}$) which they clearly state (line 273).  Again, the group has validated their net force model by assesing the location of the satellite and the required gravitational constant.
+
+Before getting to far, the group takes some time to clearly articulate an assumption (line 275) built into their code:
+\begin{description}
+\SA \textit{(275)} sorry i just wanted to write here that were making an assumption [writes on WB]
+\SD \textit{(276)} yes
+\SD \textit{(277)} F net equals to gravity
+\SD \textit{(278)} yes
+\SD \textit{(279)} equals to
+\SA \textit{(280)} i just did that [adds an E] to show that thats of the Earth			
+\SA \textit{(281)} does everyone agree that this is an assumption?			
+\SC \textit{(282)} yeah
+\end{description}  The fact that the only force acting on the satellite is a gravitational force, and the fact that the gravitational force should be of a Newtonian form, are really just assumptions made by the group at this point.  The group specifically takes the time to articulate and agree upon this assumption.
+
+To summarize, the excerpt demonstates two fundamental characteristics: the group is \textit{validating} their model when they compare which gravitational constant they should be using, and the group is \textit{assuming} things about their model when they say that the net force equals the Newtonian gravitational force.  Given these two characteristics, we feel confident in categorizing this excerpt as a strong illustration of the computational practice of assesing a computational model.
 
 \subsection{Programming}
 

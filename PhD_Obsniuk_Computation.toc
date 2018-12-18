@@ -39,12 +39,12 @@
 \contentsline {subsection}{\numberline {5.2.2}Analyzing data}{63}
 \contentsline {subsection}{\numberline {5.2.3}Designing models}{63}
 \contentsline {subsection}{\numberline {5.2.4}Assessing models}{67}
-\contentsline {subsection}{\numberline {5.2.5}Programming}{67}
-\contentsline {subsection}{\numberline {5.2.6}Creating abstractions}{67}
-\contentsline {subsection}{\numberline {5.2.7}Troubleshooting and debugging}{70}
-\contentsline {subsection}{\numberline {5.2.8}Thinking in levels}{75}
-\contentsline {subsection}{\numberline {5.2.9}Communicating information}{75}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{76}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{77}
-\contentsline {chapter}{APPENDICES}{78}
-\contentsline {chapter}{BIBLIOGRAPHY}{80}
+\contentsline {subsection}{\numberline {5.2.5}Programming}{71}
+\contentsline {subsection}{\numberline {5.2.6}Creating abstractions}{71}
+\contentsline {subsection}{\numberline {5.2.7}Troubleshooting and debugging}{74}
+\contentsline {subsection}{\numberline {5.2.8}Thinking in levels}{79}
+\contentsline {subsection}{\numberline {5.2.9}Communicating information}{79}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{80}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{81}
+\contentsline {chapter}{APPENDICES}{82}
+\contentsline {chapter}{BIBLIOGRAPHY}{84}
