@@ -732,6 +732,62 @@ The other less frequent practices, though not the focus here, are still of great
 
 \subsection{Creating data}
 
+Advancing & Each group should ultimately be advancing their understanding of a phenomenon as they work to complete their goals.\\
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of creating data.}
+\end{table}
+
+Consider Excerpt 9 from Group H.  Over the course of two hours, this group can be seen ensuring that their MWP will dynamically update the position of the satellite.  This entails ensuring that the momentum of the satellite will also dynamically update.  Accordingly, the group works to construct a computational algorithm that will automatically create sets of data representing the positions and momenta of the satellite over time.  These sets of data are then ultimately used to create visualizations which help them to advance their understanding of the topic of satellite motion.
+
+Early on, the group can be seen considering changing the initial position (line 199) of the satellite to what they calculated on the previous problem:
+\begin{description}		
+\SD \textit{(195)} so its mostly just to figure out how to get it to display {an orbit}...
+\SA \textit{(196)} yeah, it is.	
+\SC \textit{(197)} wait we have to change the position dont we?	
+\SB \textit{(198)} i think {the initial} position stays there, we have to update position though		
+\SC \textit{(199)} yeah we have to change {the initial} position to what we found it was this far away, you know?	
+\SA \textit{(200)} yeah			
+\SB \textit{(201)} yeah		
+\SA \textit{(202)} which was... four point four two times ten to the seven			
+\SB \textit{(203)} four point two... [codes]
+\end{description}  They seem to make the distinction between changing the initial position of the satellite and changing the way that the position updates over time (line 198).
+
+Eventually they propose an Euler-Cromer style algorithm to update the position of the satellite (line 222) in terms of its momentum, mass, and time:
+\begin{description}
+\SB \textit{(214)} hey it moves... thats exciting... that doesnt do anything though.
+\SA \textit{(215)} it just made it... far.
+\SA \textit{(216)} okay, and then the velocity...
+\SB \textit{(217)} alright...	
+\SB \textit{(218)} okay so we have to add its {new} position		
+\SA \textit{(219)} but it has to update its position every time
+\SB \textit{(220)} right		
+\SA \textit{(221)} so have to make it update			
+\SB \textit{(222)} satellite position plus momentum of the satellite...
+\SA \textit{(223)} over the mass?			
+\SB \textit{(224)} times the change in time, yeah so its, yeah		
+\SB \textit{(225)} but the momentum is always changing
+\end{description}  Although the group has clearly laid out the way that the position of the satellite will need to change (line 222), they have raised another issue in terms of the momentum of the satellite (line 225).  In other words, they have defined a procedure to calculate the positions of the satellite, but still need to define a procedure to calculate the momenta (or velocities).
+
+As the group works toward defining a procedure to change the momentum of the satellite over time, they recall the concept of both iterative prediction (line 684) from the notes and Newton's second law (line 695):
+\begin{description}
+\SB \textit{(681)} so we gotta figure out how to change the momentum in there		
+\SB \textit{(682)} what was this equation from last week?		
+\SA \textit{(683)} umm F grav... no			
+\SD \textit{(684)} what about using iteractive prediction for like future positions
+\SA \textit{(685)} oh F gravity			
+\SD \textit{(686)} right?
+\SC \textit{(687)} The change in momentum would be the net force times...	
+\SB \textit{(688)} cause the force is mass times acceleration		
+\SC \textit{(689)} that would be it, yeah	
+\SB \textit{(690)} so integrate that		
+\SC \textit{(691)} hey SB
+\SC \textit{(692)} changing momentum is force times change in time	
+\SB \textit{(693)} oh, there we go, nice
+\SA \textit{(694)} wait what is it?
+\SB \textit{(695)} the change in momentum is the net force times change in time
+\end{description}  With these two procedures defined, their MWP is read to dynamically update the position, momentum, and eventually the force of the satellite.
+
+To summarize, the group can be seen \textit{automating} the generation of sets of data representing the position and momentum of the satellite over time.  Further, with these sets of data, the group is ultimately \textit{advancing} their understanding of the concept of predictive motion and their progress toward constructing a generalizable simulation of a satellite.  Given the identification of these two characteristics, this excerpt is best classified as the computational practice of creating data.
+
 \subsection{Analyzing data}
 
 \subsection{Designing models}
@@ -741,9 +797,9 @@ The computational practice of designing computational models, as defined by Wein
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
 Characteristic & Qualities \\\hline\hline
-Defining & Each individual component of a model must be separately defined in code.  For example, the mass and velocity of an object can be separately defined and used to construct the momentum of the object.\\
-Describing & The group must describe the way that the individual components interact to model a phenomenon.  This interaction usually mirrors an equation/relationship that they have seen in the notes.  For example, the momentum of an object is linearly proportional to not only the mass but also the velocity and is used to calculate the position.\\
-Articulating & The group must articulate what information their model will provide them, and use that information to make predications about the time evolution of a phenomenon given initial conditions.  For example, a force model can generate the various values of the force acting on an object at different positions in time.  This set of data can then be used to make predictions about the motion of the object.\\
+Separating & Each individual component of a model must be separately defined in code.  For example, the mass and velocity of an object can be separately defined and used to construct the momentum of the object.\\
+Relating & The group must describe the way that the individual components interact to model a phenomenon.  This interaction usually mirrors an equation/relationship that they have seen in the notes.  For example, the momentum of an object is linearly proportional to not only the mass but also the velocity and is used to calculate the position.\\
+Predicting & The group must articulate what information their model will provide them, and use that information to make predications about the time evolution of a phenomenon given initial conditions.  For example, a force model can generate the various values of the force acting on an object at different positions in time.  This set of data can then be used to make predictions about the motion of the object.\\
 \end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of designing a computational model.}
 \end{table}
 
@@ -833,8 +889,6 @@ Before getting to far, the group takes some time to clearly articulate an assump
 \end{description}  The fact that the only force acting on the satellite is a gravitational force, and the fact that the gravitational force should be of a Newtonian form, are really just assumptions made by the group at this point.  The group specifically takes the time to articulate and agree upon this assumption.
 
 To summarize, the excerpt demonstates two fundamental characteristics: the group is \textit{validating} their model when they compare which gravitational constant they should be using, and the group is \textit{assuming} things about their model when they say that the net force equals the Newtonian gravitational force.  Given these two characteristics, we feel confident in categorizing this excerpt as a strong illustration of the computational practice of assesing a computational model.
-
-\subsection{Programming}
 
 \subsection{Creating abstractions}
 
