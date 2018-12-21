@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  19 DEC 2018 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  21 DEC 2018 10:13
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -1083,42 +1083,47 @@ Overfull \hbox (2.30365pt too wide) in paragraph at lines 738--742
  []
 
 [63] [64] [65] [66]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 804--809
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 800--804
 [][] 
  []
 
 [67] [68] [69] [70]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 845--849
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 853--858
 [][] 
  []
 
 [71] [72] [73] [74]
-Overfull \hbox (12.68028pt too wide) in paragraph at lines 904--908
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 894--898
 [][] 
  []
 
-[75] [76] [77]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 944--949
+[75] [76] [77] [78]
+Overfull \hbox (12.68028pt too wide) in paragraph at lines 953--957
 [][] 
  []
 
-[78] [79] [80] [81] [82]
+[79] [80] [81]
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 993--998
+[][] 
+ []
+
+[82] [83] [84] [85] [86]
 Chapter 6.
-[83
+[87
 
 ]
 Chapter 7.
-[84
+[88
 
-] [85
+] [89
 
-] (PhD_Obsniuk_Computation.bbl [86
+] (PhD_Obsniuk_Computation.bbl [90
 
-] [87
+] [91
 
-] [88
+] [92
 
-] [89] [90]) [91]
+] [93] [94]) [95]
 (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
  18097 strings out of 492976
@@ -1143,9 +1148,9 @@ nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 /amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (99 pages, 1931396 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (103 pages, 1938818 bytes).
 PDF statistics:
- 1404 PDF objects out of 1440 (max. 8388607)
+ 1417 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
