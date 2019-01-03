@@ -42,8 +42,8 @@
 \contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{78}
 \contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{81}
 \contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{86}
-\contentsline {subsection}{\numberline {5.2.8}Communicating information}{86}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{87}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{88}
-\contentsline {chapter}{APPENDICES}{89}
-\contentsline {chapter}{BIBLIOGRAPHY}{91}
+\contentsline {subsection}{\numberline {5.2.8}Communicating information}{90}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{91}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{92}
+\contentsline {chapter}{APPENDICES}{93}
+\contentsline {chapter}{BIBLIOGRAPHY}{95}
