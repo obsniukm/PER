@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{81}
 \contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{86}
 \contentsline {subsection}{\numberline {5.2.8}Communicating information}{90}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{91}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{92}
-\contentsline {chapter}{APPENDICES}{93}
-\contentsline {chapter}{BIBLIOGRAPHY}{95}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{94}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{95}
+\contentsline {chapter}{APPENDICES}{96}
+\contentsline {chapter}{BIBLIOGRAPHY}{98}

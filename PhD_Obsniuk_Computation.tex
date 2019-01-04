@@ -1238,6 +1238,52 @@ To summarize, the three different levels that the group defines are the initial 
 
 \subsection{Communicating information}
 
+The computational practice of communicating information, according to Weintrop et. al, usually involves a visualization (e.g., a graph) that can be used to ``highlight the most important aspects of what has been learned about the system in such a way that it can be understood by someone who does not know all the underlying details.''  This communication skill is especially important in fields involving complex and interrelated systems, such as those observed in physics and engineering.  The ability to share information with colleagues without going through all of the underlying details and mechanisms is crucial.  The two fundamental characteristics associated with this particular practice are: i) communicating information about a system and ii) simplifying that information so that it is accessible.
+
+\begin{table}
+\begin{tabular}{r|p{0.8\textwidth}}
+Characteristic & Qualities \\\hline\hline
+Communicating & The act of communication can range from pure dialogue between two or more individuals to detailed visualizations that capture the relevant information to be shared.  For example, creating a graph of a physical quantity vs. time can be used to succinctly share information about the time dependence of that physical quantity.  Alternatively, this time dependence could be articulated verbally through dialogue.\\
+Simplifying & The information being communicated should be simplified so as to be accessible to those not familiar with the complexities and details of the system.  For example, instead of discussing the algorithm that produces a particular set of data, you discuss the patterns in the data itself.\\
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of communicating information.}
+\end{table}
+
+For example, consider Excerpt 24 from Group C.  After a little bit of programming where the group is considering making changes to the scale of the program, they begin to engage in dialogue with the TA.  They communicate information about the validity of their program through the visualization that they have produced.  Specifically, the visualization shows a parabolic trajectory whereas the TA knows it should be elliptical.  This ultimately prompts the group to assess and redesign their computational force model.
+
+Initially, the TA (line 717) recognizes that something looks a little bit strange in their code:  \begin{description}
+\TA \textit{(717)} Look there [points to the screen], and SA what do you have written in the denominator over there?
+\SA \textit{(718)} Umm this is the... Oh, it's... Because that's... it's in kilometers and we need it in meters, right?
+\TA \textit{(719)} I dunno let's try it, let's see what happens...
+\SA \textit{(720)} Yeah, okay, that makes sense.
+\SC \textit{(721)} So it should be forty two one sixty four and then three zeros.
+\SA \textit{(722)} Yeah.				
+\SA \textit{(723)} Four point two times ten to the seventh.
+\SB \textit{(724)} Yeah.
+\SC \textit{(725)} Oh alright.
+\end{description}  They decide that the order of magnitude of the value in the denominator of the force model is incorrect (line 718) and subsequently make the correction (line 721).
+
+After making this change, they rerun the program and observe (line 272) that it is following a curved path: \begin{description}
+\SA \textit{(726)} Okay, so...
+\TA \textit{(727)} Okay, so now it's following sort of a curved path...
+\SB \textit{(728)} But then it just keeps going.
+\TA \textit{(729)} Not quite there.
+\TA \textit{(730)} So you have some force acting on it...
+\end{description}  However, the satellite is following a parabolic trajectory as opposed to the desired elliptical (or circular) trajectory.  In other words, they are (line 279) ``not quite there.''
+
+Given the observation of this visualization, the TA has gleaned that they have an incorrect (constant) force model (line 733): \begin{description}
+\TA \textit{(731)} But what is the force you have acting on it?
+\SC \textit{(732)} The gravity...
+\TA \textit{(733)} Umm, so the direction {in your code} is always the same...
+\SB \textit{(734)} Oh, it's not that...
+\SC \textit{(735)} So it's gotta be...	
+\TA \textit{(736)} What direction is the force always?
+\SC \textit{(737)} To the Earth?
+\TA \textit{(738)} Towards the Earth.
+\SA \textit{(739)} Mhm.
+\end{description}	This ultimately prompts them to discuss the behavior of the force (line 736).  Specifically, they begin to discuss the direction of the force and how it should always point toward Earth (line 738).
+
+To summarize, the group is checking the validity of their net force model through a visualization of the trajectory of the satellite.  They are \textit{communicating} that the net force is incorrectly defined with a constant direction.  They are \textit{simplifying} this process of communication by focusing on the visualization of the trajectory rather than focusing on the underlying algorithm.  Given these two characteristics, we feel confident to categorize this excerpt as the computational practice of communicating information.
+
 %
 %	DISCUSSION
 %
