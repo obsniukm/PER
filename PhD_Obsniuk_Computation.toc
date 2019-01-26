@@ -37,13 +37,13 @@
 \contentsline {section}{\numberline {5.2}Computational practices}{61}
 \contentsline {subsection}{\numberline {5.2.1}Creating data}{63}
 \contentsline {subsection}{\numberline {5.2.2}Analyzing data}{67}
-\contentsline {subsection}{\numberline {5.2.3}Designing models}{70}
-\contentsline {subsection}{\numberline {5.2.4}Assessing models}{74}
-\contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{78}
-\contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{81}
-\contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{86}
-\contentsline {subsection}{\numberline {5.2.8}Communicating information}{90}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{94}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{95}
-\contentsline {chapter}{APPENDICES}{96}
-\contentsline {chapter}{BIBLIOGRAPHY}{98}
+\contentsline {subsection}{\numberline {5.2.3}Designing models}{72}
+\contentsline {subsection}{\numberline {5.2.4}Assessing models}{76}
+\contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{80}
+\contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{83}
+\contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{87}
+\contentsline {subsection}{\numberline {5.2.8}Communicating information}{91}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{96}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{97}
+\contentsline {chapter}{APPENDICES}{98}
+\contentsline {chapter}{BIBLIOGRAPHY}{100}
