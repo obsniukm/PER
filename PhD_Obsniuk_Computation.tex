@@ -726,7 +726,7 @@ By analyzing all of the data with the methods described above, we have identifie
 \caption{The frequency of each practice that was found within our unique data set.}\label{CH5:DensityPlot}
 \end{figure}
 
-The remainder of this section provides concrete examples of the most frequent computational practices that we found in our data.  We are focusing on those practices that occur with high frequency within one group or occur with moderate frequency within multiple groups.  These practices are (in no particular order): creating and analyzing data within the data practices; designing, constructing, and assessing computational models within the modeling and simulation practices; programming, creating abstractions, and troubleshooting and debugging in the computational problem solving practices; and thinking in levels and communicating information within the systems thinking practices.
+The remainder of this section provides concrete examples of the most frequent computational practices that we found in our data.  We are focusing on those practices that occur with high frequency within one group or occur with moderate frequency across multiple groups.  These practices are (in no particular order): creating and analyzing data within the data practices; designing, constructing, and assessing computational models within the modeling and simulation practices; programming, creating abstractions, and troubleshooting and debugging in the computational problem solving practices; and thinking in levels and communicating information within the systems thinking practices.
 
 The other less frequent practices, though not the focus here, are still of research interest.  Some of these less frequent but nonetheless important computational practices can be found in the Appendix.
 
@@ -910,42 +910,59 @@ To summarize, this group can be seen \textit{analyzing} a set of data representi
 
 \subsection{Designing models}
 
-The computational practice of designing computational models, as defined by Weintrop et. al, involves the process of making ``technological, methodological, and conceptual decisions.''  These types of decisions are frequently dealt with in the STEM discipline given the complexity of modern scientific endeavors.  Scientific rigor and sound methodology must be utilized while using powerful tools at the forefront of technology (i.e., computation) to investigate modern phenomena.  At the same time, developing a deep conceptual understanding of the models and the phenomena that they represent is playing an increasingly important role in the sharing and communication of scientific information.  The fundamental characteristics associated with this computational practice, as summarized in Tab.~\ref{CH5:DesigningModels}, are: i) defining the components of a model, ii) describing how the components of a model interact, and iii) articulating what predictions can be made with the model.
+The computational practice of designing computational models, as defined by Weintrop et. al, involves the process of making ``technological, methodological, and conceptual decisions.''  These types of decisions are frequently dealt with in the STEM discipline given the complexity of modern scientific endeavors.  Scientific rigor and sound methodology must be utilized while using powerful tools at the forefront of technology (i.e., computation) to investigate modern phenomena.  At the same time, developing a deep conceptual understanding of the models and the phenomena that they represent is playing an increasingly important role in the sharing and communication of scientific information.  Accordingly, the fundamental characteristics associated with this computational practice, as summarized in Tab.~\ref{CH5:DesigningModels}, are: i) defining the components of a model, ii) describing how the components of a model interact, and iii) articulating what predictions can be made with the model.
 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
 Characteristic & Qualities \\\hline\hline
 Separating & Each individual component of a model must be separately defined in code.  For example, the mass and velocity of an object can be separately defined and used together to construct the momentum of the object.\\
-Relating & The group must describe the way that the individual components interact to model a phenomenon.  This interaction usually mirrors an equation/relationship that they have seen in the notes.  For example, the momentum of an object is linearly proportional to not only the mass but also the velocity and can be used to calculate the position over time.\\
+Relating & The group must describe the way that the individual components of the model relate to the phenomenon that is being studied.  This relationship usually mirrors an equation or an expected type of behavior.  For example, the momentum of an object is linearly proportional to not only its mass but also its velocity.\\
 Predicting & The group must articulate what information their model will provide them, and use that information to make predictions about the time evolution of a phenomenon given initial conditions.  For example, a force model can generate the various values of the force acting on an object at different positions in time.  This set of data can then be used to make predictions about the motion of the object.\\
 \end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of designing a computational model.}\label{CH5:DesigningModels}
 \end{table}
 
-Consider Excerpt 12 from Group G.  Overall, the group can be seen designing a model that can be used to predict the trajectory of the satellite over time.  This model involves the definition of the mass, position, velocity, momentum, and net force as the individual components that interact with time to integrate Newton's equations of motion.  Specifically, they focus on the way that the momentum relates to the mass and velocity (i.e., $\vec{p}=m\vec{v}$) as well as the way that this momentum is used to predict the position of the satellite over time (i.e., through the Euler-Cromer equations of $\vec{p}_{\rm new}=\vec{p}_{\rm old}+\vec{F}_{\rm net}dt$ and $\vec{r}_{\rm new}=\vec{r}_{\rm old}+(\vec{p}/m)dt$).
+Consider Excerpt 9 from Group B.  Throughout this excerpt, the group can be seen working to incorporate a centripetal force model (i.e., $\vec{F}_{\rm cent}=-\frac{mv^{2}}{R}\langle\cos\theta,\sin\theta,0\rangle$) into their code.  Ultimately, the group is dissuaded from using this particular model through discussion with the TA.  Nevertheless, this excerpt is a clear illustration of the practice of designing a computational model.
 
-The group begins by recalling an equation for the momentum of an object in terms of its mass and velocity (line 350) and begin to define them code: \begin{description}
-\SA \textit{(350)} What's the equation for momentum?	
-\SB \textit{(351)} Mass times velocity [looking in notes].
-\SA \textit{(352)} Okay, so we have to add velocity \{in the code\}... We have the mass, we just fixed the mass...
-\SB \textit{(353)} Right...
-\SC \textit{(354)} So the mass...	
-\SA \textit{(355)} We \{need to\} add the velocity, which we solved \{last time\} to be... uhh... thirty... err three thousand seventy one.
-\SB \textit{(356)} What?		
-\SA \textit{(357)} I said we add the velocity which we found to be three thousand seventy one.
-\end{description}  They have identified (line 352) that the mass of the satellite is already defined in their program and they have modified it so that it reflects the realistic value provided in the problem statement.  Next, they add a definition for the velocity  of the satellite (line 355) in terms of the numerical value that they calculated from the previous day's problem.  In this way, the group is separately defining some of the individual components of the model representing the momentum of the satellite.
+A few minutes into beginning the problem, the group has recognized that they need to use a force model (line 118) to calculate the trajectory of the satellite, as opposed to just plotting it using the expected radius (line 116): \begin{description}
+\SA \textit{(111)} now were saying that it’s a variable...
+\SA \textit{(112)} so what do we want to do with this number?
+\SB \textit{(113)} well you said the radius from here to here is not gonna be the same as from here to here?
+\SA \textit{(114)} yeah
+\SB \textit{(115)} well, should we... could we Google how, like how much farther or shorter it is from here to here?		
+\SD \textit{(116)} Okay, I think actually what hes trying to get us to say is that we cant just plot its path around by using the radius of the orbit
+\SA \textit{(117)} right
+\SD \textit{(118)} we have to actually use the force that is acting on it to finds its path
+\SA \textit{(119)} we have to use the force
+\SD \textit{(120)} we have to use the force\end{description}  The group has begun to articulate the information that their model will provide them, even if they have not yet decided on the particular model.  In other words, their force model will allow them to make predictions about the position and trajectory of the satellite.
 
-After some off-topic discussion, the group recognizes the importance of the way that the mass, velocity, and momentum of the satellite are related: \begin{description}
-\SB \textit{(642)} Okay, oh we had to change the position... err... the momentum of the satellite based on it's velocity {and mass}.
-\SB \textit{(643)} Because the... since we changed the mass {and velocity} of the satellite, that changes its momentum.
-\end{description}  The definition of this relationship in code (i.e., \texttt{satellite.p = satellite.v * msat}) is crucial for a dynamic and generalizable code because the Euler-Cromer algorithms explicitly utilize the momentum as opposed to the velocity (i.e., \texttt{satellite.pos = satellite.pos + satellite.p/msat*dt}).
+After a little off-topic discussion, the group decides on a particular force model: \begin{description}
+\SD \textit{(152)} the force is like v squared... the force is uhh v squared times m over radius of orbit
+\SD \textit{(153)} correct me if im wrong...
+\SA \textit{(154)} sorry?
+\SD \textit{(155)} the force is equal to mass times v squared over radius of the orbit.
+\SB \textit{(156)} so maybe we could just find it \{the force\} at that distance?
+\SD \textit{(157)} well we have access to a variable that represents our radius of orbit...
+\SB \textit{(158)} and we have mass.
+\SD \textit{(159)} and we have mass.
+\SC \textit{(160)} we found the velocity last time...
+\SB \textit{(161)} and we know the radius and know the velocity.
+\SB \textit{(162)} so we can just find the net force.\end{description}  Here, the group is clearly identifying the individual components of the centripetal force model (lines 157-161) and making sure that they are separately defined in code.  Additionally, they have identified a clear mathematical relationship between them (line 152).
 
-A little later, they begin to describe the Euler-Cromer algorithms and articulate what predictions they will afford them: \begin{description}
-\SD \textit{(750)} Then we have to update the momentum of the system with p final equals p initial plus F net times delta t.
-\SD \textit{(751)} Or r final, which is for the position, equals r initial plus v average times delta t.
-\SD \textit{(752)} So one updates the momentum and one updates the position.
-\end{description}  Specifically, they articulate (line 752) that one of the algorithms (line 750) will generate the updated momentum of the satellite, whereas the other algorithm (line 751) will generate the updated position of the satellite.  These constantly updating quantities allow them to ultimately make accurate predictions about the trajectory of the satellite.
+Before jumping into the construction of the model, they spend a little time discussing the behavior of their proposed model and how it relates to the phenomenon: \begin{description}
+\SD \textit{(182)} if we could get it to oscillate between maximums we could get a rotation...
+\SD \textit{(183)} but how do we represent that as a force because its obvious that they want us to do that...
+\SA \textit{(184)} sine and cosine?
+\SD \textit{(185)} sine and cosine?
+\SA \textit{(186)} if we do sine and cosine, if we both of them, one in the x, one in the y, like this is saying
+\SA \textit{(187)} then even if one goes to zero, like you were saying, then either one is gonna be close to one
+\SA \textit{(188)} and so...
+\SD \textit{(189)} we have to use our angles?
+\SC \textit{(190)} ohhh
+\SD \textit{(191)} and we have access to angles {that are defined below}
+\SD \textit{(192)} oh my god that’s so great, that’s perfect, youre totally right
+\end{description}  Specifically, they articulate the way that the components of their force model will oscillate to cause a rotation (line 182) -- as one component approaches one, the other approaches zero.  They also identify yet another individual component of their model (line 191) with the angle of the satellite.
 
-To summarize, the group has \textit{separately} defined the mass, position, velocity, momentum, force, and time of the satellite as six individual components in their model(s) that predict motion. Further, they have described the way that these individual components \textit{relate} to one another through a set of equations (i.e., the definition of momentum and Newton's equations).  Finally, they have articulated that their model will generate updated momenta and positions that can be used to accurately \textit{predict} the trajectory of the satellite for various initial conditions (i.e., elliptical orbits).  Given these characteristics that we have identified, this excerpt illustrates the computational practice of designing a computational model.
+To summarize, the group begins by recognizing that using a force model will allow them to \textit{predict} the trajectory of the satellite in a more general way (line 118).  After deciding on a centripetal force model, they then \textit{separate} it into the individual components of the mass, velocity, radius, and angle of the satellite (lines 157-161 and 191).  Finally, they \textit{relate} the sinusoidal nature of the model to the expected sinusoidal behavior of the satellite's trajectory (lines 182 and 186).
 
 %
 %
@@ -967,7 +984,7 @@ To summarize, the group has \textit{separately} defined the mass, position, velo
 
 \subsection{Assessing models}
 
-The computational practice of assessing a computational model, as defined by Weintrop et. al, involves ``understanding how the model relates to the phenomenon being represented.''  This is a crucial step in the process of modeling -- without an assessment of the validity and meaning of the results (i.e., without a deep understanding), the model is almost certainly useless.  The fundamental characteristics associated with this crucial computational practice, as summarized in Tab.~\ref{CH5:AssessingModels}, are: i) identifying assumptions built into the model and ii) validating the model.
+The computational practice of assessing a computational model, as defined by Weintrop et. al, involves ``understanding how the model relates to the phenomenon being represented.''  This is a crucial step in the process of modeling -- without an assessment of the validity and meaning of the results (i.e., without a deep understanding), the model is almost certainly useless.  The fundamental characteristics associated with this crucial computational practice, as summarized in Tab.~\ref{CH5:AssessingModels}, are: i) identifying assumptions built into the model and ii) validating the model.  These two characteristics, if confidently observed within an excerpt, would serve to classify that excerpt as the computational practice of assessing a computational model.
 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
@@ -1175,7 +1192,7 @@ To summarize, the unexpected error that the group runs into is that in changing 
 
 \subsection{Thinking in levels}
 
-The computational practice of thinking in levels, as defined by Weintrop et. al, involves the analysis of a system that ranges ``from a micro-level view that considers the smallest elements of the system to a macro-level view that considers the system as a whole.''  This type of high- and low-resolution analysis of a system is a skill that shows up frequently in scientific modeling -- and especially within the domain of computer science.  The various control structures common to computer programming (e.g., a while loop) must not only work independently (micro-level) but must also work together (macro-level) with other control structures to produce the desired results of the model.  Accordingly, the two fundamental characteristics that we have identified for this computational practice, as summarized in Tab.~\ref{CH5:ThinkingInLevels}, are: i) identifying the different levels of a system and ii) correctly attributing features of that system to the appropriate level.  These two characteristics, if confidently observed within an excerpt, would serve to classify that excerpt as the computational practice of creating computational abstractions.
+The computational practice of thinking in levels, as defined by Weintrop et. al, involves the analysis of a system that ranges ``from a micro-level view that considers the smallest elements of the system to a macro-level view that considers the system as a whole.''  This type of high- and low-resolution analysis of a system is a skill that shows up frequently in scientific disciplines -- and especially within the domain of computer science.  The various control structures common to computer programming (e.g., a while or a for loop) must not only work independently (i.e., at the micro-level) but must also work together (i.e., at the macro-level) with other control structures to produce the desired results of the program.  Accordingly, the two fundamental characteristics that we have identified for this computational practice, as summarized in Tab.~\ref{CH5:ThinkingInLevels}, are: i) identifying the different levels of a system and ii) correctly attributing features of that system to the appropriate level.
 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
@@ -1185,26 +1202,26 @@ Featuring & The unique features of each level should be articulated by the group
 \end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of thinking in levels.}\label{CH5:ThinkingInLevels}
 \end{table}
 
-For example, consider Excerpt 33 from Group I in the following analysis.  In this excerpt, the group is engaging in the practice of thinking in levels while they troubleshoot and debug some of their code.  The first level that they can be seen implicitly defining is that of the initial conditions section of the code.  This first level is distinguished by the second level that they explicitly define -- the calculation loop.  Each level, although they interact at the macro-level, can be analyzed independently at the micro-level.  These levels are ultimately used to verify that their MWP is working on a whole.
+For example, consider Excerpt 33 from Group I in the following analysis.  In this excerpt, the group is engaging in the practice of thinking in levels while they troubleshoot and debug some of their code.  The first level that they can be seen implicitly identifying is that of the initial conditions section of the code.  The second level that they can be seen explicitly identifying is that of the calculation loop.  These two levels are 
 
-After an unexpected error arises in the group's MWP, and after a fair amount of struggle, they request the aid of the TA.  After a little discussion between the TA and one of the more advanced members of the group (SB), they embark on a process of checking if and where the MWP is terminating: \begin{description}
-\TA Talk everybody through what you're doing though...
-\SB Yeah, I will.
+After an unexpected error arises in the group's program, and after a fair amount of struggle, they request the aid of the TA.  After a little discussion between the TA and one of the more advanced members of the group (Student B), they embark on a process of checking if and where the MWP is terminating: \begin{description}
+\TA \textit{(1021)} Talk everybody through what you're doing though...
+\SB \textit{(1022)} Yeah, I will.
 \SB \textit{(1023)} Okay so what he {the TA} wants to know is... is it even getting into this {calculation} loop?
 \SD \textit{(1024)} Oh it's like breaking before it gets to the loop?
 \end{description}  That is, they question (line 1023) whether the program is even making it to the calculation loop, or if (line 1024) the program terminates before getting there (in the initial conditions).
 
-Once the group understands what it is that they are checking for (line 1023), they begin to discuss how they can actually check for it (line 1025):\begin{description}
+Once the group understands what it is that they are checking for (line 1023), they begin to discuss how they can actually check for it (line 1025) in the code:\begin{description}
 \SC \textit{(1025)} So how do you check it?
 \SB \textit{(1026)} So normally, how we know it's running is that something shows up when we run it that tells us that it's working...
-\SB \textit{(1027)} But because that's not working, we need something else to show up to basically give us evidence that anything is going o.
+\SB \textit{(1027)} But because that's not working, we need something else to show up to basically give us evidence that anything is going on.
 \SB \textit{(1028)} So, what we could do is... [adds a print statement]
 \SD \textit{(1029)} Oh so if it doesn't print that thing, it's basically breaking before it even gets there?
-\SB \textit{(1030)} [nods]			
+\SB \textit{(1030)} [nods].	
 \SD \textit{(1031)} Okay.
-\end{description}  One of the more computationally advanced students suggests (line 1028) that they add a print statement inside of the calculation loop.  The group understands (line 1029) that this print statement will allow them to check in which level the program is terminating (i.e., if the error is in the initial conditions or in the calculation loop).  Accordingly, they add the print statement at the very beginning/top of the calculation loop.
+\end{description}  One of the more computationally advanced students suggests (line 1028) that they add a print statement inside of the calculation loop.  The crucial understanding that the group articulates (line 1029) is that the placement of their print statement will allow them to check in which level the program is terminating (i.e., if the error is in the initial conditions or in the calculation loop).  Accordingly, they add the print statement at the very beginning/top of the calculation loop.
 
-Additionally, the group questions if they can find the exact location (micro-level) of the termination point inside the calculation loop.  This involves the suggestion of moving the print statement (line 1033) farther down in the calculation loop:
+Additionally, the group questions if they can find the exact location (i.e., at the micro-level) of the termination point inside the calculation loop.  This involves the suggestion of moving the print statement (line 1033) farther down in the calculation loop:
 \begin{description}
 \SB \textit{(1032)} Well it's working.
 \SD \textit{(1033)} What if you put it lower... farther down?
@@ -1219,9 +1236,9 @@ Additionally, the group questions if they can find the exact location (micro-lev
 \SB \textit{(1042)} Would the print thing?
 \SB \textit{(1043)} It is working, that was good, that means that's good news.
 \SC \textit{(1044)} Yeah but what SD is saying is if you printed it down here [mumbles]...
-\SD \textit{(1045)} I know what you {SB} mean now, cause it's running it has to run all the way through here.
+\SD \textit{(1045)} I know what you \{SB\} mean now, cause it's running it has to run all the way through here.
 \SA \textit{(1046)} Oh, yeah.				
-\end{description}  However, given that the shell (macro-level) produces multiple print statements (line 1036), they conclude (line 1045) that the entire calculation loop must be completing.  In other words, the MWP is running to completion (or at least would given enough time) and is terminating at the very end/bottom of the whole program.
+\end{description}  However, given that the shell produces multiple print statements (line 1036), they conclude (line 1045) that the entire calculation loop must be completing.  In other words, the MWP is running to completion (or at least would given enough time) and is terminating at the very end/bottom of the whole program.
 
 To summarize, the three different levels that the group defines are the initial conditions, the calculation loop, and the final conditions.  The first and last are identified implicitly, whereas the calculation loop is explicitly considered.  Thus, the group \textit{leveling} their MWP.  Additionally, the calculation loop has the particular feature that the order of the code does not really matter in terms of its completion.  That is, they are \textit{featuring} their calculation loop.  Given these characteristics, this excerpt is confidently identified as the computational practice of thinking in levels.
 
@@ -1245,7 +1262,7 @@ To summarize, the three different levels that the group defines are the initial 
 
 \subsection{Communicating information}
 
-The computational practice of communicating information, according to Weintrop et. al, usually involves a visualization (e.g., a graph) that can be used to ``highlight the most important aspects of what has been learned about the system in such a way that it can be understood by someone who does not know all the underlying details.''  This communication skill is especially important in fields involving complex and interrelated systems, such as those observed in physics and engineering.  The ability to share information with colleagues without going through all of the underlying details and mechanisms is crucial.  The two fundamental characteristics associated with this particular practice, as summarized in Tab.~\ref{CH5:CommunicatingInformation}, are: i) communicating information about a system and ii) simplifying that information so that it is accessible.
+The computational practice of communicating information, according to Weintrop et. al, usually involves a visualization (e.g., a graph) that can be used to ``highlight the most important aspects of what has been learned about the system in such a way that it can be understood by someone who does not know all the underlying details.''  This communication skill is especially important in fields involving complex and interrelated systems, such as those observed in physics and engineering.  The ability to share information with colleagues without going through all of the underlying details and mechanisms is crucial.  The two fundamental characteristics associated with this particular practice, as summarized in Tab.~\ref{CH5:CommunicatingInformation}, are: i) a general process of communication (detailed in Tab.~\ref{CH5:CommunicatingInformation}) and ii) simplifying that information so that it is accessible.
 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
