@@ -910,18 +910,18 @@ To summarize, this group can be seen \textit{analyzing} a set of data representi
 
 \subsection{Designing models}
 
-The computational practice of designing computational models, as defined by Weintrop et. al, involves the process of making ``technological, methodological, and conceptual decisions.''  These types of decisions are frequently dealt with in the STEM discipline given the complexity of modern scientific endeavors.  Scientific rigor and sound methodology must be utilized while using powerful tools at the forefront of technology (i.e., computation) to investigate modern phenomena.  At the same time, developing a deep conceptual understanding of the models and the phenomena that they represent is playing an increasingly important role in the sharing and communication of scientific information.  Accordingly, the fundamental characteristics associated with this computational practice, as summarized in Tab.~\ref{CH5:DesigningModels}, are: i) defining the components of a model, ii) describing how the components of a model interact, and iii) articulating what predictions can be made with the model.
+The computational practice of designing computational models, as defined by Weintrop et. al, involves the process of making ``technological, methodological, and conceptual decisions.''  These types of decisions are frequently dealt with in the STEM discipline given the complexity of modern scientific endeavors.  Scientific rigor and sound methodology must be utilized while using powerful tools at the forefront of technology (i.e., computation) to investigate modern phenomena.  At the same time, developing a deep conceptual understanding of the models and the phenomena that they represent is playing an increasingly important role in the sharing and communication of scientific information.  Accordingly, the fundamental characteristics associated with this computational practice, as summarized in Tab.~\ref{CH5:DesigningModels}, are: i) defining the components of a model, ii) describing how the components of a model interact, and iii) articulating what predictions can be made with the model.  We limit our investigation to models pertaining to the force acting on the satellite (e.g., a local gravitational force model as opposed to a Newtonian gravitational force model).
 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
 Characteristic & Qualities \\\hline\hline
-Separating & Each individual component of a model must be separately defined in code.  For example, the mass and velocity of an object can be separately defined and used together to construct the momentum of the object.\\
-Relating & The group must describe the way that the individual components of the model relate to the phenomenon that is being studied.  This relationship usually mirrors an equation or an expected type of behavior.  For example, the momentum of an object is linearly proportional to not only its mass but also its velocity.\\
+Separating & Each individual component of a model must be separately defined in code.  For example, the mass of an object and the local acceleration due to a planet can be separately defined and used to construct the corresponding local gravitational force.\\
+Relating & The group must describe the way that the individual components of the model relate to the phenomenon that is being studied.  This relationship usually mirrors an equation or an expected type of behavior.  For example, the Newtonian gravitational force follows an inverse square position-dependence.\\
 Predicting & The group must articulate what information their model will provide them, and use that information to make predictions about the time evolution of a phenomenon given initial conditions.  For example, a force model can generate the various values of the force acting on an object at different positions in time.  This set of data can then be used to make predictions about the motion of the object.\\
 \end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of designing a computational model.}\label{CH5:DesigningModels}
 \end{table}
 
-Consider Excerpt 9 from Group B.  Throughout this excerpt, the group can be seen working to incorporate a centripetal force model (i.e., $\vec{F}_{\rm cent}=-\frac{mv^{2}}{R}\langle\cos\theta,\sin\theta,0\rangle$) into their code.  Ultimately, the group is dissuaded from using this particular model through discussion with the TA.  Nevertheless, this excerpt is a clear illustration of the practice of designing a computational model.
+Consider Excerpt 11 from Group B.  Throughout this excerpt, the group can be seen working to incorporate a centripetal force model (i.e., $\vec{F}_{\rm cent}=-\frac{mv^{2}}{R}\langle\cos\theta,\sin\theta,0\rangle$) into their code.  Ultimately, the group is dissuaded from using this particular model through discussion with the TA.  Nevertheless, this excerpt is a clear illustration of the practice of designing a computational model.
 
 A few minutes into beginning the problem, the group has recognized that they need to use a force model (line 118) to calculate the trajectory of the satellite, as opposed to just plotting it using the expected radius (line 116): \begin{description}
 \SA \textit{(111)} now were saying that it’s a variable...
@@ -949,18 +949,18 @@ After a little off-topic discussion, the group decides on a particular force mod
 \SB \textit{(162)} so we can just find the net force.\end{description}  Here, the group is clearly identifying the individual components of the centripetal force model (lines 157-161) and making sure that they are separately defined in code.  Additionally, they have identified a clear mathematical relationship between them (line 152).
 
 Before jumping into the construction of the model, they spend a little time discussing the behavior of their proposed model and how it relates to the phenomenon: \begin{description}
-\SD \textit{(182)} if we could get it to oscillate between maximums we could get a rotation...
+\SD \textit{(182)} if we could get it \{the force\} to oscillate between maximums we could get a rotation...
 \SD \textit{(183)} but how do we represent that as a force because its obvious that they want us to do that...
 \SA \textit{(184)} sine and cosine?
 \SD \textit{(185)} sine and cosine?
-\SA \textit{(186)} if we do sine and cosine, if we both of them, one in the x, one in the y, like this is saying
+\SA \textit{(186)} if we do sine and cosine, if we have both of them, one in the x, one in the y, like this is saying
 \SA \textit{(187)} then even if one goes to zero, like you were saying, then either one is gonna be close to one
 \SA \textit{(188)} and so...
 \SD \textit{(189)} we have to use our angles?
 \SC \textit{(190)} ohhh
 \SD \textit{(191)} and we have access to angles {that are defined below}
 \SD \textit{(192)} oh my god that’s so great, that’s perfect, youre totally right
-\end{description}  Specifically, they articulate the way that the components of their force model will oscillate to cause a rotation (line 182) -- as one component approaches one, the other approaches zero.  They also identify yet another individual component of their model (line 191) with the angle of the satellite.
+\end{description}  Specifically, they articulate the way that the components of their force model will need to oscillate to cause a rotation (line 182).  This oscillatory behavior has a direction relation to the mathematical sine and cosine functions that they plan to use (line 184) -- as one component approaches zero, the other component will approach one (line 187).  They also identify yet another individual component of their model (line 191) with the angle of the satellite.
 
 To summarize, the group begins by recognizing that using a force model will allow them to \textit{predict} the trajectory of the satellite in a more general way (line 118).  After deciding on a centripetal force model, they then \textit{separate} it into the individual components of the mass, velocity, radius, and angle of the satellite (lines 157-161 and 191).  Finally, they \textit{relate} the sinusoidal nature of the model to the expected sinusoidal behavior of the satellite's trajectory (lines 182 and 186).
 
@@ -1202,45 +1202,33 @@ Featuring & The unique features of each level should be articulated by the group
 \end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of thinking in levels.}\label{CH5:ThinkingInLevels}
 \end{table}
 
-For example, consider Excerpt 33 from Group I in the following analysis.  In this excerpt, the group is engaging in the practice of thinking in levels while they troubleshoot and debug some of their code.  The first level that they can be seen implicitly identifying is that of the initial conditions section of the code.  The second level that they can be seen explicitly identifying is that of the calculation loop.  These two levels are 
+For example, consider Excerpt 6 from Group A in the following analysis.  Broadly speaking, this excerpt focuses on the group making decisions about what needs to be added to their code and, more importantly, where those things needs to be added.  More specifically, they work to construct a function for the momentum of the satellite (which depends on its velocity) as well the net force acting on it.
 
-After an unexpected error arises in the group's program, and after a fair amount of struggle, they request the aid of the TA.  After a little discussion between the TA and one of the more advanced members of the group (Student B), they embark on a process of checking if and where the MWP is terminating: \begin{description}
-\TA \textit{(1021)} Talk everybody through what you're doing though...
-\SB \textit{(1022)} Yeah, I will.
-\SB \textit{(1023)} Okay so what he {the TA} wants to know is... is it even getting into this {calculation} loop?
-\SD \textit{(1024)} Oh it's like breaking before it gets to the loop?
-\end{description}  That is, they question (line 1023) whether the program is even making it to the calculation loop, or if (line 1024) the program terminates before getting there (in the initial conditions).
+Early on, the group decides that they should construct a function for the momentum of the satellite in their program (line 76): \begin{description}
+\SC \textit{(74)} umm so we have like its defining p of the satellite, and thats like p is momentum you know? Like p equals m v 
+\SC \textit{(75)} but theres nothing in here that actually defines the p of the satellite as being m v  
+\SC \textit{(76)} so I feel like we need to put in a v, and then the velocity of the satellite is a variable  
+\SC \textit{(77)} and then make the momentum of the satellite as a combination of the mass and velocity 
+\SB \textit{(78)} umm my question for you, from the perspective of...
+\SB \textit{(79)} were doing circular motion, and as you go around from point a to b, your velocity is changing cause its changing direction    
+\SB \textit{(80)} maybe, I guess we can define speed, but uhh the trick with velocity since its going to be changing
+\SB \textit{(81)} like you want the variable to continue changing   
+\SB \textit{(82)} and for the variable to continue updating you have to put it in the calculation loop    
+\SC \textit{(83)} umm okay 
+\end{description}  However, this raises the issue of where to actually place the function in the code (line 78).  The group decides that they must define the velocity inside the calculation loop (line 82) given that it must ``continue updating'' as its direction continues to change.  The crucial feature that the group is articulating here is that the calculation loop is where time-dependent or changing quantities must be placed.
 
-Once the group understands what it is that they are checking for (line 1023), they begin to discuss how they can actually check for it (line 1025) in the code:\begin{description}
-\SC \textit{(1025)} So how do you check it?
-\SB \textit{(1026)} So normally, how we know it's running is that something shows up when we run it that tells us that it's working...
-\SB \textit{(1027)} But because that's not working, we need something else to show up to basically give us evidence that anything is going on.
-\SB \textit{(1028)} So, what we could do is... [adds a print statement]
-\SD \textit{(1029)} Oh so if it doesn't print that thing, it's basically breaking before it even gets there?
-\SB \textit{(1030)} [nods].	
-\SD \textit{(1031)} Okay.
-\end{description}  One of the more computationally advanced students suggests (line 1028) that they add a print statement inside of the calculation loop.  The crucial understanding that the group articulates (line 1029) is that the placement of their print statement will allow them to check in which level the program is terminating (i.e., if the error is in the initial conditions or in the calculation loop).  Accordingly, they add the print statement at the very beginning/top of the calculation loop.
+After a short TA interaction focusing on the generalizability of their program, the group returns to topic of where certain things are/should be placed in their code: \begin{description}
+\SB \textit{(107)} may I umm, may I uhh...
+\SB \textit{(108)} okay so, there is like, theres two sections in the code...   
+\SB \textit{(109)} so in the code, you have your calculation loop and your parameters and initial conditions.  
+\SB \textit{(110)} so from what we have, were defining our initial conditions as this model right here, which is just Earth and the satellite like its defined these two bodies and it has set the momentum of this    
+\SB \textit{(111)} and then I was thinking, in the code here {in the calculation loop} the force is set to zero zero zero, so were never defining F net at any point.
+\SB \textit{(112)} I think what we need to do is describe F net. The only other thing we have to delcare is the radius    
+\SC \textit{(113)} yeah sure we could do that  
+\SD \textit{(114)} okay
+\end{description}  Here, the group clearly articulates (line 108) the two different sections/levels of the program (i.e., the initial conditions and the calculation loop) and details some of the components belonging to each level.  That is, the objects of the Earth and the satellite belong to the initial conditions (line 110) and the net force acting on the satellite belongs to the calculation loop (line 111).
 
-Additionally, the group questions if they can find the exact location (i.e., at the micro-level) of the termination point inside the calculation loop.  This involves the suggestion of moving the print statement (line 1033) farther down in the calculation loop:
-\begin{description}
-\SB \textit{(1032)} Well it's working.
-\SD \textit{(1033)} What if you put it lower... farther down?
-\SB \textit{(1034)} Well it's definitely looping.
-\SD \textit{(1035)} No it... oh yeah.
-\SD \textit{(1036)} It's running, the loop is running every minute for a whole day.
-\SA \textit{(1037)} Err ten thousand...				
-\SB \textit{(1038)} That is a lot of time.
-\SB \textit{(1039)} I'm gonna stop it.
-\SB \textit{(1040)} Okay well it's working, it's actually looping.
-\SD \textit{(1041)} If you put it below here would it still work?
-\SB \textit{(1042)} Would the print thing?
-\SB \textit{(1043)} It is working, that was good, that means that's good news.
-\SC \textit{(1044)} Yeah but what SD is saying is if you printed it down here [mumbles]...
-\SD \textit{(1045)} I know what you \{SB\} mean now, cause it's running it has to run all the way through here.
-\SA \textit{(1046)} Oh, yeah.				
-\end{description}  However, given that the shell produces multiple print statements (line 1036), they conclude (line 1045) that the entire calculation loop must be completing.  In other words, the MWP is running to completion (or at least would given enough time) and is terminating at the very end/bottom of the whole program.
-
-To summarize, the three different levels that the group defines are the initial conditions, the calculation loop, and the final conditions.  The first and last are identified implicitly, whereas the calculation loop is explicitly considered.  Thus, the group \textit{leveling} their MWP.  Additionally, the calculation loop has the particular feature that the order of the code does not really matter in terms of its completion.  That is, they are \textit{featuring} their calculation loop.  Given these characteristics, this excerpt is confidently identified as the computational practice of thinking in levels.
+To summarize, the group has broken their program into the two different \textit{levels} of initial conditions and calculation loop (line 108).  Similarly, they have attributed the particular \textit{feature} of time-dependence to the calculation loop (line 82).  Given these two characteristics, this excerpt is can be used to illustrate the computational practice of thinking in levels.
 
 %
 %
