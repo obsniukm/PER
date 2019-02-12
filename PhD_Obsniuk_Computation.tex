@@ -750,7 +750,7 @@ The other less frequent practices, though not the focus here, are still of resea
 
 \subsection{Creating data}
 
-The computational practice of creating data, as defined by Weintrop et. al, involves the generation (as opposed to the collection) of computer data while ``investigating phenomena that cannot be easily observed or measured or that are more theoretical in nature.''  This type of data creation frequently arises in physics and engineering given the infeasibility of data collection in many realistic situations.  For example, complex computer models can be used to generate data that can be used to optimize launch conditions for satellites and manned rockets when real-world collection of data is too costly or dangerous.  The fundamental characteristics associated with this practice, as summarized in Tab.~\ref{CH5:CreatingData}, are: i) defining a computational procedure that automatically/algorithmically creates data and ii) using that procedure or the resulting data to advance their goals.
+The computational practice of creating data, as defined by Weintrop et. al, involves the generation (as opposed to the collection) of computer data while ``investigating phenomena that cannot be easily observed or measured or that are more theoretical in nature.''  This type of data creation frequently arises in physics and engineering given the infeasibility of data collection in many realistic situations.  For example, complex computer models can be used to generate data that can be used to optimize launch conditions for satellites and manned rockets when real-world collection of data is too costly or dangerous.  The fundamental characteristics associated with this practice, as summarized in Tab.~\ref{CH5:CreatingData}, are: i) defining a computational procedure that automatically/algorithmically creates data and ii) using that procedure or the resulting data to advance the overall goals of the task.
 
 \begin{table}[t]
 \begin{tabular}{r|p{0.8\textwidth}}
@@ -762,7 +762,7 @@ Advancing & Each group should ultimately be advancing toward completion of the s
 
 Consider Excerpt 9 from Group H.  Over the course of two hours, this group can be seen ensuring that their MWP will dynamically update the position of the satellite.  This entails ensuring that the momentum of the satellite will also dynamically update.  Accordingly, the group works to construct a computational algorithm that will automatically create sets of data representing the position and momentum of the satellite over time.  These sets of data are then ultimately used to advance toward completing the goal of producing of a realistic visualization of the trajectory of the satellite.
 
-Early on, the group can be seen discussing their goal of generating a visualization of the satellite's orbit (line 195).  They consider changing the initial position of the satellite (line 199) to what they calculated from the previous problem:
+Early on, the group can be seen discussing their goal of generating a visualization of the satellite's orbit (lines 195-196).  They consider changing the initial position of the satellite (line 199) to what they calculated from the previous problem:
 \begin{description}		
 \SD \textit{(195)} So, it's mostly just {trying} to figure out how to get it \{the program\} to display {an orbit}...
 \SA \textit{(196)} Yeah, it is.	
@@ -788,7 +788,7 @@ Eventually, they propose an Euler-Cromer style algorithm to automatically update
 \SB \textit{(225)} But the momentum is always changing...
 \end{description}  Although the group has clearly laid out the way that the position of the satellite will need to change (line 222), they have raised another concern in terms of the momentum of the satellite (line 225).  In other words, they have defined a procedure to automatically calculate the positions of the satellite, but still need to define a procedure to automatically calculate the momenta.
 
-As the group works toward defining a procedure to change the momentum of the satellite over time, they recall the concept of both iterative prediction (line 684) and Newton's second law (line 695) from the notes:
+Later, as the group works toward defining a procedure to change the momentum of the satellite over time, they recall the concept of both iterative prediction (line 684) and Newton's second law (line 695) from the notes:
 \begin{description}
 \SB \textit{(681)} So we gotta figure out how to change the momentum in there \{the code\}.
 \SB \textit{(682)} What was the equation from last week?		
@@ -805,7 +805,9 @@ As the group works toward defining a procedure to change the momentum of the sat
 \SB \textit{(695)} The change in momentum is the net force times change in time.
 \end{description}  With these two algorithms defined, their MWP is ready to automatically and dynamically update the position and momentum of the satellite.  The construction of these algorithms, along with a correct force model, shows a clear advancement toward their goal (line 195) of generating a visualization of the satellite's orbit.
 
-To summarize, the group can be seen \textit{automating} the generation of sets of data representing the position and momentum of the satellite over time.  Further, with these sets of data, the group is ultimately \textit{advancing} their progress toward producing a generalizable visualization of orbital motion.  Given the identification of these two characteristics, this excerpt is best classified as the computational practice of creating data.
+% Add in some transcript of the successful visualuzation?
+
+To summarize, the group can be seen \textit{automating} the generation of sets of data representing the position and momentum of the satellite over time.  Further, with these sets of data, the group is ultimately \textit{advancing} their progress toward producing a visualization of orbital motion.  Given the identification of these two characteristics, we classify this excerpt as the computational practice of creating data.
 
 %
 %
@@ -910,7 +912,7 @@ To summarize, this group can be seen \textit{analyzing} a set of data representi
 
 \subsection{Designing models}
 
-The computational practice of designing computational models, as defined by Weintrop et. al, involves the process of making ``technological, methodological, and conceptual decisions.''  These types of decisions are frequently dealt with in the STEM discipline given the complexity of modern scientific endeavors.  Scientific rigor and sound methodology must be utilized while using powerful tools at the forefront of technology (i.e., computation) to investigate modern phenomena.  At the same time, developing a deep conceptual understanding of the models and the phenomena that they represent is playing an increasingly important role in the sharing and communication of scientific information.  Accordingly, the fundamental characteristics associated with this computational practice, as summarized in Tab.~\ref{CH5:DesigningModels}, are: i) defining the components of a model, ii) describing how the components of a model interact, and iii) articulating what predictions can be made with the model.  We limit our investigation to models pertaining to the force acting on the satellite (e.g., a local gravitational force model as opposed to a Newtonian gravitational force model).
+The computational practice of designing computational models, as defined by Weintrop et. al, involves the process of making ``technological, methodological, and conceptual decisions.''  These types of decisions are frequently dealt with in the STEM discipline given the complexity of modern scientific endeavors.  Scientific rigor and sound methodology must be maintained while using tools at the forefront of technology (i.e., computation) to investigate modern phenomena.  At the same time, developing a deep conceptual understanding of the models and the phenomena that they represent is playing an increasingly important role in the sharing and communication of scientific information.  Accordingly, the fundamental characteristics associated with this computational practice, as summarized in Tab.~\ref{CH5:DesigningModels}, are: i) defining the components of a model, ii) describing how the components of a model interact, and iii) articulating what predictions can be made with the model.  In keeping with the recent literature on modeling in education research, we limit our investigation to models pertaining to the force acting on the satellite (e.g., a local gravitational force model or a Newtonian gravitational force model).
 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
@@ -924,45 +926,45 @@ Predicting & The group must articulate what information their model will provide
 Consider Excerpt 11 from Group B.  Throughout this excerpt, the group can be seen working to incorporate a centripetal force model (i.e., $\vec{F}_{\rm cent}=-\frac{mv^{2}}{R}\langle\cos\theta,\sin\theta,0\rangle$) into their code.  Ultimately, the group is dissuaded from using this particular model through discussion with the TA.  Nevertheless, this excerpt is a clear illustration of the practice of designing a computational model.
 
 A few minutes into beginning the problem, the group has recognized that they need to use a force model (line 118) to calculate the trajectory of the satellite, as opposed to just plotting it using the expected radius (line 116): \begin{description}
-\SA \textit{(111)} now were saying that it’s a variable...
-\SA \textit{(112)} so what do we want to do with this number?
-\SB \textit{(113)} well you said the radius from here to here is not gonna be the same as from here to here?
-\SA \textit{(114)} yeah
-\SB \textit{(115)} well, should we... could we Google how, like how much farther or shorter it is from here to here?		
-\SD \textit{(116)} Okay, I think actually what hes trying to get us to say is that we cant just plot its path around by using the radius of the orbit
-\SA \textit{(117)} right
-\SD \textit{(118)} we have to actually use the force that is acting on it to finds its path
-\SA \textit{(119)} we have to use the force
-\SD \textit{(120)} we have to use the force\end{description}  The group has begun to articulate the information that their model will provide them, even if they have not yet decided on the particular model.  In other words, their force model will allow them to make predictions about the position and trajectory of the satellite.
+\SA \textit{(111)} Now were saying that it’s \{the radius\} a variable...
+\SA \textit{(112)} So what do we want to do with this {other} number?
+\SB \textit{(113)} Well, you said the radius from here to here is not gonna be the same as from here to here?
+\SA \textit{(114)} Yeah.
+\SB \textit{(115)} Well, should we... could we Google how, like how much farther or shorter it is from here to here?
+\SD \textit{(116)} Okay, I think actually what it's trying to get us to say is that we can't just plot its path around by using the radius of the orbit...
+\SA \textit{(117)} Right.
+\SD \textit{(118)} We have to actually use the force that is acting on it to find it's path.
+\SA \textit{(119)} We have to use the force.
+\SD \textit{(120)} We have to use the force.\end{description}  The group has begun to articulate the information that their model will provide them, even if they have not yet decided on the particular model.  In other words, their force model will allow them to make predictions about the position and trajectory of the satellite.
 
-After a little off-topic discussion, the group decides on a particular force model: \begin{description}
-\SD \textit{(152)} the force is like v squared... the force is uhh v squared times m over radius of orbit
-\SD \textit{(153)} correct me if im wrong...
-\SA \textit{(154)} sorry?
-\SD \textit{(155)} the force is equal to mass times v squared over radius of the orbit.
-\SB \textit{(156)} so maybe we could just find it \{the force\} at that distance?
-\SD \textit{(157)} well we have access to a variable that represents our radius of orbit...
-\SB \textit{(158)} and we have mass.
-\SD \textit{(159)} and we have mass.
-\SC \textit{(160)} we found the velocity last time...
-\SB \textit{(161)} and we know the radius and know the velocity.
-\SB \textit{(162)} so we can just find the net force.\end{description}  Here, the group is clearly identifying the individual components of the centripetal force model (lines 157-161) and making sure that they are separately defined in code.  Additionally, they have identified a clear mathematical relationship between them (line 152).
+After a little off-topic discussion, the group decides on a particular force model to use: \begin{description}
+\SD \textit{(152)} The force is like v squared... the force is uhh v squared times m over radius of orbit.
+\SD \textit{(153)} Correct me if im wrong...
+\SA \textit{(154)} Sorry?
+\SD \textit{(155)} The force is equal to mass times v squared over radius of the orbit.
+\SB \textit{(156)} So maybe we could just find it \{the force\} at that distance?
+\SD \textit{(157)} Well, we have access to a variable that represents our radius of orbit...
+\SB \textit{(158)} And we have mass.
+\SD \textit{(159)} And we have mass.
+\SC \textit{(160)} We found the velocity last time...
+\SB \textit{(161)} And we know the radius and know the velocity.
+\SB \textit{(162)} So we can just find the net force.\end{description}  Here, the group is clearly identifying the individual components of the centripetal force model (lines 157-161) and making sure that they are separately defined in code.  Additionally, they have identified a clear mathematical relationship between them (line 152) that they recall from memory.
 
-Before jumping into the construction of the model, they spend a little time discussing the behavior of their proposed model and how it relates to the phenomenon: \begin{description}
-\SD \textit{(182)} if we could get it \{the force\} to oscillate between maximums we could get a rotation...
-\SD \textit{(183)} but how do we represent that as a force because its obvious that they want us to do that...
-\SA \textit{(184)} sine and cosine?
-\SD \textit{(185)} sine and cosine?
-\SA \textit{(186)} if we do sine and cosine, if we have both of them, one in the x, one in the y, like this is saying
-\SA \textit{(187)} then even if one goes to zero, like you were saying, then either one is gonna be close to one
-\SA \textit{(188)} and so...
-\SD \textit{(189)} we have to use our angles?
-\SC \textit{(190)} ohhh
-\SD \textit{(191)} and we have access to angles {that are defined below}
-\SD \textit{(192)} oh my god that’s so great, that’s perfect, youre totally right
-\end{description}  Specifically, they articulate the way that the components of their force model will need to oscillate to cause a rotation (line 182).  This oscillatory behavior has a direction relation to the mathematical sine and cosine functions that they plan to use (line 184) -- as one component approaches zero, the other component will approach one (line 187).  They also identify yet another individual component of their model (line 191) with the angle of the satellite.
+Before jumping into the construction of the newly proposed model, they spend a little time discussing its behavior and how it relates to the phenomenon: \begin{description}
+\SD \textit{(182)} If we could get it \{the force\} to oscillate between maximums we could get a rotation...
+\SD \textit{(183)} But how do we represent that as a force... because it's obvious that they want us to do that.
+\SA \textit{(184)} Sine and cosine?
+\SD \textit{(185)} Sine and cosine?
+\SA \textit{(186)} If we do sine and cosine, if we have both of them, one in the x, one in the y, like this [points to notes] is saying...
+\SA \textit{(187)} Then even if one goes to zero, like you were saying, then the other one is gonna be close to one.
+\SA \textit{(188)} And so...
+\SD \textit{(189)} We have to use our angles?
+\SC \textit{(190)} Ohhh...
+\SD \textit{(191)} And we have access to angles {that are defined below}.
+\SD \textit{(192)} Oh my god, that’s so great, that’s perfect, you're totally right.
+\end{description}  Specifically, they articulate the way that the components of their force model will need to oscillate to cause a rotation (line 182).  This oscillatory behavior has a direct relation to the mathematical sine and cosine functions that they plan to use (line 184) -- as one component approaches zero, the other component will approach one (line 187).  They also identify yet another individual component of their model (line 191) with the angle of the satellite.
 
-To summarize, the group begins by recognizing that using a force model will allow them to \textit{predict} the trajectory of the satellite in a more general way (line 118).  After deciding on a centripetal force model, they then \textit{separate} it into the individual components of the mass, velocity, radius, and angle of the satellite (lines 157-161 and 191).  Finally, they \textit{relate} the sinusoidal nature of the model to the expected sinusoidal behavior of the satellite's trajectory (lines 182 and 186).
+To summarize, the group begins by recognizing that using a force model will allow them to \textit{predict} the trajectory of the satellite in a more general way (line 118).  After deciding on a centripetal force model, they then \textit{separate} it into the individual components of the mass, velocity, radius, and angle of the satellite (lines 157-161 and 191).  Finally, they \textit{relate} the sinusoidal nature of the model to the expected sinusoidal behavior of the satellite's trajectory (lines 182 and 186).  Given these three characteristics, this excerpt is a clear illustration of the computational practice of designing a model.
 
 %
 %
@@ -1250,7 +1252,7 @@ To summarize, the group has broken their program into the two different \textit{
 
 \subsection{Communicating information}
 
-The computational practice of communicating information, according to Weintrop et. al, usually involves a visualization (e.g., a graph) that can be used to ``highlight the most important aspects of what has been learned about the system in such a way that it can be understood by someone who does not know all the underlying details.''  This communication skill is especially important in fields involving complex and interrelated systems, such as those observed in physics and engineering.  The ability to share information with colleagues without going through all of the underlying details and mechanisms is crucial.  The two fundamental characteristics associated with this particular practice, as summarized in Tab.~\ref{CH5:CommunicatingInformation}, are: i) a general process of communication (detailed in Tab.~\ref{CH5:CommunicatingInformation}) and ii) simplifying that information so that it is accessible.
+The computational practice of communicating information, according to Weintrop et. al, usually involves a visualization or representation (e.g., a graph) that can be used to ``highlight the most important aspects of what has been learned about the system in such a way that it can be understood by someone who does not know all the underlying details.''  This communication skill is especially important in fields involving complex and interrelated systems, such as those observed in physics and engineering.  The ability to share useful information with colleagues without going through all of the underlying details and mechanisms is crucial.  The two fundamental characteristics associated with this particular practice, as summarized in Tab.~\ref{CH5:CommunicatingInformation}, are: i) a general process of communication (detailed in Tab.~\ref{CH5:CommunicatingInformation}) and ii) simplifying that information so that it is accessible.
 
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
@@ -1302,6 +1304,9 @@ To summarize, the group is checking the validity of their net force model throug
 
 \chapter{Discussion}\label{CH6:Discussion}
 
+% Does the order of the characteristics matter?  I think not, but perhaps it deserves fair discussion.
+
+% Clearly define what we mean by modeling as the word is thrown around a lot in the analysis.
 
 %
 %	CONCLUSIONS
