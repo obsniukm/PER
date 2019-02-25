@@ -38,12 +38,16 @@
 \contentsline {subsection}{\numberline {5.2.1}Creating data}{63}
 \contentsline {subsection}{\numberline {5.2.2}Analyzing data}{67}
 \contentsline {subsection}{\numberline {5.2.3}Designing models}{72}
-\contentsline {subsection}{\numberline {5.2.4}Assessing models}{76}
-\contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{80}
-\contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{83}
+\contentsline {subsection}{\numberline {5.2.4}Assessing models}{77}
+\contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{81}
+\contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{84}
 \contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{88}
-\contentsline {subsection}{\numberline {5.2.8}Communicating information}{91}
+\contentsline {subsection}{\numberline {5.2.8}Communicating information}{92}
 \contentsline {chapter}{\numberline {Chapter 6}Discussion}{96}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{97}
-\contentsline {chapter}{APPENDICES}{98}
+\contentsline {section}{\numberline {6.1}Communication}{96}
+\contentsline {section}{\numberline {6.2}Ordering}{97}
+\contentsline {section}{\numberline {6.3}Modeling}{97}
+\contentsline {section}{\numberline {6.4}Coccurrences}{98}
+\contentsline {section}{\numberline {6.5}Sophistication}{98}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{99}
 \contentsline {chapter}{BIBLIOGRAPHY}{100}

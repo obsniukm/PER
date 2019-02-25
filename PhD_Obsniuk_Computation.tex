@@ -641,9 +641,9 @@ We also conducted a phenomenography in order to characterize the qualitatively d
 
 \chapter{Observations}\label{CH5:Observations}
 
-Throughout our analysis in this thesis, we have made many different types of observations, and have used those observations to help answer our research questions (for example, see Sec.\ref{CH2:Thematic}).  Accordingly, it is important that we take some time to elaborate on the process of and results from those observations.  More specifically, in this chapter, we detail the method of our analysis (i.e., the data reduction, the coding process, and the inter-rater reliability) and illustrate the identification of three of the most frequent practices (i.e., troubleshooting and debugging, assessing computational models, and creating computational abstractions).
+Throughout our analysis in this thesis, we have made many different types of observations, and have used those observations to help answer our research questions (for example, see Sec.~\ref{CH2:Thematic}).  Accordingly, it is important that we take some time to elaborate on the process of and results from those observations.  More specifically, in this chapter, we detail the method of our analysis (i.e., the data reduction, the coding process, and the inter-rater reliability) and illustrate the identification of some of the most frequent practices (e.g., troubleshooting and debugging, assessing computational models, and creating computational abstractions).
 
-\section{Analysis}
+\section{Analysis}\label{CH5:Analysis}
 
 Our full analysis involves different stages: first, the initial data was collected and subsequently reduced in order to provide a manageable set of data; next, an independent coding scheme was generated -- using the Weintrop framework from Sec.~\ref{CH2:Framework} -- to help identify computational practices; and finally, multiple inter-raters were used to ensure the reliability of the analysis.  Each of these three stages are detailed below.
 
@@ -728,6 +728,8 @@ By analyzing all of the data with the methods described above, we have identifie
 
 The remainder of this section provides concrete examples of the most frequent computational practices that we found in our data.  We are focusing on those practices that occur with high frequency within one group or occur with moderate frequency across multiple groups.  These practices are (in no particular order): creating and analyzing data within the data practices; designing, constructing, and assessing computational models within the modeling and simulation practices; programming, creating abstractions, and troubleshooting and debugging in the computational problem solving practices; and thinking in levels and communicating information within the systems thinking practices.
 
+Although the examples that follow are meant to clearly illustrate some of the common computational practices that we have observed, they do not come without their own limitations.  Although we have tried our best to as unbiased as possible, the nature of this researcher requires a fair amount of subjective interpretation.  Accordingly, Ch.~\ref{CH6:Discussion} will provide additional discussion on the caveats, limitations, and concerns associated with some of the common practices that we have focused on.
+
 The other less frequent practices, though not the focus here, are still of research interest.  Some of these less frequent but nonetheless important computational practices can be found in the Appendix.
 
 %
@@ -757,7 +759,7 @@ The computational practice of creating data, as defined by Weintrop et. al, invo
 Characteristic & Qualities \\\hline\hline
 Automating & The data that is being created should be done so in an automatic or algorithmic manner.  For example, an Euler-Cromer style integration is frequently used to generate large sets of numerical data representing various physical phenomena in time.\\
 Advancing & Each group should ultimately be advancing toward completion of the specified task.  For example, creating an algorithm that generates the various momenta of the satellite can ultimately be used to help generate a simulation of its trajectory.\\
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of creating data.}\label{CH5:CreatingData}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of creating data: automating the creation of data that helps to advance toward goals.}\label{CH5:CreatingData}
 \end{table}
 
 Consider Excerpt 9 from Group H.  Over the course of two hours, this group can be seen ensuring that their MWP will dynamically update the position of the satellite.  This entails ensuring that the momentum of the satellite will also dynamically update.  Accordingly, the group works to construct a computational algorithm that will automatically create sets of data representing the position and momentum of the satellite over time.  These sets of data are then ultimately used to advance toward completing the goal of producing of a realistic visualization of the trajectory of the satellite.
@@ -803,9 +805,7 @@ Later, as the group works toward defining a procedure to change the momentum of 
 \SB \textit{(693)} Oh, there we go, nice.
 \SA \textit{(694)} Wait what is it?
 \SB \textit{(695)} The change in momentum is the net force times change in time.
-\end{description}  With these two algorithms defined, their MWP is ready to automatically and dynamically update the position and momentum of the satellite.  The construction of these algorithms, along with a correct force model, shows a clear advancement toward their goal (line 195) of generating a visualization of the satellite's orbit.
-
-% Add in some transcript of the successful visualuzation?
+\end{description}  With these two algorithms defined, their MWP is ready to automatically and dynamically update the position and momentum of the satellite.  Afterward, the group spends a fair amount of time incorporating the appropriate force model into their code.  The construction of these algorithms, along with the correct force model, shows a clear advancement toward their goal (line 195) of generating a visualization of the satellite's orbit.
 
 To summarize, the group can be seen \textit{automating} the generation of sets of data representing the position and momentum of the satellite over time.  Further, with these sets of data, the group is ultimately \textit{advancing} their progress toward producing a visualization of orbital motion.  Given the identification of these two characteristics, we classify this excerpt as the computational practice of creating data.
 
@@ -836,7 +836,7 @@ The computational practice of analyzing data, as defined by Weintrop et. al, usu
 Characteristic & Qualities \\\hline\hline
 Analyzing & This is a broad term that usually involves at least one of many types of analysis.  For example, sorting a set of data into different categories, looking for trends or patterns within a given set, looking for correlations between multiple sets, and/or identifying outliers and anomalies are all considered to be different types of analysis.\\
 Concluding & The information (e.g., a pattern or trend) gathered from the analysis of a set of data should ultimately be used to make or draw some conclusion.  This characteristic, though an important one, is not necessarily required for a group to be analyzing data.\\
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of analyzing data.}\label{CH5:AnalyzingData}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of analyzing data: a general process of analysis leading to conclusions.}\label{CH5:AnalyzingData}
 \end{table}
 
 Consider Excerpt 35 from Group H.  Overall, this group can be seen engaging in the process of analysis of a set of data that represents the net force acting on the satellite, and drawing a conclusion based on the results of that analysis.  The particular process of analysis observed in this excerpt involves both categorization and patterning.  The categories that the data are placed in are: a) large-scale numbers and b) vector quantities.  The trend that the group recognizes is that the set of data representing the net force is time dependent.
@@ -917,10 +917,10 @@ The computational practice of designing computational models, as defined by Wein
 \begin{table}
 \begin{tabular}{r|p{0.8\textwidth}}
 Characteristic & Qualities \\\hline\hline
-Separating & Each individual component of a model must be separately defined in code.  For example, the mass of an object and the local acceleration due to a planet can be separately defined and used to construct the corresponding local gravitational force.\\
+Defining & Each individual component of a model must be separately defined in code.  For example, the mass of an object and the local acceleration due to a planet can be separately defined and used to construct the corresponding local gravitational force.\\
 Relating & The group must describe the way that the individual components of the model relate to the phenomenon that is being studied.  This relationship usually mirrors an equation or an expected type of behavior.  For example, the Newtonian gravitational force follows an inverse square position-dependence.\\
 Predicting & The group must articulate what information their model will provide them, and use that information to make predictions about the time evolution of a phenomenon given initial conditions.  For example, a force model can generate the various values of the force acting on an object at different positions in time.  This set of data can then be used to make predictions about the motion of the object.\\
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of designing a computational model.}\label{CH5:DesigningModels}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of designing a computational model: defining components, relating them to one another, and using them to make predictions.}\label{CH5:DesigningModels}
 \end{table}
 
 Consider Excerpt 11 from Group B.  Throughout this excerpt, the group can be seen working to incorporate a centripetal force model (i.e., $\vec{F}_{\rm cent}=-\frac{mv^{2}}{R}\langle\cos\theta,\sin\theta,0\rangle$) into their code.  Ultimately, the group is dissuaded from using this particular model through discussion with the TA.  Nevertheless, this excerpt is a clear illustration of the practice of designing a computational model.
@@ -962,9 +962,9 @@ Before jumping into the construction of the newly proposed model, they spend a l
 \SC \textit{(190)} Ohhh...
 \SD \textit{(191)} And we have access to angles {that are defined below}.
 \SD \textit{(192)} Oh my god, that’s so great, that’s perfect, you're totally right.
-\end{description}  Specifically, they articulate the way that the components of their force model will need to oscillate to cause a rotation (line 182).  This oscillatory behavior has a direct relation to the mathematical sine and cosine functions that they plan to use (line 184) -- as one component approaches zero, the other component will approach one (line 187).  They also identify yet another individual component of their model (line 191) with the angle of the satellite.
+\end{description}  Specifically, they articulate the way that the components of their force model will need to oscillate to cause a rotation (line 182).  This oscillatory behavior has a direct relation to the mathematical sine and cosine functions that they plan to use (line 184) -- as one component approaches a value of zero, the other component will approach a value of one (line 187).  They also identify yet another individual component of their model (line 191) with the angle of the satellite.
 
-To summarize, the group begins by recognizing that using a force model will allow them to \textit{predict} the trajectory of the satellite in a more general way (line 118).  After deciding on a centripetal force model, they then \textit{separate} it into the individual components of the mass, velocity, radius, and angle of the satellite (lines 157-161 and 191).  Finally, they \textit{relate} the sinusoidal nature of the model to the expected sinusoidal behavior of the satellite's trajectory (lines 182 and 186).  Given these three characteristics, this excerpt is a clear illustration of the computational practice of designing a model.
+To summarize, the group begins by recognizing that using a force model will allow them to \textit{predict} the trajectory of the satellite in a more general way (line 118).  After deciding on a centripetal force model, they then separately \textit{define} the individual components of the mass, velocity, radius, and angle of the satellite (lines 157-161 and 191).  Finally, they \textit{relate} the sinusoidal nature of the model to the expected sinusoidal behavior of the satellite's trajectory (lines 182 and 186).  Given these three characteristics, this excerpt is a clear illustration of the computational practice of designing a model.
 
 %
 %
@@ -993,7 +993,7 @@ The computational practice of assessing a computational model, as defined by Wei
 Characteristic & Qualities \\\hline\hline
 Assuming & In designing a computational model, certain assumptions are invariably taken into account.  These assumptions -- regardless of how appropriate or valid -- should be identified and clearly articulated by the group.  For example, the assumption that the satellite will always be traveling in a perfectly circular orbit, although a poor one, is still an assumption.\\
 Validating & As more assumptions are built into a model, its validity should continually be checked to ensure its predictive accuracy.  For example, assuming that an orbiting satellite is acted on by a constant net force is not valid for long periods of time.\\
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of assessing a computational model.}\label{CH5:AssessingModels}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of assessing a computational model: identifying assumptions and validating them.}\label{CH5:AssessingModels}
 \end{table}
 
 Consider Excerpt 9 of Group C.  Generally speaking, the group can be seen working to incorporate a gravitational force into their code.  Early on, they recognize that their code is missing the net force on the satellite, and subsequently spend about thirty minutes deciding if and how they should should incorporate one.  Eventually, they reach a conclusion to add a gravitational force based on their assessment of a couple of different models (i.e., a local gravitational force and a Newtonian gravitational force).
@@ -1070,7 +1070,7 @@ The computational practice of creating abstractions, as defined by Weintrop et. 
 Characteristic & Qualities \\\hline\hline
 Conceptualizing & There needs to be some concept that a group is focusing on.  Concepts usually range from individual physical quantities to more complicated physical relationships.\\
 Representing & A particular concept should be represented mathematically.  This process of representation usually involves translating a mathematical equation from the notes into a more general computer function.
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of creating computational abstractions.}\label{CH5:CreatingAbstractions}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of creating computational abstractions: representing physical concepts.}\label{CH5:CreatingAbstractions}
 \end{table}
 
 Consider Excerpt 13 from Group D in the following analysis.  Overall, the group can be seen giving their net force a direction through the use of a unit vector ($\hat{r}$).  They first recognize that their force needs to be a vector, and propose an equation to use that specifically involves a direction ($\vec{F}\propto\hat{r}/r^{2}$).  Once they have their equation to work with, they begin to discuss how they can define it as a general function.  In other words, the group can be seen \textit{conceptualizing} and \textit{representing} an idea in general terms.
@@ -1130,7 +1130,7 @@ Characteristic & Qualities \\\hline\hline
 Isolating & The cause of an unexpected error that arises in a program must be tracked down.  This sometimes involves retracing steps (or keystrokes) through the undo command, but usually involves testing the program through a process of guessing and checking.\\
 Correcting & The unexpected error must ultimately be corrected in a long-term and generalizable manner.\\
 Systematizing & When isolating or correcting the unexpected error, it should be done is a systematic and efficient way.  This characteristic is not necessarily required.\\
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of troubleshooting and debugging.}\label{CH5:TroubleshootingAndDebugging}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of troubleshooting and debugging: isolating an unexpected error and correcting it in a systematic manner.}\label{CH5:TroubleshootingAndDebugging}
 \end{table}
 
 For example, consider Excerpt 2 from Group I in the following analysis.  Broadly, the group can be seen working to incorporate realistic values and generalizeable functions into their MWP.  A couple of minutes into starting the problem (Sec.~\ref{CH3:SatelliteProblem}), they modify the pre-written numerical value for the mass of the satellite from \texttt{1} to \texttt{1E4}.  This leads, over the course of about thirty minutes, to the group defining the momentum of the satellite as a function.  That is, the group can be seen \textit{isolating} the cause of an unrealistic satellite trajectory and ultimately \textit{correcting} it in a \textit{systematic way} by redefining the momentum of the satellite from a hard-coded value to computer function.
@@ -1201,7 +1201,7 @@ The computational practice of thinking in levels, as defined by Weintrop et. al,
 Characteristic & Qualities \\\hline\hline
 Leveling & A group should either implicitly or explicitly define the different levels of a system.  For example, every MWP can be broken down into an initial condition level and a calculation loop level.\\
 Featuring & The unique features of each level should be articulated by the group.  For example, a group might articulate that physical quantities that need to change in time must be placed in the calculation loop.\\
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of thinking in levels.}\label{CH5:ThinkingInLevels}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of thinking in levels: breaking a program into different levels and attributing features to them.}\label{CH5:ThinkingInLevels}
 \end{table}
 
 For example, consider Excerpt 6 from Group A in the following analysis.  Broadly speaking, this excerpt focuses on the group making decisions about what needs to be added to their code and, more importantly, where those things needs to be added.  More specifically, they work to construct a function for the momentum of the satellite (which depends on its velocity) as well the net force acting on it.
@@ -1259,7 +1259,7 @@ The computational practice of communicating information, according to Weintrop e
 Characteristic & Qualities \\\hline\hline
 Communicating & The act of communication can range from pure dialogue between two or more individuals to detailed visualizations that capture the relevant information to be shared.  For example, creating a graph of a physical quantity vs. time can be used to succinctly share information about the time dependence of that physical quantity.  Alternatively, this time dependence could be articulated verbally through dialogue.\\
 Understanding & The information being communicated should demonstrate an understanding that the group has of the underlying mechanics.  For example, a group might communicate the way that the position, force, and momentum of the satellite are interrelated as simulated time progresses.\\
-\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of communicating information.}\label{CH5:CommunicatingInformation}
+\end{tabular}\caption{The characteristics and associated qualities pertaining to the computational practice of communicating information: a general process of communication that demonstrates an understanding.}\label{CH5:CommunicatingInformation}
 \end{table}
 
 For example, consider Excerpt 30 from Group E.  At this stage, the group has begun to construct a Newtonian gravitational force model, but is struggling with its implementation.  A brief interaction with the TA shows them communicating information about their understanding of the underlying concept of circular motion, as well as an understanding of the power and generalizability of the program.  After this interaction, the group continues with the construction of the Newtonian gravitational force, and more specifically, its direction.
@@ -1279,7 +1279,7 @@ About halfway into the program, the group is struggling (line 231) to construct 
 \SB \textit{(242)} And then since it's \{the force\} negative, it'll move it downward.
 \SB \textit{(243)} And that will happen at every step [draws four points on a unit circle].
 \TA \textit{(244)} Okay good.			
-\end{description}  Thus, the group can be seen communicating information (lines 234-243) about the way that the force, momentum, and position are related at various points on the $x$- and $y$-axes for a circular trajectory.  This information shows a clear understanding of the rather complicated interrelation (i.e., out-of-phase sinusoidal) of these physical quantities.
+\end{description}  Thus, a member of the group can be seen communicating information (lines 234-243) about the way that the force, momentum, and position are related at various points on the $x$- and $y$-axes for a circular trajectory.  Although just one member of the group is doing a majority of the communication, they are acting as a spokesperson or a representative for the group (line 235).  This information shows a clear understanding of the rather complicated interrelation (i.e., sinusoidal and out-of-phase) of these physical quantities.
 
 However, the TA continues to press them on their understanding (lines 245, 248, and 250) by asking them to consider positions other than those on the $x$- and $y$-axes: \begin{description}
 \TA \textit{(245)} What about here [draws a dot in the first quadrant]?
@@ -1295,7 +1295,7 @@ However, the TA continues to press them on their understanding (lines 245, 248, 
 \SD \textit{(255)} So you don’t need to know that.
 \SB \textit{(256)} Yeah you don’t need {to know that}...		
 \TA \textit{(257)} Okay, that’s fine.
-\end{description}  In response, the group demonstrates a strong understanding of not just the interrelation between physical quantities (lines 234-243), but also of the computational power of their program.  That is, the group articulates (line 253) that their definition of the direction of the force in code (i.e., $\hat{r}$) will automatically update to account for these various/arbitrary positions.
+\end{description}  In response, the group demonstrates a strong understanding of not just the interrelation between physical quantities (lines 234-243), but also of the computational power of their program.  That is, another member of the group articulates (line 253) that their definition of the direction of the force in code (i.e., $\hat{r}$) will automatically update to account for these various/arbitrary positions.
 
 To summarize, this excerpt shows a TA interaction focusing on the construction of the Newtonian gravitational force acting on the satellite.  The group can be seen \textit{communicating} information about the interrelation of the position, force, and momentum of the satellite.  Through this dialogue, they are demonstrating a clear \textit{understanding} of these interrelations, as well as a clear understanding of the power and generalizabilty of their program.  Given this communication and demonstration of understanding, this excerpt can be classified as an illustration of the computational practice of communicating information.
 
@@ -1305,9 +1305,33 @@ To summarize, this excerpt shows a TA interaction focusing on the construction o
 
 \chapter{Discussion}\label{CH6:Discussion}
 
-% Does the order of the characteristics matter?  I think not, but perhaps it deserves fair discussion.
+The preceding examples of Sec.~\ref{CH5:Practices} are meant to clearly and succinctly illustrate some of the common computational practices that we have observed in our data.  They are the result of an iterative and multi-stage process of analysis involving the collection and reduction of data, the development of an independent coding scheme, and the building of confidence through inter-rater reliability (see Sec.~\ref{CH5:Analysis}).  Through the aforementioned coding process and inter-rater discussion, the fundamental characteristics and their associated qualities have been identified and defined (e.g., see Tab.~\ref{CH5:CommunicatingInformation}).
 
-% Clearly define what we mean by modeling as the word is thrown around a lot in the analysis.
+However, the characteristics and qualities that we have defined do not come without their limitations, and are often steeped in nuance.  Frequently, the delineation between one practice and another can be blurred, with many shared characteristics.  Accordingly, the following chapter will focus on the specific and more general limitations of our analysis, as well the subtle nuances associated with some of the more complicated excerpts and practices.  
+
+\section{Communication}
+
+The computational practice of communicating information, as defined by Weintrop et. al, is probably meant to focus on information being communicated through a written report or a formal presentation.  However, given our particular context, we often see information being communicated through informal discussion both within the group (i.e., student-student communication) and beyond the group (i.e., student-TA communication).
+
+\section{Ordering}
+
+Many of the characteristics that we have identified follow a logical progression.  Consider the characteristics of the practice of designing a computational model: (i) defining the components of a model, (ii) relating the components to one another, and then (iii) making predictions based on the model.  However, these characteristics need not be identified in this linear manner.
+
+For example, in Excerpt 11 from Group B (see Tab.~\ref{CH5:DesigningModels}), they can first be seen discussing the predictions that they plan to make with their program.  These predictions are articulated before they even have a proposal for a particular force model.  Once they have agreed on the predictions that they must make, they then begin to design the appropriate model.  Thus, the characteristics indeed need not follow linearly or logically.
+
+\section{Modeling}
+
+The term modeling, as used in our analyses, pertains specifically to the various force models that occur within introductory physics.  These force models range from a constant local gravitational force to a position-dependent Newtonian gravitational force, with everything in between (e.g., a centripetal force model).  This gives us a clear type of model to focus on.
+
+However, further research could expand the definition of a model to focus on things other than forces.  For example, the underlying Euler-Cromer algorithm used to integrate position and momentum could be considered a model in its own right.  With other models of this type to choose from (e.g., Runge-Kutta), they could easily fit into the modeling and simulation practice of using computational models to find and test solutions.
+
+\section{Coccurrences}
+
+It is important to note that, although our analyses have focused on identifying and defining a single practice pertaining to a single excerpt, many excerpts contain multiple practices.  Furthermore, some characteristics are shared between many practices.
+
+\section{Sophistication}
+
+Given the introductory nature of the physics that is being covered in our data, it is no surprise that group discussion is not extremely sophisticated.  The discussion in a course focused more on computation (e.g., an introduction to computational modeling course such as CMSE 201 at Michigan State University) might yield more sophisticated discussion with richer characteristics and qualities.
 
 %
 %	CONCLUSIONS
@@ -1319,11 +1343,11 @@ To summarize, this excerpt shows a TA interaction focusing on the construction o
 %	APPENDICES
 %
 
-\appendices\label{Appendix}
+%\appendices\label{Appendix}
 
-\section*{Constructing computational models}
+%\section*{Constructing computational models}
 
-\section*{Using computational models to understand a concept}
+%\section*{Using computational models to understand a concept}
 
 %
 %	BIBLIOGRAPHY
