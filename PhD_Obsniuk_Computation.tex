@@ -1307,75 +1307,113 @@ To summarize, this excerpt shows a TA interaction focusing on the construction o
 
 The examples detailed in Sec.~\ref{CH5:Practices} are meant to clearly and succinctly illustrate some of the common computational practices that we have observed in our data.  They are the result of an iterative and multi-stage process of analysis involving the collection and reduction of data, the development and application of a coding scheme, and the building of confidence through inter-rater reliability (see Sec.~\ref{CH5:Analysis}).  Through this process of analysis we have identified and defined the fundamental characteristics and the associated qualities for each practice within our particular context.
 
-However, the characteristics and qualities that we have defined do not come without their limitations and susceptibility to bias, and are often steeped in nuance.  Frequently, the delineation between one practice and another can be blurred, with many shared characteristics across the different categories.  Accordingly, this chapter focuses on the nuance of some of our findings, the specific and more general limitations of our analysis, and some new research opportunities.  
+However, the characteristics and qualities that we have defined do not come without their limitations and susceptibility to bias, and are often steeped in nuance.  Frequently, the delineation between one practice and another can be blurry, with many shared characteristics across the different categories.  Accordingly, this chapter focuses on our overall findings, the specific and more general limitations of our analysis, and some new research opportunities.  
 
-\section{Nuance in data}
+\section{Findings}
 
-Although we have presented what we find to be clear and illustrative examples of the common computational practices, there are many different and valid interpretations.  Similarly, there are subtle differences between individual practices that deserve elaboration and reconciliation.
+Many of the characteristics that we have identified follow a logical progression.  Consider the characteristics of the practice of designing a computational model: (i) defining the components of a model, (ii) relating the components to one another, and then (iii) making predictions based on the model.  These characteristics follow a logical progression and build on one another from (i) to (ii) to (iii).  However, these characteristics need not be identified in this linear manner.
 
-\subsection{What is a model?}
+For example, in Excerpt 11 from Group B (see Tab.~\ref{CH5:DesigningModels}), they can first be seen discussing the predictions that they plan to make with their model.  These predictions are articulated before they even have a proposal for a particular force model.  Once they have agreed on the predictions that they must make, they then begin to design the appropriate model.  Thus, the characteristics indeed need not follow a linear or logical progression.
 
-Models are a main focus of the Weintrop framework and are given their own category of practices (i.e., modeling and simulation practices).  However, the definition of a model can be vague.
+\subsection{Common practices}
 
-\subsection{What is a system?}
+The practices that we have observed almost all groups to be engaging in multiple times have been deemed common.
 
-Systems are a main focus of the Weintrop framework and are given their own category of practices (i.e., systems thinking practices).  However, the definition of a system can be vague. 
+From the data practices, we have found that creating data and analyzing data are common.  These seem plausible for a number of reasons: each group must ultimately create sets of data representing the position, momentum, and force acting on the satellite using computational algorithms; in order to generate an accurate simulation, groups must continually analyze and assess the data sets they have created.
 
-\section{Limitations and biases}
+From the modeling and simulation practices, we have found that designing computational models, constructing computational models, assessing computational models, and using computational models to understand a concept are common.  These are plausible for a number of reasons: we specifically require that group design, construct, and assess their models in an iterative process of modeling; most students have a desire not only to finish the problem, but also to understand the concepts along the way (e.g., students may understand \textit{what} they are planning to do but want to know \textit{why} they are doing it).
 
-There are a number of limitations to, and possible biases that have influenced, our findings that deserve elaboration.
+From the computational problem solving practices, we have found that programming, creating computational abstractions, and troubleshooting and debugging are common.  These all seem plausible for a number of reasons: given the computational nature of the course, programming in its various forms is an unavoidable practice; while designing, constructing, and assessing model groups are often creating computational and mathematical abstractions; while programming, errors inevitably arise which require troubleshooting and debugging to correct them.
+
+From the systems thinking practices, we have found that thinking in levels and communicating information are common.  These seem plausible for a number of reasons: the MWPs are naturally broken down into different levels (e.g., initial conditions and the calculation loop) which groups must grapple with; groups must communicate with one another as well as the TA.
+
+\subsection{Less common practices}
+
+The practices that we have observed some group to be engaging at least once have been deemed less common.
+
+From the data practices, we have found that manipulating data and visualizing data are less common.  These may be plausible for a number of reasons: manipulating data has a fair amount of overlap with creating data; visualizing data and communicating information share the characteristic of conveying information.
+
+From the modeling and simulation practices, we have found that using models to find and test solutions is less common.  This may be plausible given its overlap with the practice of assessing different approaches/solutions to a problem, as well as its similarity to assessing computational models.
+
+From the computational problem solving practices, we have found that preparing problems for computational solutions, assessing different approaches/solutions to a problem, and developping modular solutions are less common.  These seem plausible for a number of reasons: groups are not frequently preparing problems given that the problems have been framed in a way to suggest that they should be modifying their MWP in VPython to make progress; assessing different approaches/solutions has a fair amount of overlap with using models to find and test solutions, and is quite similar to assessing computational models; although there is some similarity between different computational problems, they are sufficiently different so that we do not frequently see groups reusing old code.
+
+From the systems thinking practices, we have found that defining systems and managing complexity, investigating a complex system as a whole, and understanding the relationships within a system are less common.  These seems plausible for a number of reasons: defining systems has a fair amount of overlap with designing computational models; investigating a complex system as a whole has a fair amount of overlap with assessing computational models; and understanding the relationships within a system also has a fair amount of overlap with designing computational models.
+
+\subsection{Irrelevant practices}
+
+The practices that we have not observed in any group have been deemed irrelevant.
+
+From the data practices, we have found that collecting data is irrelevant.  This is plausible given that the groups are provided with all of the information that they need in the problem statement (i.e., constants and initial conditions) and are not required to experimentally collect data.
+
+From the computational problem solving practices, we have found that choosing effective computational tools is irrelevant.  This is plausible given that students are provided with only one tool to choose from.  That is, their MWP is written in VPython and they are asked to perform tasks specific to VPython (e.g., creating MotionMaps and PhysUtil graphs).
+
+\section{Limitations}
+
+There are many limitations and shortcomings to our findings.  This section focuses on two broad limitations given our reliance on a theoretical framework and the context in which our data was collected.
 
 \subsection{Framework}
 
-For one, in order to ground our research, we have tied ourselves very tightly to the framework developed by Weintrop et. al.
+In order to ground our research, we have tied ourselves very tightly to the framework developed by Weintrop et. al for identifying computational thinking in science and mathematics classroom.  Although this framework has provided a foundation for our analysis, it still has room for improvement, especially when being used to identify practices within a particular classroom.  Although we have presented what we find to be clear and illustrative examples of some of the common computational practices (see Sec.~\ref{CH5:Practices}), there are many different and valid interpretations of the framework that deserve elaboration.  
 
-\subsection{Researcher bias}
+\subsubsection{What is a model?}
 
-Although care was taken to generate a robust coding scheme through inter-rater reliability, researcher bias must be taken into account.  Specifically, all inter-raters were involved in education research at the time, with an interest in encouraging both constructivist approaches to learning and computation as a learning tool.
+Models are a main focus of the Weintrop framework and are given their own category of practices (i.e., modeling and simulation practices).  However, the definition of a model can be vague.
+
+The term modeling, as used in our analyses, pertains specifically to the various force models that occur within introductory physics.  These force models range from a constant local gravitational force to a position-dependent Newtonian gravitational force, with everything in between (e.g., a centripetal force model).  This gives us a clear type of model to focus on.
+
+However, further research could expand the definition of a model to focus on things other than forces.  For example, the underlying Euler-Cromer algorithm used to integrate position and momentum could be considered a model in its own right.  With other models of this type to choose from (e.g., Runge-Kutta), they could easily fit into the modeling and simulation practice of using computational models to find and test solutions.
+
+\subsubsection{What is a system?}
+
+Systems are a main focus of the Weintrop framework and are given their own category of practices (i.e., systems thinking practices).  However, the definition of a system can be vague.
+
+The term system, as used in our analysis, usually focuses on the structure of the program itself.  That is, the system of the program has individual components (e.g., computational abstractions representing physic quantities) that can interact with one another, different levels (e.g., the initial conditions and the calculation loop) with different behaviors, and various outputs (e.g., print statements of numerical values or graphical visualizations).
+
+However, there are many similarities between the definition of a system and the definition of a model -- this can make identifying the two difficult.  For example, the local gravitational force model has individual components (i.e., the mass of the object and the local acceleration due to gravity) that interact with one another (i.e., through multiplication) to produce an output (i.e., the force).
+
+\subsubsection{What is communication?}
+
+The computational practice of communicating information, as defined by Weintrop et. al, is most easily applied to information being communicated through a written report or a formal presentation.  However, given our particular context, we often see information being communicated through informal discussion.  This type of informal discussion occurs more frequently between the members of a group, and less frequently between students and instructors.
 
 \subsection{Context}
 
-The context of the course, classroom, and university as a whole should be considered when attempting to extrapolate our findings.
+Extending our results beyond our particular context and to sufficiently different classrooms should be done with caution -- the context of the course, classroom, and university as a whole is woven into our findings.
+
+To start, the fact that this is an introductory physics classroom, we expect to see certain sets of data and types of models corresponding to the content of the course.  For example, sets of data representing the positions and momenta of an object at different times are expected.  Similarly, there are various force models that we expect to see given the content of the course (e.g, centripetal, local gravitational, and Newtonian).  Other courses will most likely focus on other specific sets of data and corresponding models.  For example, an earth science course may analyze data representing temperature at different times, or may utilize a model for predator-prey statistics.
+
+Further, given that this classroom has an explicit computational element, we expect to see certain practices that might otherwise not show up.  For example, creating data is a practice that seems to leverage an underlying algorithm.  Although small sets of data can be calculated by hand, large sets of data that are more amenable to manipulation, analysis, and visualization, are better created with computational power.
+
+Additionally, the style of the classroom (i.e., group-based with guiding TAs) suggests that the practice of communicating information will be important.  Being able to communicate information not only with peers, but also with instructors, is a practice we explicitly encourage through the 4 Quadrants and Tutor Questions.
 
 \section{Opportunities}
 
-Given our findings, many opportunities are made available for continuation and expansion of research.
+Given our findings, many opportunities are made available for the future.  These opportunities can be broken down into two broad categories: those focusing on refinement and expansion of our research, and those focusing on the implementation of our findings.
 
-\subsection{Extending to upper-level}
+\subsection{Research}
 
-For one, given the introductory nature of our classroom, we do not expect our findings to be particularly sophisticated.  Our process of analysis, however, can be extended to other types of classrooms (e.g., upper-level) that might yield more sophisticated results.
+Although our findings may be of use to researchers focusing on the practices associated with computational introductory physics, there is still much work that can and should be done.
 
-\subsection{Cooccurrences}
+\subsubsection{Cooccurrences}
 
-Given our limited time and resources to conduct this study, we focused on the individual occurrences of the computational practices laid out by the framework.  However, the practices that occur together can be another fruitful resolution of analysis.
+Given the time and resources we had to conduct our study, we have focused our attention on clearly defining the individual practices that occurred within our data.  However, multiple practices can occur simultaneously within a given excerpt.  Further research might investigate the common cooccurrences of computational practices and their shared characteristics and qualities.
 
-\subsection{Instructor preparation}
+Although it might be expected that practices within the same category are likely to occur together (e.g., the process of designing, constructing, and assessing a computational iteratively), there are other cooccurring practices that cut across categories.  For example, the modeling practice of constructing computational models and the problem solving practice of creating computational abstractions both involve defining variables that represent physical quantities.  This type of ``nearest neighbor'' analysis might prove to be useful in developing a deeper understanding of the practices as a whole.
 
-We believe our findings can be useful for preparing instructors, teaching assistants, and learning assistants to effectively encourage the desirable computational practices laid out by Weintrop et. al.
+\subsubsection{Extending to upper-level}
 
-%\section{Communication}
+Given the introductory nature of our classroom, we do not expect our findings to be particularly sophisticated.  Our process of analysis, however, can be extended to other types of classrooms (e.g., upper-level physics) that might yield more sophisticated results.
 
-%The computational practice of communicating information, as defined by Weintrop et. al, is most easily applied to information being communicated through a written report or a formal presentation.  However, given our particular context, we often see information being communicated through informal discussion.  This type of informal discussion occurs more frequently between the members of a group, and less frequently between students and instructors.
+Given the introductory nature of the physics that is being covered in our data, it is no surprise that group discussion is not extremely sophisticated.  The discussion in a course focused more on computation (e.g., an introduction to computational modeling course such as CMSE 201 at Michigan State University) might yield more sophisticated discussion with richer characteristics and qualities.
 
-%\section{Ordering}
+\subsection{Teaching}
 
-%Many of the characteristics that we have identified follow a logical progression.  Consider the characteristics of the practice of designing a computational model: (i) defining the components of a model, (ii) relating the components to one another, and then (iii) making predictions based on the model.  However, these characteristics need not be identified in this linear manner.
+Although our findings may be of interest to instructors looking to better understand the practices associated with computational introductory physics, there are other uses that can and should be pursued.
 
-%For example, in Excerpt 11 from Group B (see Tab.~\ref{CH5:DesigningModels}), they can first be seen discussing the predictions that they plan to make with their program.  These predictions are articulated before they even have a proposal for a particular force model.  Once they have agreed on the predictions that they must make, they then begin to design the appropriate model.  Thus, the characteristics indeed need not follow linearly or logically.
+\subsubsection{Instructor preparation}
 
-%\section{Modeling}
+We believe our findings can be useful for preparing instructors, teaching assistants, and learning assistants to effectively encourage the desirable computational practices laid out by Weintrop et. al.  With the common practices identified, and their characteristics and qualities clearly defined, instructors can design a sufficiently similar course to actively engage students in them.
 
-%The term modeling, as used in our analyses, pertains specifically to the various force models that occur within introductory physics.  These force models range from a constant local gravitational force to a position-dependent Newtonian gravitational force, with everything in between (e.g., a centripetal force model).  This gives us a clear type of model to focus on.
-
-%However, further research could expand the definition of a model to focus on things other than forces.  For example, the underlying Euler-Cromer algorithm used to integrate position and momentum could be considered a model in its own right.  With other models of this type to choose from (e.g., Runge-Kutta), they could easily fit into the modeling and simulation practice of using computational models to find and test solutions.
-
-%\section{Coccurrences}
-
-%It is important to note that, although our analyses have focused on identifying and defining a single practice pertaining to a single excerpt, many excerpts contain multiple practices.  Furthermore, some characteristics are shared between many practices.
-
-%\section{Sophistication}
-
-%Given the introductory nature of the physics that is being covered in our data, it is no surprise that group discussion is not extremely sophisticated.  The discussion in a course focused more on computation (e.g., an introduction to computational modeling course such as CMSE 201 at Michigan State University) might yield more sophisticated discussion with richer characteristics and qualities.
+For example, a problem on springs might be broken down into parts, explicitly leading students to first define the components of a spring force model, then to describe how those components relate to one another, and finally to articulate what predictions can be made with the model.  In this way, the computational practice of designing a model can be highly scaffolded and built into a course.
 
 %
 %	CONCLUSIONS

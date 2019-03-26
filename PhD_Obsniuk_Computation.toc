@@ -44,16 +44,21 @@
 \contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{88}
 \contentsline {subsection}{\numberline {5.2.8}Communicating information}{92}
 \contentsline {chapter}{\numberline {Chapter 6}Discussion}{96}
-\contentsline {section}{\numberline {6.1}Nuance in data}{96}
-\contentsline {subsection}{\numberline {6.1.1}What is a model?}{97}
-\contentsline {subsection}{\numberline {6.1.2}What is a system?}{97}
-\contentsline {section}{\numberline {6.2}Limitations and biases}{97}
-\contentsline {subsection}{\numberline {6.2.1}Framework}{97}
-\contentsline {subsection}{\numberline {6.2.2}Researcher bias}{97}
-\contentsline {subsection}{\numberline {6.2.3}Context}{98}
-\contentsline {section}{\numberline {6.3}Opportunities}{98}
-\contentsline {subsection}{\numberline {6.3.1}Extending to upper-level}{98}
-\contentsline {subsection}{\numberline {6.3.2}Cooccurrences}{98}
-\contentsline {subsection}{\numberline {6.3.3}Instructor preparation}{99}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{100}
-\contentsline {chapter}{BIBLIOGRAPHY}{101}
+\contentsline {section}{\numberline {6.1}Findings}{96}
+\contentsline {subsection}{\numberline {6.1.1}Common practices}{97}
+\contentsline {subsection}{\numberline {6.1.2}Less common practices}{98}
+\contentsline {subsection}{\numberline {6.1.3}Irrelevant practices}{99}
+\contentsline {section}{\numberline {6.2}Limitations}{100}
+\contentsline {subsection}{\numberline {6.2.1}Framework}{100}
+\contentsline {subsubsection}{\numberline {6.2.1.1}What is a model?}{100}
+\contentsline {subsubsection}{\numberline {6.2.1.2}What is a system?}{101}
+\contentsline {subsubsection}{\numberline {6.2.1.3}What is communication?}{102}
+\contentsline {subsection}{\numberline {6.2.2}Context}{102}
+\contentsline {section}{\numberline {6.3}Opportunities}{103}
+\contentsline {subsection}{\numberline {6.3.1}Research}{103}
+\contentsline {subsubsection}{\numberline {6.3.1.1}Cooccurrences}{103}
+\contentsline {subsubsection}{\numberline {6.3.1.2}Extending to upper-level}{104}
+\contentsline {subsection}{\numberline {6.3.2}Teaching}{104}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Instructor preparation}{104}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{106}
+\contentsline {chapter}{BIBLIOGRAPHY}{107}
