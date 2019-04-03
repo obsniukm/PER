@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  26 MAR 2019 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  3 APR 2019 15:49
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -859,24 +859,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write3
 \openout3 = `PhD_Obsniuk_Computation.toc'.
 
- [4] (PhD_Obsniuk_Computation.lot)
+ [4] (PhD_Obsniuk_Computation.lot [5
+
+
+
+])
 \tf@lot=\write4
 \openout4 = `PhD_Obsniuk_Computation.lot'.
 
- [5
+
+[6] (PhD_Obsniuk_Computation.lof [7
 
 
 
-]
-(PhD_Obsniuk_Computation.lof [6
-
-
-
-] [7])
+] [8])
 \tf@lof=\write5
 \openout5 = `PhD_Obsniuk_Computation.lof'.
 
- [8]
+ [9]
 Chapter 1.
 [1
 
@@ -886,18 +886,18 @@ Chapter 2.
 [6
 
 ] [7] [8] [9] [10]
-<images/CH2BOXER.pdf, id=67, 560.09232pt x 197.9897pt>
+<images/CH2BOXER.pdf, id=71, 560.09232pt x 197.9897pt>
 File: images/CH2BOXER.pdf Graphic file (type pdf)
 <use images/CH2BOXER.pdf>
 Package pdftex.def Info: images/CH2BOXER.pdf  used on input line 189.
 (pdftex.def)             Requested size: 420.0682pt x 148.4919pt.
  [11]
-<images/CH2MWP.pdf, id=72, 582.67688pt x 452.44034pt>
+<images/CH2MWP.pdf, id=75, 582.67688pt x 452.44034pt>
 File: images/CH2MWP.pdf Graphic file (type pdf)
 <use images/CH2MWP.pdf>
 Package pdftex.def Info: images/CH2MWP.pdf  used on input line 198.
 (pdftex.def)             Requested size: 349.60883pt x 271.4663pt.
-<images/CH2EJS.pdf, id=73, 575.90157pt x 624.08156pt>
+<images/CH2EJS.pdf, id=76, 575.90157pt x 624.08156pt>
 File: images/CH2EJS.pdf Graphic file (type pdf)
 <use images/CH2EJS.pdf>
 Package pdftex.def Info: images/CH2EJS.pdf  used on input line 207.
@@ -907,12 +907,12 @@ Package pdftex.def Info: images/CH2EJS.pdf  used on input line 207.
 pdfTeX warning: pdflatex (file ./images/CH2EJS.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >]
-<images/CH2PhET.pdf, id=93, 720.44156pt x 437.38406pt>
+<images/CH2PhET.pdf, id=96, 720.44156pt x 437.38406pt>
 File: images/CH2PhET.pdf Graphic file (type pdf)
 <use images/CH2PhET.pdf>
 Package pdftex.def Info: images/CH2PhET.pdf  used on input line 216.
 (pdftex.def)             Requested size: 360.2199pt x 218.69148pt.
-<images/CH2Glowscript.pdf, id=94, 1355.93036pt x 541.27219pt>
+<images/CH2Glowscript.pdf, id=97, 1355.93036pt x 541.27219pt>
 File: images/CH2Glowscript.pdf Graphic file (type pdf)
 <use images/CH2Glowscript.pdf>
 Package pdftex.def Info: images/CH2Glowscript.pdf  used on input line 223.
@@ -929,7 +929,7 @@ su-al-iza-tion lever-aged by Glowscript
  []
 
 [14 <./images/CH2PhET.pdf>] [15 <./images/CH2Glowscript.pdf>] [16]
-<images/CH2Weatherford.pdf, id=115, 605.26125pt x 468.24937pt>
+<images/CH2Weatherford.pdf, id=119, 605.26125pt x 468.24937pt>
 File: images/CH2Weatherford.pdf Graphic file (type pdf)
 <use images/CH2Weatherford.pdf>
 Package pdftex.def Info: images/CH2Weatherford.pdf  used on input line 246.
@@ -940,7 +940,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 250.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [17] [18 <./images/CH2Weatherford.pdf>]
-<images/CH2Caballero.pdf, id=128, 478.78873pt x 228.10217pt>
+<images/CH2Caballero.pdf, id=131, 478.78873pt x 228.10217pt>
 File: images/CH2Caballero.pdf Graphic file (type pdf)
 <use images/CH2Caballero.pdf>
 Package pdftex.def Info: images/CH2Caballero.pdf  used on input line 262.
@@ -956,7 +956,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 331.
  [24] [25] [26]
 [27] [28]
-<images/CH2Map.pdf, id=165, 479.84773pt x 306.79152pt>
+<images/CH2Map.pdf, id=169, 479.84773pt x 306.79152pt>
 File: images/CH2Map.pdf Graphic file (type pdf)
 <use images/CH2Map.pdf>
 Package pdftex.def Info: images/CH2Map.pdf  used on input line 372.
@@ -966,38 +966,38 @@ Chapter 3.
 [31
 
 ]
-<images/CH3VPythonNotes.pdf, id=184, 452.4102pt x 207.4149pt>
+<images/CH3VPythonNotes.pdf, id=187, 452.4102pt x 207.4149pt>
 File: images/CH3VPythonNotes.pdf Graphic file (type pdf)
 <use images/CH3VPythonNotes.pdf>
 Package pdftex.def Info: images/CH3VPythonNotes.pdf  used on input line 415.
 (pdftex.def)             Requested size: 452.40909pt x 207.41438pt.
  [32] [33 <./images/CH3VPythonNotes.pdf>]
-<images/CH3PreClassQuestion.pdf, id=198, 341.47577pt x 367.94966pt>
+<images/CH3PreClassQuestion.pdf, id=201, 341.47577pt x 367.94966pt>
 File: images/CH3PreClassQuestion.pdf Graphic file (type pdf)
 <use images/CH3PreClassQuestion.pdf>
 Package pdftex.def Info: images/CH3PreClassQuestion.pdf  used on input line 426
 .
 (pdftex.def)             Requested size: 256.10619pt x 275.96156pt.
  [34 <./images/CH3PreClassQuestion.pdf>]
-<images/CH3Schedule.pdf, id=216, 658.84283pt x 368.57236pt>
+<images/CH3Schedule.pdf, id=220, 658.84283pt x 368.57236pt>
 File: images/CH3Schedule.pdf Graphic file (type pdf)
 <use images/CH3Schedule.pdf>
 Package pdftex.def Info: images/CH3Schedule.pdf  used on input line 447.
 (pdftex.def)             Requested size: 395.30875pt x 221.14511pt.
  [35] [36 <./images/CH3Schedule.pdf>]
-<images/CH3SatelliteProblem.pdf, id=562, 421.3341pt x 101.9007pt>
+<images/CH3SatelliteProblem.pdf, id=565, 421.3341pt x 101.9007pt>
 File: images/CH3SatelliteProblem.pdf Graphic file (type pdf)
 <use images/CH3SatelliteProblem.pdf>
 Package pdftex.def Info: images/CH3SatelliteProblem.pdf  used on input line 463
 .
 (pdftex.def)             Requested size: 421.33307pt x 101.90044pt.
  [37 <./images/CH3SatelliteProblem.pdf>]
-<images/CH3InitialCode.pdf, id=573, 547.65118pt x 499.73878pt>
+<images/CH3InitialCode.pdf, id=576, 547.65118pt x 499.73878pt>
 File: images/CH3InitialCode.pdf Graphic file (type pdf)
 <use images/CH3InitialCode.pdf>
 Package pdftex.def Info: images/CH3InitialCode.pdf  used on input line 476.
 (pdftex.def)             Requested size: 219.05658pt x 199.89197pt.
-<images/CH3InitialVisual.pdf, id=574, 547.65118pt x 499.73882pt>
+<images/CH3InitialVisual.pdf, id=577, 547.65118pt x 499.73882pt>
 File: images/CH3InitialVisual.pdf Graphic file (type pdf)
 <use images/CH3InitialVisual.pdf>
 Package pdftex.def Info: images/CH3InitialVisual.pdf  used on input line 476.
@@ -1007,20 +1007,20 @@ Package pdftex.def Info: images/CH3InitialVisual.pdf  used on input line 476.
 pdfTeX warning: pdflatex (file ./images/CH3InitialVisual.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-<images/CH3TutorQuestion.pdf, id=586, 696.32056pt x 642.90193pt>
+<images/CH3TutorQuestion.pdf, id=589, 696.32056pt x 642.90193pt>
 File: images/CH3TutorQuestion.pdf Graphic file (type pdf)
 <use images/CH3TutorQuestion.pdf>
 Package pdftex.def Info: images/CH3TutorQuestion.pdf  used on input line 487.
 (pdftex.def)             Requested size: 348.15942pt x 321.45018pt.
  [39 <./images/CH3TutorQuestion.pdf>] [40]
-<images/CH3WrittenFeedback.pdf, id=597, 343.47316pt x 137.56339pt>
+<images/CH3WrittenFeedback.pdf, id=601, 343.47316pt x 137.56339pt>
 File: images/CH3WrittenFeedback.pdf Graphic file (type pdf)
 <use images/CH3WrittenFeedback.pdf>
 Package pdftex.def Info: images/CH3WrittenFeedback.pdf  used on input line 506.
 
 (pdftex.def)             Requested size: 429.3404pt x 171.95378pt.
  [41 <./images/CH3WrittenFeedback.pdf>]
-<images/CH3PostClassHomework.pdf, id=752, 696.32056pt x 642.90193pt>
+<images/CH3PostClassHomework.pdf, id=755, 696.32056pt x 642.90193pt>
 File: images/CH3PostClassHomework.pdf Graphic file (type pdf)
 <use images/CH3PostClassHomework.pdf>
 Package pdftex.def Info: images/CH3PostClassHomework.pdf  used on input line 51
@@ -1031,13 +1031,13 @@ Chapter 4.
 [44
 
 ]
-<./images/CH4Interactions.pdf, id=766, 325.96782pt x 109.1578pt>
+<./images/CH4Interactions.pdf, id=769, 325.96782pt x 109.1578pt>
 File: ./images/CH4Interactions.pdf Graphic file (type pdf)
 <use ./images/CH4Interactions.pdf>
 Package pdftex.def Info: ./images/CH4Interactions.pdf  used on input line 554.
 (pdftex.def)             Requested size: 325.96701pt x 109.15753pt.
  [45 <./images/CH4Interactions.pdf>] [46]
-<./images/CH4Strategies.pdf, id=778, 317.68687pt x 124.21407pt>
+<./images/CH4Strategies.pdf, id=782, 317.68687pt x 124.21407pt>
 File: ./images/CH4Strategies.pdf Graphic file (type pdf)
 <use ./images/CH4Strategies.pdf>
 Package pdftex.def Info: ./images/CH4Strategies.pdf  used on input line 573.
@@ -1047,32 +1047,32 @@ Chapter 5.
 [52
 
 ] [53]
-<./images/CH5Transcript.pdf, id=806, 475.86566pt x 344.63248pt>
+<./images/CH5Transcript.pdf, id=809, 475.86566pt x 344.63248pt>
 File: ./images/CH5Transcript.pdf Graphic file (type pdf)
 <use ./images/CH5Transcript.pdf>
 Package pdftex.def Info: ./images/CH5Transcript.pdf  used on input line 659.
 (pdftex.def)             Requested size: 356.89836pt x 258.47372pt.
  [54 <./images/CH5Transcript.pdf>] [55] [56] [57]
-<./images/CH5Levels.pdf, id=825, 1095.3422pt x 204.01218pt>
+<./images/CH5Levels.pdf, id=828, 1095.3422pt x 204.01218pt>
 File: ./images/CH5Levels.pdf Graphic file (type pdf)
 <use ./images/CH5Levels.pdf>
 Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 694.
 (pdftex.def)             Requested size: 460.04059pt x 85.68452pt.
  [58 <./images/CH5Levels.pdf>]
-<./images/CH5LevelsofConfidence.pdf, id=839, 282.96454pt x 516.33173pt>
+<./images/CH5LevelsofConfidence.pdf, id=843, 282.96454pt x 516.33173pt>
 File: ./images/CH5LevelsofConfidence.pdf Graphic file (type pdf)
 <use ./images/CH5LevelsofConfidence.pdf>
 Package pdftex.def Info: ./images/CH5LevelsofConfidence.pdf  used on input line
  707.
 (pdftex.def)             Requested size: 254.66573pt x 464.69426pt.
-<./images/CH5Reliability.pdf, id=840, 567.04346pt x 415.65034pt>
+<./images/CH5Reliability.pdf, id=844, 567.04346pt x 415.65034pt>
 File: ./images/CH5Reliability.pdf Graphic file (type pdf)
 <use ./images/CH5Reliability.pdf>
 Package pdftex.def Info: ./images/CH5Reliability.pdf  used on input line 714.
 (pdftex.def)             Requested size: 368.57388pt x 270.16951pt.
  [59] [60 <./images/CH5LevelsofConfidence.pdf>] [61 <./images/CH5Reliability.pd
 f>]
-<./images/CH5DensityPlot.pdf, id=871, 324.46219pt x 473.51903pt>
+<./images/CH5DensityPlot.pdf, id=874, 324.46219pt x 473.51903pt>
 File: ./images/CH5DensityPlot.pdf Graphic file (type pdf)
 <use ./images/CH5DensityPlot.pdf>
 Package pdftex.def Info: ./images/CH5DensityPlot.pdf  used on input line 725.
@@ -1127,21 +1127,21 @@ Overfull \hbox (11.70137pt too wide) in paragraph at lines 1258--1262
 Chapter 6.
 [96
 
-] [97] [98] [99] [100] [101] [102] [103] [104] [105]
+] [97] [98] [99]
 Chapter 7.
-(PhD_Obsniuk_Computation.bbl [106
+(PhD_Obsniuk_Computation.bbl [100
 
-] [107
+] [101
 
-] [108
+] [102
 
-] [109] [110]) [111]
+] [103] [104]) [105]
 (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
- 18105 strings out of 492976
- 342813 string characters out of 3135985
- 369488 words of memory out of 3000000
- 21787 multiletter control sequences out of 15000+200000
+ 18109 strings out of 492976
+ 342870 string characters out of 3135985
+ 369534 words of memory out of 3000000
+ 21791 multiletter control sequences out of 15000+200000
  543789 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,16n,63p,1321b,1483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1160,9 +1160,9 @@ nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 /amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (119 pages, 1977313 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (114 pages, 1964585 bytes).
 PDF statistics:
- 1473 PDF objects out of 1728 (max. 8388607)
+ 1458 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
