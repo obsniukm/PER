@@ -726,7 +726,7 @@ By analyzing all of the data with the methods described above, we have identifie
 \caption{The frequency of each practice that was found within our unique data set.}\label{CH5:DensityPlot}
 \end{figure}
 
-The remainder of this section provides concrete examples of the most frequent computational practices that we found in our data.  We are focusing on those practices that occur with high frequency within one group or occur with moderate frequency across multiple groups.  These practices are (in no particular order): creating and analyzing data within the data practices; designing, constructing, and assessing computational models within the modeling and simulation practices; programming, creating abstractions, and troubleshooting and debugging in the computational problem solving practices; and thinking in levels and communicating information within the systems thinking practices.
+The remainder of this section provides concrete examples of some of the most frequent computational practices that we found in our data.  We are focusing on those practices that occur with high frequency within one group or occur with moderate frequency across multiple groups.  These practices are (in no particular order): creating and analyzing data within the data practices; designing, constructing, and assessing computational models within the modeling and simulation practices; programming, creating abstractions, and troubleshooting and debugging in the computational problem solving practices; and thinking in levels and communicating information within the systems thinking practices.
 
 Although the examples that follow are meant to clearly illustrate some of the common computational practices that we have observed, they do not come without their own limitations.  Although we have tried our best to as unbiased as possible, the nature of this researcher requires a fair amount of subjective interpretation.  Accordingly, Ch.~\ref{CH6:Discussion} will provide additional discussion on the caveats, limitations, and concerns associated with some of the common practices that we have focused on.
 
@@ -750,7 +750,7 @@ The other less frequent practices, though not the focus here, are still of resea
 %
 %
 
-\subsection{Creating data}
+\subsection{Creating data}\label{CH5:SecCreatingData}
 
 The computational practice of creating data, as defined by Weintrop et. al, involves the generation (as opposed to the collection) of computer data while ``investigating phenomena that cannot be easily observed or measured or that are more theoretical in nature.''  This type of data creation frequently arises in physics and engineering given the infeasibility of data collection in many realistic situations.  For example, complex computer models can be used to generate data that can be used to optimize launch conditions for satellites and manned rockets when real-world collection of data is too costly or dangerous.  The fundamental characteristics associated with this practice, as summarized in Tab.~\ref{CH5:CreatingData}, are: i) defining a computational procedure that automatically/algorithmically creates data and ii) using that procedure or the resulting data to advance the overall goals of the task.
 
@@ -827,7 +827,7 @@ To summarize, the group can be seen \textit{automating} the generation of sets o
 %
 %
 
-\subsection{Analyzing data}
+\subsection{Analyzing data}\label{CH5:SecAnalyzingData}
 
 The computational practice of analyzing data, as defined by Weintrop et. al, usually involves large sets of data (that have either been created or collected) where groups are ``looking for patterns or anomalies, defining rules to categorize, and identifying trends and correlations.''  This type of analysis shows up frequently within the field of physics, especially given the computational nature of many (if not most) modern investigations.  For example, extremely large sets of data are generated while investigating the formation and evolution of galaxies throughout the universe.  Being able to effectively analyze a large set of data is a crucial skill within many interdisciplinary fields.  The fundamental characteristics associated with this computational practice, as summarized in Tab.~\ref{CH5:AnalyzingData}, are: i) a general process of analysis (detailed in Tab.~\ref{CH5:AnalyzingData}) and ii) a conclusion being drawn based on that analysis.
 
@@ -1305,58 +1305,84 @@ To summarize, this excerpt shows a TA interaction focusing on the construction o
 
 \chapter{Discussion}\label{CH6:Discussion}
 
-Describe the three sections that follow.
+This chapter provides a discussion of the overall findings within our data, the limitations those findings and the underlying framework, as well as some future research and instructional opportunities that are made available.
 
 \section{Findings}
 
-Describe the three sections that follow.
+In the sections that follow, we present our findings of the common, less common, and unobserved practices within our data set.  Along with some of the statistics of the frequencies of these practices (i.e., raw numbers and percentages), we provide their definitions and reference detailed examples.  Additionally, we provide discussion as to why a particular practice might have a given frequency.
 
 \subsection{Common practices}
 
-Why do these show up commonly?
-
-Why is important to identify the commonly observed practices?
+Many of the practices laid out by the framework have been identified multiple times in almost every group that was analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:Common}) are deemed common and are given a fair amount of attention.  It is important to pay a fair amount of attention to these practices because, as instructors, we not only want students to correctly accomplish tasks, but we also want to make sure that they are engaging in things like critical and computational thinking.  Being able to identify and encourage these practices as they occur (or don't occur) in a classroom, therefore, is crucial to effective teaching.  Accordingly, we must have clear and reliable definitions for each of the common practices.
 
 \begin{table}[hb]\centering
-\begin{tabular}{ll}\hline\hline
-asd & sdf \\\hline
-sdf & sdf \\
-sdf & sdf \\\hline\hline
+\begin{tabular}{llll}\hline\hline
+Practice & Number & Percentage of category & Percentage of all\\\hline
+Creating data & 31 & 1 & 1 \\
+Analyzing data & 19 & 1 & 1 \\
+Designing models & 32 & 1 & 1 \\
+Constructing models & 18 & 1 & 1 \\
+Assessing models & 27 & 1 & 1\\
+Creating abstractions & 13 & 1 & 1 \\
+Programming & 21 & 1 & 1 \\
+Troubleshooting and debugging & 11 & 1 & 1 \\
+Thinking in levels & 19 & 1 & 1 \\
+Communicating information & 18 & 1 & 1 \\\hline\hline
 \end{tabular}
-\caption{Common practices.}\label{CH6:Common}
+\caption{The computational practices that have been deemed common are shown with the number of times each practice was identified, the percentage of its category that it occupies, and the percentage of all the practices that it occupies.}\label{CH6:Common}
 \end{table}
+
+The practice of \textit{creating data} involves the creation of a large set of data in an \textit{automatic} manner that is ultimately used to \textit{advance} toward some goal.  For example, when an Euler-Cromer algorithm is used to automatically generate a large set of data representing the position the satellite over time, it can be used to advance toward the goal of generating a simulation of its realistic trajectory.  For a more detailed explanation of this example, please refer to Sec.~\ref{CH5:SecCreatingData}.  This practice is expected to show up frequently within our data given the physics and math content that the specific task requires (i.e., a motion problem where position, momentum, force, and time must be integrated).
+
+The practice of \textit{analyzing data} involves a broad process of analysis that includes sorting into \textit{categories}, looking for \textit{trends}, looking for \textit{correlations}, and/or identifying \textit{outliers} that can be used to reach some \textit{conclusion}.  For example, when a print statement is used to verify that the force acting on the satellite has the trend of remaining constant in simulated time, a conclusion can be drawn about the correctness of the underlying force model.  For a more detailed explanation of this example, please refer to Sec.~\ref{CH5:SecAnalyzingData}.  This practice is expected to show up frequently within our data given the precision required by the simulation (i.e., multiple large sets of data must be generated).
+
+The practice of \textit{designing computational models} involves...
+
+The practice of \textit{constructing computational models} involves...
+
+The practice of \textit{assessing computational models} involves...
+
+The practice of \textit{creating computational abstractions} involves...
+
+The practice of \textit{computer programming} involves...
+
+The practice of \textit{troubleshooting and debugging} involves...
+
+The practice of \textit{thinking in levels} involves...
+
+The practice of \textit{communicating information} involves...
 
 \subsection{Less common practices}
 
-Why do these show up less commonly?
-
 Why is important to identify the less commonly observed practices?
+
+Why do these show up less commonly?
 
 Reference Sec.~\ref{CH6:Context}
 
 \begin{table}[hb]\centering
-\begin{tabular}{ll}\hline\hline
-asd & sdf \\\hline
-sdf & sdf \\
-sdf & sdf \\\hline\hline
+\begin{tabular}{llll}\hline\hline
+Practice & Number & Percentage of category & Percentage of all \\\hline
+Visualizing data & 5 & 1 & 1 \\
+Understanding concepts & 6 & 1 & 1 \\
+Finding and testing solutions & 7 & 1 & 1 \\
+Preparing solutions & 6 & 1 & 1 \\
+Assessing solutions & 8 & 1 & 1 \\
+Investigating systems & 7 & 1 & 1 \\
+Understanding relationships & 5 & 1 & 1 \\\hline\hline
 \end{tabular}
-\caption{Less common practices.}\label{CH6:LessCommon}
+\caption{The computational practices that have been deemed less common are shown with the number of times each practice was identified, the percentage of its category that it occupies, and the percentage of all the practices that it occupies.}\label{CH6:LessCommon}
 \end{table}
 
 \subsection{Unobserved practices}
 
-Why don't these show up?
-
 Why is important to identify the unobserved practices?
 
-\begin{table}[hb]\centering
-\begin{tabular}{ll}\hline\hline
-asd & sdf \\\hline
-sdf & sdf \\
-sdf & sdf \\\hline\hline
-\end{tabular}
-\caption{Unobserved practices.}\label{CH6:Unobserved}
-\end{table}
+Why don't these show up?
+
+Reference Sec.~\ref{CH6:Context}
+
+Collecting data, manipulating data, choosing tools, modular solutions, and defining systems.
 
 \section{Limitations/Constraints/Considerations?}
 
@@ -1414,11 +1440,11 @@ Describe the following sections.
 %	APPENDICES
 %
 
-%\appendices\label{Appendix}
+\appendices\label{Appendix}
 
-%\section*{Constructing computational models}
+\section*{Constructing computational models}
 
-%\section*{Using computational models to understand a concept}
+\section*{Programming}
 
 %
 %	BIBLIOGRAPHY
