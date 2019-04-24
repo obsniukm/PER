@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  17 APR 2019 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  23 APR 2019 21:34
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -1127,25 +1127,25 @@ Overfull \hbox (11.70137pt too wide) in paragraph at lines 1258--1262
 Chapter 6.
 [96
 
-] [97] [98] [99] [100] [101]
+] [97] [98] [99] [100] [101] [102] [103] [104] [105]
 Chapter 7.
-[102
+[106
 
-] [103
+] [107
 
-] (PhD_Obsniuk_Computation.bbl [104
+] (PhD_Obsniuk_Computation.bbl [108
 
-] [105
+] [109
 
-] [106
+] [110
 
-] [107] [108])
-[109] (PhD_Obsniuk_Computation.aux) ) 
+] [111] [112])
+[113] (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
- 18111 strings out of 492976
- 342907 string characters out of 3135985
- 369560 words of memory out of 3000000
- 21793 multiletter control sequences out of 15000+200000
+ 18120 strings out of 492976
+ 343124 string characters out of 3135985
+ 369680 words of memory out of 3000000
+ 21802 multiletter control sequences out of 15000+200000
  543789 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,16n,63p,1321b,1483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1165,9 +1165,9 @@ public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb>
-Output written on PhD_Obsniuk_Computation.pdf (118 pages, 1970595 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (122 pages, 1981127 bytes).
 PDF statistics:
- 1472 PDF objects out of 1728 (max. 8388607)
+ 1485 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -46,24 +46,24 @@
 \contentsline {chapter}{\numberline {Chapter 6}Discussion}{96}
 \contentsline {section}{\numberline {6.1}Findings}{96}
 \contentsline {subsection}{\numberline {6.1.1}Common practices}{96}
-\contentsline {subsection}{\numberline {6.1.2}Less common practices}{98}
-\contentsline {subsection}{\numberline {6.1.3}Unobserved practices}{99}
-\contentsline {section}{\numberline {6.2}Limitations/Constraints/Considerations?}{99}
-\contentsline {subsection}{\numberline {6.2.1}Framework}{99}
-\contentsline {subsubsection}{\numberline {6.2.1.1}Data}{100}
-\contentsline {subsubsection}{\numberline {6.2.1.2}Modeling}{100}
-\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{100}
-\contentsline {subsubsection}{\numberline {6.2.1.4}Systems}{100}
-\contentsline {subsection}{\numberline {6.2.2}Context}{100}
-\contentsline {section}{\numberline {6.3}Opportunities}{100}
-\contentsline {subsection}{\numberline {6.3.1}Research}{100}
-\contentsline {subsubsection}{\numberline {6.3.1.1}Productive practices}{100}
-\contentsline {subsubsection}{\numberline {6.3.1.2}Individual vs. group}{100}
-\contentsline {subsubsection}{\numberline {6.3.1.3}Extending to upper-level}{100}
-\contentsline {subsection}{\numberline {6.3.2}Teaching}{100}
-\contentsline {subsubsection}{\numberline {6.3.2.1}Instructor preparation}{101}
-\contentsline {subsubsection}{\numberline {6.3.2.2}Course design}{101}
-\contentsline {subsubsection}{\numberline {6.3.2.3}Assessment}{101}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{102}
-\contentsline {chapter}{APPENDICES}{103}
-\contentsline {chapter}{BIBLIOGRAPHY}{105}
+\contentsline {subsection}{\numberline {6.1.2}Less common practices}{103}
+\contentsline {subsection}{\numberline {6.1.3}Unobserved practices}{103}
+\contentsline {section}{\numberline {6.2}Limitations/Constraints/Considerations?}{104}
+\contentsline {subsection}{\numberline {6.2.1}Framework}{104}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Data}{104}
+\contentsline {subsubsection}{\numberline {6.2.1.2}Modeling}{104}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{104}
+\contentsline {subsubsection}{\numberline {6.2.1.4}Systems}{104}
+\contentsline {subsection}{\numberline {6.2.2}Context}{104}
+\contentsline {section}{\numberline {6.3}Opportunities}{105}
+\contentsline {subsection}{\numberline {6.3.1}Research}{105}
+\contentsline {subsubsection}{\numberline {6.3.1.1}Productive practices}{105}
+\contentsline {subsubsection}{\numberline {6.3.1.2}Individual vs. group}{105}
+\contentsline {subsubsection}{\numberline {6.3.1.3}Extending to upper-level}{105}
+\contentsline {subsection}{\numberline {6.3.2}Teaching}{105}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Instructor preparation}{105}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Course design}{105}
+\contentsline {subsubsection}{\numberline {6.3.2.3}Assessment}{105}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{106}
+\contentsline {chapter}{APPENDICES}{107}
+\contentsline {chapter}{BIBLIOGRAPHY}{109}
