@@ -1309,68 +1309,81 @@ This chapter provides a discussion of the overall findings within our data, the 
 
 \section{Findings}
 
-In the sections that follow, we present our findings of the common, less common, and unobserved practices within our data set.  The common practices are those that were identified at least three times in a majority of the groups.  The less common practices are the remaining of the observed practices.  The unobserved practices were not identified at all.  Along with some of the statistics of the frequencies of these practices (i.e., raw numbers and percentages), we provide their definitions and reference detailed examples.  Additionally, we provide discussion as to why a particular practice might have a given frequency.
+In the sections that follow, we present our findings of the common, less common, and unobserved practices within our data set.  The common practices are those that were identified at least three times in a majority of the groups (invidivual practices occurred between zero and seven times per group, with an average of three occurences).  The less common practices are the remaining of the observed practices.  The unobserved practices were not identified at all.  Along with some of the statistics of the frequencies of these practices (i.e., raw numbers and percentages), we provide their definitions and reference detailed examples.  Additionally, we discuss why a particular practice might have a given frequency.
 
 \subsection{Common practices}
 
-Many of the practices laid out by the framework have been identified multiple times in almost every group that was analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:Common}) are deemed common and are given a reasonable amount of attention.  It is important to pay attention to these practices because, as instructors, we not only want students to correctly accomplish tasks, but we also want to make sure that they are engaging in things like critical and computational thinking.  Being able to identify and encourage these practices as they occur (or don't occur) in a classroom, therefore, is crucial to effective teaching.  Accordingly, we must have clear and reliable definitions for each of the common practices.
+Many of the practices laid out by the framework have been identified multiple times in almost every group that was analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:Common}) are deemed common and are given a reasonable amount of attention.  It is important to pay attention to these practices because, as instructors, we not only want students to correctly accomplish tasks, but we also want to make sure that they are engaging in things like critical and computational thinking.  Being able to identify and encourage these practices as they occur (or don't occur) in a classroom, therefore, is crucial to instructional design and pedagogy.  Accordingly, we must have clear and reliable definitions for each of the common practices.
 
 \begin{table}[hb]\centering
 \begin{tabular}{llll}\hline\hline
 Practice & Number & Percentage of category & Percentage of all\\\hline
 Creating data & 27 & 31.4 & 9.2 \\
 Analyzing data & 23 & 26.7 & 7.8 \\
-Visualizing data & 36 & 41.8 & 13.0 \\
+Visualizing data & 36 & 41.8 & 13.0 \\\hline
 Designing models & 32 & 33.0 & 11.0 \\
 Constructing models & 18 & 18.6 & 6.1 \\
-Assessing models & 27 & 27.8 & 9.2\\
+Assessing models & 27 & 27.8 & 9.2\\\hline
 Creating abstractions & 22 & 26.8 & 7.5 \\
 Programming & 21 & 25.6 & 7.1 \\
-Troubleshooting and debugging & 24 & 29.3 & 8.2 \\
+Troubleshooting and debugging & 24 & 29.3 & 8.2 \\\hline
 Thinking in levels & 18 & 33.3 & 6.1 \\
 Communicating information & 23 & 42.6 & 7.8 \\\hline\hline
 \end{tabular}
-\caption{The computational practices that have been deemed common are shown with the number of times each practice was identified, the percentage of its category that it occupies, and the percentage of all the practices that it occupies.}\label{CH6:Common}
+\caption{The computational practices that have been deemed common are shown with the number of times each practice was identified, the percentage of its category that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from that category), and the percentage of all the practices that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from all categories).}\label{CH6:Common}
 \end{table}
 
-The practice of \textbf{visualizing data} involves the \textit{production} of a visualization that clearly \textit{conveys} some information.  For example, the computational production of a dynamically updating 2D graph of the distance between the satellite and the Earth vs. simulated time can be used to clearly convey information about the nature of the orbit.  For example, consider Excerpt X from Group Y: \begin{description}
+The practice of \textbf{visualizing data} involves the \textit{production} of a visualization that clearly \textit{conveys} some information.  For example, the computational production of a dynamically updating 2D graph of the distance between the satellite and the Earth vs. simulated time can be used to clearly convey information about the nature of the orbit (i.e., how close the orbit is to circular).  This type of practice was observed thirty-six times across the data dat, accounting for $\%$ of the data practices, and $\%$ of all practices.
+
+Visualizing data is expected to show up commonly in our data given that students have been working with MWPs to produce dynamic visualizations of motion since the first week of class.  The first and second computational problems, focusing on boats and hovercrafts, respectively, were visualized in a number of ways (e.g., producing visualizations of their trajectories or graphs of velocity vs. time).  In other words, students are familiar with the visualization of data coming into the third problem.  Furthermore, the problem statement, shown in Fig.~\ref{CH3:SatelliteProblem}, explicitly asks students to generate a simulation/visualization of an elliptical orbit. 
+
+Additionally, the tutor questions -- the ones asked after the group has correctly constructed the Newtonian gravitational force -- invariably focus on the generation of a 2D graph to clearly show the distance between the Earth and satellite over time.  For example, consider Excerpt X from Group Y: \begin{description}
 \TA:  I'd like you to graph the orbital... the magnitude of the radius of the orbit vs. a function of time...
 \SC: Okay...
 \TA: And have that graphed as well and it updates
 \SC: Okay.
-\end{description}  Here, the tutor is suggesting that they produce a graph.  Further, this graph can be used to convey information about how close the satellite is to perfectly geostationary.
-
-Visualizing data is expected to show up commonly in our data given that students have been working with MWPs to produce dynamic visualizations of motion since the first week of class.  The first and second computational problems, focusing on boats and hovercrafts, respectively, were visualized in a number of ways (e.g., producing visualizations of their trajectories or graphs of velocity vs. time).  In other words, students are familiar with the visualization of data coming into the third problem.  Furthermore, the problem statement, shown in Fig.~\ref{CH3:SatelliteProblem}, explicitly asks students to generate a simulation/visualization of an elliptical orbit. 
-
-Additionally, the tutor questions -- the ones asked after the group has correctly constructed the Newtonian gravitational force -- invariably focus on the generation of a 2D graph to clearly show the distance between the Earth and satellite over time.  This conveying of information about the geostationary nature of the orbit is efficiently accomplished through the production of a graph.
+\end{description}  Here, the tutor is suggesting that they produce a graph, which can be used to convey information about how close the satellite is to perfectly geostationary/circular.  This conveying of information about the geostationary nature of the orbit is efficiently accomplished through the production of a graph.
 
 Among all things, we want ${\rm P}^{3}$ students to understand that computers can be used to quickly generate visualizations that can easily be tweaked, and that those visualizations can be useful when it comes to understanding the physics of the realistic phenomenon being modeled.
 
-However, it is important to keep in mind that there are some limitations to the framework that we used.  One of those limitations being that visualizing data has a tendency to cooccur with the practice of analyzing data.  This cooccurrence might be expected, given that they are both within the category of data practices; students often analyze data by visualizing it.  Either way, we need to be clear about defining the fundamental difference between the two: analyzing data occurs at the level of the individual data points (e.g., looking for a pattern in a set of numerical values), whereas visualizing data occurs one level removed (e.g., visualizing the slope of a 2D graph).  Although these practices do commonly occur together, they need not, and so care must be taken to correctly identify each.
+The practice of \textbf{thinking in levels} involves breaking the MWP into different \textit{levels} and attributing those different levels with their characteristic \textit{features}.  For example, the program as a whole can broken down into the two different levels of the initial conditions and the calculation loop (see Sec.~\ref{CH5:SecThinkingInLevels}).  Each level has its own defining features: the initial conditions level is where time-independent computational abstractions can be defined, whereas the calculation loop is where time-dependent computational abstractions must be defined.  This type of practice was observed eighteen times across the data  accounting for $\%$ of the systems thinking practices, and $\%$ of all practices.
 
-The practice of \textbf{thinking in levels} involves breaking the MWP into different \textit{levels} and attributing those different levels with their characteristic \textit{features}.  For example, the program as a whole can broken down into the two different levels of the initial conditions and the calculation loop.  Each level has its own defining features: the initial conditions level is where time-independent computational abstractions can be defined, whereas the calculation loop is where time-dependent computational abstractions must be defined.  For a more detailed explanation of this definition, please refer to the example of Sec.~\ref{CH5:SecThinkingInLevels}.
+Thinking in levels is expected to show up frequently within our data given that students must maintain the overall structure of the MWP written in VPython (see Fig.~\ref{CH3:MWPs}) -- without proper structure and syntax, the program as a whole runs into fatal errors.  This structure, that must be maintained, is naturally broken down into different levels: the objects, initial conditions, time set-up, and calculation loop.  These levels are indicated in the MWP with comments (e.g., \texttt{\#Calculation Loop}), and each level has its own unique features.  Maintaining these features for each level is critical to a runnable program.
 
-Thinking in levels is expected to show up frequently within our data given that students must maintain the overall structure of the MWP written in VPython (see Fig.~\ref{CH3:MWPs}) -- without proper structure and syntax, the program as a whole runs into fatal errors.  This structure that must be maintained is naturally broken down into different levels: the objects, initial conditions, time set-up, and calculation loop.  These levels are indicated in the MWP with comments (e.g., \texttt{\#Calculation Loop}).  Again, each level has its own unique features, and maintaining each level is critical to a runnable program.
-
-Additionally, students are introduced to the concept of iterative prediction of motion as an algorithmic change in different physical quantities over time.  Specifically, $p = p + dp$, $r = r + dr$, and $t = t + dt$, as described in the course notes (see Sec.~\ref{CH3:VPythonNotes}).  These time-dependent physical quantities can be contrasted with time-independent (or approximately time-independent) physical quantities (e.g., the local acceleration due to gravity).  Identifying the correct time-dependence of a physical quantities is  necessary to ensuring proper placement of its definition.
+Additionally, students are introduced to the concept of iterative prediction of motion as an algorithmic change in different physical quantities over time.  Specifically, $p = p + dp$, $r = r + dr$, and $t = t + dt$, as described in the course notes (see Sec.~\ref{CH3:VPythonNotes}).  These time-dependent physical quantities can be contrasted with time-independent (or approximately time-independent) physical quantities (e.g., the local acceleration due to gravity).  Identifying the correct time-dependence of a physical quantities is necessary to ensuring proper placement of its definition.  Consider Excerpt X from Group Y:  \begin{description}
+\SA do we need F net to be calculated inside the loop?
+\SA that is do we need to recalculate F net every time? is it changing?
+\SB no	
+\SA so we could just throw it outside of the loop\end{description}  Here, the students (incorrectly) articulate that the net force does not need to placed in the calculation loop because it does not need to update.
 
 Above all, we want students to understand the difference between time-dependent and time-independent physical quantities, and to be able to properly define and place them in code.
 
 \subsection{Less common practices}
 
-A few of the practices laid out by the framework have been identified just a couple of times and in only some of the groups that we analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:LessCommon}) are deemed less common and are given a reasonable amount of attention.  Although these practices are less common, it is still important to clearly define them so that they can be recognized and encouraged in a classroom.
+A few of the practices laid out by the framework have been identified just a couple of times and in only some of the groups that we analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:LessCommon}) are deemed less common and are given a reasonable amount of attention.
+
+The occurrence or non-occurrence of a particular practice can be thought of as being due to two independent factors: whether or not the practice is encourage through the course design and whether or not the definition of the practice is clear and distinct.  Practices that are encouraged and are well-defined are commonly and confidently observed (see Sec.~), whereas the practices that are well-defined but not encouraged are confidently unobserved (see Sec.~).  However, when practices are ill-defined (i.e., not clearly defined or not uniquely defined), regardless of whether or not they are encouraged, they can be difficult to confidently identify and so they show up less commonly in our data.
 
 \begin{table}[hb]\centering
 \begin{tabular}{llll}\hline\hline
 Practice & Number & Percentage of category & Percentage of all \\\hline
 Understanding concepts & 7 & 7.2 & 2.4 \\
-Finding and testing solutions & 13 & 13.4 & 4.4 \\
-Assessing solutions & 9 & 11.0 & 3.1 \\
+Finding and testing solutions & 13 & 13.4 & 4.4 \\\hline
+Assessing solutions & 9 & 11.0 & 3.1 \\\hline
 Investigating systems & 13 & 13.4 & 4.4 \\
 Understanding relationships & 13 & 13.4 & 4.4 \\\hline\hline
 \end{tabular}
 \caption{The computational practices that have been deemed less common are shown with the number of times each practice was identified, the percentage of its category that it occupies, and the percentage of all the practices that it occupies.}\label{CH6:LessCommon}
 \end{table}
+
+The practice of \textbf{understanding relationships} in a system involves \textit{identifying} the individual elements of the system and \textit{explaining} their relationships to one another.  For example, consider Excerpt X of Group Y: \begin{description}
+\SD The force is equal to mass times v squared over radius of the orbit.
+\SD Well, we have access to a variable that represents our radius of orbit...
+\SB And we have mass.
+\SB And we know the radius and know the velocity.
+\end{description}  Here, the individual elements (i.e., the mass $m$, velocity $v$, and radius $R$) are separately identified and related to one another by the equation $m v^{2}/R$ to produce the magnitude of the centripetal force.  This type of practice was observed thirteen times across the data, accounting for $\%$ of the systems thinking practices, and $\%$ of all practices.
+
+Understanding relationships in a system has possibly shown up less commonly in our data given that the practice is ambiguously defined -- it can have a significant amount of overlap with the practice of designing a computational model (see Sec.~\ref{CH5:SecDesigingModels}).  This overlap ultimately depends on the ambiguous definition of a system given by Weintrop et. al.  For example, if a computational force model can be considered a system, then anytime students are designing a computational model they are also understanding the relationships in a system.  Rather, if a system refers to something like a collection of files that are related to one other to create a program (e.g., a Python script that loads different modules/libraries), then understanding the relationships in a system would most likely not cooccur with designing a computational model.  This type of ambiguity introduces a reduction of confidence during inter-rater reliability.  Accordingly, this practice is confidently observed less often.
 
 \subsection{Unobserved practices}
 
@@ -1381,6 +1394,8 @@ The practice of \textbf{manipulating data} is not expected to show up in our dat
 Any manipulation of data, in its most generous sense, happens at the level of the model or algorithm that is creating the data.  Accordingly, excerpts that might generously be considered manipulating data are better classified as creating data (see Sec.~~\ref{CH5:SecCreatingData}).  This focus on the creation of data through the use of models/algorithms aligns with the learning goals of developing and using models for the course (see P1 of Sec.~\ref{CH3:InClassWork}).
 
 The practice of \textbf{defining systems and managing complexity} is not expected to show up in our data given that most students have very little prior programming experience.  Although there is an instructor generated system that students are using (i.e., a MWP in Python that interfaces with PhysUtil and the Visual module), its complexity and management are beyond the scope of the course.  That is, we don't expect students to understand or modify the underlying system itself, rather, we just expect them to be able to use it to solve the problem.
+
+Say more about  how we limit this in the learning goals and design of problems, etc.
 
 Further, the first three MWPs all follow the same basic program structure: using a single calculation loop to integrate Newton's equations of motion with particular force model.  Accordingly, the vast majority of time is spent working on the force model, rather than the system itself.
 
@@ -1395,6 +1410,8 @@ Ultimately this should be a critique of the framework.  What the framework didn'
 Linearity of characteristics.  Make sure to compare two instances (i.e., the same practice with characteristics observed in different orders).
 
 \subsubsection{Data}
+
+However, it is important to keep in mind that there are some limitations to the framework that we used.  One of those limitations being that visualizing data has a tendency to cooccur with the practice of analyzing data.  This cooccurrence might be expected, given that they are both within the category of data practices; students often analyze data by visualizing it.  Either way, we need to be clear about defining the fundamental difference between the two: analyzing data occurs at the level of the individual data points (e.g., looking for a pattern in a set of numerical values), whereas visualizing data occurs one level removed (e.g., visualizing the slope of a 2D graph).  Although these practices do commonly occur together, they need not, and so care must be taken to correctly identify each.
 
 \subsubsection{Modeling}
 
