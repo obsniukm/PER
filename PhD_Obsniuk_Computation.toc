@@ -49,21 +49,21 @@
 \contentsline {subsection}{\numberline {6.1.2}Less common practices}{100}
 \contentsline {subsection}{\numberline {6.1.3}Unobserved practices}{102}
 \contentsline {section}{\numberline {6.2}Limitations/Constraints/Considerations?}{103}
-\contentsline {subsection}{\numberline {6.2.1}Framework}{103}
+\contentsline {subsection}{\numberline {6.2.1}Framework}{104}
 \contentsline {subsubsection}{\numberline {6.2.1.1}Data}{104}
-\contentsline {subsubsection}{\numberline {6.2.1.2}Modeling}{104}
-\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{104}
-\contentsline {subsubsection}{\numberline {6.2.1.4}Systems}{104}
-\contentsline {subsection}{\numberline {6.2.2}Context}{104}
-\contentsline {section}{\numberline {6.3}Opportunities}{104}
+\contentsline {subsubsection}{\numberline {6.2.1.2}Modeling}{105}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{105}
+\contentsline {subsubsection}{\numberline {6.2.1.4}Systems}{105}
+\contentsline {subsection}{\numberline {6.2.2}Context}{105}
+\contentsline {section}{\numberline {6.3}Opportunities}{105}
 \contentsline {subsection}{\numberline {6.3.1}Research}{105}
 \contentsline {subsubsection}{\numberline {6.3.1.1}Productive practices}{105}
 \contentsline {subsubsection}{\numberline {6.3.1.2}Individual vs. group}{105}
 \contentsline {subsubsection}{\numberline {6.3.1.3}Extending to upper-level}{105}
 \contentsline {subsection}{\numberline {6.3.2}Teaching}{105}
-\contentsline {subsubsection}{\numberline {6.3.2.1}Instructor preparation}{105}
-\contentsline {subsubsection}{\numberline {6.3.2.2}Course design}{105}
-\contentsline {subsubsection}{\numberline {6.3.2.3}Assessment}{105}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{106}
-\contentsline {chapter}{APPENDICES}{107}
-\contentsline {chapter}{BIBLIOGRAPHY}{109}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Instructor preparation}{106}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Course design}{106}
+\contentsline {subsubsection}{\numberline {6.3.2.3}Assessment}{106}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{107}
+\contentsline {chapter}{APPENDICES}{108}
+\contentsline {chapter}{BIBLIOGRAPHY}{110}
