@@ -1365,7 +1365,17 @@ Communicating information & 23 & 43 & 8 \\\hline\hline
 \caption{The computational practices that have been deemed common are shown with the number of times each practice was identified, the percentage of its category that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from that category), and the percentage of all the practices that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from all categories).  Horizontal dividers separate the different categories (i.e., data, modeling, problem solving, and systems thinking).}\label{CH6:Common}
 \end{table}
 
-The practice of \textbf{visualizing data} involves the \textit{production} of a visualization that clearly \textit{conveys} some information.  For example, the computational production of a dynamically updating graph of the distance between the satellite and the Earth vs. simulated time can be used to clearly convey information about the nature of the orbit (i.e., how close the orbit is to perfectly circular).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
+Creating data: Automating, advancing.
+
+The practice of creating data involves i) the construction of an automatic or algorithmic process that will quickly produce a large set of data and ii) using that set of data to advance toward their goals.  For example, constructing an Euler-Cromer algorithm to create a set of data representing the position of the satellite over time advances the group toward their goal of simulating the orbit of the satellite.  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
+
+Creating data is expected to show up commonly in our data given the learning goal of using mathematical and computational thinking (P4).  We wanted students to take advantage of the Euler-Cromer algorithms to generate the sets of data representing the position and momentum of the satellite over time.  We also wanted them to use different force models to generate the set of data representing the force over time.  In other words, we frequently observe students creating data -- whether on their own or with the assistance of a tutor.
+
+
+
+Analyze data: (categorize, trend, correlation, outliers), condluding.
+
+The practice of \textbf{visualizing data} involves the \textit{production} of a visualization that clearly \textit{conveys} some information.  For example, the computational production of a dynamically updating graph of the distance between the satellite and the Earth vs. simulated time can be produced and used to clearly convey information about the nature of the orbit (i.e., how close the orbit is to perfectly circular).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
 
 Visualizing data is expected to show up commonly in our data given the learning goal of analyzing and interpreting data (P3).  One of the ways that data can be analyzed and interpreted is with a visualization.  Specifically, the visualizations we see students making are that of the trajectory, the force, the momentum, and the graph of distance vs. time.  These visualizations efficiently convey information both to the students and to the TA (e.g., the visualization of the force conveys information about its central nature).
 
@@ -1378,11 +1388,23 @@ Furthermore, after a group has correctly constructed the Newtonian gravitational
 \SC: Okay.
 \end{description}  The tutor is presenting the additional goal of producing a graph to the group.  This graph can be used to efficiently convey information about how close the satellite is to perfectly geostationary.  
 
-Among all things, we want ${\rm P}^{3}$ students to understand that computers can be used to quickly generate visualizations that can easily be tweaked, and that those visualizations can be useful when it comes to understanding and communicating the physics of the realistic phenomenon being modeled.
+Among all things, we want ${\rm P}^{3}$ students to understand that computers can be used to quickly generate visualizations that can easily be tweaked, and that those visualizations can be useful when it comes to understanding and communicating the physics of the realistic phenomenon being modeled.  Accordingly, we are likely to observe the visualization of data in our data.
+
+Designing models: defining, relating, predicting.
+
+Constructing models: implementing, creating, extending.
+
+Assessing models: assuming, validating.
+
+Creating abstractions: conceptualizing, representing.
+
+Programing: modifying, arranging.
+
+Troubleshooting and debugging: isolating, correcting, systematizing.
 
 The practice of \textbf{thinking in levels} involves breaking the MWP into different \textit{levels} and attributing those different levels with their characteristic \textit{features}.  For example, the program as a whole can broken down into the two different levels of the initial conditions and the calculation loop (see Sec.~\ref{CH5:SecThinkingInLevels}).  Each level has its own defining features: the initial conditions level is where time-independent computational abstractions can be defined, whereas the calculation loop is where time-dependent computational abstractions must be defined.  This type of practice was observed eighteen times across the data  accounting for $33\%$ of the systems thinking practices, and $6\%$ of all practices.
 
-Thinking in levels is expected to show up frequently within our data given the learning goal of developing and using models (P1).  The Newtonian gravitational force model, along with the Euler-Cromer motion algorithms, is a model of motion that must be developed and used.  While students are developing these models, they must maintain the overall structure of the MWP written in VPython (see Fig.~\ref{CH3:MWPs}) -- without proper structure and syntax, the program as a whole runs into fatal errors.  This structure, that must be maintained, is naturally broken down into several different levels: the objects, initial conditions, time set-up, and calculation loop.  These levels are indicated in the MWP with comments (e.g., \texttt{\#Calculation Loop}), and each level has its own unique features.  Maintaining these features for each level is critical to a runnable program.
+Thinking in levels is expected to show up frequently within our data given the learning goal of developing and using models (P1).  The Newtonian gravitational force model and Euler-Cromer motion algorithms constitute a model of motion that must be developed in code and ultimately used for some purpose.  While students are developing this model of motion, they must maintain the overall structure of the MWP written in VPython (see Fig.~\ref{CH3:MWPs}) -- without proper structure and syntax, the program as a whole runs into fatal errors.  This structure, that must be maintained, is naturally broken down into several different levels: the objects, initial conditions, time set-up, and calculation loop.  These levels are indicated in the MWP with comments (e.g., \texttt{\#Calculation Loop}), and each level has its own unique features.  Maintaining these features for each level is critical to a runnable program.
 
 Additionally, students are introduced to the concept of iterative prediction of motion as an algorithmic change in different physical quantities over time.  Specifically, $\vec{p}_{\rm new} = \vec{p}_{\rm old} + \vec{F}_{\rm net}\,dt$, $\vec{r}_{\rm new} = \vec{r}_{\rm old} + \vec{v}\,dt$, and $t = t + dt$, as described in the course notes (see Sec.~\ref{CH3:VPythonNotes}).  These time-dependent physical quantities can be contrasted with time-independent (or approximately time-independent) physical quantities (e.g., the local acceleration due to gravity).  Identifying the correct time-dependence of a physical quantities is necessary to ensuring proper placement of its definition -- time-independent quantities can be placed in the initial conditions level, whereas time-dependent quantities must be placed in the calculation loop.  For example, consider Excerpt 12 from Group C:  \begin{description}
 \SA do we need F net to be calculated inside the loop?
@@ -1390,7 +1412,9 @@ Additionally, students are introduced to the concept of iterative prediction of 
 \SB no	
 \SA so we could just throw it outside of the loop\end{description}  Here, the students (incorrectly) articulate that the net force does not need to placed in the calculation loop because it does not need to update.  That is, they identify the different levels of inside and outside the loop, and correctly attributed the feature that updating quantities must be placed inside the loop, whereas other can be placed outside.
 
-Above all, we want students in ${\rm P}^{3}$ to understand the difference between time-dependent and time-independent physical quantities, and to be able to properly define and place them in code.
+Above all, we want students in ${\rm P}^{3}$ to understand the difference between time-dependent and time-independent physical quantities, and to be able to properly define and place them in code.  Accordingly, we observe this practice commonly in our data.
+
+Communicating information about a system: (dialogue, visualizations), understanding.
 
 %
 %
@@ -1476,13 +1500,33 @@ Overall, we wanted students in ${\rm P}^{3}$ to be able to make sense of/interpr
 
 \subsection{Unobserved practices}
 
-Eight of the practices laid out by the framework have not been observed at all.  Accordingly, these practices (i.e., collecting data, manipulating data, choosing computational tools, developing modular solutions, preparing problems, defining systems, investigating systems, and understanding relationships) are given their due attention.  Although these practices are unobserved, it is still important to discuss why they are unobserved.
+Six of the practices laid out by the framework have not been observed at all.  Accordingly, these practices (i.e., collecting data, manipulating data, choosing computational tools, developing modular solutions, preparing problems, defining systems) are given their due attention.  Although these practices are unobserved, it is still important to discuss why they are unobserved.
+
+The practice of \textbf{collecting data} is not expected to show up in our data given that there are no sensors or meters that are provided to students, as they might be in a lab setting.  The only tool students are required to use is the computer along with VPython.  This tool, although it can be used to handle the collection of data, is primarily meant to be used to create the data algorithmically.  This aligns with the learning goals of developing and using models (P1) to create data, rather than collecting it.
+
+Overall, we want students in ${\rm P}^{3}$ to be able to create large and complicated sets of data using various models and algorithms, rather than to simply collect it with a sensor.
 
 The practice of \textbf{manipulating data} is not expected to show up in our data given that its definition (see Sec.~\ref{CH2:Framework}) focuses on the reshaping of data (e.g., filtering a set of data or merging two sets of data into one).  Students are not required to reshape data in this way in ${\rm P}^{3}$ (e.g., by using the pandas package to merge two data sets).  Rather, they are required to create the data algorithmically, which can then be visualized or analyzed.
 
 Any manipulation of data, in its most generous sense, happens at the level of the model or algorithm that is creating the data.  Accordingly, excerpts that might generously be considered manipulating data are better classified as creating data (see Sec.~~\ref{CH5:SecCreatingData}).
 
 Overall, we don't expect students in ${\rm P}^{3}$ to be able to reshape/clean-up large of sets of data, rather, we want them to be able to correctly create those large sets of data using mathematical and computational models.
+
+The practice of \textbf{choosing computational tools} is not expected to show up in our data given that the tool they are required to use it provided to them.  The first three MWPs are all implemented through VPython and require no additional tools.  Accordingly, by the third problem, students are familiar with the tool and know to take advantage of it.
+
+It should be noted that nothing precludes students from using other tools (e.g., Microsoft Excel) to solve the problem, however we have not observed this in our data.  This is likely due to the lack of a learning goal focusing on tool selection.  
+
+Overall, we want students in ${\rm P}^{3}$ to become proficient with the tool of VPython for modeling motion, rather than being able to choose between competing tools.
+
+The practice of \textbf{developing modular solutions} is not expected to show up in our data given that the computational problems from week to week are sufficiently different that new models must always be used.  This does not allow for much cross-over or reuse between solutions.  Specifically, the first problem involves no net force, the second problem involves a piecewise constant net force, and the third involves a non-constant net force -- all being sufficiently different to warrant the construction of unique computational models.  This repeated design, construction, and assessment of new models, written from scratch, aligns well with the learning goal of developing and using models (P1).
+
+Overall, we students in ${\rm P}^{3}$ to be able to design, construct, and assess new models from scratch, rather than be able to reuse old models.
+
+The practice of \textbf{preparing problems for computational solutions} is not expected to show up in our data given that the problem has already been cast in a form that is amenable to a computational solution.  In fact, this is the third problem that they have seen like this, so they already know to approach it computationally.
+
+Any preparation of a problem, in its most generous sense, happens at the design stage.  Accordingly, excerpts that might generously be considered preparation of a problem are better classified as designing a computational model (see Sec.~~\ref{CH5:SecDesigingModels}).
+
+Overall, we don't expect students in ${\rm P}^{3}$ to generate their own problems (aside from the create your own problem day...), rather, we expect them to be able to solve well-defined problems.
 
 The practice of \textbf{defining systems and managing complexity} is not expected to show up in our data given that most students have very little prior programming experience.  This is possibly due to the fact that there are no computational prerequisites for ${\rm P}^{3}$.  Given this lack of prior programming experience, interaction with the programming system as a whole is restricted by design.  Although there is an instructor generated system that students are using (i.e., a MWP in Python that interfaces with PhysUtil and the Visual module), its complexity and management are beyond the scope of the course.  This is reflected in the absence of a learning goal (see Sec.~\ref{CH3:InClassWork}) focusing on the system as a whole.  Additionally, the problem statement itself does not explicitly require students to interact with the system as a whole, and tutors will dissuade this action.
 
