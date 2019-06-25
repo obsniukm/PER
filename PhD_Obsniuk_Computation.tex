@@ -1365,15 +1365,32 @@ Communicating information & 23 & 43 & 8 \\\hline\hline
 \caption{The computational practices that have been deemed common are shown with the number of times each practice was identified, the percentage of its category that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from that category), and the percentage of all the practices that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from all categories).  Horizontal dividers separate the different categories (i.e., data, modeling, problem solving, and systems thinking).}\label{CH6:Common}
 \end{table}
 
-Creating data: Automating, advancing.
+The practice of \textbf{creating data} involves i) the construction of an automatic or algorithmic process that will quickly produce a large set of data and ii) using that set of data to advance toward their goals.  For example, constructing an Euler-Cromer algorithm to create a set of data representing the position of the satellite over time advances the group toward their goal of simulating the orbit of the satellite (see Sec.~\ref{CH5:SecCreatingData}).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
 
-The practice of creating data involves i) the construction of an automatic or algorithmic process that will quickly produce a large set of data and ii) using that set of data to advance toward their goals.  For example, constructing an Euler-Cromer algorithm to create a set of data representing the position of the satellite over time advances the group toward their goal of simulating the orbit of the satellite.  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
+Creating data is expected to show up commonly in our data given the learning goal of using mathematical and computational thinking (P4).  We wanted students to take advantage of the Euler-Cromer algorithms to generate the sets of data representing the position and momentum of the satellite over time.  We also wanted them to construct and use different models to generate the set of data representing the force over time.  These algorithms and models require a lot of mathematical and computational thinking, aligning well with that learning goal.
 
-Creating data is expected to show up commonly in our data given the learning goal of using mathematical and computational thinking (P4).  We wanted students to take advantage of the Euler-Cromer algorithms to generate the sets of data representing the position and momentum of the satellite over time.  We also wanted them to use different force models to generate the set of data representing the force over time.  In other words, we frequently observe students creating data -- whether on their own or with the assistance of a tutor.
+Additionally, the problem cannot be solved analytically with introductory level mathematics.  However, it can be solved numerically with introductory level mathematics and computation.  For example, consider Excerpt 7 from Group C where the TA is prompting the group to create data: \begin{description}
+\TA: But you need the force to keep changing direction as it moves around
+\SC: Right
+\TA: So you can't just hard core the numerical value that you found last time
+\SC: Oh... because this {position of the satellite} is going to change, which means the force is going to change...
+\TA: Exactly
+\SB: Oh, gotcha
+\end{description}  Here, the tutor facilitating the creation of data by focusing on the way that the force needs to continually change as the satellite moves.  These types of interactions usually initiate the process of designing, constructing, and assessing computational models and algorithms that ultimately create large sets of data.
 
+Overall, we want students in ${\rm P}^{3}$ to be able to use simple control structures with force models of varying complexity to generate large sets of data for complicated and realistic motion problems.
 
+The practice of \textbf{analyzing data} involves a broad process of analysis that includes sorting data into \textit{categories}, looking for \textit{trends}, looking for \textit{correlations}, and/or identifying \textit{outliers} that can be used to reach some \textit{conclusion}.  For example, when a print statement is used to verify that the force acting on the satellite has the trend of remaining constant in simulated time, a conclusion can be drawn about the correctness of the underlying force model (see Sec.~\ref{CH5:SecAnalyzingData}).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
 
-Analyze data: (categorize, trend, correlation, outliers), condluding.
+Analyzing data is expected to show up commonly in our data given the learning goal of analyzing and interpreting data (P3).  We recognize that large sets of data need to be generated using computational algorithms and models, and that these sets need to be analyzed in order to asses and validate the underlying algorithms and models.  There are many different ways to analyze data, but it usually leads to some interpretation or conclusion that is made.  Given the utility of analyzing data when it comes to designing, assessing, and constructing the underlying computational models, we expect to see this practice commonly in our data.
+
+One technique of analysis that is often suggested is to use a print statement in the calculation loop so the data itself can be analyzed.  For example, consider Excerpt 19 from Group G where the TA makes this type of suggestion: \begin{description}
+\TA: check like, so i know you know how to do this... use a print statement, check if its doing anything, make sense of where its not, or if its running or if its not running
+\SB: Yeah, okay
+\TA: Talk everybody through what you're doing though...
+\SB: Yeah, I will.\end{description}  Here, the TA suggests that they use a print statement so that they can analyze the data representing the force acting on the satellite and to make decisions based on that analysis.  These types of TA interactions usually initiate the practice of analysis of a set of data.
+
+Overall, we want students in ${\rm P}^{3}$ to be able to interpret and attach meaning to the patterns that can be found in large sets of data.
 
 The practice of \textbf{visualizing data} involves the \textit{production} of a visualization that clearly \textit{conveys} some information.  For example, the computational production of a dynamically updating graph of the distance between the satellite and the Earth vs. simulated time can be produced and used to clearly convey information about the nature of the orbit (i.e., how close the orbit is to perfectly circular).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
 
@@ -1390,17 +1407,103 @@ Furthermore, after a group has correctly constructed the Newtonian gravitational
 
 Among all things, we want ${\rm P}^{3}$ students to understand that computers can be used to quickly generate visualizations that can easily be tweaked, and that those visualizations can be useful when it comes to understanding and communicating the physics of the realistic phenomenon being modeled.  Accordingly, we are likely to observe the visualization of data in our data.
 
-Designing models: defining, relating, predicting.
+The practice of \textbf{designing computational models} involves \textit{defining} the individual components of a model, \textit{relating} the model to the physical phenomenon under investigation, and articulating what \textit{predictions} the model will be able to make.  For example, the mass of the satellite, the magnitude of its velocity, the radius of its orbit, and the polar angle that it makes can all be separately defined in code.  Additionally, these individual components can be combined, following an equation, to produce the expected oscillatory motion of the satellite.  Finally, the resulting force model can be used to make predictions about the motion of the satellite (see Sec.~\ref{CH5:SecDesigingModels}).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
 
-Constructing models: implementing, creating, extending.
+We expect to see this practice commonly in our data given the learning goal of developing and using models (P1).  The course was specifically designed to focus on different force models with a range of complexities.  That is, the course focuses on a constant zero force, a constant non-zero force, and a non-constant force model.  Given that the students must actually develop these models in code, we frequently observe them designing computational models.
 
-Assessing models: assuming, validating.
+Further, the four-quadrants are meant to scaffold the design process by highlighting the knowns, unknowns, and assumptions of the model.  This scaffolding often facilitates the design process by helping groups to define the individual elements of their model.  For examples, consider Excerpt X from Group Y where one student is clear to articulate the individual elements they are defining by writing them on the four-quadrants: \begin{description}
+\SA So I'm just gonna go ahead and define those over there then
+\SA [writing on 4Q]
+\SA Should we do that?
+\SB Yeah go ahead and... we have the mass
+\SB and the position of the satellite
+\SC and the velocity from last time
+\SA Okay hold on [writing them down]
+\end{description}  Here, the individual elements of the mass, position, and velocity of the satellite are individually defined.  That is, we see students using the four-quadrants to help them design their model.
 
-Creating abstractions: conceptualizing, representing.
+Overall, we want students in ${\rm P}^{3}$ to be able to define the individual elements of a model, relate them to each other, and make predictions with computational force models.
 
-Programing: modifying, arranging.
+The practice of \textbf{constructing computational models} involves \textit{implementing} new behavior in code by either \textit{creating} a new model or by \textit{extending} a previously written model.  For example, implementing an attraction between two massive objects in code can be achieved through the construction of a force model.  This behavior can be implemented in one shot (e.g., immediately constructing a Newtonian gravitational force that can handle elliptical orbits) or can be implemented by successively extending an approximate model (e.g., moving from a constant gravitational force that generates a parabolic trajectory, to a centripetal force that generates a circular orbit, to a Newtonian gravitational force that generates an elliptical orbit).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
 
-Troubleshooting and debugging: isolating, correcting, systematizing.
+Constructing computational models is expected to show up frequently within our data given the learning goal of developing and using models (P1).  Developing a model in code invariably requires students to map mathematical equations onto VPython syntax.  This involves using proper operations (e.g., adding, multiplying, calculating magnitudes), using proper order of operations (e.g., using parentheses to clear up any ambiguity), and ensuring computational abstractions are of the proper type (e.g., that position is a vector, or that distance is a scalar).  Given that these things must all be constructed in code, we frequently observe students constructing models.
+
+Additionally, many tutor interactions are intended to facilitate this practice.  For example, consider Excerpt 9 from Group I where the group has designed their model and is beginning to construct it in code: \begin{description}
+\TA No, what you have their {on the whiteboard} looks good...
+\SD Okay so we just need to like take this equation and like
+\SD put it in the program
+\TA Right...
+\SD Right, but how do we do that...
+\SC So just take big G... and then like multiplied times...
+\SC m sat, err, yeah the mass of the satellite
+\SA Okay... [begins to type]
+\end{description}  Here, the model they have designed is the Newtonian gravitational force and they begin to construct it in code in terms of the universal gravitational constant, the mass of the satellite and the Earth, and the satellite's position relative to the Earth.  Given these types of interactions, we frequently observe students constructing models.
+
+Overall, we want students in ${\rm P}^{3}$ to be able to construct models in code, whether or not the models are correct.
+
+The practice of \textbf{assessing computational models} involves identifying the \textit{assumptions} built into a model and \textit{validating} them by comparing to reality to ensure predictive accuracy.  For example, groups frequently assume that the orbit of the satellite will be perfect circular.  Although this assumption is a good starting point, it is invariably checked for validity when considering arbitrary initial conditions that lead to more general elliptical orbits (see Sec.~\ref{CH5:SecAssessingModels}).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
+
+Assessing computational models is expected to show up frequently within our data given given the learning of developing and using models (P1).  Once a model has been designed and constructed to a reasonable degree, it can be used to generate information (e.g., a trajectory of the satellite).  This information can ultimately be used as evidence to make an argument for or against the validity of that model.  Thus, throughout the process of designing, constructing, and most importantly assessing a computational model, students should be engaging in argument based on evidence.
+
+Many tutor interactions can help to facilitate this practice.  For example, consider Excerpt X from Group Y where they articulate an assumption built into a model and validate its use given prompting: \begin{description}
+\TA Yeah but when is that equation good?
+\SB When its in free...
+\SC Like when its falling
+\TA Right close to the Earth
+\SB Yeah
+\SC Which is why we have that written here under assumptions \{on the 4Q\}
+\TA Okay good but... is that what you have over here?
+\SB No
+\SC No we need a different equation...
+\end{description}  Here, the poor assumption is that of a uniform gravitational acceleration, which invalidates their model.  Given these types of tutor interactions, we expect to frequently observe students assessing models.
+
+Overall, we want students in ${\rm P}^{3}$ to be able to validate different computational models by identifying their assumptions, whether or not they did the design and/or construction themselves.
+
+The practice of \textbf{creating computational abstractions} involves taking a physical \textit{concept} and \textit{representing} that concept in code.  For example, the physical concept of the unit vector giving a proper direction to the Newtonian gravitational force acting on the satellite can be most easily represented in code by combining the position of the satellite and its magnitude (see Sec.~\ref{CH5:SecCreatingAbstractions}).  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
+
+Creating computational abstractions is expected to show up frequently within our data given the learning goal of being able to develop and use models (P1).  All of the models used in the course (i.e., the various force and motion models) have some mathematical form that can be translated into VPython syntax.  That is, in order to construct a computational model, you must first create the computational abstractions that it depends on.  Given the focus on modeling in the course, we expect to commonly observes students creating abstractions.
+
+Additionally, some of the tutor interactions can facilitate this practice.  For example, consider Excerpt 9 from Group F where the tutor questions them on the definitions that they have in their code: \begin{description}
+\TA So I see that you have those things defined on your whiteboard
+\TA But where do you have those defined in the code?
+\SA But thats what I'm saying, thats what were working on
+\TA Okay, so what are you thinking then?
+\SA We have these things [points to board] defined...
+\SA And were gonna like input those values for those {variables}
+\end{description}  Here, the definitions that they have on the whiteboard are the mass of the satellite, its speed, and radius of circular orbit.  This interaction ultimately prompts them to make corresponding computational abstractions in code.  Given these types of interactions, we expect to commonly observe this practice in our data.
+
+Ultimately, we want students in ${\rm P}^{3}$ to be able to make abstractions in code when dealing with various physical concepts.
+
+The practice of \textbf{computer programming} involves \textit{modifying} code while \textit{arranging} that code in proper syntax.  For example, while modifying the force model in the calculation loop, all lines must be arranged with the proper indentation.  In other words, aside from the validity of the force model, the syntax must be in order for the computer to be able to interpret things correctly and to run without error.  This type of practice was observed thirty-six times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
+
+Computer programming is expected to be commonly observed in our data given the learning goal of using mathematical and computational thinking (P4).  Groups are working with MWPs in VPython (see Sec.~\ref{CH3:MWPs}), which comes with its own unique syntax that must be adhered to strictly.  Although the syntax in VPython is very intuitive (e.g., calculating the magnitude of a vector can be done by calling the \texttt{mag()} function), small and sometimes difficult to find syntax errors (e.g., a missing parenthesis) can lead to frustrating runtime errors.  Given these difficulties, we expect to see students engaging frequently in this practice.
+
+Additionally, this practice is heavily scaffolded through tutor interactions.  Given that many students have little to no prior programming experience, tutors sometimes guide students in their programming.  For example, consider Excerpt 12 from Group B where the group knows what to do, but is unsure of how to program it: \begin{description}
+\SB: TA, we need help
+\TA: Okay I can try
+\SB We don't know how to like take the magnitude of this
+\TA where...
+\SB right here, in our force, equation for the force
+\TA ahh okay you need to put parentheses.
+\SB where here?
+\end{description}  Here, the tutor is reminding the group that the proper syntax that must be adhered to requires parentheses.  Given these types of interactions, we frequently observe groups to be engaging in the practice of computer programming.
+
+Overall, we want students in ${\rm P}^{3}$ to have experience with programming and the difficulties associated with it.
+
+The practice of \textbf{troubleshooting and debugging} involves \textit{isolating} an unexpected error in the code, \textit{correcting} that error in a long-term and generalizable manner, and doing so in a \textit{systematic} fashion where applicable.  For example, without defining the initial momentum of the satellite as a function in terms of its previously defined mass and initial velocity, changing the mass of the satellite won't correctly propagate through the program, leading to unexpected and undesirable results.  Systematically isolating the cause of this error (i.e., not defining the momentum in a dynamic way) allows for it to not only be corrected, but to be corrected in a long-term and generalizable manner (see Sec.~\ref{CH5:SecTroubleshootingAndDebugging}).
+
+Troubleshooting and debugging is expected to show up frequently within our data given the learning goal of being able to develop and use models (P1).  During the process of developing and using a model, unexpected errors frequently occur and must be corrected.  These unexpected errors can involve things like syntax errors or unexpected/unphysical behavior.  In either case, students must identify those errors, and ultimately correct them in a systematic manner.  Given this focus on developing and using models, we expect to see this practice commonly in our data.
+
+Further, many tutors intentionally guide groups as they troubleshoot and debug.  For example, consider Excerpt 22 from Group H where the tutor points out that their force model in code does not match their force model on the board: \begin{description}
+\TA Oh I see what it is
+\SB What
+\TA Okay so in the denominator of your force, you have the magnitude of the position of the satellite
+\SB Right
+\TA But what do you have on your board
+\SB Ohhhh
+\SC We need it squared
+\end{description}  Here, the incorrect force model produces an extremely large force that rapidly accelerates the satellite to ludicrous speed.  This small error, although syntactically correct, produces unphysical results.  Given these types of tutor interactions, we expect to see this practice commonly in our data.
+
+Overall, we want students in ${\rm P}^{3}$ to be able to handle unexpected errors that arise while programming, whether they be syntactical or physical.
 
 The practice of \textbf{thinking in levels} involves breaking the MWP into different \textit{levels} and attributing those different levels with their characteristic \textit{features}.  For example, the program as a whole can broken down into the two different levels of the initial conditions and the calculation loop (see Sec.~\ref{CH5:SecThinkingInLevels}).  Each level has its own defining features: the initial conditions level is where time-independent computational abstractions can be defined, whereas the calculation loop is where time-dependent computational abstractions must be defined.  This type of practice was observed eighteen times across the data  accounting for $33\%$ of the systems thinking practices, and $6\%$ of all practices.
 
@@ -1414,7 +1517,26 @@ Additionally, students are introduced to the concept of iterative prediction of 
 
 Above all, we want students in ${\rm P}^{3}$ to understand the difference between time-dependent and time-independent physical quantities, and to be able to properly define and place them in code.  Accordingly, we observe this practice commonly in our data.
 
-Communicating information about a system: (dialogue, visualizations), understanding.
+The practice of \textbf{communicating information} involves the broad process of \textit{communication} that ranges from pure \textit{dialogue} to self-contained \textit{visualizations} that communicate some \textit{understanding} that the group has achieved.  For example, an understanding of the complicated but powerful computational interrelation between the force, position, and momentum of the satellite is frequently communicated verbally within and beyond groups (see Sec.~\ref{CH5:SecCommunicatingInformation}).  This type of practice was observed eighteen times across the data  accounting for $33\%$ of the systems thinking practices, and $6\%$ of all practices.
+
+Communicating information is expected to show up frequently within our data given the learning goal of being able to obtain, evaluate, and communicate information (P7).  Once information has been obtained and evaluated, it is crucial to ensure that each member of the group can communicate an understanding of it.  Accordingly, students are required to continually explain their thought process throughout the day.  Given this focus on encouraging explanation, we expect to frequently observe students communicating information in our data.
+
+Further, many tutor interactions can help to facilitate this practice.  For example, consider Excerpt 30 from Group E where the TA continues presses them on their understanding of the direction of the force by asking them to consider positions other than those on the $x$- and $y$-axes: \begin{description}
+\TA \textit{(245)} What about here [draws a dot in the first quadrant]?
+\SD \textit{(246)} Point five...
+\SB \textit{(247)} Then it'll be... the square root of two, square root of two, zero.
+\TA \textit{(248)} Okay, what about here [draws a dot in the second quadrant]?
+\SB \textit{(249)} Square root of two, negative square root of two, zero.
+\TA \textit{(250)} What if it's not at forty five degrees?
+\TA \textit{(251)} What if it's just at some arbitrary angle?
+\SB \textit{(252)} Well, the reason that were doing this...			
+\SD \textit{(253)} The r hat is gonna update as it goes.
+\TA \textit{(254)} Okay...
+\SD \textit{(255)} So you don’t need to know that.
+\SB \textit{(256)} Yeah you don’t need {to know that}...		
+\end{description}  In response to the TA prompting, the group demonstrates a strong understanding that their definition of the direction of the force in code (i.e., $\hat{r}$) will automatically update to account for these various/arbitrary positions.  Given these types of tutor interactions, we frequently observe this practice in our data.
+
+Overall, we want students in ${\rm P}^{3}$ to be able to clearly communicate their understanding of physical concepts, both through dialogue and visual representations.
 
 %
 %
@@ -1553,6 +1675,8 @@ However, it is important to keep in mind that there are some limitations to the 
 \subsubsection{Modeling}
 
 \subsubsection{Problem solving}
+
+Given the limitations of the programming needed in the course, we only see a limited set of instances of programming.  However, more sophisticated classrooms might yield new and interesting instances.
 
 \subsubsection{Systems}
 
@@ -1697,7 +1821,7 @@ The practice of \textit{visualizing data} involves the \textit{production} of a 
 
 Visualizing data is expected to show up frequently within our data given P6 and P7 of Sec.~\ref{CH3:InClassWork}.  Specifically, students are engaging in argument from evidence (P6) and obtaining, evaluating, and communicating information (P7).  Creating graphs of various physical quantities vs. time (e.g., the magnitude of the separation distance between the Earth and the satellite vs. time) and/or simulations of trajectories can be used to aid the communication of information both within and beyond a group.  In other words, these visualizations can be used as concrete evidence for argumentation.
 
-The practice of \textit{designing computational models} involves \textit{defining} the individual components of a model, \textit{relating} the model to the physical phenomenon under investigation, and making \textit{predictions} based on the model.  For example, the mass of the satellite, the magnitude of its velocity, the radius of its orbit, and the polar angle that it makes can all be separately defined in code.  Additionally, these individual components can be combined, following an equation, to produce the expected oscillatory motion of the satellite.  Finally, the resulting force model can be used to make predictions about the motion of the satellite.  For a more detailed explanation of this example, please refer to Sec.~\ref{CH5:SecDesigingModels}.
+The practice of \textit{designing computational models} involves \textit{defining} the individual components of a model, \textit{relating} the model to the physical phenomenon under investigation, and articulating what \textit{predictions} the model will be able to make.  For example, the mass of the satellite, the magnitude of its velocity, the radius of its orbit, and the polar angle that it makes can all be separately defined in code.  Additionally, these individual components can be combined, following an equation, to produce the expected oscillatory motion of the satellite.  Finally, the resulting force model can be used to make predictions about the motion of the satellite.  For a more detailed explanation of this example, please refer to Sec.~\ref{CH5:SecDesigingModels}.
 
 Designing computational models is expected to show up frequently within our data given given P1 and P5 of Sec.~\ref{CH3:InClassWork}.  Specifically, students are required to develop and use models (P1) and to construct explanations (P5).  Constructing an explanation of how the model relates to the phenomenon of interest is an important part of developing the model.  Similarly, constructing an explanation of what predictions the model can be used to make is an important part of using the model.
 
