@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  2 JUL 2019 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  8 JUL 2019 08:30
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -1129,20 +1129,20 @@ Chapter 6.
 
 ] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108]
 [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120]
-[121] [122] [123] [124] [125] [126] [127] [128]
+[121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
 Chapter 7.
-[129
-
-] [130
-
-] (PhD_Obsniuk_Computation.bbl [131
+[131
 
 ] [132
 
-] [133
+] (PhD_Obsniuk_Computation.bbl [133
 
-] [134] [135])
-[136] (PhD_Obsniuk_Computation.aux) ) 
+] [134
+
+] [135
+
+] [136] [137])
+[138] (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
  18120 strings out of 492976
  343124 string characters out of 3135985
@@ -1167,9 +1167,9 @@ public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb>
-Output written on PhD_Obsniuk_Computation.pdf (145 pages, 2030748 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (147 pages, 2034392 bytes).
 PDF statistics:
- 1565 PDF objects out of 1728 (max. 8388607)
+ 1570 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
