@@ -46,23 +46,22 @@
 \contentsline {subsection}{\numberline {5.2.8}Communicating information}{93}
 \contentsline {chapter}{\numberline {Chapter 6}Discussion}{97}
 \contentsline {section}{\numberline {6.1}Findings}{97}
-\contentsline {subsection}{\numberline {6.1.1}Common practices}{98}
+\contentsline {subsection}{\numberline {6.1.1}Common practices}{97}
 \contentsline {subsection}{\numberline {6.1.2}Less common practices}{116}
 \contentsline {subsection}{\numberline {6.1.3}Unobserved practices}{127}
 \contentsline {section}{\numberline {6.2}Limitations}{130}
-\contentsline {subsection}{\numberline {6.2.1}Framework}{131}
+\contentsline {subsection}{\numberline {6.2.1}Framework}{130}
 \contentsline {subsubsection}{\numberline {6.2.1.1}Data}{131}
 \contentsline {subsubsection}{\numberline {6.2.1.2}Modeling}{131}
-\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{132}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{131}
 \contentsline {subsubsection}{\numberline {6.2.1.4}Systems}{132}
-\contentsline {subsection}{\numberline {6.2.2}Course}{133}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Group vs. individual}{133}
+\contentsline {subsection}{\numberline {6.2.2}Course}{132}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Group vs. individual}{132}
 \contentsline {subsubsection}{\numberline {6.2.2.2}Scaffolding vs. discovery}{133}
 \contentsline {subsubsection}{\numberline {6.2.2.3}Intro vs. advanced}{133}
 \contentsline {subsection}{\numberline {6.2.3}Activity}{133}
-\contentsline {section}{\numberline {6.3}Opportunities}{134}
-\contentsline {subsection}{\numberline {6.3.1}Research}{134}
-\contentsline {subsection}{\numberline {6.3.2}Teaching}{134}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{135}
-\contentsline {chapter}{APPENDICES}{136}
-\contentsline {chapter}{BIBLIOGRAPHY}{138}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Direct vs. implied}{133}
+\contentsline {subsubsection}{\numberline {6.2.3.2}Newtonian vs. Coulomb}{133}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{134}
+\contentsline {chapter}{APPENDICES}{135}
+\contentsline {chapter}{BIBLIOGRAPHY}{137}
