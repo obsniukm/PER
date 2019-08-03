@@ -34,6 +34,13 @@ M.~Belloni and W.~Christian.
   approach.
 \newblock {\em American Journal of Physics}, 2008.
 
+\bibitem{Bing2009}
+Thomas~J. Bing and Edward~F Redish.
+\newblock Analyzing problem solving using math in physics: epistemological
+  framing via warrants.
+\newblock {\em Physical Review Special Topics - Physics Education Research},
+  2009.
+
 \bibitem{Braun2008}
 Virginia Braun and Victoria Clarke.
 \newblock Using thematic analysis in psychology.
@@ -121,6 +128,12 @@ Shuchi Grover and Roy Pea.
 \newblock Computational thinking in k-12: A review of the state of the field.
 \newblock {\em Educational Resarcher}, 2013.
 
+\bibitem{Hammann2003}
+Lynne~A. Hammann and Robert~J. Stevens.
+\newblock Instructional apapproach to improving students' writing of
+  compare-contrast essays: an experimental study.
+\newblock {\em Journal of Literacy Research}, 2003.
+
 \bibitem{Hawkins2017}
 N.~T. Hawkins, P.~W. Irving, and M.~D. Caballero.
 \newblock Understanding student perceptions of computational physics pproblem
@@ -192,6 +205,12 @@ Seymour Papert.
 \newblock An exploration in the space of mathematics educations.
 \newblock {\em Technology, Knowledge, and Learning}, 1996.
 
+\bibitem{Pawlak2018}
+Alanna Pawlak, Paul~W. Irving, and Marcos~D. Caballero.
+\newblock Development of the mmodel of collaboration framework.
+\newblock {\em Physical Review Special Topics - Physics Education Research},
+  2018.
+
 \bibitem{Perkins2006}
 Katherine Perkins, Wendy Adams, Michael Dubson, Noah Finkelstein, Sam Reid,
   Carl Wieman, and Ron LeMaster.
@@ -209,15 +228,31 @@ J.~Potter and M.~Wetherell.
   talk}.
 \newblock Sage, 1997.
 
+\bibitem{Pugalee2004}
+David~K. Pugalee.
+\newblock A comparison of verbal and written descriptions of students' problem
+  solving processes.
+\newblock {\em Educational Studies in Mathematics}, 2004.
+
 \bibitem{Redish1992}
 Edward Redish and Jack Wilson.
 \newblock Student programming in the introductory physics course: M.u.p.p.e.t.
 \newblock {\em American Journal of Physics}, 1992.
 
+\bibitem{Redish2005}
+Edward~F. Redish.
+\newblock Problem solving and the use of math in physis courses.
+\newblock In {\em World View on Physics Education Proceedings}, 2005.
+
 \bibitem{Sherer2000}
 David Sherer, Paul Dubois, and Bruce Sherwood.
 \newblock Vpython: 3d interactive scientific graphics for students.
 \newblock {\em Computing in Science \& Engineering}, 2000.
+
+\bibitem{Tamir2007}
+Pinchas Tamir.
+\newblock Justifying the selection of answers in multiple choice items.
+\newblock {\em International Journal of Science Education}, 2007.
 
 \bibitem{Vaismoradi2013}
 M.~Vaismoradi and T.~Bondas.
@@ -236,6 +271,11 @@ Shawn Weatherford.
 \newblock {\em Student use of physics to make sense of Incomplete but
   functional VPython programs in a lab setting.}
 \newblock PhD thesis, North Carolina State University, 2011.
+
+\bibitem{Weber2005}
+Keith Weber.
+\newblock Students' understanding of trigonometric functions.
+\newblock {\em Mathematics Education Research Journal}, 2005.
 
 \bibitem{Weiman2008}
 C.~E. Weiman, K.~K. Perkins, and W.~K. Adams.

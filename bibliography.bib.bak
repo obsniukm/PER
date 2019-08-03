@@ -44,11 +44,22 @@
   Year                     = {1995}
 }
 
+@Article{,
+  Author                   = {Awodun}
+}
+
 @Article{Belloni2008,
   Title                    = {Time development in quantum mechanics using a reduced Hilbert space approach},
   Author                   = {M. Belloni and W. Christian},
   Journal                  = {American Journal of Physics},
   Year                     = {2008}
+}
+
+@Article{Bing2009,
+  Title                    = {Analyzing problem solving using math in physics: epistemological framing via warrants},
+  Author                   = {Thomas J. Bing and Edward F Redish},
+  Journal                  = {Physical Review Special Topics - Physics Education Research},
+  Year                     = {2009}
 }
 
 @Article{Braun2008,
@@ -177,6 +188,13 @@
   Year                     = {2013}
 }
 
+@Article{Hammann2003,
+  Title                    = {Instructional apapproach to improving students' writing of compare-contrast essays: an experimental study},
+  Author                   = {Lynne A. Hammann and Robert J. Stevens},
+  Journal                  = {Journal of Literacy Research},
+  Year                     = {2003}
+}
+
 @InProceedings{Hawkins2017,
   Title                    = {Understanding student perceptions of computational physics pproblem in Introductory mechanics},
   Author                   = {N. T. Hawkins and P. W. Irving and M. D. Caballero},
@@ -255,6 +273,11 @@
   Year                     = {2008}
 }
 
+@Article{,
+  Title                    = {Students' goal orientations and cognitive engagement in classroom activities},
+  Author                   = {Judith L. Meece and Phyllis C. Blumenfeld and Rick H. Hoyle}
+}
+
 @InProceedings{Obsniuk2015,
   Title                    = {A Case Study: Novel Group Interactions through Introductory Computational Physics},
   Author                   = {Michael Obsniuk and Paul Irving and Marcos Caballero},
@@ -291,6 +314,13 @@
   Year                     = {1996}
 }
 
+@Article{Pawlak2018,
+  Title                    = {Development of the mmodel of collaboration framework},
+  Author                   = {Alanna Pawlak and Paul W. Irving and Marcos D. Caballero},
+  Journal                  = {Physical Review Special Topics - Physics Education Research},
+  Year                     = {2018}
+}
+
 @Article{Perkins2006,
   Title                    = {PhET: Interactive Simulations for Teaching and Learning Physics},
   Author                   = {Katherine Perkins and Wendy Adams and Michael Dubson and Noah Finkelstein and Sam Reid and Carl Wieman and Ron LeMaster},
@@ -312,11 +342,25 @@
   Year                     = {1997}
 }
 
+@Article{Pugalee2004,
+  Title                    = {A comparison of verbal and written descriptions of students' problem solving processes},
+  Author                   = {David K. Pugalee},
+  Journal                  = {Educational Studies in Mathematics},
+  Year                     = {2004}
+}
+
 @Article{Redish1992,
   Title                    = {Student programming in the introductory physics course: M.U.P.P.E.T.},
   Author                   = {Edward Redish and Jack Wilson},
   Journal                  = {American Journal of Physics},
   Year                     = {1992}
+}
+
+@Conference{Redish2005,
+  Title                    = {Problem solving and the use of math in physis courses},
+  Author                   = {Edward F. Redish},
+  Booktitle                = {World View on Physics Education Proceedings},
+  Year                     = {2005}
 }
 
 @Article{ReneeMcCauley2008,
@@ -354,6 +398,13 @@
   Year                     = {2008}
 }
 
+@Article{Tamir2007,
+  Title                    = {Justifying the selection of answers in multiple choice items},
+  Author                   = {Pinchas Tamir},
+  Journal                  = {International Journal of Science Education},
+  Year                     = {2007}
+}
+
 @Article{Vaismoradi2013,
   Title                    = {Content analysis and thematic analysis: implications for conducting a qualitative descriptive study},
   Author                   = {M. Vaismoradi and T. Bondas},
@@ -373,6 +424,13 @@
   Author                   = {Shawn Weatherford},
   School                   = {North Carolina State University},
   Year                     = {2011}
+}
+
+@Article{Weber2005,
+  Title                    = {Students' understanding of trigonometric functions},
+  Author                   = {Keith Weber},
+  Journal                  = {Mathematics Education Research Journal},
+  Year                     = {2005}
 }
 
 @Article{Weiman2008,
