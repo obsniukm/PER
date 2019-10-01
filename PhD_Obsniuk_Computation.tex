@@ -1348,7 +1348,7 @@ This chapter provides a discussion of the reasons why we might observe certain p
 
 \section{Findings}\label{CH6:Findings}
 
-In the sections that follow, we present our findings of the common, less common, and the unobserved practices within our data set.  The common practices are those that were identified at least three times in a majority of the groups (individual practices occurred between zero and seven times per group, with an average of three occurrences).  The less common practices are the remaining of the observed practices.  The unobserved practices were not identified at all.  Along with some of the statistics of the frequencies of these practices (i.e., raw numbers and percentages), we provide their definitions and reference detailed examples.  Additionally, and perhaps most importantly, we discuss the reasons as to why a particular practice might have a given frequency.
+In the sections that follow, we present our findings of the common, less common, and the unobserved practices within our data set.  The common practices are those that were identified at least three times in a majority of the groups (individual practices occurred between zero and seven times per group, with an average of three occurrences).  The less common practices are the remaining of the observed practices.  The unobserved practices were not identified at all.  Along with some of the statistics of the frequencies of these practices (i.e., raw numbers and percentages), we provide their definitions and reference detailed examples in the appendices.  Additionally, and perhaps most importantly, we discuss the reasons as to why a particular practice might have a given frequency.
 
 %
 %
@@ -1370,7 +1370,7 @@ In the sections that follow, we present our findings of the common, less common,
 
 \subsection{Common practices}\label{CH6:CommonPractices}
 
-Eleven of the practices laid out by the framework have been identified multiple times in eight of the groups that were analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:Common}) are deemed common and are discussed below.  It is important to pay attention to these practices because, as instructors, we not only want students to be able to accomplish tasks, but we also want to make sure that they are engaging in things like critical and computational thinking while doing so.  Being able to identify and encourage these practices as they occur (or don't occur) in a classroom, therefore, is crucial to effective pedagogy and course design.  Accordingly, we must develop clear and reliable definitions for each of the common practices.
+Eleven of the practices laid out by the framework have been identified multiple times in eight of the groups that were analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:Common}) are deemed common and are discussed below and in the appendices.  It is important to pay attention to these practices because, as instructors, we not only want students to be able to accomplish tasks, but we also want to make sure that they are engaging in things like critical and computational thinking while doing so.  Being able to identify and encourage these practices as they occur (or  don't occur) in a classroom, therefore, is crucial to effective pedagogy and course design.  Accordingly, we must develop clear and reliable definitions for each of the common practices.
 
 \begin{table}[hb]\centering
 \begin{tabular}{lllll}\hline\hline
@@ -1389,6 +1389,236 @@ Systems & Thinking in levels & 18 & 33 & 6 \\
 \end{tabular}
 \caption{The computational practices that have been deemed common are shown with the number of times each practice was identified, the percentage of its category that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from that category), and the percentage of all the practices that it occupies (i.e., the number of times a practice was observed divided by the total number of practices from all categories).  Horizontal dividers separate the different categories (i.e., data, modeling, problem solving, and systems thinking).}\label{CH6:Common}
 \end{table}
+
+Overall, there are a number of reasons that we have commonly observed these practices in terms of the learning goals and the course design.  The learning goal of being able to use mathematical and computational thinking (P4) comes into play any time students are dealing with the abstractions that they have defined in the calculation loop, which are needed to be able to accurately predict motion using the Euler-Cromer algorithms.  The learning goal of being able to analyze and interpret data (P3) shows up anytime students print or visualize the data representing a physical quantity, a common troubleshooting technique and something required by the problem statement.  The learning goal of being able to develop and use models (P1) shows up whenever students are working to construct the various force models covered in the course, which are necessary for an accurate trajectory of the satellite.  The learning goal of being able to obtain, evaluate, and communicate information (P7) shows up continually as groups are engaging in discussion with each other and with the tutors, something that we strongly encourage through tutor questions.  All of these learning goals seem to strongly influence the practices that we observe, as are detailed in the above paragraphs.  %Many of the tutor interactions that we observed help to facilitate these practices given the design of the course and the focus on the learning goals.
+
+For example, the practice of \textbf{visualizing data} involves the \textit{production} of a visualization that clearly \textit{conveys} some information.  For example, the computational production of a dynamically updating graph of the distance between the satellite and the Earth vs. simulated time can be produced and used to clearly convey information about the nature of the orbit (i.e., how close the orbit is to perfectly circular).  This type of practice was observed $36$ times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
+
+Visualizing data is expected to show up commonly in our data given the learning goal of analyzing and interpreting data (P3).  One of the ways that data can be analyzed and interpreted is with a visualization.  Specifically, the visualizations we see students making are that of the trajectory, the force, the momentum, and the graph of distance vs. time.  These visualizations efficiently convey information both to the students and to the TA (e.g., the visualization of the force conveys information about its central nature).
+
+Additionally, students have been working with MWPs to produce dynamic visualizations of motion since the first week of class.  The first and second computational problems, focusing on boats and hovercrafts, respectively, were visualized in a number of ways (e.g., producing visualizations of their trajectories).  In other words, students are familiar with the visualization of data coming into the third problem.  Not to mention, the problem statement, shown in Fig.~\ref{CH3:SatelliteProblem}, explicitly asks students to produce a simulation/visualization of an elliptical orbit. 
+
+Furthermore, after a group has correctly constructed the Newtonian gravitational force, many of the tutor interactions focus on the generation of a graph to clearly show that the satellite isn't traveling in a perfectly circular orbit.  For example, consider Excerpt 38 from Group A where the TA is prompting the group to add in a graph to their code: \begin{description}
+\TA I'd like you to graph the orbital... the magnitude of the radius of the orbit vs. a function of time...
+\SC Okay...
+\TA And have that graphed as well and it updates
+\SC Okay.
+\end{description}  The tutor is presenting the additional goal of producing a graph to the group.  After this interaction, the group adds a graph to their program and using the results to conclude that the satellite is not traveling in a perfectly circular orbit.  This graph can be used to efficiently convey information about how close the satellite is to perfectly geostationary.  
+
+Among all things, we want ${\rm P}^{3}$ students to understand that computers can be used to quickly generate visualizations that can easily be tweaked, and that those visualizations can be useful when it comes to understanding and communicating the physics of the realistic phenomenon being modeled.  Accordingly, we are likely to observe the visualization of data in our data.
+
+%
+%
+%
+%
+%
+%
+%
+%
+%	LESS COMMON
+%
+%
+%
+%
+%
+%
+%
+%
+
+\subsection{Less common practices}\label{CH6:LessCommonPractices}
+
+Five of the practices laid out by the framework have been identified just a couple of times and in only five of the groups that we analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:LessCommon}) are deemed less common and are given a reasonable amount of attention here and in the appendices.  Table~\ref{CH6:LessCommon} is broken down into the different categories: the data practices, modeling practices, problem solving practices, and systems thinking practices.  The data practices were either unobserved or commonly observed, and so this table shows only the less commonly observed modeling, problem solving, and systems practices.
+
+\begin{table}[ht]\centering
+\begin{tabular}{lllll}\hline\hline
+Category & Practice & Number & \% of category & \% of all \\\hline
+Modeling & Understanding concepts & 7 & 7 & 2 \\
+ & Finding and testing solutions & 13 & 13 & 4 \\\hline
+Problem Solving & Assessing solutions & 9 & 11 & 3 \\\hline
+Systems thinking & Investigating systems & 13 & 13 & 4 \\
+ & Understanding relationships & 13 & 13 & 4 \\\hline\hline
+\end{tabular}
+\caption{The computational practices that have been deemed less common are shown with the number of times each practice was identified, the percentage of its category that it occupies, and the percentage of all the practices that it occupies.  Note that none of the data practices were less commonly observed.}\label{CH6:LessCommon}
+\end{table}
+
+Overall, there are a number of reasons that we observed these practices given the learning goals and the design of the course.  The learning goal of being able to engage in argument from evidence (P6) manifests when students are defending the use of a particular model, which is necessary to choosing the most appropriate force model (i.e., the Newtonian gravitational force).  The learning goal of being able to construct explanations (P5) happens when students are comparing different force models, which similarly is needed to choose the most appropriate force model.  The learning goal of being able to obtain, evaluate, and communicate information (P7) shows up continually as groups are engaging in discussion with each other and with the tutors, something that we strongly encourage through tutor questions.  The learning goal of being able to plan and carry out investigations (P2) happens continually as groups are dealing with the complicated system that we have provided to them, which is a crucial part of programming and computer engineering.  The learning goal of being able to develop and use models (P1) shows up whenever students are working to construct the various force models covered in the course, which must be correctly translated into code for the program to run correctly.  However, the reasons as to why we only observe these practices less commonly relative to the other practices -- aside from the limitations of the framework and the course design -- may be due to the variation in student preparation coming into the course, as detailed in the above paragraphs.
+
+For example, the practice of \textbf{assessing solutions} involves the \textit{comparison} of two or more different solutions.  This is different than just testing solutions, given that it focuses on a comparison between two or more solutions.  For example, groups often compare the expected behavior using a local gravitational force to using a Newtonian gravitational force.  In this way, multiple solutions are assessed in terms of their validity.   This type of practice was observed $9$ times across the data  accounting for $11\%$ of the systems thinking practices, and $3\%$ of all practices.
+
+We expect to see this practice in our data given the learning goal of being able to construct explanations (P5).  That is, we not only wanted students to make comparisons between models, but we also wanted them to clearly explain those differences.  These long and often complicated explanations, then, are often a clear indication of a group assessing a solution.  
+
+Additionally, many of the tutor interactions can encourage this practice.  For example, consider Excerpt 22 from Group B where the TA is asking them about the two models they have written on their board:\begin{description}
+\TA So these two forces that you have on your board...
+\TA Fg and Fcent...
+\TA Which of those do you want to use?
+\SB We are thinking Fcent...
+\TA Why?
+\SB Because we have everything we need for it...
+\end{description}  Here the models that the group is comparing are the gravitational force and the centripetal force.  Specifically, the group explains the difference between the two as being in terms of the requirements of the model.  After this interaction, the group runs through the individual elements of the model that they have decided on, and begin to construct it in code.  Given interactions like these, we expect to see this practice in our data.
+
+However, one reason that we observe assessing solutions less commonly within our data might be that some groups are better or worse at making comparisons -- a key characteristic of this practice.  Most groups take a guess and check approach rather than a contrast and compare approach \cite{Hammann2003}, and so we only see this practices less commonly relative to the rest.  For example, Excerpt 7 from Group G shows a common exchange: \begin{description}
+\SC But I feel like we should just try this one {Fcent equation}...
+\SC And see if it works
+\SC Because if it doesnt, then we can worry about it {later}
+\SB Yeah okay, lets just do that.
+\end{description}  Here, the group tentatively decides on a model without comparing it to any other possible models (e.g., a Newtonian gravitational force).  A group with at least one member that is highly motived to compare the pros and cons of different solutions will likely engage in this practice more often.  %Overall, we want students in ${\rm P}^{3}$ to be able to explain the differences, both qualitative and quantitative, between various force models.
+
+%
+%
+%
+%
+%
+%
+%
+%
+%	UNOBSERVED
+%
+%
+%
+%
+%
+%
+%
+%
+
+\subsection{Unobserved practices}\label{CH6:Unobserved}
+
+Six of the practices laid out by the framework have not been observed at all.  Accordingly, these practices (i.e., collecting data, manipulating data, choosing computational tools, developing modular solutions, preparing problems, defining systems) are given their due attention here and in the appendices.  Although these practices are unobserved, it is still important to discuss why they are unobserved.
+
+Overall, there are a number of reasons that we did not observe these practices.  Specifically, the lack of learning goals related to data collection, data manipulation, choosing tools, developing modular solutions, preparing problems for solutions, and defining systems and managing complexity.  Further, given the lack of focus on these learning goals, many tutor interactions worked to intentionally dissuade students from engaging in these unobserved practices.
+
+For example, the practice of \textbf{collecting data} is not expected to show up in our data given that there are no sensors or meters that are provided to students, as they might be in a lab setting.  The only tool students are required to use is the computer along with VPython.  This tool, although it can be used to handle the collection of data, is primarily meant to be used to create the data algorithmically.  This aligns with the learning goals of developing and using models (P1) to create data, rather than collecting it.  Mainly, we want students in ${\rm P}^{3}$ to be able to create large and complicated sets of data using various models and algorithms, rather than to simply collect it with a sensor.
+
+%
+%
+%
+%
+%
+%
+%
+%
+%	Limitations
+%
+%
+%
+%
+%
+%
+%
+%
+
+\section{Limitations}
+
+Although the framework gives a solid foundation and a good starting place, it does not come without its limitations that influence the practices we were able to identify.  Additionally, the course and its design invariably constrains the practices that we have and have not observed.  Furthermore, the activity itself places additional constraints on the practices available to the students.  Finally, the qualitative lens that we have used influences the analysis we have conducted.  In this section, we describe the limitations of the framework, the constraints of the course and activity, and the primary lens we have used to guide our analysis.  Finally, we discuss how those limitatiopns relate to the practies we have been able to confidently identify.  %Finally, we discuss some of the possible improvements that can be made.
+
+It is important to recognize that our analysis has focused on one specific problem (i.e., the Newtonian gravitational force problem detailed in Sec.~\ref{CH3:SatelliteProblem}) in the early stages of the development of ${\rm P}^{3}$.  Even though our scope of analysis is fairly resctricted, our research is still useful in adding ``second-order terms'' to the broad definitions presented by Weintrop et. al, as well as to future research on the computational practices within physics.  Expanding our analysis to other problems (e.g, spring forces) in future iterations of ${\rm P}^{3}$ or to other implementations of the classroom (e.g., the electricity and magnetism version, aptly named ${\rm EMP}^{3}$) will invariably introduce new or otherwise previously unobserved practices.
+
+\subsection{Framework}
+
+Although the framework that we used has many benefits, there are also some limitations that come along with it.  For the most part, these limitations are centered on the very broad definitions that are provided by Weintrop et. al.  Although their broad definitions are widely applicable to many different types of science and mathematics classrooms generally, they can be rather vague/ambiguous when applying them to a particular classroom.  Accordingly, the following sections describe the vague/ambiguous definitions within ${\rm P}^{3}$ in terms of the four different categories of practices: the data, modeling, problem solving, and systems thinking practices.
+
+Additionally, the framework itself has a rather narrow focus (i.e., on practices indicative of computational thinking), which could be expanded to capture practices that are indicative of other types of thinking or cognitive development.  For example, ${\rm P}^{3}$ does an excellent job of facilitating the development of physics identity within its students -- something the framework is not intended to capture.
+
+\subsubsection{Data}
+
+Within the data practices, it is often difficult to identify precisely when students are \textit{advancing} toward the goals of the problem through the creation of data.  Although the construction of the computational algorithm that creates the data can be easily identified in code, the advancement that they undergo is more subjective.  The goals of the problem (e.g., simulating an orbit or producing a graph) often take the entire two hours of the class to be accomplished, and the different paths to get there are winding and often non-linear.  For example, after constructing a working force model in code, a group is ready to automatically and algorithmically create a set of data representing the force on the satellite.  However, this possibly incorrect/inaccurate set of data does not immediately or completely advance them toward their goal of creating an elliptical orbit.  Still, this incorrect set of data can eventually prompt them to correctly modify their force model -- ultimately advancing them toward their goal of creating an elliptical orbit.  In other words, sometimes you need to take a step back before you can take two steps forward.  Given this difficulty in defining what constitutes advancing toward a goal, identifying this practice was often difficult.
+
+%Similarly, it can be difficult to clearly identify when a group is \textit{conveying} information by way of a visualization of a set of data.  Producing a visualization is not enough to classify an excerpt as visualizing data -- the visualization must also be used to convey some information either to other members of the group or to the TAs.  For example, creating a graph of the separation distance between the satellite and the Earth vs. time is a visualization that groups are asked to produce (see Sec.~\ref{CH3:SatelliteProblem}), and can be used to convey information about the circularity of the orbit (see Sec.~\ref{}).  Without a groups clear articulation of that information, 
+
+\subsubsection{Modeling}
+
+Within the modeling and simulation practices, it is often difficult to identify when a group is \textit{progressing} in their understanding of a concept as they interact with the models of the course.  Although it is easy to identify the different force models, and to identify when a group is interacting with them (e.g., designing on the whiteboard or constructing in code), it is more difficult to say when a group is using that model to make progress in their understanding of the underlying concepts.  Not to mention, it is difficult to clearly define what it means to truly \textit{understand} something.  For example, groups are frequently seen interacting with the computational model of the Newtonian gravitational force.  As they necessarily construct the direction of the force in terms of the separation vector and its magnitude, they should be using it to develop an understanding of the way that the force changes direction over time.  This understanding, although difficult to directly observe, can be teased out through tutor interactions (see Sec.~\ref{CH5:CommunicatingInformation}).  It often takes a long line of tutor questioning to confidently check a group's understanding.  Given this difficulty in defining what constitutes progressing in the understanding of a concept, identifying this practice was difficult.
+
+\subsubsection{Problem solving}
+
+Within the problem solving practices, it can be difficult to clearly define what it means for a group to be \textit{systematic} while troubleshooting and debugging their code.  Although it is relatively easy to identify when a group has isolated and corrected an error, it is not so easy to identify when a group is being systematic in that process.  Although many groups devise plans to methodically isolate and correct errors until they have successfully troubleshooted or debugged their code (see Ch.~\ref{CH4:Motivation}), those plans are not always successful.  Additionally, many groups stumble haphazardly on unexpected errors, and correct them in a similar fashion.  Given this difficulty in denfining what it means to systematically troubleshoot and debug, identifying this practice was difficult.
+
+\subsubsection{Systems}
+
+Within the systems thinking practices, understanding relationships in a system is ambiguously defined -- it can have a significant amount of overlap with the practice of designing a computational model (see Sec.~\ref{CH5:SecDesigingModels}).  This overlap ultimately depends on the ambiguous definition of a system given by Weintrop et. al.  For example, if a computational force model can be considered a system, then anytime students are designing a computational model they are also understanding the relationships in a system.  Rather, if a system refers to something more like a collection of files that are related to one other to create a program (e.g., a Python script that loads different modules/libraries), then understanding the relationships in a system would most likely not occur alongside designing a computational model.  This type of ambiguity has a tendency to lower confidence during inter-rater reliability.  Accordingly, this practice is confidently observed less often.
+
+\subsection{Course}\label{CH6:Context}
+
+Although the course that we collected our data from was well designed and implemented (see Ch.~\ref{CH3:Context}), it was not conducive to some of the practices laid out by the framework, stemming from the many design choices that were made early on.  These crucial design choices and their ramifications on our analysis/findings are described in the sections that follow.
+
+\subsubsection{Group vs. individual}
+
+Given that the course followed a group-based approach, it was often difficult to say which individual students were actively engaging in the practice.  For example, the process of agreeing on the assumptions of the force model often involves multiple viewpoints that must be taken into account simultaneously.  Accordingly, it is difficult to ascribe the practice to any individual from the group.  Additionally, just because invidivuals are not physical engaged (e.g., talking or writing) does not mean that they are not mentally engaged.  However, follow-up interview data could be used as additional evidence for ascribing a particular practice to a specific individual.
+
+\subsubsection{Scaffolding vs. discovery}
+
+At the beginning of the course, a ``norming'' day was held as a means to provide students with an overview of the course structure and a reason as to why it was being run that way.  An important component of that day was on the modeling component of the course, illustrated in Fig.~\ref{CH6:Modeling}.  Given this focus on modeling at the beginning of the course, it is no surprise that we frequently observed students engaging in the various computational modeling practices defined by Weintrop et. al.
+
+\begin{figure}\center
+\includegraphics[scale=1]{images/CH6Modeling.pdf}
+\caption{The iterative process of modeling physical systems that was described to the class on the first dat.}\label{CH6:Modeling}
+\end{figure}
+
+Additionally, the course was reasonably scaffolded with the pre-class reading and pre-class homework.  The pre-class reading is meant to introduce the fundamental concepts while the pre-class homework is meant to check for correct application of those concepts.  This prepration helps the students to frame the problem in a way that uses many of the practices.  For example, some of the homework problems (see Sec.~\ref{CH3:PostClassHomework}) focus on VPython errors that must be identified.  Given this type of preparation, many students engaged in the practice of things like troubleshooting and debugging and programming.
+
+Moreover, the frequent tutor interactions throughout the course are meant to check for understanding of the concepts and their application while in class.  However, these frequent tutor interactions make it difficult to say whether or not the practices observed are generated by the students or by the tutors -- a ``social observer'' effect.  Many times, TAs dissuade students from engaging in certain practies, and intentionally encourage them to engage in others.  For example, any group that gets lost in the PhysUtil system file will invariably be encouraged to stop that and start focusing on the MWP.
+
+\subsubsection{Intro vs. advanced}\label{CH6:IntroVsAdvanced}
+
+The course was designed around introductory physics concepts, which limited the types of forces and motion models that could be analyzed.  The analysis of a more advanced classroom (e.g., computational Newtonian mechanics using higher order algorithms) may provide additional practices.  For example, in more advanced physics classrooms we may expect groups to \textit{optimize} their models by adding more than just one force -- something that is lacking in the Weintrop framework.  In other words, we can begin to search for new and unique practices in a more advanced ${\rm P}^{3}$-style classroom.
+
+An important limitation of the study is that we did not focus on classifying the levels of sophistication of the practices.  Rather, we just focused on identifying them.  As computation continues to grow in industry and academia \cite{Chonacky2008}, and as new and more advanced computational techniques are discovered, it is important that we begin to classify the Weintrop practices in terms of their levels of sophistication.  Although we do not expect to see extremely unique or sophisticated practices in our data, it is something that should be focused on in future research.
+
+\subsection{Activity}\label{CH6:Activity}
+
+At the level of the activity itself, its boundaries limit the practices that we observe.  For example, the problem statement contains many direct tasks, as well as a few that are implied.  Additionally, the focus of the activity is on relatively intuitive physical concepts (i.e., the gravitational force and Newton's second law).  These types of requirements and their implications on our findings are described in the sections that follow.
+
+Given that the problem statement contains both explicit and implied tasks, it has a large influence on the practices that we do and do not observe.  Specifically, the direct tasks in the problem statement are to i) produce a simulation of an elliptical orbit, ii) produce a diagram showing the momentum of the satellite, and iii) produce a graph of the radius of the orbit over time.  Given the direct task of (i), we expect to see groups designing, constructing, and assessing models in code as they work to produce their physically accurate simulation (see Sec.~\ref{CH5:DesigningModels}).  Additionally, given (ii) we expext to see groups analyzing and visualize data as they communicate information about the way that the momentum of the satellite changes over time (see Sec.~\ref{CH5:AnalyzingData}).  Similarly, given (iii) we expect to see students engaging in the practice of visualizing data as they communicate information about the radius of the orbit over time (see Sec.~\ref{CH5:CommunicatingInformation}).  The direct tasks lead to the more commonly observed practices.
+
+The direct tasks in the problem statement are explicitly laid out for groups and so take precedence, whereas the implied tasks in the problem statement are often a difficult thing for students to infer on their own.  For example, one implied task is to develop a proficieny in dealing with relatively small programming systems (i.e., the self-contained MWP).  Another implied task is to develop an understanding of the concept of a directional unit vector as it shows up in the Newtonian force (see Sec.~\ref{CH5:SecCommunicatingInformation}).  These rather subtle implied task may be reasons that we observe groups engaging in some of the practices less commonly (see Sec.~\ref{CH6:LessCommon}).
+
+\subsection{Analysis}\label{CH6:Analysis}
+
+It is important to note that this study was conducted through the lens of an instructor, looking to effectively increase the amount of computation taught at the introductory physics level.  Accordingly, there was a heavy focus on the way that the tutors interacted with the students to either encourage or discourage certain practices.  Although these types of student-instructor interactions are unavoidable in most classrooms -- especially in ${\rm P}^{3}$ type classrooms -- our focus on them may have made it more difficult to identify the practices coming solely from student-student interactions.
+
+Additionally, given the heavy focus on computation and computational thinking in our analysis (see Ch.~\ref{CH2:Background}), other important types of thinking (e.g., creative thinking) may have been overlooked.  A detailed analysis of the related analytic problem (see Tab.~\ref{CH3:Schedule}), which does not have a computational element, may provide additional insight into the practices indicative of creative and other types of thinking.
+
+Furthermore, the type of data that we had to work with (i.e., in-class video of group work) often made it difficult to ascertain exactly what students were thinking as they worked, and may have influenced the practices that we observed.  Conducting post-class might have helped to validate researcher inferences -- something that should be looked into in future research.
+
+%
+%
+%
+%
+%
+%
+%
+%
+%	Conclusions
+%
+%
+%
+%
+%
+%
+%
+%
+
+\chapter{Conclusion}\label{CH7:Conclusion}
+
+This thesis attempts to more clearly and precisely define the computational practices observed within introductory computational physics that are indicative of computational thinking.  Although the preliminary practices -- defined in a framework developed by Weintrop et. al -- provided a starting point (see Sec.~\ref{CH2:Framework}), they are sufficiently vague and/or ambiguous to warrant further definition.  This is especially true within the discipline of introductory physics.  Accordingly, this thesis i) describes the overall process of defining the computational practices common to introductory physics that are indicative of computational thinking and ii) presents our findings of those definitions with concrete examples (see Chs.~\ref{CH5:Observations} and \ref{CH6:Discussion}).
+
+We began by collecting data from a classroom that was designed according to multiple learning goals and theories of learning.  Specifically, a problem-based learning environment, called Projects and Practices in Physics, focusing on the principles of constructive alignment and using the theoretical framework of communities of practice \cite{Irving2017}.  This type of classroom was a rich environment to conduct qualitative education research within, and so we collected multiple streams of data (see Sec.~\ref{CH3:Context}) for possible analysis \cite{Hawkins2017,Pawlak2018}.  Although this classroom was an ideal place to search for instances of groups engaging in computational practices -- helping us to more clearly and precisely define them -- it is important not to generalize our findings to classrooms that are sufficiently different.
+
+Early research in computational physics education had suggested continuing to investigate a phenomenon called ``physics debugging \cite{Caballero2011}.''  Accordingly, a pilot study was conducted in the Fall of 2016 to better understand this phenomenon -- which ultimately raised more questions than it answered (see Ch.~\ref{CH4:Motivation}).  These additional questions motivated the need for a more rigorous and in-depth analysis of the data so that we could make and support stronger claims.
+
+Our corpus of data consists of video of nine groups working on three different computational physics problems.  This video was transcribed verbatim with gestures and actions indicated.  Similarly, overhead video and computer screencasts were collected to cross-reference with the transcript.  Given these three streams of data, we performed both a task and a thematic analysis (see Secs.~\ref{CH2:TaskAnalysis} and \ref{CH2:Thematic}) to help facilitate clear and precise definitions of the common computational practices that are observed in introductory computational physics.
+
+The common practices that we observed were: creating, analyzing, and visualizing data in the data practices; designing, constructing, and assessing models in the modeling practices; creating abstractions, programming, and troubleshooting and debugging in the problem solving practices; and thinking in levels and communicating information in the systems thinking practices.  The less common practices that we observed were: understanding concepts and finding and testing solutions in the modeling practices; assessing solutions in the problem solving practices; and investigating systems and understanding relationships in the systems thinking practices.  The unobserved practices were: collecting and manipulating data in the data practices; choosing computational tools, developing modular solutions, and preparing problems for solutions in the problem solving practices; and defining systems in the systems thinking practices.  Along with these definitions (see Ch.~\ref{CH6:Discussion}), we provide a detailed account of the data reduction, coding process, and inter-rater reliability (see Ch.~\ref{CH5:Observations}).
+
+Although we have attempted to precise some of the broad definitions of the computational practices that are indicative of computational thinking as provided by Weintrop et. al, more research is needed to fully understand them within the discipline of introductory physics.  A better understanding of these practices can only help to inform the many decisions that must be made while designing a course so as to foster the learning of knowledge, skills, and computational thinking.  As student-centered learning environments like ${\rm P}^{3}$ become increasingly popular, and as computation continues to permeate, our findings present many opportunities for continuing research.
+
+%
+%	APPENDICES
+%
+
+\appendices
+
+\section*{Common practices}
 
 %
 %
@@ -1425,25 +1655,6 @@ One technique of analysis that is often suggested is to use a print statement in
 \SB Yeah, I will.\end{description}  Here, the TA suggests that they use a print statement so that they can analyze the data representing the force acting on the satellite and to make decisions based on that analysis.  After this interaction, the group constructs a print statement in their calculation loop to print the continually updating net force acting on the satellite, thereby creating a set of data.  They then analyze this set as they assess the underlying force model.  These types of TA interactions focusing on print statements usually initiate the practice of analysis of a set of data.
 
 Ultimately, we want students in ${\rm P}^{3}$ to be able to interpret and attach meaning to the patterns that can be found in large sets of data.
-
-%
-%
-%
-
-The practice of \textbf{visualizing data} involves the \textit{production} of a visualization that clearly \textit{conveys} some information.  For example, the computational production of a dynamically updating graph of the distance between the satellite and the Earth vs. simulated time can be produced and used to clearly convey information about the nature of the orbit (i.e., how close the orbit is to perfectly circular).  This type of practice was observed $36$ times across the data set, accounting for $42\%$ of the data practices, and $13\%$ of all practices.
-
-Visualizing data is expected to show up commonly in our data given the learning goal of analyzing and interpreting data (P3).  One of the ways that data can be analyzed and interpreted is with a visualization.  Specifically, the visualizations we see students making are that of the trajectory, the force, the momentum, and the graph of distance vs. time.  These visualizations efficiently convey information both to the students and to the TA (e.g., the visualization of the force conveys information about its central nature).
-
-Additionally, students have been working with MWPs to produce dynamic visualizations of motion since the first week of class.  The first and second computational problems, focusing on boats and hovercrafts, respectively, were visualized in a number of ways (e.g., producing visualizations of their trajectories).  In other words, students are familiar with the visualization of data coming into the third problem.  Not to mention, the problem statement, shown in Fig.~\ref{CH3:SatelliteProblem}, explicitly asks students to produce a simulation/visualization of an elliptical orbit. 
-
-Furthermore, after a group has correctly constructed the Newtonian gravitational force, many of the tutor interactions focus on the generation of a graph to clearly show that the satellite isn't traveling in a perfectly circular orbit.  For example, consider Excerpt 38 from Group A where the TA is prompting the group to add in a graph to their code: \begin{description}
-\TA I'd like you to graph the orbital... the magnitude of the radius of the orbit vs. a function of time...
-\SC Okay...
-\TA And have that graphed as well and it updates
-\SC Okay.
-\end{description}  The tutor is presenting the additional goal of producing a graph to the group.  After this interaction, the group adds a graph to their program and using the results to conclude that the satellite is not traveling in a perfectly circular orbit.  This graph can be used to efficiently convey information about how close the satellite is to perfectly geostationary.  
-
-Among all things, we want ${\rm P}^{3}$ students to understand that computers can be used to quickly generate visualizations that can easily be tweaked, and that those visualizations can be useful when it comes to understanding and communicating the physics of the realistic phenomenon being modeled.  Accordingly, we are likely to observe the visualization of data in our data.
 
 %
 %
@@ -1578,7 +1789,7 @@ Thinking in levels is expected to show up frequently within our data given the l
 Additionally, students are introduced to the concept of iterative prediction of motion as an algorithmic change in different physical quantities over time.  Specifically, $\vec{p}_{\rm new} = \vec{p}_{\rm old} + \vec{F}_{\rm net}\,dt$, $\vec{r}_{\rm new} = \vec{r}_{\rm old} + \vec{v}\,dt$, and $t = t + dt$, as described in the course notes (see Sec.~\ref{CH3:VPythonNotes}).  These time-dependent physical quantities can be contrasted with time-independent (or approximately time-independent) physical quantities (e.g., the local acceleration due to gravity).  Identifying the correct time-dependence of a physical quantities is necessary to ensuring proper placement of its definition -- time-independent quantities can be placed in the initial conditions level, whereas time-dependent quantities must be placed in the calculation loop.  For example, consider Excerpt 17 from Group E where they are discussing the placement of a line of code:  \begin{description}
 \SA do we need F net to be calculated inside the loop?
 \SA that is do we need to recalculate F net every time? is it changing?
-\SB no	
+\SB no  
 \SA so we could just throw it outside of the loop\end{description}  Here, the students (incorrectly) articulate that the net force does not need to placed in the calculation loop because it does not need to update.  That is, they identify the different levels of inside and outside the loop, and correctly attributed the feature that updating quantities must be placed inside the loop, whereas other can be placed outside.
 
 Above all, we want students in ${\rm P}^{3}$ to understand the difference between time-dependent and time-independent physical quantities, and to be able to properly define and place them in code.  Accordingly, we observe this practice commonly in our data.
@@ -1599,58 +1810,16 @@ Further, many tutor interactions can help to facilitate this practice.  For exam
 \SB Square root of two, negative square root of two, zero.
 \TA What if it's not at forty five degrees?
 \TA What if it's just at some arbitrary angle?
-\SB Well, the reason that were doing this...			
+\SB Well, the reason that were doing this...      
 \SD The r hat is gonna update as it goes.
 \TA Okay...
 \SD So you don’t need to know that.
-\SB Yeah you don’t need {to know that}...		
+\SB Yeah you don’t need {to know that}...   
 \end{description}  In response to the TA prompting, the group demonstrates a strong understanding that their definition of the direction of the force in code (i.e., $\hat{r}$) will automatically update to account for these various/arbitrary positions.  Given these types of tutor interactions, we frequently observe this practice in our data.
 
 Ultimately, we want students in ${\rm P}^{3}$ to be able to clearly communicate their understanding of physical concepts, both through dialogue and by generating visual representations.
 
-%
-%
-%
-
-To summarize, there are a number of reasons that we have commonly observed these practices in terms of the learning goals and the course design.  The learning goal of being able to use mathematical and computational thinking (P4) comes into play any time students are dealing with the abstractions that they have defined in the calculation loop, which are needed to be able to accurately predict motion using the Euler-Cromer algorithms.  The learning goal of being able to analyze and interpret data (P3) shows up anytime students print or visualize the data representing a physical quantity, a common troubleshooting technique and something required by the problem statement.  The learning goal of being able to develop and use models (P1) shows up whenever students are working to construct the various force models covered in the course, which are necessary for an accurate trajectory of the satellite.  The learning goal of being able to obtain, evaluate, and communicate information (P7) shows up continually as groups are engaging in discussion with each other and with the tutors, something that we strongly encourage through tutor questions.  All of these learning goals seem to strongly influence the practices that we observe, as are detailed in the above paragraphs.  %Many of the tutor interactions that we observed help to facilitate these practices given the design of the course and the focus on the learning goals.
-
-%
-%
-%
-%
-%
-%
-%
-%
-%	LESS COMMON
-%
-%
-%
-%
-%
-%
-%
-%
-
-\subsection{Less common practices}\label{CH6:LessCommonPractices}
-
-Five of the practices laid out by the framework have been identified just a couple of times and in only five of the groups that we analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:LessCommon}) are deemed less common and are given a reasonable amount of attention.  Table~\ref{CH6:LessCommon} is broken down into the different categories: the data practices, modeling practices, problem solving practices, and systems thinking practices.  The data practices were either unobserved or commonly observed, and so this table shows only the less commonly observed modeling, problem solving, and systems practices.
-
-\begin{table}[ht]\centering
-\begin{tabular}{lllll}\hline\hline
-Category & Practice & Number & \% of category & \% of all \\\hline
-Modeling & Understanding concepts & 7 & 7 & 2 \\
- & Finding and testing solutions & 13 & 13 & 4 \\\hline
-Problem Solving & Assessing solutions & 9 & 11 & 3 \\\hline
-Systems thinking & Investigating systems & 13 & 13 & 4 \\
- & Understanding relationships & 13 & 13 & 4 \\\hline\hline
-\end{tabular}
-\caption{The computational practices that have been deemed less common are shown with the number of times each practice was identified, the percentage of its category that it occupies, and the percentage of all the practices that it occupies.  Note that none of the data practices were less commonly observed.}\label{CH6:LessCommon}
-\end{table}
-
-%
-%
-%
+\section*{Less common practices}
 
 The practice of \textbf{understanding concepts} involves \textit{progressing} toward a deeper understanding of a concept by \textit{interacting} with a computational model.  For example, while designing, constructing, or assessing a Newtonian force model in code, students progress in their understanding of the abstract concept of a unit vector as providing purely a direction to a physical quantity.  This type of practice was observed $7$ times across the data  accounting for $7\%$ of the systems thinking practices, and $2\%$ of all practices.
 
@@ -1706,30 +1875,6 @@ However, one reason that we observe finding and testing solutions less commonly 
 %
 %
 
-The practice of \textbf{assessing solutions} involves the \textit{comparison} of two or more different solutions.  This is different than just testing solutions, given that it focuses on a comparison between two or more solutions.  For example, groups often compare the expected behavior using a local gravitational force to using a Newtonian gravitational force.  In this way, multiple solutions are assessed in terms of their validity.   This type of practice was observed $9$ times across the data  accounting for $11\%$ of the systems thinking practices, and $3\%$ of all practices.
-
-We expect to see this practice in our data given the learning goal of being able to construct explanations (P5).  That is, we not only wanted students to make comparisons between models, but we also wanted them to clearly explain those differences.  These long and often complicated explanations, then, are often a clear indication of a group assessing a solution.  
-
-Additionally, many of the tutor interactions can encourage this practice.  For example, consider Excerpt 22 from Group B where the TA is asking them about the two models they have written on their board:\begin{description}
-\TA So these two forces that you have on your board...
-\TA Fg and Fcent...
-\TA Which of those do you want to use?
-\SB We are thinking Fcent...
-\TA Why?
-\SB Because we have everything we need for it...
-\end{description}  Here the models that the group is comparing are the gravitational force and the centripetal force.  Specifically, the group explains the difference between the two as being in terms of the requirements of the model.  After this interaction, the group runs through the individual elements of the model that they have decided on, and begin to construct it in code.  Given interactions like these, we expect to see this practice in our data.
-
-However, one reason that we observe assessing solutions less commonly within our data might be that some groups are better or worse at making comparisons -- a key characteristic of this practice.  Most groups take a guess and check approach rather than a contrast and compare approach \cite{Hammann2003}, and so we only see this practices less commonly relative to the rest.  For example, Excerpt 7 from Group G shows a common exchange: \begin{description}
-\SC But I feel like we should just try this one {Fcent equation}...
-\SC And see if it works
-\SC Because if it doesnt, then we can worry about it {later}
-\SB Yeah okay, lets just do that.
-\end{description}  Here, the group tentatively decides on a model without comparing it to any other possible models (e.g., a Newtonian gravitational force).  A group with at least one member that is highly motived to compare the pros and cons of different solutions will likely engage in this practice more often.  %Overall, we want students in ${\rm P}^{3}$ to be able to explain the differences, both qualitative and quantitative, between various force models.
-
-%
-%
-%
-
 The practice of \textbf{investigating systems} involves \textit{questioning} and \textit{interpreting} data gathered from a system as a whole.  For example, a graph of the set of data representing the distance between the Earth and the satellite can be questioned about its qualitative time-dependence (e.g., if it is constant, linear, quadratic, sinusoidal, etc.).  This type of practice was observed $13$ times across the data, accounting for $13\%$ of the systems thinking practices, and $4\%$ of all practices.
 
 Investigating systems as a whole is expected to show up in our data given the learning goal of planning and carrying out investigations (P2).  The act of planning is scaffolded by the four-quadrants -- students must list their knowns, unknowns, assumptions, and draw out any representations.  These quadrants help students to generate questions (e.g., ``what are we even trying to figure out?'') that can be investigated for answers.  Given the focus on questioning in Weintrop et. al's definition of investigating systems as a whole, we expect to see this practice in our data.
@@ -1774,35 +1919,7 @@ However, one reason that we observe understanding relationships less commonly wi
 \SB Yeah okay that makes sense
 \end{description}  Here, Student A is explaining the concept of a limit in terms of the way that the force should depend on distance (i.e., $F\propto1/d^2$).  Given %A group with at least one member that has a strong mathematical background (e.g., is proficient at taking mathematical limits) will likely engage in this practice more often.  %Overall, we want students in ${\rm P}^{3}$ to understand that different mathematical relationships result in different types of physical behavior.
 
-%
-%
-%
-
-To summarize, there are a number of reasons that we observed these practices given the learning goals and the design of the course.  The learning goal of being able to engage in argument from evidence (P6) manifests when students are defending the use of a particular model, which is necessary to choosing the most appropriate force model (i.e., the Newtonian gravitational force).  The learning goal of being able to construct explanations (P5) happens when students are comparing different force models, which similarly is needed to choose the most appropriate force model.  The learning goal of being able to obtain, evaluate, and communicate information (P7) shows up continually as groups are engaging in discussion with each other and with the tutors, something that we strongly encourage through tutor questions.  The learning goal of being able to plan and carry out investigations (P2) happens continually as groups are dealing with the complicated system that we have provided to them, which is a crucial part of programming and computer engineering.  The learning goal of being able to develop and use models (P1) shows up whenever students are working to construct the various force models covered in the course, which must be correctly translated into code for the program to run correctly.  However, the reasons as to why we only observe these practices less commonly relative to the other practices -- aside from the limitations of the framework and the course design -- may be due to the variation in student preparation coming into the course, as detailed in the above paragraphs.
-
-%
-%
-%
-%
-%
-%
-%
-%
-%	UNOBSERVED
-%
-%
-%
-%
-%
-%
-%
-%
-
-\subsection{Unobserved practices}\label{CH6:Unobserved}
-
-Six of the practices laid out by the framework have not been observed at all.  Accordingly, these practices (i.e., collecting data, manipulating data, choosing computational tools, developing modular solutions, preparing problems, defining systems) are given their due attention.  Although these practices are unobserved, it is still important to discuss why they are unobserved.
-
-The practice of \textbf{collecting data} is not expected to show up in our data given that there are no sensors or meters that are provided to students, as they might be in a lab setting.  The only tool students are required to use is the computer along with VPython.  This tool, although it can be used to handle the collection of data, is primarily meant to be used to create the data algorithmically.  This aligns with the learning goals of developing and using models (P1) to create data, rather than collecting it.  Mainly, we want students in ${\rm P}^{3}$ to be able to create large and complicated sets of data using various models and algorithms, rather than to simply collect it with a sensor.
+\section*{Unobserved practices}
 
 The practice of \textbf{manipulating data} is not expected to show up in our data given that its definition (see Sec.~\ref{CH2:Framework}) focuses on the reshaping of data (e.g., filtering a set of data or merging two sets of data into one).  Students are not required to reshape data in this way in ${\rm P}^{3}$ (e.g., by using the pandas package to merge two data sets).  Rather, they are required to create the data algorithmically, which can then be visualized or analyzed.
 
@@ -1819,133 +1936,6 @@ The practice of \textbf{preparing problems for computational solutions} is not e
 The practice of \textbf{defining systems and managing complexity} is not expected to show up in our data given that most students have very little prior programming experience.  This is possibly due to the fact that there are no computational prerequisites for ${\rm P}^{3}$.  Given this lack of prior programming experience, interaction with the programming system as a whole is restricted by design.  Although there is an instructor generated system that students are using (i.e., a MWP in Python that interfaces with PhysUtil and the Visual module), its complexity and management are beyond the scope of the course.  This is reflected in the absence of a learning goal (see Sec.~\ref{CH3:InClassWork}) focusing on the system as a whole.  Additionally, the problem statement itself does not explicitly require students to interact with the system as a whole, and tutors will dissuade this action.
 
 Further, the first three MWPs all follow the same basic program structure: using a single calculation loop to integrate Newton's equations of motion with a particular force model.  Accordingly, the vast majority of time is spent working on the force model, rather than engaging with the system itself.  In this way, we limit the students' interactions with defining systems and managing their complexity.  Above all, we don't expect students in ${\rm P}^{3}$ to understand or modify the underlying system itself, rather, we just expect them to be able to use it to solve the problem.
-
-To summarize, there are a number of reasons that we did not observe these practices.  Specifically, the lack of learning goals related to data collection, data manipulation, choosing tools, developing modular solutions, preparing problems for solutions, and defining systems and managing complexity.  Further, given the lack of focus on these learning goals, many tutor interactions worked to intentionally dissuade students from engaging in these unobserved practices.
-
-%
-%
-%
-%
-%
-%
-%
-%
-%	Limitations
-%
-%
-%
-%
-%
-%
-%
-%
-
-\section{Limitations}
-
-Although the framework gives a solid foundation and a good starting place, it does not come without its limitations that influence the practices we were able to identify.  Additionally, the course and its design invariably constrains the practices that we have and have not observed.  Furthermore, the activity itself places additional constraints on the practices available to the students.  Finally, the qualitative lens that we have used influences the analysis we have conducted.  In this section, we describe the limitations of the framework, the constraints of the course and activity, the primary lens we have used to guide our analysis, and how they relate to the practies we have been able to confidently identify.  %Finally, we discuss some of the possible improvements that can be made.
-
-\subsection{Framework}
-
-Although the framework that we used has many benefits, there are also some limitations that come along with it.  For the most part, these limitations are centered on the very broad definitions that are provided by Weintrop et. al.  Although their broad definitions are widely applicable to many different types of science and mathematics classrooms generally, they can be rather vague/ambiguous when applying them to a particular classroom.  Accordingly, the following sections describe the vague/ambiguous definitions within ${\rm P}^{3}$ in terms of the four different categories of practices: the data, modeling, problem solving, and systems thinking practices.
-
-\subsubsection{Data}
-
-Within the data practices, it is often difficult to identify precisely when students are \textit{advancing} toward the goals of the problem through the creation of data.  Although the construction of the computational algorithm that creates the data can be easily identified in code, the advancement that they undergo is more subjective.  The goals of the problem (e.g., simulating an orbit or producing a graph) often take the entire two hours of the class to be accomplished, and the different paths to get there are winding and often non-linear.  For example, after constructing a working force model in code, a group is ready to automatically and algorithmically create a set of data representing the force on the satellite.  However, this possibly incorrect/inaccurate set of data does not immediately or completely advance them toward their goal of creating an elliptical orbit.  Still, this incorrect set of data can eventually prompt them to correctly modify their force model -- ultimately advancing them toward their goal of creating an elliptical orbit.  In other words, sometimes you need to take a step back before you can take two steps forward.  Given this difficulty in defining what constitutes advancing toward a goal, identifying this practice was often difficult.
-
-%Similarly, it can be difficult to clearly identify when a group is \textit{conveying} information by way of a visualization of a set of data.  Producing a visualization is not enough to classify an excerpt as visualizing data -- the visualization must also be used to convey some information either to other members of the group or to the TAs.  For example, creating a graph of the separation distance between the satellite and the Earth vs. time is a visualization that groups are asked to produce (see Sec.~\ref{CH3:SatelliteProblem}), and can be used to convey information about the circularity of the orbit (see Sec.~\ref{}).  Without a groups clear articulation of that information, 
-
-\subsubsection{Modeling}
-
-Within the modeling and simulation practices, it is often difficult to identify when a group is \textit{progressing} in their understanding of a concept as they interact with the models of the course.  Although it is easy to identify the different force models, and to identify when a group is interacting with them (e.g., designing on the whiteboard or constructing in code), it is more difficult to say when a group is using that model to make progress in their understanding of the underlying concepts.  Not to mention, it is difficult to clearly define what it means to truly \textit{understand} something.  For example, groups are frequently seen interacting with the computational model of the Newtonian gravitational force.  As they necessarily construct the direction of the force in terms of the separation vector and its magnitude, they should be using it to develop an understanding of the way that the force changes direction over time.  This understanding, although difficult to directly observe, can be teased out through tutor interactions (see Sec.~\ref{CH5:CommunicatingInformation}).  It often takes a long line of tutor questioning to confidently check a group's understanding.  Given this difficulty in defining what constitutes progressing in the understanding of a concept, identifying this practice was difficult.
-
-\subsubsection{Problem solving}
-
-Within the problem solving practices, it can be difficult to clearly define what it means for a group to be \textit{systematic} while troubleshooting and debugging their code.  Although it is relatively easy to identify when a group has isolated and corrected an error, it is not so easy to identify when a group is being systematic in that process.  Although many groups devise plans to methodically isolate and correct errors until they have successfully troubleshooted or debugged their code (see Ch.~\ref{CH4:Motivation}), those plans are not always successful.  Additionally, many groups stumble haphazardly on unexpected errors, and correct them in a similar fashion.  Given this difficulty in denfining what it means to systematically troubleshoot and debug, identifying this practice was difficult.
-
-\subsubsection{Systems}
-
-Within the systems thinking practices, understanding relationships in a system is ambiguously defined -- it can have a significant amount of overlap with the practice of designing a computational model (see Sec.~\ref{CH5:SecDesigingModels}).  This overlap ultimately depends on the ambiguous definition of a system given by Weintrop et. al.  For example, if a computational force model can be considered a system, then anytime students are designing a computational model they are also understanding the relationships in a system.  Rather, if a system refers to something more like a collection of files that are related to one other to create a program (e.g., a Python script that loads different modules/libraries), then understanding the relationships in a system would most likely not occur alongside designing a computational model.  This type of ambiguity has a tendency to lower confidence during inter-rater reliability.  Accordingly, this practice is confidently observed less often.
-
-\subsection{Course}\label{CH6:Context}
-
-Although the course that we collected our data from was well designed and implemented (see Ch.~\ref{CH3:Context}), it was not conducive to some of the practices laid out by the framework, stemming from the many design choices that were made early on.  These crucial design choices and their ramifications on our analysis/findings are described in the sections that follow.
-
-\subsubsection{Group vs. individual}
-
-Given that the course followed a group-based approach, it was often difficult to say which individual students were actively engaging in the practice.  For example, the process of agreeing on the assumptions of the force model often involves multiple viewpoints that must be taken into account simultaneously.  Accordingly, it is difficult to ascribe the practice to any individual from the group.  Additionally, just because invidivuals are not physical engaged (e.g., talking or writing) does not mean that they are not mentally engaged.  However, follow-up interview data could be used as additional evidence for ascribing a particular practice to a specific individual.
-
-\subsubsection{Scaffolding vs. discovery}
-
-At the beginning of the course, a ``norming'' day was held as a means to provide students with an overview of the course structure and a reason as to why it was being run that way.  An important component of that day was on the modeling component of the course, illustrated in Fig.~\ref{CH6:Modeling}.  Given this focus on modeling at the beginning of the course, it is no surprise that we frequently observed students engaging in the various computational modeling practices defined by Weintrop et. al.
-
-\begin{figure}\center
-\includegraphics[scale=1]{images/CH6Modeling.pdf}
-\caption{The iterative process of modeling physical systems that was described to the class on the first dat.}\label{CH6:Modeling}
-\end{figure}
-
-Additionally, the course was reasonably scaffolded with the pre-class reading and pre-class homework.  The pre-class reading is meant to introduce the fundamental concepts while the pre-class homework is meant to check for correct application of those concepts.  This prepration helps the students to frame the problem in a way that uses many of the practices.  For example, some of the homework problems (see Sec.~\ref{CH3:PostClassHomework}) focus on VPython errors that must be identified.  Given this type of preparation, many students engaged in the practice of things like troubleshooting and debugging and programming.
-
-Moreover, the frequent tutor interactions throughout the course are meant to check for understanding of the concepts and their application while in class.  However, these frequent tutor interactions make it difficult to say whether or not the practices observed are generated by the students or by the tutors -- a ``social observer'' effect.  Many times, TAs dissuade students from engaging in certain practies, and intentionally encourage them to engage in others.  For example, any group that gets lost in the PhysUtil system file will invariably be encouraged to stop that and start focusing on the MWP.
-
-\subsubsection{Intro vs. advanced}\label{CH6:IntroVsAdvanced}
-
-The course was designed around introductory physics concepts, which limited the types of forces and motion models that could be analyzed.  The analysis of a more advanced classroom (e.g., computational Newtonian mechanics using higher order algorithms) may provide additional practices.  For example, in more advanced physics classrooms we may expect groups to \textit{optimize} their models by adding more than just one force -- something that is lacking in the Weintrop framework.  In other words, we can begin to search for new and unique practices in a more advanced ${\rm P}^{3}$-style classroom.
-
-An important limitation of the study is that we did not focus on classifying the levels of sophistication of the practices.  Rather, we just focused on identifying them.  As computation continues to grow in industry and academia \cite{Chonacky2008}, and as new and more advanced computational techniques are discovered, it is important that we begin to classify the Weintrop practices in terms of their levels of sophistication.  Although we do not expect to see extremely unique or sophisticated practices in our data, it is something that should be focused on in future research.
-
-\subsection{Activity}\label{CH6:Activity}
-
-At the level of the activity itself, its boundaries limit the practices that we observe.  For example, the problem statement contains many direct tasks, as well as a few that are implied.  Additionally, the focus of the activity is on relatively intuitive physical concepts (i.e., the gravitational force and Newton's second law).  These types of requirements and their implications on our findings are described in the sections that follow.
-
-Given that the problem statement contains both explicit and implied tasks, it has a large influence on the practices that we do and do not observe.  Specifically, the direct tasks in the problem statement are to i) produce a simulation of an elliptical orbit, ii) produce a diagram showing the momentum of the satellite, and iii) produce a graph of the radius of the orbit over time.  Given the direct task of (i), we expect to see groups designing, constructing, and assessing models in code as they work to produce their physically accurate simulation (see Sec.~\ref{CH5:DesigningModels}).  Additionally, given (ii) we expext to see groups analyzing and visualize data as they communicate information about the way that the momentum of the satellite changes over time (see Sec.~\ref{CH5:AnalyzingData}).  Similarly, given (iii) we expect to see students engaging in the practice of visualizing data as they communicate information about the radius of the orbit over time (see Sec.~\ref{CH5:CommunicatingInformation}).  The direct tasks lead to the more commonly observed practices.
-
-The direct tasks in the problem statement are explicitly laid out for groups and so take precedence, whereas the implied tasks in the problem statement are often a difficult thing for students to infer on their own.  For example, one implied task is to develop a proficieny in dealing with relatively small programming systems (i.e., the self-contained MWP).  Another implied task is to develop an understanding of the concept of a directional unit vector as it shows up in the Newtonian force (see Sec.~\ref{CH5:SecCommunicatingInformation}).  These rather subtle implied task may be reasons that we observe groups engaging in some of the practices less commonly (see Sec.~\ref{CH6:LessCommon}).
-
-\subsection{Analysis}\label{CH6:Analysis}
-
-It is important to note that this study was conducted through the lens of an instructor, looking to increase the amount of computation at the introductory physics level and to improve the way that it is taught.  Accordingly, we not only focused on the students themselves, but there was also a heavy focus on the way that the tutors interacted with the students to either encourage or discourage certain practices.
-
-%
-%
-%
-%
-%
-%
-%
-%
-%	Conclusions
-%
-%
-%
-%
-%
-%
-%
-%
-
-\chapter{Conclusion}\label{CH7:Conclusion}
-
-This thesis attempts to more clearly and precisely define the computational practices observed within introductory computational physics that are indicative of computational thinking.  Although the preliminary practices -- defined in a framework developed by Weintrop et. al -- provided a starting point (see Sec.~\ref{CH2:Framework}), they are sufficiently vague and/or ambiguous to warrant further definition.  This is especially true within the discipline of introductory physics.  Accordingly, this thesis i) describes the overall process of defining the computational practices common to introductory physics that are indicative of computational thinking and ii) presents our findings of those definitions with concrete examples (see Chs.~\ref{CH5:Observations} and \ref{CH6:Discussion}).
-
-We began by collecting data from a classroom that was designed according to multiple learning goals and theories of learning.  Specifically, a problem-based learning environment, called Projects and Practices in Physics, focusing on the principles of constructive alignment and using the theoretical framework of communities of practice \cite{Irving2017}.  This type of classroom was a rich environment to conduct qualitative education research within, and so we collected multiple streams of data (see Sec.~\ref{CH3:Context}) for possible analysis \cite{Hawkins2017,Pawlak2018}.  Although this classroom was an ideal place to search for instances of groups engaging in computational practices -- helping us to more clearly and precisely define them -- it is important not to generalize our findings to classrooms that are sufficiently different.
-
-Early research in computational physics education had suggested continuing to investigate a phenomenon called ``physics debugging \cite{Caballero2011}.''  Accordingly, a pilot study was conducted in the Fall of 2016 to better understand this phenomenon -- which ultimately raised more questions than it answered (see Ch.~\ref{CH4:Motivation}).  These additional questions motivated the need for a more rigorous and in-depth analysis of the data so that we could make and support stronger claims.
-
-Our corpus of data consists of video of nine groups working on three different computational physics problems.  This video was transcribed verbatim with gestures and actions indicated.  Similarly, overhead video and computer screencasts were collected to cross-reference with the transcript.  Given these three streams of data, we performed both a task and a thematic analysis (see Secs.~\ref{CH2:TaskAnalysis} and \ref{CH2:Thematic}) to help facilitate clear and precise definitions of the common computational practices that are observed in introductory computational physics.
-
-The common practices that we observed were: creating, analyzing, and visualizing data in the data practices; designing, constructing, and assessing models in the modeling practices; creating abstractions, programming, and troubleshooting and debugging in the problem solving practices; and thinking in levels and communicating information in the systems thinking practices.  The less common practices that we observed were: understanding concepts and finding and testing solutions in the modeling practices; assessing solutions in the problem solving practices; and investigating systems and understanding relationships in the systems thinking practices.  The unobserved practices were: collecting and manipulating data in the data practices; choosing computational tools, developing modular solutions, and preparing problems for solutions in the problem solving practices; and defining systems in the systems thinking practices.  Along with these definitions (see Ch.~\ref{CH6:Discussion}), we provide a detailed account of the data reduction, coding process, and inter-rater reliability (see Ch.~\ref{CH5:Observations}).
-
-Although we have attempted to precise some of the broad definitions of the computational practices that are indicative of computational thinking as provided by Weintrop et. al, more research is needed to fully understand them within the discipline of introductory physics.  A better understanding of these practices can only help to inform the many decisions that must be made while designing a course so as to foster the learning of knowledge, skills, and computational thinking.  As student-centered learning environments like ${\rm P}^{3}$ become increasingly popular, and as computation continues to permeate, our findings present many opportunities for continuing research.
-
-%
-%	APPENDICES
-%
-
-%\appendices\label{Appendix}
-
-%\section*{Constructing computational models}
-
-%\section*{Programming}
 
 %
 %	BIBLIOGRAPHY
