@@ -1,82 +1,14 @@
 \begin{thebibliography}{10}
 
-\bibitem{AAPT2016}
-Undergraduate Curriculum Task~Force AAPT.
-\newblock Recommendations for computational physics in the undergraduate
-  physics curriculum.
-\newblock Technical report, AAPT, 2016.
-
-\bibitem{Ahmadzedah2005}
-Marzieh Ahmadzedah, Dave Elliman, and Colin Higgins.
-\newblock An analysis of patterns of debugging among novice computer science
-  students.
-\newblock In {\em ITiCSE Proceedings}, 2005.
-
-\bibitem{Aho2012}
-Alfred Aho.
-\newblock Computation and computational thinking.
-\newblock {\em The Computer Journal}, 2012.
-
-\bibitem{Antaki2002}
-C.~Antaki, M.~Billig, D.~Edwards, and J.~Potter.
-\newblock Discourse analysis means doing aanalysi: a critqiue of six analytic
-  shortcomings.
-\newblock {\em DAOL Discourse Analysis Online}, 2002.
-
-\bibitem{Aronson1995}
-J.~Aronson.
-\newblock A pragmatic view of thematic analysis.
-\newblock {\em The Qualitative Report}, 1995.
-
-\bibitem{Belloni2008}
-M.~Belloni and W.~Christian.
-\newblock Time development in quantum mechanics using a reduced hilbert space
-  approach.
-\newblock {\em American Journal of Physics}, 2008.
-
-\bibitem{Bing2009}
-Thomas~J. Bing and Edward~F Redish.
-\newblock Analyzing problem solving using math in physics: epistemological
-  framing via warrants.
-\newblock {\em Physical Review Special Topics - Physics Education Research},
-  2009.
-
-\bibitem{Braun2008}
-Virginia Braun and Victoria Clarke.
-\newblock Using thematic analysis in psychology.
-\newblock {\em Qualitative Research in Psychology}, 2008.
-
-\bibitem{Buffler2008}
-A.~Buffler, S.~Pillay, F.~Lubben, and R.~Fearick.
-\newblock A model-based view of physics for computational activities in the
-  introductory physics course.
-\newblock {\em American Journal of Physics}, 2008.
+\bibitem{Ivie2002}
+Rachel Ivie and Katie Stowe.
+\newblock The early careers of physics bachelors.
+\newblock {\em American Institute of Physics}, 2002.
 
 \bibitem{Bundy2007}
 Alan Bundy.
 \newblock Computational thinking is pervasive.
 \newblock {\em Journal of Scientific and Practical Computing}, 2007.
-
-\bibitem{Caballero2011}
-Marcos Caballero, Matthew Kohlmyer, and Michael Schatz.
-\newblock Fostering computational thinking in introductory mechanics.
-\newblock In {\em PERC Proceedings}, 2011.
-
-\bibitem{Catrambone1998}
-Richard Catrambone.
-\newblock The subgoal learning model: Creating better eexample so that students
-  can solve novel pproblem.
-\newblock {\em Journal of Experimental Psychology}, 1998.
-
-\bibitem{Chabay2008}
-Ruth Chabay and Bruce Sherwood.
-\newblock Computational physics in the introductory calculus-based course.
-\newblock {\em American Journal of Physics}, 2008.
-
-\bibitem{Chandra1990}
-B.~Chandrasekaran.
-\newblock Design problem solving: a task analysi.
-\newblock {\em AI maganize}, 1990.
 
 \bibitem{Chonacky2008}
 Norman Chonacky and David Winch.
@@ -84,105 +16,11 @@ Norman Chonacky and David Winch.
   and guidelines for future developments.
 \newblock {\em American Journal of Physics}, 2008.
 
-\bibitem{Cook2008}
-D.~Cook.
-\newblock Computation in undergraduate physics: The lawrence approach.
-\newblock {\em American Journal of Physics}, 2008.
-
-\bibitem{Crandall2006}
-B.~Crandall, G~Kelin, and R.~R. Hoffman.
-\newblock {\em Working minds: a practioner's guide to cognitive task analysis}.
-\newblock Massachusetts Institute of Technology, 2006.
-
-\bibitem{DiSessa1986}
-A.~A. DiSessa and H~Abelson.
-\newblock Boxer: A reconstructible computerional medium.
-\newblock {\em Communications of the ACM}, 1986.
-
-\bibitem{Esquembre2005}
-F.~Esquembre.
-\newblock Easy java simulations: An open-source tool to develop interactive
-  virtual laboratories using matlab/simulink.
-\newblock {\em International Journal of Engineering Education}, 2005.
-
-\bibitem{Fereda2006}
-Jennifer Fereda and Eimear Muir-Cochrane.
-\newblock Demonstrating rigor using thematic analysis: A hybrid approach of
-  inductive and deductive coding and theme development.
-\newblock {\em International Journal of Qualitative Methods}, 2006.
-
-\bibitem{Fitzgerald2008}
-Sue Fitzgerald, Gary Lewandowski, Renee McCauley, Laurie Murphy, Beth Simon,
-  Lynda Thomas, and Carol Zander.
-\newblock Debugging: finding, fixing and flailing, a multi-institutional study
-  of novice debuggers.
-\newblock {\em Computer Science Education}, 2008.
-
-\bibitem{Flyvbjerg2006}
-Bent Flyvbjerg.
-\newblock Five misunderstandings about case-study research.
-\newblock {\em Qualitative Inquiry}, 2006.
-
-\bibitem{Grover2013}
-Shuchi Grover and Roy Pea.
-\newblock Computational thinking in k-12: A review of the state of the field.
-\newblock {\em Educational Resarcher}, 2013.
-
-\bibitem{Hammann2003}
-Lynne~A. Hammann and Robert~J. Stevens.
-\newblock Instructional apapproach to improving students' writing of
-  compare-contrast essays: an experimental study.
-\newblock {\em Journal of Literacy Research}, 2003.
-
-\bibitem{Hawkins2017}
-N.~T. Hawkins, P.~W. Irving, and M.~D. Caballero.
-\newblock Understanding student perceptions of computational physics pproblem
-  in introductory mechanics.
-\newblock In {\em PERC Proceedings}, 2017.
-
-\bibitem{Hoover2008}
-Wm.~G. Hoover and C.~G. Hoover.
-\newblock Computational physics wth particles.
-\newblock {\em American Journal of Physics}, 2008.
-
-\bibitem{Irving2016}
-P.~W. Irving and E.~C. Sayre.
-\newblock Developing physics identities.
-\newblock {\em Physics Today}, 2016.
-
-\bibitem{Irving2017}
-Paul Irving, Michael Obsniuk, and Marcos Caballero.
-\newblock P$^{3}$: A practice focused learning environment.
-\newblock {\em European Journal of Physics}, 2017.
-
-\bibitem{Joffe2004}
-H.~Joffe and L.~Yardley.
-\newblock {\em Research Methods for Clinical and Health Psychology}.
-\newblock Sage, 2004.
-
-\bibitem{Kirwan2005}
-B.~Kirwan and L.~K. Ainsworth.
-\newblock {\em A guide to task analysis}.
-\newblock Taylor \& Francis, 2005.
-
-\bibitem{Kohlmyer2005}
-Matthew Kohlmyer.
-\newblock {\em Student performance in computer modeling and problem solving in
-  a modern introductory physics course}.
-\newblock PhD thesis, Carnegie Mellon University, 2005.
-
-\bibitem{McCauley2008}
-Renee McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon,
-  Lunda Thomas, and Carol Zander.
-\newblock Debugging: a review of the literature from ane ducational
-  perspective.
-\newblock {\em Computer Science Education}, 2008.
-
-\bibitem{McIntyre2008}
-D.~H. McIntyre and C.~A. Manogue.
-\newblock Integrating computational activities into the upper-level paradigms
-  in physics curriculum.
-\newblock {\em American Journal of Physics}, 2008.
+\bibitem{AAPT2016}
+Undergraduate Curriculum Task~Force AAPT.
+\newblock Recommendations for computational physics in the undergraduate
+  physics curriculum.
+\newblock Technical report, AAPT, 2016.
 
 \bibitem{NGSS2012}
 Committee on~a Conceptual Framework~for New K-12 Science Education~Standards.
@@ -190,98 +28,10 @@ Committee on~a Conceptual Framework~for New K-12 Science Education~Standards.
   Concepts, and Core Ideas}.
 \newblock The National Academies Press, 2012.
 
-\bibitem{Papert1972}
-Seymour Papert.
-\newblock Teaching children thinking.
-\newblock {\em Mathematics Teaching}, 1972.
-
-\bibitem{Papert1981}
-Seymour Papert.
-\newblock {\em Mindstorms: Children, computers, and powerful ideas}.
-\newblock Basic Books, 1981.
-
-\bibitem{Papert1996}
-Seymour Papert.
-\newblock An exploration in the space of mathematics educations.
-\newblock {\em Technology, Knowledge, and Learning}, 1996.
-
-\bibitem{Pawlak2018}
-Alanna Pawlak, Paul~W. Irving, and Marcos~D. Caballero.
-\newblock Development of the mmodel of collaboration framework.
-\newblock {\em Physical Review Special Topics - Physics Education Research},
-  2018.
-
-\bibitem{Perkins2006}
-Katherine Perkins, Wendy Adams, Michael Dubson, Noah Finkelstein, Sam Reid,
-  Carl Wieman, and Ron LeMaster.
-\newblock Phet: Interactive simulations for teaching and learning physics.
-\newblock {\em The Physics Teacher}, 2006.
-
-\bibitem{Piaget1963}
-Jean Piaget.
-\newblock {\em Origins of intellifence in children}.
-\newblock W. W. Norton and Company, 1963.
-
-\bibitem{Potter1997}
-J.~Potter and M.~Wetherell.
-\newblock {\em Discourse analysis as a way of analysing naturally occurring
-  talk}.
-\newblock Sage, 1997.
-
-\bibitem{Pugalee2004}
-David~K. Pugalee.
-\newblock A comparison of verbal and written descriptions of students' problem
-  solving processes.
-\newblock {\em Educational Studies in Mathematics}, 2004.
-
-\bibitem{Redish1992}
-Edward Redish and Jack Wilson.
-\newblock Student programming in the introductory physics course: M.u.p.p.e.t.
-\newblock {\em American Journal of Physics}, 1992.
-
-\bibitem{Redish2005}
-Edward~F. Redish.
-\newblock Problem solving and the use of math in physis courses.
-\newblock In {\em World View on Physics Education Proceedings}, 2005.
-
-\bibitem{Sherer2000}
-David Sherer, Paul Dubois, and Bruce Sherwood.
-\newblock Vpython: 3d interactive scientific graphics for students.
-\newblock {\em Computing in Science \& Engineering}, 2000.
-
-\bibitem{Tamir2007}
-Pinchas Tamir.
-\newblock Justifying the selection of answers in multiple choice items.
-\newblock {\em International Journal of Science Education}, 2007.
-
-\bibitem{Vaismoradi2013}
-M.~Vaismoradi and T.~Bondas.
-\newblock Content analysis and thematic analysis: implications for conducting a
-  qualitative descriptive study.
-\newblock {\em Nursing and Health Sciences}, 2013.
-
-\bibitem{Vygotsky1980}
-L.S. Vygotsky.
-\newblock {\em Mind in Society: The Development of Higher Psychological
-  Processes}.
-\newblock 1980.
-
-\bibitem{Weatherford2011}
-Shawn Weatherford.
-\newblock {\em Student use of physics to make sense of Incomplete but
-  functional VPython programs in a lab setting.}
-\newblock PhD thesis, North Carolina State University, 2011.
-
-\bibitem{Weber2005}
-Keith Weber.
-\newblock Students' understanding of trigonometric functions.
-\newblock {\em Mathematics Education Research Journal}, 2005.
-
-\bibitem{Weiman2008}
-C.~E. Weiman, K.~K. Perkins, and W.~K. Adams.
-\newblock Interactive simulations for teaching physics: what works, what
-  doesn't, and why.
-\newblock {\em American Journal of Physics}, 2008.
+\bibitem{NGSS2013}
+NGSS~Lead States.
+\newblock {\em Next generation science standards: for states, by states}.
+\newblock The national Academies Press, 2013.
 
 \bibitem{Weintrop2015}
 David Weintrop, Elham Behesthi, Michael Horn, Kai Orton, Kemi Jona, Laura
@@ -290,19 +40,279 @@ David Weintrop, Elham Behesthi, Michael Horn, Kai Orton, Kemi Jona, Laura
   classrooms.
 \newblock {\em Journal of Science Education Technology}, 2015.
 
-\bibitem{Widdicombe1995}
-S.~Widdicombe and R.~Wooffitt.
-\newblock {\em The language of youth subcultures: social identity in action}.
-\newblock Harvester Wheatsheaf, 1995.
+\bibitem{Chabay2008}
+Ruth Chabay and Bruce Sherwood.
+\newblock Computational physics in the introductory calculus-based course.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Kohlmyer2005}
+Matthew Kohlmyer.
+\newblock {\em Student performance in computer modeling and problem solving in
+  a modern introductory physics course}.
+\newblock PhD thesis, Carnegie Mellon University, 2005.
+
+\bibitem{Sherer2000}
+David Sherer, Paul Dubois, and Bruce Sherwood.
+\newblock Vpython: 3d interactive scientific graphics for students.
+\newblock {\em Computing in Science \& Engineering}, 2000.
+
+\bibitem{Papert1981}
+Seymour Papert.
+\newblock {\em Mindstorms: Children, computers, and powerful ideas}.
+\newblock Basic Books, 1981.
+
+\bibitem{Wing2006}
+Jeannette Wing.
+\newblock Computational thinking.
+\newblock {\em Communications of the ACM}, 2006.
 
 \bibitem{Wing2008}
 Jeanette Wing.
 \newblock Computational thinking and thinking about computing.
 \newblock {\em The Royal Society}, 2008.
 
-\bibitem{Wing2006}
-Jeannette Wing.
-\newblock Computational thinking.
-\newblock {\em Communications of the ACM}, 2006.
+\bibitem{Aho2012}
+Alfred Aho.
+\newblock Computation and computational thinking.
+\newblock {\em The Computer Journal}, 2012.
+
+\bibitem{Grover2013}
+Shuchi Grover and Roy Pea.
+\newblock Computational thinking in k-12: A review of the state of the field.
+\newblock {\em Educational Resarcher}, 2013.
+
+\bibitem{Papert1996}
+Seymour Papert.
+\newblock An exploration in the space of mathematics educations.
+\newblock {\em Technology, Knowledge, and Learning}, 1996.
+
+\bibitem{Piaget1963}
+Jean Piaget.
+\newblock {\em Origins of intellifence in children}.
+\newblock W. W. Norton and Company, 1963.
+
+\bibitem{Papert1972}
+Seymour Papert.
+\newblock Teaching children thinking.
+\newblock {\em Mathematics Teaching}, 1972.
+
+\bibitem{DiSessa1986}
+A.~A. DiSessa and H~Abelson.
+\newblock Boxer: A reconstructible computerional medium.
+\newblock {\em Communications of the ACM}, 1986.
+
+\bibitem{Redish1992}
+Edward Redish and Jack Wilson.
+\newblock Student programming in the introductory physics course: M.u.p.p.e.t.
+\newblock {\em American Journal of Physics}, 1992.
+
+\bibitem{McIntyre2008}
+D.~H. McIntyre and C.~A. Manogue.
+\newblock Integrating computational activities into the upper-level paradigms
+  in physics curriculum.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Buffler2008}
+A.~Buffler, S.~Pillay, F.~Lubben, and R.~Fearick.
+\newblock A model-based view of physics for computational activities in the
+  introductory physics course.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Belloni2008}
+M.~Belloni and W.~Christian.
+\newblock Time development in quantum mechanics using a reduced hilbert space
+  approach.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Hoover2008}
+Wm.~G. Hoover and C.~G. Hoover.
+\newblock Computational physics wth particles.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Cook2008}
+D.~Cook.
+\newblock Computation in undergraduate physics: The lawrence approach.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Weiman2008}
+C.~E. Weiman, K.~K. Perkins, and W.~K. Adams.
+\newblock Interactive simulations for teaching physics: what works, what
+  doesn't, and why.
+\newblock {\em American Journal of Physics}, 2008.
+
+\bibitem{Esquembre2005}
+F.~Esquembre.
+\newblock Easy java simulations: An open-source tool to develop interactive
+  virtual laboratories using matlab/simulink.
+\newblock {\em International Journal of Engineering Education}, 2005.
+
+\bibitem{Weatherford2011}
+Shawn Weatherford.
+\newblock {\em Student use of physics to make sense of Incomplete but
+  functional VPython programs in a lab setting.}
+\newblock PhD thesis, North Carolina State University, 2011.
+
+\bibitem{Perkins2006}
+Katherine Perkins, Wendy Adams, Michael Dubson, Noah Finkelstein, Sam Reid,
+  Carl Wieman, and Ron LeMaster.
+\newblock Phet: Interactive simulations for teaching and learning physics.
+\newblock {\em The Physics Teacher}, 2006.
+
+\bibitem{Caballero2011}
+Marcos Caballero, Matthew Kohlmyer, and Michael Schatz.
+\newblock Fostering computational thinking in introductory mechanics.
+\newblock In {\em PERC Proceedings}, 2011.
+
+\bibitem{Kirwan2005}
+B.~Kirwan and L.~K. Ainsworth.
+\newblock {\em A guide to task analysis}.
+\newblock Taylor \& Francis, 2005.
+
+\bibitem{Crandall2006}
+B.~Crandall, G~Kelin, and R.~R. Hoffman.
+\newblock {\em Working minds: a practioner's guide to cognitive task analysis}.
+\newblock Massachusetts Institute of Technology, 2006.
+
+\bibitem{Catrambone1998}
+Richard Catrambone.
+\newblock The subgoal learning model: Creating better eexample so that students
+  can solve novel pproblem.
+\newblock {\em Journal of Experimental Psychology}, 1998.
+
+\bibitem{Chandra1990}
+B.~Chandrasekaran.
+\newblock Design problem solving: a task analysi.
+\newblock {\em AI maganize}, 1990.
+
+\bibitem{Fitzgerald2008}
+Sue Fitzgerald, Gary Lewandowski, Renee McCauley, Laurie Murphy, Beth Simon,
+  Lynda Thomas, and Carol Zander.
+\newblock Debugging: finding, fixing and flailing, a multi-institutional study
+  of novice debuggers.
+\newblock {\em Computer Science Education}, 2008.
+
+\bibitem{Ahmadzedah2005}
+Marzieh Ahmadzedah, Dave Elliman, and Colin Higgins.
+\newblock An analysis of patterns of debugging among novice computer science
+  students.
+\newblock In {\em ITiCSE Proceedings}, 2005.
+
+\bibitem{Braun2008}
+Virginia Braun and Victoria Clarke.
+\newblock Using thematic analysis in psychology.
+\newblock {\em Qualitative Research in Psychology}, 2008.
+
+\bibitem{Fereda2006}
+Jennifer Fereda and Eimear Muir-Cochrane.
+\newblock Demonstrating rigor using thematic analysis: A hybrid approach of
+  inductive and deductive coding and theme development.
+\newblock {\em International Journal of Qualitative Methods}, 2006.
+
+\bibitem{Aronson1995}
+J.~Aronson.
+\newblock A pragmatic view of thematic analysis.
+\newblock {\em The Qualitative Report}, 1995.
+
+\bibitem{Vaismoradi2013}
+M.~Vaismoradi and T.~Bondas.
+\newblock Content analysis and thematic analysis: implications for conducting a
+  qualitative descriptive study.
+\newblock {\em Nursing and Health Sciences}, 2013.
+
+\bibitem{Joffe2004}
+H.~Joffe and L.~Yardley.
+\newblock {\em Research Methods for Clinical and Health Psychology}.
+\newblock Sage, 2004.
+
+\bibitem{Potter1997}
+J.~Potter and M.~Wetherell.
+\newblock {\em Discourse analysis as a way of analysing naturally occurring
+  talk}.
+\newblock Sage, 1997.
+
+\bibitem{Antaki2002}
+C.~Antaki, M.~Billig, D.~Edwards, and J.~Potter.
+\newblock Discourse analysis means doing aanalysi: a critqiue of six analytic
+  shortcomings.
+\newblock {\em DAOL Discourse Analysis Online}, 2002.
+
+\bibitem{Irving2016}
+P.~W. Irving and E.~C. Sayre.
+\newblock Developing physics identities.
+\newblock {\em Physics Today}, 2016.
+
+\bibitem{Widdicombe1995}
+S.~Widdicombe and R.~Wooffitt.
+\newblock {\em The language of youth subcultures: social identity in action}.
+\newblock Harvester Wheatsheaf, 1995.
+
+\bibitem{Irving2017}
+Paul Irving, Michael Obsniuk, and Marcos Caballero.
+\newblock P$^{3}$: A practice focused learning environment.
+\newblock {\em European Journal of Physics}, 2017.
+
+\bibitem{Vygotsky1980}
+L.S. Vygotsky.
+\newblock {\em Mind in Society: The Development of Higher Psychological
+  Processes}.
+\newblock 1980.
+
+\bibitem{McCauley2008}
+Renee McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon,
+  Lunda Thomas, and Carol Zander.
+\newblock Debugging: a review of the literature from ane ducational
+  perspective.
+\newblock {\em Computer Science Education}, 2008.
+
+\bibitem{Flyvbjerg2006}
+Bent Flyvbjerg.
+\newblock Five misunderstandings about case-study research.
+\newblock {\em Qualitative Inquiry}, 2006.
+
+\bibitem{Hawkins2017}
+N.~T. Hawkins, P.~W. Irving, and M.~D. Caballero.
+\newblock Understanding student perceptions of computational physics pproblem
+  in introductory mechanics.
+\newblock In {\em PERC Proceedings}, 2017.
+
+\bibitem{Hammann2003}
+Lynne~A. Hammann and Robert~J. Stevens.
+\newblock Instructional apapproach to improving students' writing of
+  compare-contrast essays: an experimental study.
+\newblock {\em Journal of Literacy Research}, 2003.
+
+\bibitem{Pawlak2018}
+Alanna Pawlak, Paul~W. Irving, and Marcos~D. Caballero.
+\newblock Development of the mmodel of collaboration framework.
+\newblock {\em Physical Review Special Topics - Physics Education Research},
+  2018.
+
+\bibitem{Pugalee2004}
+David~K. Pugalee.
+\newblock A comparison of verbal and written descriptions of students' problem
+  solving processes.
+\newblock {\em Educational Studies in Mathematics}, 2004.
+
+\bibitem{Tamir2007}
+Pinchas Tamir.
+\newblock Justifying the selection of answers in multiple choice items.
+\newblock {\em International Journal of Science Education}, 2007.
+
+\bibitem{Weber2005}
+Keith Weber.
+\newblock Students' understanding of trigonometric functions.
+\newblock {\em Mathematics Education Research Journal}, 2005.
+
+\bibitem{Bing2009}
+Thomas~J. Bing and Edward~F Redish.
+\newblock Analyzing problem solving using math in physics: epistemological
+  framing via warrants.
+\newblock {\em Physical Review Special Topics - Physics Education Research},
+  2009.
+
+\bibitem{Redish2005}
+Edward~F. Redish.
+\newblock Problem solving and the use of math in physis courses.
+\newblock In {\em World View on Physics Education Proceedings}, 2005.
 
 \end{thebibliography}
