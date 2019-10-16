@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  14 OCT 2019 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  16 OCT 2019 11:14
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -1002,7 +1002,7 @@ Package pdftex.def Info: images/CH3TutorQuestion.pdf  used on input line 492.
 <images/CH3WrittenFeedback.pdf, id=267, 762.59906pt x 343.2825pt>
 File: images/CH3WrittenFeedback.pdf Graphic file (type pdf)
 <use images/CH3WrittenFeedback.pdf>
-Package pdftex.def Info: images/CH3WrittenFeedback.pdf  used on input line 511.
+Package pdftex.def Info: images/CH3WrittenFeedback.pdf  used on input line 513.
 
 (pdftex.def)             Requested size: 381.2986pt x 171.64082pt.
  [41 <./images/CH3WrittenFeedback.pdf>]
@@ -1010,146 +1010,146 @@ Package pdftex.def Info: images/CH3WrittenFeedback.pdf  used on input line 511.
 File: images/CH3PostClassHomework.pdf Graphic file (type pdf)
 <use images/CH3PostClassHomework.pdf>
 Package pdftex.def Info: images/CH3PostClassHomework.pdf  used on input line 52
-2.
+4.
 (pdftex.def)             Requested size: 348.15942pt x 321.45018pt.
- [42 <./images/CH3PostClassHomework.pdf>]
+ [42 <./images/CH3PostClassHomework.pdf>] [43]
 Chapter 4.
-[43
+[44
 
 ]
-<./images/CH4Interactions.pdf, id=286, 303.2953pt x 92.19623pt>
+<./images/CH4Interactions.pdf, id=289, 303.2953pt x 92.19623pt>
 File: ./images/CH4Interactions.pdf Graphic file (type pdf)
 <use ./images/CH4Interactions.pdf>
-Package pdftex.def Info: ./images/CH4Interactions.pdf  used on input line 560.
+Package pdftex.def Info: ./images/CH4Interactions.pdf  used on input line 562.
 (pdftex.def)             Requested size: 303.29456pt x 92.19598pt.
- [44 <./images/CH4Interactions.pdf>] [45]
-<./images/CH4Strategies.pdf, id=302, 329.03185pt x 107.55138pt>
+ [45 <./images/CH4Interactions.pdf>] [46]
+<./images/CH4Strategies.pdf, id=306, 329.03185pt x 107.55138pt>
 File: ./images/CH4Strategies.pdf Graphic file (type pdf)
 <use ./images/CH4Strategies.pdf>
-Package pdftex.def Info: ./images/CH4Strategies.pdf  used on input line 579.
+Package pdftex.def Info: ./images/CH4Strategies.pdf  used on input line 581.
 (pdftex.def)             Requested size: 329.03104pt x 107.5511pt.
- [46 <./images/CH4Strategies.pdf>] [47] [48] [49] [50] [51] [52]
+ [47 <./images/CH4Strategies.pdf>] [48] [49] [50] [51] [52] [53]
 Chapter 5.
-[53
+[54
 
-] [54]
-<./images/CH5Transcript.pdf, id=340, 734.745pt x 447.92343pt>
+] [55]
+<./images/CH5Transcript.pdf, id=343, 734.745pt x 447.92343pt>
 File: ./images/CH5Transcript.pdf Graphic file (type pdf)
 <use ./images/CH5Transcript.pdf>
-Package pdftex.def Info: ./images/CH5Transcript.pdf  used on input line 684.
+Package pdftex.def Info: ./images/CH5Transcript.pdf  used on input line 686.
 (pdftex.def)             Requested size: 367.3716pt x 223.96117pt.
- [55 <./images/CH5Transcript.pdf>] [56] [57] [58]
-<./images/CH5Levels.pdf, id=358, 1126.2075pt x 318.43968pt>
+ [56 <./images/CH5Transcript.pdf>] [57] [58] [59]
+<./images/CH5Levels.pdf, id=361, 1126.2075pt x 318.43968pt>
 File: ./images/CH5Levels.pdf Graphic file (type pdf)
 <use ./images/CH5Levels.pdf>
-Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 719.
+Package pdftex.def Info: ./images/CH5Levels.pdf  used on input line 721.
 (pdftex.def)             Requested size: 469.75502pt x 132.8254pt.
- [59 <./images/CH5Levels.pdf>]
-<./images/CH5LevelsofConfidence.pdf, id=366, 532.99126pt x 561.59813pt>
+ [60 <./images/CH5Levels.pdf>]
+<./images/CH5LevelsofConfidence.pdf, id=369, 532.99126pt x 561.59813pt>
 File: ./images/CH5LevelsofConfidence.pdf Graphic file (type pdf)
 <use ./images/CH5LevelsofConfidence.pdf>
 Package pdftex.def Info: ./images/CH5LevelsofConfidence.pdf  used on input line
- 732.
+ 734.
 (pdftex.def)             Requested size: 266.49498pt x 280.79837pt.
- [60 <./images/CH5LevelsofConfidence.pdf>]
-<./images/CH5Reliability.pdf, id=374, 794.35411pt x 577.13701pt>
+ [61 <./images/CH5LevelsofConfidence.pdf>]
+<./images/CH5Reliability.pdf, id=377, 794.35411pt x 577.13701pt>
 File: ./images/CH5Reliability.pdf Graphic file (type pdf)
 <use ./images/CH5Reliability.pdf>
-Package pdftex.def Info: ./images/CH5Reliability.pdf  used on input line 739.
+Package pdftex.def Info: ./images/CH5Reliability.pdf  used on input line 741.
 (pdftex.def)             Requested size: 397.17609pt x 288.5678pt.
- [61] [62 <./images/CH5Reliability.pdf>]
-<./images/CH5DensityPlot.pdf, id=385, 455.45157pt x 579.66568pt>
+ [62] [63 <./images/CH5Reliability.pdf>]
+<./images/CH5DensityPlot.pdf, id=388, 455.45157pt x 579.66568pt>
 File: ./images/CH5DensityPlot.pdf Graphic file (type pdf)
 <use ./images/CH5DensityPlot.pdf>
-Package pdftex.def Info: ./images/CH5DensityPlot.pdf  used on input line 750.
+Package pdftex.def Info: ./images/CH5DensityPlot.pdf  used on input line 752.
 (pdftex.def)             Requested size: 296.04001pt x 376.77823pt.
- [63 <./images/CH5DensityPlot.pdf>]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 763--767
+ [64 <./images/CH5DensityPlot.pdf>]
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 765--769
 [][] 
  []
 
-[64] [65] [66] [67] [68]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 822--826
+[65] [66] [67] [68] [69]
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 824--828
 [][] 
  []
 
 
-Overfull \hbox (3.33366pt too wide) in paragraph at lines 831--832
+Overfull \hbox (3.33366pt too wide) in paragraph at lines 833--834
 []\T1/cmr/m/n/12 Prior to the be-gin-ning of this ex-cerpt, the group adds a pr
 int state-ment (i.e., \T1/cmtt/m/n/12 print(Fnet)\T1/cmr/m/n/12 )
  []
 
-[69] [70] [71] [72] [73]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 887--892
+[70] [71] [72] [73] [74]
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 889--894
 [][] 
  []
 
-[74] [75] [76] [77]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 943--947
+[75] [76] [77] [78]
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 945--949
 [][] 
  []
 
-[78] [79] [80] [81]
-Overfull \hbox (12.68028pt too wide) in paragraph at lines 1002--1006
+[79] [80] [81] [82]
+Overfull \hbox (12.68028pt too wide) in paragraph at lines 1004--1008
 [][] 
  []
 
-[82] [83] [84]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 1043--1048
+[83] [84] [85]
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 1045--1050
 [][] 
  []
 
-[85] [86] [87] [88] [89]
-Overfull \hbox (2.30365pt too wide) in paragraph at lines 1097--1101
+[86] [87] [88] [89] [90]
+Overfull \hbox (2.30365pt too wide) in paragraph at lines 1099--1103
 [][] 
  []
 
-[90] [91] [92]
-Overfull \hbox (11.70137pt too wide) in paragraph at lines 1137--1141
+[91] [92] [93]
+Overfull \hbox (11.70137pt too wide) in paragraph at lines 1139--1143
 [][] 
  []
 
-[93] [94] [95] [96] [97]
+[94] [95] [96] [97] [98]
 Chapter 6.
-[98
+[99
 
-] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
-<images/CH6Modeling.pdf, id=539, 312.08847pt x 223.56656pt>
+] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110]
+<images/CH6Modeling.pdf, id=542, 312.08847pt x 223.56656pt>
 File: images/CH6Modeling.pdf Graphic file (type pdf)
 <use images/CH6Modeling.pdf>
-Package pdftex.def Info: images/CH6Modeling.pdf  used on input line 1334.
+Package pdftex.def Info: images/CH6Modeling.pdf  used on input line 1336.
 (pdftex.def)             Requested size: 312.0877pt x 223.56601pt.
- [110]
-[111 <./images/CH6Modeling.pdf>] [112] [113] [114]
+ [111]
+[112 <./images/CH6Modeling.pdf>] [113] [114] [115]
 Chapter 7.
-[115
+[116
 
-] [116] [117] [118] [119
+] [117] [118] [119] [120
 
 ]
 Appendix A.
-[120
+[121
 
 
-] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131]
-[132] [133] [134] [135]
+] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132]
+[133] [134] [135] [136] [137]
 Appendix B.
-[136
+[138
 
-] [137] [138] [139] [140] [141] [142] [143] [144]
+] [139] [140] [141] [142] [143] [144] [145] [146]
 Appendix C.
-[145
+[147
 
-] [146] (PhD_Obsniuk_Computation.bbl [147] [148
+] [148] (PhD_Obsniuk_Computation.bbl [149] [150
 
-] [149
+] [151
 
-] [150] [151])
-[152] (PhD_Obsniuk_Computation.aux) ) 
+] [152] [153])
+[154] (PhD_Obsniuk_Computation.aux) ) 
 Here is how much of TeX's memory you used:
  18175 strings out of 492976
  343662 string characters out of 3135985
- 370859 words of memory out of 3000000
+ 370860 words of memory out of 3000000
  21842 multiletter control sequences out of 15000+200000
  550478 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1172,9 +1172,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (161 pages, 2483133 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (163 pages, 2486727 bytes).
 PDF statistics:
- 1204 PDF objects out of 1440 (max. 8388607)
+ 1215 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -493,13 +493,15 @@ There are a number of pre-written tutor questions as well as many on-the-fly que
 \caption{A seclection of tutor questions that focus on the computational model each group has constructed.}\label{CH3:TutorQuestion}
 \end{figure}
 
-On the other hand, a tutor interaction like the one shown below that happens on-the-fly might encourage students to use a more general force rather than a more restricted one:  \begin{description}\TA  you guys wanna talk about what your strategy is at the moment
-\SB  I don't think we know	
-\SA we just, we need to figure out how to get the velocity of the spacecraft correct as well as the force net correct and then it should be fine				
-\TA yeah, my request, can i point in your program thats what you have for F net now [constant components] my request is to use a completely different strategy where that formula [points to Gmm/r2 on the board] is in for Fnet
-\SC yeah we tried to make that yeah		
-\SA can we just put the number in?				
-\TA umm in principle you could, but id really rather you not have you do it i would like the program to be able to respond if the satellite is father away the force would be less, if the satellite is closer the force would be more so i would like it to be a dynamic program and not one that always have a fixed force\end{description}  In this on-the-fly interaction, the question of weather or not their computational model will be able to handle all types of orbits is enough to indicate that the group needs to switch their model up.  In this way, the tutor is able to make sure the groups stay on the desired path without directly telling them exactly what to do.
+On the other hand, a tutor interaction like the one shown below that happens on-the-fly might encourage students to use a more general force rather than a more restricted one:  \begin{description}\TA You guys wanna talk about what your strategy is at the moment?
+\SB I don't think we know.
+\SA We just, we need to figure out how to get the velocity of the spacecraft correct, as well as the force net correct, and then it should be fine...		
+\TA Yeah, my request, can I point in your program that's what you have for F net now [constant components].
+\TA My request is to use a completely different strategy where that formula [points to $G m M/r^{2}$ on the board] is in for Fnet.
+\SC Yeah, we tried to make that, yeah...
+\SA Can we just put the number in?				
+\TA Umm, in principle you could, but I'd really rather you not... I would like the program to be able to respond if the satellite is father away, so the force would be less, if the satellite is closer the force would be more...
+\TA So I would like it to be a dynamic program and not one that always have a fixed force.\end{description}  In this on-the-fly interaction, the question of weather or not their computational model will be able to handle all types of orbits is enough to indicate that the group needs to switch their model up.  In this way, the tutor is able to make sure the groups stay on the desired path without directly telling them exactly what to do.
 
 \subsection{Feedback/Assessment}
 
@@ -590,13 +592,13 @@ At around 55 min into the problem, following an intervention from their instruct
 
 During this initial phase, we see a clear indication that the group has recognized a bug -- there is an unidentified error in the code, which must be found and fixed: \begin{description}
 \SA I don't know what needs to change here...
-\SD  I mean, that {error} means we could have like anything wrong really.\end{description}  Although they have identified the existence of the bug, they still are not sure how to fix it -- this necessitates the
+\SD I mean, that {error} means we could have like anything wrong really.\end{description}  Although they have identified the existence of the bug, they still are not sure how to fix it -- this necessitates the
 process of debugging.
 
 \subsubsection{Physics debugging}
 
 Within the previously identified phase of bug recognition, the group developed a clear and primary task: figure out exactly how to remove the bug. Eventually, following a little off-topic discussion, the group accepted that in order to produce a simulation that generates the correct output, they must once again delve into the code to check every line:\begin{description}
-\SA ...I'm just trying to break it down as much as possible so that we can find any mistakes.\end{description}  In this way, the group began to not only determine the correctness of lines of code that have been added/modified, but also began to examine the relationships between those lines of code.
+\SA I'm just trying to break it down as much as possible so that we can find any mistakes.\end{description}  In this way, the group began to not only determine the correctness of lines of code that have been added/modified, but also began to examine the relationships between those lines of code.
 
 For example, the group began by confirming the correctness of the form of one such line of code:\begin{description}
 \SA Final momentum equals initial momentum
@@ -618,11 +620,11 @@ At about 65 min into the problem, Student A changed the order of magnitude of th
 \SA Oh wait... Oh god...
 \SD Is it working?\end{description}  The satellite now elliptically orbited the Earth. This marks the end of the debugging phase and the beginning of the resolution phase given that the bug had successfully been found and remedied. Given that the only line of code modified to produce this change was the initial momentum, they began to rethink the problem: \begin{description}
 \SD I think that is the issue is that we don't have the initial momentum...
-\SA ...momentum correct?\end{description}  That is to say, the group pursued the issue of determining the correct initial momentum with the added insight gained through debugging fundamentally correct VPython code.
+\SA Momentum correct?\end{description}  That is to say, the group pursued the issue of determining the correct initial momentum with the added insight gained through debugging fundamentally correct VPython code.
 
 \subsection{Discussion}
 
-To summarize, in analyzing this particular group, we first identified the two phases in time when the group had recognized and resolved a physics bug. We then necessarily identified the phase in-between as the process of physics debugging in ${\rm P}^{3}$, where the fundamentally correct code was taken from producing unexpected output to producing expected output. Given our assumption that the process of computer science debugging encourages desirable strategies, we then began to analyze this process of physics debugging further for strategies unique to ${\rm p}^{3}$.
+To summarize, in analyzing this particular group, we first identified the two phases in time when the group had recognized and resolved a physics bug. We then necessarily identified the phase in-between as the process of physics debugging in ${\rm P}^{3}$, where the fundamentally correct code was taken from producing unexpected output to producing expected output. Given our assumption that the process of computer science debugging encourages desirable strategies, we then began to analyze this process of physics debugging further for strategies unique to ${\rm P}^{3}$.
 
 Given the actions exhibited during the debugging phase, we can separate them into two distinct parts: a more strategic part and a less strategic part, as shown in Fig.~\ref{CH4:Strategies}. The group initially gave indication that they were working in a considerate, thorough, and consistent manner, which we classify as more strategic. This is contrasted by the later indications of more haphazard actions, which we classify as less strategic. These are the two physics debugging strategies that, together, led to the resolution of the bug in this context.
 
@@ -678,14 +680,14 @@ Our total set or corpus of data consists of in-class video of nine groups of fou
 
 In order to first reduce the corpus of our data to a more focused and manageable set, we followed the suggestions of task analysis (see Sec.~\ref{CH2:TaskAnalysis}).  That is, we paid attention to when students were making the most progress toward a solution.  The frequency of independent progress being made increased as the complexity of the problem increased (i.e., students made the most independent progress on constructing the Newtonian gravitational force model).  Here, we are defining ``independent progress'' as progress that is ultimately made by the group without any instructor intervention.  We believe this rapid increase of independent progress is due, in part, to their lack of prior programming experience coming into the course.  For example, on the first problem, many groups struggled with a basic calculation loop.  By the time they see the third problem, they have already gained a little experience and know what to expect in the course.
 
-Our initially reduced set of data consists of transcripts from in-class video (both side-view and overhead-view) of nine groups working on the Newtonian gravitational force problem from Sec.~\ref{CH3:SatelliteProblem}.  We also collected computer screencasts to capture exactly what students are doing when they type/click on their group laptop.  Following the suggestions of thematic analysis (see Sec.~\ref{CH2:Thematic}), we began with a full transcription of the in-class video to the best of our abilities.  Any inaudible sections are indicated, with long pauses being indicated by ellipses ($\ldots$).  To distinguish between unspoken actions (e.g., pointing to an equation) and inferences made by the primary researcher (e.g., a group referring to a previously used equation), we follow the convention of square brackets ($[\,]$) and curly brackets ($\{\,\}$), respectively.  For example, Fig.~\ref{CH5:Transcript} shows a portion of transcript highlighting these various indications.
+Our initially reduced set of data consists of transcripts from in-class video (both side-view and overhead-view) of nine groups working on the Newtonian gravitational force problem from Sec.~\ref{CH3:SatelliteProblem}.  We also collected computer screencasts to capture exactly what students are doing when they type/click on their group laptop.  Following the suggestions of thematic analysis (see Sec.~\ref{CH2:Thematic}), we began with a full transcription of the in-class video.  Any inaudible sections are indicated, with long pauses being indicated by ellipses ($\ldots$).  To distinguish between unspoken actions (e.g., pointing to an equation) and inferences made by the primary researcher (e.g., a group referring to a previously used equation), we follow the convention of square brackets ($[\,]$) and curly brackets ($\{\,\}$), respectively.  For example, Fig.~\ref{CH5:Transcript} shows a portion of transcript highlighting these various indications.
 
 \begin{figure}\centering
 \includegraphics[scale=0.5]{./images/CH5Transcript.pdf}
 \caption{A portion of transcript meant to highlight the indication of unspoken and inferred actions.  For example, line 367 shows this group looking in their notes for an equation.  The equation that they find is written down in line 370.}\label{CH5:Transcript}
 \end{figure}
 
-Once we had reduced our data corpus to a more manageable and focused set of nine transcripts, we continued our investigation into the computational practices students were engaging in.  Each transcript was read multiple times in order to generate a low-resolution but coherent picture of what each group was doing -- or at least, what each group was trying to do.  This type of ``familiarization'' with the data is a crucial step as outline by Braun et. al.  Ultimately, this low-resolution picture helped us to identify the off-topic and otherwise irrelevant discussion in order to remove those portions of the data from our analysis.
+Once we had reduced our data corpus to a more manageable and focused set of nine transcripts, we continued our investigation into the computational practices students were engaging in.  Each transcript was read multiple times in order to generate a low-resolution but coherent picture of what each group was doing.  This type of ``familiarization'' with the data is a crucial step as outline by Braun et. al.  Ultimately, this low-resolution picture helped us to identify the off-topic and otherwise irrelevant discussion in order to remove those portions of the data from our analysis.
 
 More specifically, each transcript was initially analyzed with an eye towards identifying discussion where students were solving the satellite problem and using a computer (e.g., typing or reading through lines of a program).  All other discussion then could be considered off-topic and safely discarded.  For example, groups are often seen discussing homework for other classes that in no way relates to the Newtonian problem.  Similarly, groups can often be seen discussing recent social events (e.g., a concert).  This type of off-topic and otherwise irrelevant discussion, although important for the social cohesion of the group, can safely be discarded.  In this way, we further reduce our data set by about one quarter.  With each of nine transcript being about fifteen-hundred lines of speech/action, this translates to about fifteen-thousand lines of on-topic discussion for further analysis.
 
@@ -698,21 +700,21 @@ In order to justify the classification of an excerpt as a particular computation
 In terms of the framework, we identified the various characteristics that manifested themselves in the actions and speech of each group and compared them to the Weintrop framework.  Each practice, according to the framework, has any number (between one and seven) of related characteristics.  The more related characteristics that we see in an excerpt, the more confident we are in classifying that excerpt as a particular practice.  For example, ``identifying an unexpected error in code'' is one of the required characteristic of troubleshooting and debugging.  Similarly, ``working to systematically rectify the unexpected error'' is clearly a related but distinct characteristic.  The identification of either of these characteristics individually would be hinting at the practice of troubleshooting and debugging, but both of them simultaneously makes a stronger claim.  This type of rationale can be found in Column G of Fig.~\ref{CH5:Types}.
 
 Within an individual excerpt, we are able to focus in on what each member of the group says and does as they work toward a clear and focused goal.  Any rationale of this type usually references line numbers pertaining to specific lines of speech/action within the excerpt that embodies the characteristic in question.  In this way, we closely tie our rationale and the framework to the data.  For example, a group might identify an unexpected error in their program and say: \begin{description}
-\SC \textit{(756)} oh there it is \{the error message\}
-\SB \textit{(757)} where?
-\SC \textit{(758)} in the thing \{shell\} on the screen...
+\SC \textit{(756)} Oh there it is \{the error message\}.
+\SB \textit{(757)} Where?
+\SC \textit{(758)} In the thing \{shell\} on the screen...
 \end{description}  In this exchange, Student C has found the error message from the shell buried under a few other windows.  This error message is ultimately used by the group to track down the cause of the unexpected error.  In this way, we clearly see a group working to identify an unexpected error in our data.  This type of rationale can be found in Column H of Fig.~\ref{CH5:Types}.
 
 Beyond each individual excerpt (i.e., looking at each transcript as a whole), we are able to generate a low-resolution picture that captures the overarching goals that each group is working toward.  This low-resolution picture helps us to contextualize each individual excerpt within the broader transcript.  There are different ways to contextualize a particular excerpt of data (e.g., in the context of the group, the classroom, the university, the state, etc.), and relating it to other excerpts is one of the most important.  For example, within an individual excerpt, a group might reference -- without defining -- an equation: \begin{description}
-\SA \textit{(894)} should we try \textbf{that one} equation?
-\SB \textit{(895)} yeah i think we should do that...
-\SA \textit{(896)} okay
-\SC \textit{(897)} yeah thats a good idea lets use that one
+\SA \textit{(894)} Should we try {that one} equation?
+\SB \textit{(895)} Yeah, I think we should do that...
+\SA \textit{(896)} Okay.
+\SC \textit{(897)} Yeah that's a good idea, let's use that one.
 \end{description}  Using our low-resolution picture of the transcript as a whole, we can track back through time (often minutes, sometimes longer) to find out exactly what vague equation they are referencing: \begin{description}
-\SC \textit{(120)} how about we use \textbf{the equation}...
-\SC \textit{(121)} [writes G m M over r squared]
-\SC \textit{(122)} ...and then multiplied by r hat
-\SD \textit{(123)} i dunno...
+\SC \textit{(120)} How about we use the equation...
+\SC \textit{(121)} [writes $G m M / r^{2}$].
+\SC \textit{(122)} And then multiplied by r hat...
+\SD \textit{(123)} I dunno...
 \end{description}  Any rationale provided at this level usually references the number of another excerpt that provides the necessary additional information.  This level of rationale can be found in Column I of Fig.~\ref{CH5:Types}.
 
 \begin{figure}\centering
@@ -726,7 +728,7 @@ The three types of rationale described above, though not necessarily persuasive 
 
 \subsection{Inter-rater reliability}
 
-In order to ensure not only reasonable, but also \textit{reliable} justifications for the classification of the various computational practices within our data, we followed an iterative process of inter-rater reliability.  One primary researcher was joined by three impartial inter-raters, ensuring a robust coding process and stronger claims through iterative critique and discussion.
+In order to ensure not only reasonable, but also \textit{reliable} justifications for the classification of the various computational practices within our data, we followed an iterative process of inter-rater reliability.  One primary researcher was joined by three inter-raters, ensuring a robust coding process and stronger claims through iterative critique and discussion.
 
 \begin{figure}\centering
 \includegraphics[scale=0.5]{./images/CH5LevelsofConfidence.pdf}
@@ -740,7 +742,7 @@ Initially, the data was coded by the primary researcher, relying heavily on the 
 \caption{The initial rationale generated for an excerpt along with inter-rater suggestions and subsequent modification.  With the addition of some requested information, the strength of the rationale was improved and the confidence was promoted from medium to high.}\label{CH5:Reliability}
 \end{figure}
 
-A subset of the data containing a variety of computational practices and levels of confidence was then shared with multiple inter-raters.  Each inter-rater subsequently tested the strength of our initial claims through discussion by asking questions and making suggestions.  These suggestions, once mutually agreed upon, were incorporated into the rationale.  For example, Fig.~\ref{CH5:Reliability} shows one inter-rater asking a clarification question as to what the verbatim output of the shell in a particular excerpt was.  The answer to this clarification question, though not obvious given the initial rationale, proves to be relevant and necessary to the strength of the rationale.  This process of generating reliability through asking questions and making suggestions was followed iteratively to further strengthen each claim.
+A subset of the data containing a variety of computational practices and levels of confidence was then shared with inter-raters.  Each inter-rater subsequently tested the strength of our initial claims through discussion by asking questions and making suggestions.  These suggestions, once mutually agreed upon, were incorporated into the rationale.  For example, Fig.~\ref{CH5:Reliability} shows one inter-rater asking a clarification question as to what the verbatim output of the shell in a particular excerpt was.  The answer to this clarification question, though not obvious given the initial rationale, proves to be relevant and necessary to the strength of the rationale.  This process of generating reliability through asking questions and making suggestions was followed iteratively to further strengthen each claim.
 
 \section{Computational practices}\label{CH5:Practices}
 
@@ -753,7 +755,7 @@ By analyzing all of the data with the methods described above, we have identifie
 
 The remainder of this section provides concrete examples of some of the most frequent computational practices that we found in our data.  We are focusing on those practices that occur with high frequency within one group or occur with moderate frequency across multiple groups.  These practices are (in no particular order): creating and analyzing data within the data practices; designing, constructing, and assessing computational models within the modeling and simulation practices; programming, creating abstractions, and troubleshooting and debugging in the computational problem solving practices; and thinking in levels and communicating information within the systems thinking practices.
 
-Although the examples that follow are meant to clearly illustrate some of the common computational practices that we have observed, they do not come without their own limitations.  Accordingly, Ch.~\ref{CH6:Discussion} provides a discussion of these limitations, as well as presents some of the less common and unobserved practices.
+Although the examples that follow are meant to clearly illustrate some of the common computational practices that we have observed, they do not come without their own limitations.  Accordingly, Ch.~\ref{CH6:Discussion} provides a discussion of those limitations, as well as presents some of the less common and unobserved practices.
 
 \subsection{Creating data}\label{CH5:SecCreatingData}
 
@@ -791,7 +793,7 @@ Eventually, they propose an Euler-Cromer style algorithm to automatically update
 \SA \textit{(221)} So we have to make it update.
 \SB \textit{(222)} Satellite position plus momentum of the satellite...
 \SA \textit{(223)} Over the mass?			
-\SB \textit{(224)} Times the change in time... yeah so its, yeah.
+\SB \textit{(224)} Times the change in time... yeah so it's, yeah.
 \SB \textit{(225)} But the momentum is always changing...
 \end{description}  Although the group has clearly laid out the way that the position of the satellite will need to change (line 222), they have raised another concern in terms of the momentum of the satellite (line 225).  In other words, they have defined a procedure to automatically calculate the positions of the satellite, but still need to define a procedure to automatically calculate the momenta.
 
@@ -799,7 +801,7 @@ Later, as the group works toward defining a procedure to change the momentum of 
 \begin{description}
 \SB \textit{(681)} So we gotta figure out how to change the momentum in there \{the code\}.
 \SB \textit{(682)} What was the equation from last week?		
-\SA \textit{(683)} Umm... F grav... no.
+\SA \textit{(683)} Umm... F grav... No.
 \SD \textit{(684)} What about using iterative prediction for like future positions?
 \SD \textit{(686)} Right?
 \SC \textit{(687)} The change in momentum would be the net force times...	
@@ -839,8 +841,8 @@ Prior to the beginning of this excerpt, the group adds a print statement (i.e., 
 \end{description}  With this print statement, they are creating a large set of data (line 1332) that is subsequently analyzed.
 
 The group confirms that their print statement is displaying a large set of data that represents the net force on the satellite (line 1338).  At the same time, they begin to categorize the data and look for trends:  \begin{description}
-\SD \textit{(1337)} It's not showing it {the satellite} because I think the \{window\} scale is too small.
-\SD \textit{(1338)} But its outputting all of it {the forces}, and it is...
+\SD \textit{(1337)} It's not showing {the satellite} because I think the \{window\} scale is too small.
+\SD \textit{(1338)} But it's outputting all of {the forces}, and it is...
 \SD \textit{(1339)} It's changing too I think.
 \SB \textit{(1340)} How big are they?		
 \SB \textit{(1341)} I'm assuming were talking about F grav...
@@ -848,7 +850,7 @@ The group confirms that their print statement is displaying a large set of data 
 \end{description}  One trend that the group suggests (line 1339) is that the values in the set have some sort of time dependence.  Similarly, one category that the group places the data in (line 1342) is that of having a large order of magnitude -- which is expected given the type of force that they are analyzing.
 
 Mistakenly, the group believes that the trend of time dependence that they have identified in their data is not the expected or desired one.  In other words, they suggest that the set of data should be constant in time (line 1343):  \begin{description}
-\SB \textit{(1343)} Uhh... I don't think its supposed to be changing.
+\SB \textit{(1343)} Uhh... I don't think it's supposed to be changing.
 \SB \textit{(1344)} Not a good sign.
 \SB \textit{(1345)} Do we have it as a vector or a scalar right now?
 \SD \textit{(1346)} Right now we have it as a vector.
@@ -864,9 +866,9 @@ After a little off-topic discussion, the group begins to consider how the variou
 \SD \textit{(1426)} Oh, does it have to be negative?
 \SB \textit{(1427)} Either way, it has to be in the x and the y direction...
 \SD \textit{(1428)} Oh well then you just do this [adds the force for the x-component]...
-\SB \textit{(1429)} Because... but it's the components that would make F grav bigger than we need it to be?
+\SB \textit{(1429)} Because... But it's the components that would make F grav bigger than we need it to be?
 \SD \textit{(1430)} Why?
-\SB \textit{(1431)} Because a component vector... if we have one like that [draws a vector toward the fourth quadrant] then it's gonna be out to there...
+\SB \textit{(1431)} Because a component vector... If we have one like that [draws a vector toward the fourth quadrant] then it's gonna be out to there...
 \SC \textit{(1432)} No, it would be double.
 \SB \textit{(1433)} Right it would be that long.
 \SB \textit{(1434)} And we just need it to be that long.
@@ -899,7 +901,7 @@ A few minutes into beginning the problem, the group has recognized that they nee
 \SA \textit{(112)} So what do we want to do with this {other} number?
 \SB \textit{(113)} Well, you said the radius from here to here is not gonna be the same as from here to here?
 \SA \textit{(114)} Yeah.
-\SB \textit{(115)} Well, should we... could we Google how, like how much farther or shorter it is from here to here?
+\SB \textit{(115)} Well, should we... Could we Google how, like how much farther or shorter it is from here to here?
 \SD \textit{(116)} Okay, I think actually what it's trying to get us to say is that we can't just plot its path around by using the radius of the orbit...
 \SA \textit{(117)} Right.
 \SD \textit{(118)} We have to actually use the force that is acting on it to find it's path.
@@ -907,10 +909,10 @@ A few minutes into beginning the problem, the group has recognized that they nee
 \SD \textit{(120)} We have to use the force.\end{description}  The group has begun to articulate the information that their model will provide them, even if they have not yet decided on the particular model.  In other words, their force model will allow them to make predictions about the position and trajectory of the satellite.
 
 After a little off-topic discussion, the group decides on a particular force model to use: \begin{description}
-\SD \textit{(152)} The force is like v squared... the force is uhh v squared times m over radius of orbit.
-\SD \textit{(153)} Correct me if im wrong...
+\SD \textit{(152)} The force is like v squared... The force is uhh v squared times m over the radius of orbit.
+\SD \textit{(153)} Correct me if I'm wrong...
 \SA \textit{(154)} Sorry?
-\SD \textit{(155)} The force is equal to mass times v squared over radius of the orbit.
+\SD \textit{(155)} The force is equal to mass times v squared over the radius of the orbit.
 \SB \textit{(156)} So maybe we could just find it \{the force\} at that distance?
 \SD \textit{(157)} Well, we have access to a variable that represents our radius of orbit...
 \SB \textit{(158)} And we have mass.
@@ -921,7 +923,7 @@ After a little off-topic discussion, the group decides on a particular force mod
 
 Before jumping into the construction of the newly proposed model, they spend a little time discussing its behavior and how it relates to the phenomenon: \begin{description}
 \SD \textit{(182)} If we could get it \{the force\} to oscillate between maximums we could get a rotation...
-\SD \textit{(183)} But how do we represent that as a force... because it's obvious that they want us to do that.
+\SD \textit{(183)} But how do we represent that as a force... Because it's obvious that they want us to do that.
 \SA \textit{(184)} Sine and cosine?
 \SD \textit{(185)} Sine and cosine?
 \SA \textit{(186)} If we do sine and cosine, if we have both of them, one in the x, one in the y, like this [points to notes] is saying...
@@ -1246,7 +1248,7 @@ Among all things, we want ${\rm P}^{3}$ students to understand that computers ca
 
 \subsection{Less common practices}\label{CH6:LessCommonPractices}
 
-Five of the practices laid out by the framework have been identified just a couple of times and in only five of the groups that we analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:LessCommon}) are deemed less common and are given a reasonable amount of attention here and in the appendices.  Table~\ref{CH6:LessCommon} is broken down into the different categories: the data practices, modeling practices, problem solving practices, and systems thinking practices.  The data practices were either unobserved or commonly observed, and so this table shows only the less commonly observed modeling, problem solving, and systems practices.
+Five of the practices laid out by the framework have been identified relatively fewer times and in only five of the groups that we analyzed.  Accordingly, these practices (listed in Tab.~\ref{CH6:LessCommon}) are deemed less common and are given a reasonable amount of attention here and in the appendices.  Table~\ref{CH6:LessCommon} is broken down into the different categories: the data practices, modeling practices, problem solving practices, and systems thinking practices.  The data practices were either unobserved or commonly observed, and so this table shows only the less commonly observed modeling, problem solving, and systems practices.
 
 \begin{table}[ht]\centering
 \begin{tabular}{lllll}\hline\hline
@@ -1286,7 +1288,7 @@ However, one reason that we observe assessing solutions less commonly within our
 
 Six of the practices laid out by the framework have not been observed at all.  Accordingly, these practices (i.e., collecting data, manipulating data, choosing computational tools, developing modular solutions, preparing problems, defining systems) are given their due attention here and in the appendices.  Although these practices are unobserved, it is still important to discuss why they are unobserved.
 
-There are a number of reasons that we did not observe these practices.  Specifically, the lack of learning goals related to data collection, data manipulation, choosing tools, developing modular solutions, preparing problems for solutions, and defining systems and managing complexity.  Further, given the lack of focus on these learning goals, many tutor interactions worked to intentionally dissuade students from engaging in these unobserved practices.
+There are a number of reasons that we did not observe these practices.  Specifically, there is a lack of learning goals related to data collection, data manipulation, choosing tools, developing modular solutions, preparing problems for solutions, and defining systems and managing complexity.  Further, given the lack of focus on these learning goals, many tutor interactions worked to intentionally dissuade students from engaging in these unobserved practices.
 
 For example, the practice of \textbf{collecting data} is not expected to show up in our data given that there are no sensors or meters that are provided to students, as they might be in a lab setting.  The only tool students are required to use is the computer along with VPython.  This tool, although it can be used to handle the collection of data, is primarily meant to be used to create the data algorithmically.  This aligns with the learning goals of developing and using models (P1) to create data, rather than collecting it.  Given the lack of these types of learning goals, we do not expect students to engage in this and other (see App.~\ref{unobserved}) practices.
 
@@ -1300,7 +1302,7 @@ It is important to recognize that our analysis has focused on one specific probl
 
 Although the framework that we used has many benefits, there are also some limitations that come along with it.  For the most part, these limitations are centered on the broad definitions that are provided by Weintrop et. al.  Although their broad definitions are widely applicable to many different types of science and mathematics classrooms generally, they can be rather vague/ambiguous when applying them to a particular classroom.  Accordingly, the following sections describe the vague/ambiguous definitions within ${\rm P}^{3}$ in terms of the four different categories of practices: the data, modeling, problem solving, and systems thinking practices.
 
-Additionally, the framework itself has a rather narrow focus (i.e., on practices indicative of computational thinking), which could be expanded to capture practices that are indicative of other types of thinking or cognitive development.  For example, ${\rm P}^{3}$ does an excellent job of facilitating the development of physics identity within its students -- something the framework is not intended to capture.
+Additionally, the framework itself has a rather narrow focus (i.e., on practices indicative of computational thinking), which could be expanded to capture practices that are indicative of other types of thinking or cognitive development.  For example, ${\rm P}^{3}$ does an excellent job of facilitating the development of physics identity within its students -- something the framework is not intended to capture.  Despite these limitations, the framework does capture many practices well (see Sec.~\ref{CH5:Practices}). 
 
 \subsubsection{Data}
 
@@ -1439,6 +1441,10 @@ A better understanding of modern scientific practices can only help to inform th
 
 \chapter{Common practices}\label{app:common}
 
+The following sections describe the commone practices that we observed.
+
+\section*{Creating data}
+
 The practice of \textbf{creating data} involves the construction of an \textit{automatic} or algorithmic process that will quickly produce a large set of data and using that set of data to \textit{advance} toward their goals.  For example, constructing an Euler-Cromer algorithm to create a set of data representing the position of the satellite over time advances the group toward their goal of simulating the orbit of the satellite (see Sec.~\ref{CH5:SecCreatingData}).  This type of practice was observed $27$ times across the data set, accounting for $31\%$ of the data practices, and $9\%$ of all practices.
 
 Creating data is expected to show up commonly in our data given the learning goal of using mathematical and computational thinking (P4).  We wanted students to take advantage of the Euler-Cromer algorithms to generate the sets of data representing the position and momentum of the satellite over time.  We also wanted them to construct and use different models to generate the set of data representing the force over time.  These algorithms and models of motion require a lot of mathematical and computational thinking, aligning well with that learning goal.
@@ -1454,6 +1460,8 @@ Additionally, the problem cannot be solved analytically with just introductory l
 
 Overall, we want students in ${\rm P}^{3}$ to be able to use simple control structures with force models of varying complexity to generate large sets of data for complicated and realistic motion problems -- to create data.
 
+\section*{Analyzing data}
+
 The practice of \textbf{analyzing data} involves a broad process of analysis that includes sorting data into \textit{categories}, looking for \textit{trends}, looking for \textit{correlations}, and/or identifying \textit{outliers} that can be used to reach some \textit{conclusion}.  For example, when a print statement is used to verify that the force acting on the satellite has the trend of remaining constant in simulated time, a conclusion can be drawn about the correctness of the underlying force model (see Sec.~\ref{CH5:SecAnalyzingData}).  This type of practice was observed $23$ times across the data set, accounting for $27\%$ of the data practices, and $8\%$ of all practices.
 
 Analyzing data is expected to show up commonly in our data given the learning goal of analyzing and interpreting data (P3).  We recognize that large sets of data need to be generated using computational algorithms and models, and that these sets need to be analyzed in order to asses and validate the underlying algorithms and models.  There are many different ways to analyze data, but it usually leads to some interpretation or conclusion that is made.  Given the utility of analyzing data when it comes to designing, assessing, and constructing the underlying computational models, we expect to see this practice commonly in our data.
@@ -1467,11 +1475,13 @@ One technique of analysis that is often suggested is to use a print statement in
 
 Ultimately, we want students in ${\rm P}^{3}$ to be able to interpret and attach meaning to the patterns that can be found in large sets of data.
 
+\section*{Designing computational models}
+
 The practice of \textbf{designing computational models} involves \textit{defining} the individual components of a model, \textit{relating} the model to the physical phenomenon under investigation, and articulating what \textit{predictions} the model will be able to make.  For example, the mass of the satellite, the magnitude of its velocity, the radius of its orbit, and the polar angle that it makes can all be separately defined in code.  Additionally, these individual components can be combined, following an equation, to produce the expected oscillatory motion of the satellite.  Finally, the resulting force model can be used to make predictions about the motion of the satellite (see Sec.~\ref{CH5:SecDesigingModels}).  This type of practice was observed $32$ times across the data set, accounting for $11\%$ of the data practices, and $33\%$ of all practices.
 
 We expect to see this practice commonly in our data given the learning goal of developing and using models (P1).  The course was specifically designed to focus on different force models with a range of complexities.  That is, the first three weeks of the course focuses on a constant zero force, a constant non-zero force, and a non-constant force model.  Given that the students must actually develop these models in code, we frequently observe them designing computational models.
 
-Further, the four-quadrants are meant to scaffold the design process by highlighting the knowns, unknowns, and assumptions of the model.  This scaffolding often facilitates the design process by helping groups to define the individual elements of their model.  For example, consider Excerpt 12 from Group F where one student is clear to articulate the individual elements they are defining by writing them on the four-quadrants: \begin{description}
+Further, the four-quadrants are meant to scaffold the design process by highlighting the knowns, unknowns, and assumptions of the model (see Ch.~\ref{CH3:Context}).  This scaffolding often facilitates the design process by helping groups to define the individual elements of their model.  For example, consider Excerpt 12 from Group F where one student is clear to articulate the individual elements they are defining by writing them on the four-quadrants: \begin{description}
 \SA So I'm just gonna go ahead and define those over there then
 \SA [writing on 4Q]
 \SA Should we do that?
@@ -1482,6 +1492,8 @@ Further, the four-quadrants are meant to scaffold the design process by highligh
 \end{description}  Here, the individual elements of the mass, position, and velocity of the satellite are individually defined.  Once this is done, they begin to relate them to one another and to construct their centripetal force model.  That is, we see students using the four-quadrants to help them design their model.
 
 Mainly, we want students in ${\rm P}^{3}$ to be able to define the individual elements of a model, relate them to each other, and make predictions using various computational force models.
+
+\section*{Constructing computational models}
 
 The practice of \textbf{constructing computational models} involves \textit{implementing} new behavior in code by either \textit{creating} a new model or by \textit{extending} a previously written model.  For example, implementing an attraction between two massive objects in code can be achieved through the construction of a force model.  This behavior can be implemented in one shot (e.g., immediately constructing a Newtonian gravitational force that can handle elliptical orbits) or can be implemented by successively extending an approximate model (e.g., moving from a constant gravitational force that generates a parabolic trajectory, to a centripetal force that generates a circular orbit, to a Newtonian gravitational force that generates an elliptical orbit).  This type of practice was observed $18$ times across the data set, accounting for $19\%$ of the data practices, and $6\%$ of all practices.
 
@@ -1499,6 +1511,8 @@ Additionally, many tutor interactions are intended to facilitate this practice. 
 \end{description}  Here, the model they have designed is the Newtonian gravitational force and they begin to construct it in code in terms of the universal gravitational constant, the mass of the satellite and the Earth, and the satellite's position relative to the Earth.  Given these types of interactions, we frequently observe students constructing models.
 
 Ultimately, we want students in ${\rm P}^{3}$ to be able to construct models in code, whether or not the models are correct.
+
+\section*{Assessing computational models}
 
 The practice of \textbf{assessing computational models} involves identifying the \textit{assumptions} built into a model and \textit{validating} them by comparing to reality to ensure predictive accuracy.  For example, groups frequently assume that the orbit of the satellite will be perfect circular.  Although this assumption is a good starting point, it is invariably checked for validity when considering arbitrary initial conditions that lead to more general elliptical orbits (see Sec.~\ref{CH5:SecAssessingModels}).  This type of practice was observed $27$ times across the data set, accounting for $28\%$ of the data practices, and $9\%$ of all practices.
 
@@ -1518,6 +1532,8 @@ Many tutor interactions can help to facilitate this practice as well.  For examp
 
 Overall, we want students in ${\rm P}^{3}$ to be able to validate different computational models by identifying their assumptions, whether or not they did the design and/or construction themselves.
 
+\section*{Creating computational abstractions}
+
 The practice of \textbf{creating computational abstractions} involves taking a physical \textit{concept} and \textit{representing} that concept in code.  For example, the physical concept of the unit vector giving a proper direction to the Newtonian gravitational force acting on the satellite can be most easily represented in code by combining the position of the satellite and its magnitude (see Sec.~\ref{CH5:SecCreatingAbstractions}).  This type of practice was observed $22$ times across the data set, accounting for $27\%$ of the data practices, and $8\%$ of all practices.
 
 Creating computational abstractions is expected to show up frequently within our data given the learning goal of being able to develop and use models (P1).  All of the models used in the course (i.e., the various force and motion models) have some mathematical form that can be translated into VPython syntax.  That is, in order to construct a computational model, you must first create the computational abstractions that it depends on.  Given the focus on modeling in the course, we expect to commonly observes students creating abstractions.
@@ -1532,6 +1548,8 @@ Additionally, some of the tutor interactions that we have observed facilitate th
 \end{description}  Here, the definitions that they have on the whiteboard are the mass of the satellite, its speed, and radius of circular orbit.  This interaction ultimately prompts them to construct the corresponding computational abstractions in code, whether they hard code values or construct more complicated functions.  Given these types of interactions, we expect to commonly observe this practice in our data.
 
 Ultimately, we want students in ${\rm P}^{3}$ to be able to make abstractions in code when dealing with various physical concepts.
+
+\section*{Computer programming}
 
 The practice of \textbf{computer programming} involves \textit{modifying} code while \textit{arranging} that code in proper syntax.  For example, while modifying the force model in the calculation loop, all lines must be arranged with the proper indentation.  In other words, aside from the validity of the force model, the syntax must be in order for the computer to be able to interpret things correctly and to run without error.  This type of practice was observed $21$ times across the data set, accounting for $26\%$ of the data practices, and $7\%$ of all practices.
 
@@ -1549,6 +1567,8 @@ Additionally, this practice is heavily scaffolded through tutor interactions.  G
 
 Mainly, we want students in ${\rm P}^{3}$ to have experience with programming and the difficulties associated with it.
 
+\section*{Troubleshooting and debugging}
+
 The practice of \textbf{troubleshooting and debugging} involves \textit{isolating} an unexpected error in the code, \textit{correcting} that error in a long-term and generalizable manner, and doing so in a \textit{systematic} fashion where applicable.  For example, without defining the initial momentum of the satellite as a function in terms of its previously defined mass and initial velocity, changing the mass of the satellite won't correctly propagate through the program, leading to unexpected and undesirable results.  Systematically isolating the causes of errors (e.g., not defining the momentum in a dynamic way) allows for it to not only be corrected, but to be corrected in a long-term and generalizable manner (see Sec.~\ref{CH5:SecTroubleshootingAndDebugging}).  This type of practice was observed $24$ times across the data set, accounting for $29\%$ of the data practices, and $8\%$ of all practices.
 
 Troubleshooting and debugging is expected to show up frequently within our data given the learning goal of being able to develop and use models (P1).  During the process of developing and using a model, unexpected errors frequently occur and must be corrected.  These unexpected errors can involve things like syntax errors or unexpected/unphysical behavior.  In either case, students must identify those errors, and ultimately correct them in a systematic manner.  Given this focus on developing and using models, we expect to see this practice commonly in our data.
@@ -1565,6 +1585,8 @@ Further, many tutors intentionally guide groups as they troubleshoot and debug. 
 
 Overall, we want students in ${\rm P}^{3}$ to be able to handle unexpected errors that arise while programming, whether they be syntactical or physical.
 
+\section*{Thinking in levels}
+
 The practice of \textbf{thinking in levels} involves breaking the MWP into different \textit{levels} and attributing those different levels with their characteristic \textit{features}.  For example, the program as a whole can broken down into the two different levels of the initial conditions and the calculation loop (see Sec.~\ref{CH5:SecThinkingInLevels}).  Each level has its own defining features: the initial conditions level is where time-independent computational abstractions can be defined, whereas the calculation loop is where time-dependent computational abstractions must be defined.  This type of practice was observed $18$ times across the data  accounting for $33\%$ of the systems thinking practices, and $6\%$ of all practices.
 
 Thinking in levels is expected to show up frequently within our data given the learning goal of developing and using models (P1).  The Newtonian gravitational force model and Euler-Cromer motion algorithms constitute a model of motion that must be developed in code and ultimately used for some purpose.  While students are developing this model of motion, they must maintain the overall structure of the MWP written in VPython (see Fig.~\ref{CH3:MWPs}) -- without proper structure and syntax, the program as a whole runs into fatal errors.  This structure that must be maintained, is naturally broken down into several different levels: the objects, initial conditions, time set-up, and calculation loop.  These levels are indicated in the MWP with comments (e.g., \texttt{\#Calculation Loop}), and each level has its own unique features.  Maintaining these features for each level is critical to a runnable program.
@@ -1576,6 +1598,8 @@ Additionally, students are introduced to the concept of iterative prediction of 
 \SA so we could just throw it outside of the loop\end{description}  Here, the students (incorrectly) articulate that the net force does not need to placed in the calculation loop because it does not need to update.  That is, they identify the different levels of inside and outside the loop, and correctly attributed the feature that updating quantities must be placed inside the loop, whereas other can be placed outside.
 
 Above all, we want students in ${\rm P}^{3}$ to understand the difference between time-dependent and time-independent physical quantities, and to be able to properly define and place them in code.  Accordingly, we observe this practice commonly in our data.
+
+\section*{Communicating information}
 
 The practice of \textbf{communicating information} involves the broad process of \textit{communication} that ranges from pure \textit{dialogue} to self-contained \textit{visualizations} that communicate some \textit{understanding} that the group has achieved.  For example, an understanding of the complicated but powerful computational interrelation between the force, position, and momentum of the satellite is frequently communicated verbally within and beyond groups (see Sec.~\ref{CH5:SecCommunicatingInformation}).  This type of practice was observed $23$ times across the data  accounting for $43\%$ of the systems thinking practices, and $8\%$ of all practices.
 
@@ -1600,6 +1624,10 @@ Ultimately, we want students in ${\rm P}^{3}$ to be able to clearly communicate 
 
 \chapter{Less common practices}\label{app:less}
 
+The following sections describe the commone practices that we observed.
+
+\section*{Understanding concepts}
+
 The practice of \textbf{understanding concepts} involves \textit{progressing} toward a deeper understanding of a concept by \textit{interacting} with a computational model.  For example, while designing, constructing, or assessing a Newtonian force model in code, students progress in their understanding of the abstract concept of a unit vector as providing purely a direction to a physical quantity.  This type of practice was observed $7$ times across the data  accounting for $7\%$ of the systems thinking practices, and $2\%$ of all practices.
 
 We expect to see this practice in our data given the learning goal of engaging in argument from evidence (P6).  Specifically, individuals must be able to defend their understanding of various physical concepts while using their program as evidence.  Each program produces a number of pieces of evidence (e.g., graphs, numerical values, visualizations, etc.) that can be used to support claims of understanding.  Accordingly, we expect to see students engaging in this practice frequently.
@@ -1622,6 +1650,8 @@ However, one reason that we observe understanding concepts less commonly within 
 \SC Well this one [points to Newtonian force]... let's just try it and see what happens...
 \SD Okay.
 \end{description}  Here, the group does not focus on understanding why they are using the Newtonian gravitational force, rather they just guess to use it and eventually check it later.  Given these types of typical exchanges, we expect to see understanding concepts less commonly relative to the other practices.
+
+\section*{Finding and testing solutions}
 
 The practice of \textbf{finding and testing solutions} involves \textit{justifying} the use of a particular solution.  Often, the particular solutions that we see are the different force models covered in the course notes (e.g., local gravitational force).  As students progress from incorrect or approximate force models (i.e., the local gravitational or centripetal) to the correct model (i.e., Newtonian gravitational force), we see them continually testing along the way.  For example, a group might recognize that the local gravitational force model does not allow for the satellite to travel in a bound orbit, and move on to searching for a new model.  This type of practice was observed $13$ times across the data  accounting for $13\%$ of the systems thinking practices, and $4\%$ of all practices.
 
@@ -1646,6 +1676,8 @@ However, one reason that we observe finding and testing solutions less commonly 
 \SD If it has to change it has to go down here {in the calculation loop}...
 \end{description}  Here, Student D justifies defining their force model inside the calculation loop given that it needs to change over time.  Given that this exchange is atypical, we expect to see finding and testing solutions less commonly relative to the other practices.
 
+\section*{Investigating systems}
+
 The practice of \textbf{investigating systems} involves \textit{questioning} and \textit{interpreting} data gathered from a system as a whole.  For example, a graph of the set of data representing the distance between the Earth and the satellite can be questioned about its qualitative time-dependence (e.g., if it is constant, linear, quadratic, sinusoidal, etc.).  This type of practice was observed $13$ times across the data, accounting for $13\%$ of the systems thinking practices, and $4\%$ of all practices.
 
 Investigating systems as a whole is expected to show up in our data given the learning goal of planning and carrying out investigations (P2).  The act of planning is scaffolded by the four-quadrants -- students must list their knowns, unknowns, assumptions, and draw out any representations.  These quadrants help students to generate questions (e.g., ``what are we even trying to figure out?'') that can be investigated for answers.  Given the focus on questioning in Weintrop et. al's definition of investigating systems as a whole, we expect to see this practice in our data.
@@ -1664,6 +1696,8 @@ However, one reason that we observe investigating systems as a whole less common
 \SB No no were not defining it again
 \SB We are just using it
 \end{description}  Here, Student C is concerned about defining an abstraction in the wrong location and asks a clarification question about its relation to the program as a whole.
+
+\section*{Understanding relationships}
 
 The practice of \textbf{understanding relationships} in a system involves \textit{identifying} the individual elements of the system and \textit{explaining} their relationships to one another.  For example, a group might identify the mass and local acceleration due to gravity as the individual elements of the system of the local gravitational force.  The group could then explain the relationship between these two elements as they relate to the force (i.e., the force is proportional to both the mass and acceleration).  This type of practice was observed $13$ times across the data, accounting for $13\%$ of the systems thinking practices, and $4\%$ of all practices.
 

@@ -19,54 +19,54 @@
 \contentsline {subsection}{\numberline {3.4.2}Computational problem}{36}
 \contentsline {subsubsection}{\numberline {3.4.2.1}Minimally working programs}{38}
 \contentsline {subsubsection}{\numberline {3.4.2.2}Tutor questions}{39}
-\contentsline {subsection}{\numberline {3.4.3}Feedback/Assessment}{40}
-\contentsline {section}{\numberline {3.5}Post-class work}{41}
-\contentsline {chapter}{\numberline {Chapter 4}Motivation}{43}
-\contentsline {section}{\numberline {4.1}Debugging}{44}
-\contentsline {subsection}{\numberline {4.1.1}Analysis}{45}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Recognition}{46}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Physics debugging}{47}
-\contentsline {subsubsection}{\numberline {4.1.1.3}Resolution}{49}
-\contentsline {subsection}{\numberline {4.1.2}Discussion}{50}
-\contentsline {subsection}{\numberline {4.1.3}Conclusion}{52}
-\contentsline {section}{\numberline {4.2}Phenomenography}{52}
-\contentsline {chapter}{\numberline {Chapter 5}Observations}{53}
-\contentsline {section}{\numberline {5.1}Analysis}{53}
-\contentsline {subsection}{\numberline {5.1.1}Data reduction}{54}
-\contentsline {subsection}{\numberline {5.1.2}Coding process}{57}
-\contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{60}
-\contentsline {section}{\numberline {5.2}Computational practices}{63}
-\contentsline {subsection}{\numberline {5.2.1}Creating data}{64}
-\contentsline {subsection}{\numberline {5.2.2}Analyzing data}{68}
-\contentsline {subsection}{\numberline {5.2.3}Designing models}{73}
-\contentsline {subsection}{\numberline {5.2.4}Assessing models}{78}
-\contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{82}
-\contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{85}
-\contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{90}
-\contentsline {subsection}{\numberline {5.2.8}Communicating information}{93}
-\contentsline {chapter}{\numberline {Chapter 6}Discussion}{98}
-\contentsline {section}{\numberline {6.1}Findings}{98}
-\contentsline {subsection}{\numberline {6.1.1}Common practices}{98}
-\contentsline {subsection}{\numberline {6.1.2}Less common practices}{102}
-\contentsline {subsection}{\numberline {6.1.3}Unobserved practices}{105}
-\contentsline {section}{\numberline {6.2}Limitations}{106}
-\contentsline {subsection}{\numberline {6.2.1}Framework}{107}
-\contentsline {subsubsection}{\numberline {6.2.1.1}Data}{107}
-\contentsline {subsubsection}{\numberline {6.2.1.2}Modeling}{108}
-\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{109}
-\contentsline {subsubsection}{\numberline {6.2.1.4}Systems}{109}
-\contentsline {subsection}{\numberline {6.2.2}Course}{110}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Group vs. individual}{110}
-\contentsline {subsubsection}{\numberline {6.2.2.2}Scaffolding vs. discovery}{110}
-\contentsline {subsubsection}{\numberline {6.2.2.3}Intro vs. advanced}{112}
-\contentsline {subsection}{\numberline {6.2.3}Activity}{112}
-\contentsline {subsection}{\numberline {6.2.4}Analysis}{113}
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{115}
-\contentsline {section}{\numberline {7.1}Summary}{115}
-\contentsline {section}{\numberline {7.2}Future research}{117}
-\contentsline {section}{\numberline {7.3}Concluding remarks}{118}
-\contentsline {chapter}{APPENDICES}{119}
-\contentsline {section}{{Appendix A }Common practices}{120}
-\contentsline {section}{{Appendix B }Less common practices}{136}
-\contentsline {section}{{Appendix C }Unobserved practices}{145}
-\contentsline {chapter}{BIBLIOGRAPHY}{148}
+\contentsline {subsection}{\numberline {3.4.3}Feedback/Assessment}{41}
+\contentsline {section}{\numberline {3.5}Post-class work}{42}
+\contentsline {chapter}{\numberline {Chapter 4}Motivation}{44}
+\contentsline {section}{\numberline {4.1}Debugging}{45}
+\contentsline {subsection}{\numberline {4.1.1}Analysis}{46}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Recognition}{47}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Physics debugging}{48}
+\contentsline {subsubsection}{\numberline {4.1.1.3}Resolution}{50}
+\contentsline {subsection}{\numberline {4.1.2}Discussion}{51}
+\contentsline {subsection}{\numberline {4.1.3}Conclusion}{53}
+\contentsline {section}{\numberline {4.2}Phenomenography}{53}
+\contentsline {chapter}{\numberline {Chapter 5}Observations}{54}
+\contentsline {section}{\numberline {5.1}Analysis}{54}
+\contentsline {subsection}{\numberline {5.1.1}Data reduction}{55}
+\contentsline {subsection}{\numberline {5.1.2}Coding process}{58}
+\contentsline {subsection}{\numberline {5.1.3}Inter-rater reliability}{61}
+\contentsline {section}{\numberline {5.2}Computational practices}{64}
+\contentsline {subsection}{\numberline {5.2.1}Creating data}{65}
+\contentsline {subsection}{\numberline {5.2.2}Analyzing data}{69}
+\contentsline {subsection}{\numberline {5.2.3}Designing models}{74}
+\contentsline {subsection}{\numberline {5.2.4}Assessing models}{79}
+\contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{83}
+\contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{86}
+\contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{91}
+\contentsline {subsection}{\numberline {5.2.8}Communicating information}{94}
+\contentsline {chapter}{\numberline {Chapter 6}Discussion}{99}
+\contentsline {section}{\numberline {6.1}Findings}{99}
+\contentsline {subsection}{\numberline {6.1.1}Common practices}{99}
+\contentsline {subsection}{\numberline {6.1.2}Less common practices}{103}
+\contentsline {subsection}{\numberline {6.1.3}Unobserved practices}{106}
+\contentsline {section}{\numberline {6.2}Limitations}{107}
+\contentsline {subsection}{\numberline {6.2.1}Framework}{108}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Data}{108}
+\contentsline {subsubsection}{\numberline {6.2.1.2}Modeling}{109}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Problem solving}{110}
+\contentsline {subsubsection}{\numberline {6.2.1.4}Systems}{110}
+\contentsline {subsection}{\numberline {6.2.2}Course}{111}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Group vs. individual}{111}
+\contentsline {subsubsection}{\numberline {6.2.2.2}Scaffolding vs. discovery}{111}
+\contentsline {subsubsection}{\numberline {6.2.2.3}Intro vs. advanced}{113}
+\contentsline {subsection}{\numberline {6.2.3}Activity}{113}
+\contentsline {subsection}{\numberline {6.2.4}Analysis}{114}
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{116}
+\contentsline {section}{\numberline {7.1}Summary}{116}
+\contentsline {section}{\numberline {7.2}Future research}{118}
+\contentsline {section}{\numberline {7.3}Concluding remarks}{119}
+\contentsline {chapter}{APPENDICES}{120}
+\contentsline {section}{{Appendix A }Common practices}{121}
+\contentsline {section}{{Appendix B }Less common practices}{138}
+\contentsline {section}{{Appendix C }Unobserved practices}{147}
+\contentsline {chapter}{BIBLIOGRAPHY}{150}
