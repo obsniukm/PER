@@ -40,6 +40,12 @@ David Weintrop, Elham Behesthi, Michael Horn, Kai Orton, Kemi Jona, Laura
   classrooms.
 \newblock {\em Journal of Science Education Technology}, 2015.
 
+\bibitem{McIntyre2008}
+D.~H. McIntyre and C.~A. Manogue.
+\newblock Integrating computational activities into the upper-level paradigms
+  in physics curriculum.
+\newblock {\em American Journal of Physics}, 2008.
+
 \bibitem{Chabay2008}
 Ruth Chabay and Bruce Sherwood.
 \newblock Computational physics in the introductory calculus-based course.
@@ -105,12 +111,6 @@ A.~A. DiSessa and H~Abelson.
 Edward Redish and Jack Wilson.
 \newblock Student programming in the introductory physics course: M.u.p.p.e.t.
 \newblock {\em American Journal of Physics}, 1992.
-
-\bibitem{McIntyre2008}
-D.~H. McIntyre and C.~A. Manogue.
-\newblock Integrating computational activities into the upper-level paradigms
-  in physics curriculum.
-\newblock {\em American Journal of Physics}, 2008.
 
 \bibitem{Buffler2008}
 A.~Buffler, S.~Pillay, F.~Lubben, and R.~Fearick.
@@ -251,12 +251,6 @@ Paul Irving, Michael Obsniuk, and Marcos Caballero.
 \newblock P$^{3}$: A practice focused learning environment.
 \newblock {\em European Journal of Physics}, 2017.
 
-\bibitem{Vygotsky1980}
-L.S. Vygotsky.
-\newblock {\em Mind in Society: The Development of Higher Psychological
-  Processes}.
-\newblock 1980.
-
 \bibitem{McCauley2008}
 Renee McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon,
   Lunda Thomas, and Carol Zander.
@@ -269,17 +263,17 @@ Bent Flyvbjerg.
 \newblock Five misunderstandings about case-study research.
 \newblock {\em Qualitative Inquiry}, 2006.
 
-\bibitem{Hawkins2017}
-N.~T. Hawkins, P.~W. Irving, and M.~D. Caballero.
-\newblock Understanding student perceptions of computational physics pproblem
-  in introductory mechanics.
-\newblock In {\em PERC Proceedings}, 2017.
-
 \bibitem{Hammann2003}
 Lynne~A. Hammann and Robert~J. Stevens.
 \newblock Instructional apapproach to improving students' writing of
   compare-contrast essays: an experimental study.
 \newblock {\em Journal of Literacy Research}, 2003.
+
+\bibitem{Hawkins2017}
+N.~T. Hawkins, P.~W. Irving, and M.~D. Caballero.
+\newblock Understanding student perceptions of computational physics pproblem
+  in introductory mechanics.
+\newblock In {\em PERC Proceedings}, 2017.
 
 \bibitem{Pawlak2018}
 Alanna Pawlak, Paul~W. Irving, and Marcos~D. Caballero.
