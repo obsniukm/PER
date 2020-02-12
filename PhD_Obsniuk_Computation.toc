@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {5.2.1}Creating data}{64}
 \contentsline {subsection}{\numberline {5.2.2}Analyzing data}{68}
 \contentsline {subsection}{\numberline {5.2.3}Designing models}{73}
-\contentsline {subsection}{\numberline {5.2.4}Assessing models}{78}
+\contentsline {subsection}{\numberline {5.2.4}Assessing models}{77}
 \contentsline {subsection}{\numberline {5.2.5}Creating abstractions}{82}
 \contentsline {subsection}{\numberline {5.2.6}Troubleshooting and debugging}{85}
 \contentsline {subsection}{\numberline {5.2.7}Thinking in levels}{89}
