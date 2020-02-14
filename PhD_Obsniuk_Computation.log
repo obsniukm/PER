@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  12 FEB 2020 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6670 64-bit) (preloaded format=pdflatex 2018.5.12)  14 FEB 2020 07:55
 entering extended mode
 **C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
 (C:/Users/Michael/Documents/PER/PhD_Obsniuk_Computation.tex
@@ -1147,7 +1147,7 @@ Appendix C.
 Here is how much of TeX's memory you used:
  17899 strings out of 492976
  341405 string characters out of 3135985
- 369861 words of memory out of 3000000
+ 369876 words of memory out of 3000000
  21569 multiletter control sequences out of 15000+200000
  550478 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1160,8 +1160,8 @@ sers\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti12
 00.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
 pi600\ecbx1728.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
 knappen\ec\dpi600\ecbx2488.pk> <C:\Users\Michael\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Michael\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Michael\AppDat
+\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Michael\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Michael\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Mi
 chael\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
@@ -1170,7 +1170,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on PhD_Obsniuk_Computation.pdf (162 pages, 2471534 bytes).
+Output written on PhD_Obsniuk_Computation.pdf (162 pages, 2471568 bytes).
 PDF statistics:
  1216 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

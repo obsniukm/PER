@@ -111,7 +111,7 @@
 \end{titlepage}}%
  
 % Define the command \abstractname
- \newcommand{\abstractname}{\textbf{\large ABSTRACT}}
+ \newcommand{\abstractname}{\textbf{ABSTRACT}}
  
 %Define the abstract environment for the dissertation
   \newenvironment{abstract}{%
@@ -443,7 +443,7 @@
 	\chapter*{\vspace{-2.65\baselineskip}\centerline{\large\MakeUppercase{\bibname}}}%
 	\@mkboth{\bibname}{\bibname}%
 	%\tocentry{\bibname}{\bibnamelc}%Include this line to move ToC entry.
-	\begin{singlespace}{\vspace{-1\baselineskip}}
+	\begin{singlespace}
 	\list{\@biblabel{\@arabic\c@enumiv}}%
 	{\settowidth\labelwidth{\@biblabel{#1}}%
 	\leftmargin\labelwidth
